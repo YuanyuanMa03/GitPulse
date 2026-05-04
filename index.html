@@ -616,6 +616,140 @@ section {
   opacity: 0.6;
 }
 
+/* ─── Repo Explorer ─── */
+.repo-section { max-width: 1200px; margin: 0 auto; }
+
+.repo-tabs {
+  display: flex;
+  gap: 4px;
+  background: var(--surface);
+  border-radius: 12px;
+  padding: 4px;
+  margin: 32px 0 24px;
+  width: fit-content;
+}
+.repo-tab {
+  padding: 10px 24px;
+  border-radius: 9px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--muted);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s;
+  font-family: var(--font-body);
+}
+.repo-tab:hover { color: var(--fg); }
+.repo-tab.active {
+  background: var(--accent);
+  color: #fff;
+}
+
+.repo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.repo-card {
+  display: grid;
+  grid-template-columns: 40px 1fr auto;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 20px;
+  background: var(--surface);
+  border-radius: 16px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s, background 0.2s;
+}
+.repo-card:hover { transform: translateY(-2px); background: var(--surface2); }
+
+.repo-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+  background: var(--surface2);
+}
+
+.repo-body { min-width: 0; }
+.repo-name-row { display: flex; align-items: center; gap: 10px; margin-bottom: 4px; }
+.repo-fullname {
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  letter-spacing: -0.01em;
+}
+.repo-fullname .owner { color: var(--muted); font-weight: 400; }
+.repo-lang-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.repo-lang {
+  font-size: 12px;
+  color: var(--muted);
+}
+.repo-desc {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.repo-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  flex-shrink: 0;
+}
+.repo-stars {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+.repo-stars-label {
+  font-size: 11px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.repo-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 6px;
+}
+.repo-topic {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 6px;
+  background: var(--surface2);
+  color: var(--muted);
+}
+
+@media (max-width: 768px) {
+  .repo-card { grid-template-columns: 32px 1fr auto; gap: 12px; padding: 14px 14px; }
+  .repo-avatar { width: 32px; height: 32px; border-radius: 8px; }
+  .repo-fullname { font-size: 14px; }
+  .repo-desc { -webkit-line-clamp: 1; }
+  .repo-stars { font-size: 15px; }
+  .repo-topics { display: none; }
+  .repo-tabs { margin-left: auto; margin-right: auto; }
+}
+
 /* ─── CTA ─── */
 .cta-section {
   text-align: center;
@@ -713,6 +847,7 @@ footer a:hover { color: var(--fg); }
     <li><a href="#philosophy">哲学</a></li>
     <li><a href="#features">特性</a></li>
     <li><a href="#data">数据</a></li>
+    <li><a href="#repos">仓库</a></li>
     <li><a href="#timeline">更新</a></li>
   </ul>
   <a href="https://github.com/YuanyuanMa03/GitPulse" target="_blank" rel="noopener" class="nav-href">GitHub ↗</a>
@@ -927,6 +1062,21 @@ footer a:hover { color: var(--fg); }
       <div class="timeline-label">UTC</div>
     </div>
   </div>
+</section>
+
+<!-- ═══ Repo Explorer ═══ -->
+<section class="repo-section" id="repos" data-od-id="repos">
+  <div class="reveal">
+    <p class="section-eyebrow">Live Repos</p>
+    <h2 class="section-title">实时仓库追踪</h2>
+    <p class="section-sub">每日、每周、每月热门仓库一览。数据每 6 小时自动刷新。</p>
+  </div>
+  <div class="repo-tabs reveal" style="transition-delay:0.1s">
+    <button class="repo-tab active" data-period="daily">今日 Daily</button>
+    <button class="repo-tab" data-period="weekly">本周 Weekly</button>
+    <button class="repo-tab" data-period="monthly">本月 Monthly</button>
+  </div>
+  <div class="repo-list reveal" id="repo-list" style="transition-delay:0.15s"></div>
 </section>
 
 <!-- ═══ CTA ═══ -->
@@ -1155,6 +1305,49 @@ const LC={Python:'#3572A5',TypeScript:'#3178c6',JavaScript:'#f1e05a',Rust:'#dea5
         return '<a class="rank-item" href="'+r.url+'" target="_blank" rel="noopener"><span class="rank-num '+cls+'">'+(i+1)+'</span><div class="rank-info"><div class="rank-name">'+(parts[parts.length-1]||r.name)+'</div></div><span class="rank-stars">\u2605 '+stars+'</span></a>';
       }).join('');
     }
+
+    // ─── Repo Explorer (daily / weekly / monthly tabs) ───
+    function fmtStars(n){return n>=1000?(n/1000).toFixed(1)+'k':String(n);}
+    function renderRepoList(period){
+      const list=DATA[period]||[];
+      const el=document.getElementById('repo-list');
+      if(!el)return;
+      el.innerHTML=list.map(r=>{
+        const parts=r.name.split('/');
+        const owner=parts[0]||'';
+        const repo=parts.slice(1).join('/');
+        const lc=r.language&&r.language!=='\u2014'?LC[r.language]||'#8E8E93':'transparent';
+        const langTxt=r.language&&r.language!=='\u2014'?r.language:'';
+        const desc=r.description?'<div class="repo-desc">'+r.description+'</div>':'';
+        const topics=(r.topics||[]).slice(0,4).map(t=>'<span class="repo-topic">'+t+'</span>').join('');
+        const topicsHtml=topics?'<div class="repo-topics">'+topics+'</div>':'';
+        return '<a class="repo-card" href="'+r.url+'" target="_blank" rel="noopener">'
+          +'<img class="repo-avatar" src="'+r.avatar+'" alt="" loading="lazy" onerror="this.style.display=\'none\'">'
+          +'<div class="repo-body">'
+          +'<div class="repo-name-row">'
+          +'<span class="repo-fullname"><span class="owner">'+owner+'/</span>'+repo+'</span>'
+          +(langTxt?'<span class="repo-lang-dot" style="background:'+lc+'"></span><span class="repo-lang">'+langTxt+'</span>':'')
+          +'</div>'
+          +desc
+          +topicsHtml
+          +'</div>'
+          +'<div class="repo-meta">'
+          +'<span class="repo-stars">\u2605 '+fmtStars(r.stars)+'</span>'
+          +'<span class="repo-stars-label">stars</span>'
+          +'</div>'
+          +'</a>';
+      }).join('');
+    }
+
+    renderRepoList('daily');
+
+    document.querySelectorAll('.repo-tab').forEach(tab=>{
+      tab.addEventListener('click',()=>{
+        document.querySelectorAll('.repo-tab').forEach(t=>t.classList.remove('active'));
+        tab.classList.add('active');
+        renderRepoList(tab.dataset.period);
+      });
+    });
   }catch(e){console.error('Data load error:',e);}
 })();
 </script>
