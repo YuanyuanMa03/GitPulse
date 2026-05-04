@@ -37,6 +37,11 @@
 <br><sub>🇨🇳 中文 — Dark Mode</sub>
 </p>
 
+<p align="center">
+<img src="screenshots/mobile.jpg" width="360" alt="GitPulse Mobile">
+<br><sub>📱 移动端效果 / Mobile View</sub>
+</p>
+
 ## 🌐 中英双语 / Bilingual
 
 GitPulse 支持**中文 / English** 完整双语切换。零依赖纯 vanilla JS 实现：
