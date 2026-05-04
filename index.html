@@ -169,8 +169,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:
 
 @media(max-width:1068px){
   .feat-tile-main{padding:40px 36px 60px;min-height:320px}
-  .charts-grid{grid-template-columns:1fr 1fr}
-  .charts-grid .chart-card:last-child{grid-column:1/-1}
+  .charts-grid{grid-template-columns:1fr}
   .metrics-grid{grid-template-columns:repeat(3,1fr)}
   .row{grid-template-columns:28px 24px 1fr 56px 56px;padding:14px 16px}
   .row .row-desc,.row .row-tag{display:none}
@@ -178,9 +177,14 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:
 }
 @media(max-width:734px){
   .nav{padding:0 16px}
-  .charts-grid{grid-template-columns:1fr}
-  .charts-grid .chart-card:last-child{grid-column:auto}
+  .charts-section{padding-left:0;padding-right:0}
+  .charts-grid{grid-template-columns:1fr;gap:8px}
+  .chart-card{border-radius:14px;padding:20px 16px}
   .lang-bar-label{width:56px;font-size:11px}
+  .lang-bars{gap:8px}
+  .lang-bar-track{height:16px}
+  .topics-cloud{gap:6px}
+  .topic-tag{padding:5px 10px;font-size:11px !important}
   .hero{padding-top:100px}
   .hero-title{font-size:40px;letter-spacing:-.04em}
   .hero-sub{font-size:17px}
