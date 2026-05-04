@@ -19,6 +19,7 @@
 <body>
 
 <!-- ═══ Nav ═══ -->
+
 <nav id="nav">
 <a href="#" class="nav-logo">Git<span>Pulse</span></a>
 <ul class="nav-links">
@@ -57,6 +58,8 @@
 </div>
 </section>
 
+
+
 <!-- ═══ Philosophy ═══ -->
 <section id="philosophy" data-od-id="philosophy">
 <div class="reveal">
@@ -86,6 +89,8 @@
 </div>
 </section>
 
+
+
 <!-- ═══ Counters ═══ -->
 <div class="counters-section" data-od-id="counters">
 <div class="counters-grid">
@@ -111,6 +116,112 @@
   </div>
 </div>
 </div>
+
+
+
+<!-- ═══ Repo Explorer ═══ -->
+<section class="repo-section" id="repos" data-od-id="repos">
+<div class="reveal">
+  <p class="section-eyebrow">Live Repos</p>
+  <h2 class="section-title" data-i18n="repo-title">实时仓库追踪</h2>
+  <p class="section-sub" data-i18n="repo-sub">每日、每周、每月热门仓库一览。数据每 6 小时自动刷新。</p>
+</div>
+  <div class="search-wrap reveal" style="transition-delay:0.08s">
+    <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <input type="text" class="search-input" id="repo-search" placeholder="搜索仓库名或描述…" data-i18n-placeholder="repo-search" autocomplete="off">
+  </div>
+<div class="repo-tabs reveal" style="transition-delay:0.1s">
+  <button class="repo-tab active" data-period="daily" data-i18n="repo-tab-daily">今日 Daily</button>
+  <button class="repo-tab" data-period="weekly" data-i18n="repo-tab-weekly">本周 Weekly</button>
+  <button class="repo-tab" data-period="monthly" data-i18n="repo-tab-monthly">本月 Monthly</button>
+</div>
+  <div class="lang-filters reveal" id="lang-filters" style="transition-delay:0.12s"></div>
+<div class="repo-list reveal" id="repo-list" style="transition-delay:0.15s">
+    <div class="skeleton" id="repo-skeleton">
+      <div class="skeleton-card"><div class="skeleton-avatar"></div><div style="flex:1"><div class="skeleton-line medium"></div><div class="skeleton-line short"></div></div><div class="skeleton-stars"></div></div>
+      <div class="skeleton-card"><div class="skeleton-avatar"></div><div style="flex:1"><div class="skeleton-line medium"></div><div class="skeleton-line short"></div></div><div class="skeleton-stars"></div></div>
+      <div class="skeleton-card"><div class="skeleton-avatar"></div><div style="flex:1"><div class="skeleton-line medium"></div><div class="skeleton-line short"></div></div><div class="skeleton-stars"></div></div>
+      <div class="skeleton-card"><div class="skeleton-avatar"></div><div style="flex:1"><div class="skeleton-line medium"></div><div class="skeleton-line short"></div></div><div class="skeleton-stars"></div></div>
+      <div class="skeleton-card"><div class="skeleton-avatar"></div><div style="flex:1"><div class="skeleton-line medium"></div><div class="skeleton-line short"></div></div><div class="skeleton-stars"></div></div>
+    </div>
+    <div class="state-message" id="repo-error" style="display:none">
+      <span class="icon">⚠</span>
+      <p data-i18n-html="repo-error">数据加载失败<br>请检查网络连接或稍后重试</p>
+      <span class="retry-link" onclick="location.reload()" data-i18n="retry-reload">重新加载 →</span>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ═══ Data Showcase ═══ -->
+<section id="data" data-od-id="data">
+<div class="reveal">
+  <p class="section-eyebrow">Data Showcase</p>
+  <h2 class="section-title" data-i18n="data-title">此刻，开源社区在看什么</h2>
+  <p class="section-sub" data-i18n="data-sub">实时数据可视化 — 语言、趋势、热度，一屏尽收。</p>
+</div>
+<div class="data-grid">
+  <!-- Language Distribution -->
+  <div class="data-card reveal" style="transition-delay:0.1s">
+    <div class="data-card-title" data-i18n="data-card-1"><span class="dot"></span>语言分布</div>
+    <div id="lang-bars"></div>
+  </div>
+
+  <!-- Keyword Cloud -->
+  <div class="data-card reveal" style="transition-delay:0.2s">
+    <div class="data-card-title" data-i18n="data-card-2"><span class="dot"></span>热门关键词</div>
+    <div class="cloud-wrap" id="topics-cloud"></div>
+  </div>
+
+  <!-- Stars Ranking -->
+  <div class="data-card reveal" style="transition-delay:0.3s">
+    <div class="data-card-title" data-i18n="data-card-3"><span class="dot"></span>Stars 排行</div>
+    <div class="rank-list" id="rank-list"></div>
+  </div>
+
+  <!-- Pulse visualization -->
+  <div class="data-card reveal" style="transition-delay:0.4s">
+    <div class="data-card-title" data-i18n="data-card-4"><span class="dot"></span>脉搏信号</div>
+    <canvas id="pulse-canvas" width="500" height="200" style="width:100%;height:auto;border-radius:12px;"></canvas>
+  </div>
+</div>
+</section>
+
+
+
+<!-- ═══ Timeline ═══ -->
+<section id="timeline" class="timeline-section" data-od-id="timeline">
+<div class="reveal">
+  <p class="section-eyebrow">Auto Update</p>
+  <h2 class="section-title" data-i18n="timeline-title">每 6 小时，一次心跳</h2>
+  <p class="section-sub" style="margin:0 auto" data-i18n="timeline-sub">数据通过 GitHub Actions 自动更新，每天 4 次，永不过时。</p>
+</div>
+<div class="timeline-track reveal" style="transition-delay:0.2s">
+  <div class="timeline-node">
+    <div class="timeline-dot active"></div>
+    <div class="timeline-time">00:00</div>
+    <div class="timeline-label">UTC</div>
+  </div>
+  <div class="timeline-node">
+    <div class="timeline-dot"></div>
+    <div class="timeline-time">06:00</div>
+    <div class="timeline-label">UTC</div>
+  </div>
+  <div class="timeline-node">
+    <div class="timeline-dot"></div>
+    <div class="timeline-time">12:00</div>
+    <div class="timeline-label">UTC</div>
+  </div>
+  <div class="timeline-node">
+    <div class="timeline-dot"></div>
+    <div class="timeline-time">18:00</div>
+    <div class="timeline-label">UTC</div>
+  </div>
+</div>
+</section>
+
+
 
 <!-- ═══ Features ═══ -->
 <section id="features" data-od-id="features">
@@ -179,103 +290,7 @@
 </div>
 </section>
 
-<!-- ═══ Data Showcase ═══ -->
-<section id="data" data-od-id="data">
-<div class="reveal">
-  <p class="section-eyebrow">Data Showcase</p>
-  <h2 class="section-title" data-i18n="data-title">此刻，开源社区在看什么</h2>
-  <p class="section-sub" data-i18n="data-sub">实时数据可视化 — 语言、趋势、热度，一屏尽收。</p>
-</div>
-<div class="data-grid">
-  <!-- Language Distribution -->
-  <div class="data-card reveal" style="transition-delay:0.1s">
-    <div class="data-card-title" data-i18n="data-card-1"><span class="dot"></span>语言分布</div>
-    <div id="lang-bars"></div>
-  </div>
 
-  <!-- Keyword Cloud -->
-  <div class="data-card reveal" style="transition-delay:0.2s">
-    <div class="data-card-title" data-i18n="data-card-2"><span class="dot"></span>热门关键词</div>
-    <div class="cloud-wrap" id="topics-cloud"></div>
-  </div>
-
-  <!-- Stars Ranking -->
-  <div class="data-card reveal" style="transition-delay:0.3s">
-    <div class="data-card-title" data-i18n="data-card-3"><span class="dot"></span>Stars 排行</div>
-    <div class="rank-list" id="rank-list"></div>
-  </div>
-
-  <!-- Pulse visualization -->
-  <div class="data-card reveal" style="transition-delay:0.4s">
-    <div class="data-card-title" data-i18n="data-card-4"><span class="dot"></span>脉搏信号</div>
-    <canvas id="pulse-canvas" width="500" height="200" style="width:100%;height:auto;border-radius:12px;"></canvas>
-  </div>
-</div>
-</section>
-
-<!-- ═══ Timeline ═══ -->
-<section id="timeline" class="timeline-section" data-od-id="timeline">
-<div class="reveal">
-  <p class="section-eyebrow">Auto Update</p>
-  <h2 class="section-title" data-i18n="timeline-title">每 6 小时，一次心跳</h2>
-  <p class="section-sub" style="margin:0 auto" data-i18n="timeline-sub">数据通过 GitHub Actions 自动更新，每天 4 次，永不过时。</p>
-</div>
-<div class="timeline-track reveal" style="transition-delay:0.2s">
-  <div class="timeline-node">
-    <div class="timeline-dot active"></div>
-    <div class="timeline-time">00:00</div>
-    <div class="timeline-label">UTC</div>
-  </div>
-  <div class="timeline-node">
-    <div class="timeline-dot"></div>
-    <div class="timeline-time">06:00</div>
-    <div class="timeline-label">UTC</div>
-  </div>
-  <div class="timeline-node">
-    <div class="timeline-dot"></div>
-    <div class="timeline-time">12:00</div>
-    <div class="timeline-label">UTC</div>
-  </div>
-  <div class="timeline-node">
-    <div class="timeline-dot"></div>
-    <div class="timeline-time">18:00</div>
-    <div class="timeline-label">UTC</div>
-  </div>
-</div>
-</section>
-
-<!-- ═══ Repo Explorer ═══ -->
-<section class="repo-section" id="repos" data-od-id="repos">
-<div class="reveal">
-  <p class="section-eyebrow">Live Repos</p>
-  <h2 class="section-title" data-i18n="repo-title">实时仓库追踪</h2>
-  <p class="section-sub" data-i18n="repo-sub">每日、每周、每月热门仓库一览。数据每 6 小时自动刷新。</p>
-</div>
-  <div class="search-wrap reveal" style="transition-delay:0.08s">
-    <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-    <input type="text" class="search-input" id="repo-search" placeholder="搜索仓库名或描述…" data-i18n-placeholder="repo-search" autocomplete="off">
-  </div>
-<div class="repo-tabs reveal" style="transition-delay:0.1s">
-  <button class="repo-tab active" data-period="daily" data-i18n="repo-tab-daily">今日 Daily</button>
-  <button class="repo-tab" data-period="weekly" data-i18n="repo-tab-weekly">本周 Weekly</button>
-  <button class="repo-tab" data-period="monthly" data-i18n="repo-tab-monthly">本月 Monthly</button>
-</div>
-  <div class="lang-filters reveal" id="lang-filters" style="transition-delay:0.12s"></div>
-<div class="repo-list reveal" id="repo-list" style="transition-delay:0.15s">
-    <div class="skeleton" id="repo-skeleton">
-      <div class="skeleton-card"><div class="skeleton-avatar"></div><div style="flex:1"><div class="skeleton-line medium"></div><div class="skeleton-line short"></div></div><div class="skeleton-stars"></div></div>
-      <div class="skeleton-card"><div class="skeleton-avatar"></div><div style="flex:1"><div class="skeleton-line medium"></div><div class="skeleton-line short"></div></div><div class="skeleton-stars"></div></div>
-      <div class="skeleton-card"><div class="skeleton-avatar"></div><div style="flex:1"><div class="skeleton-line medium"></div><div class="skeleton-line short"></div></div><div class="skeleton-stars"></div></div>
-      <div class="skeleton-card"><div class="skeleton-avatar"></div><div style="flex:1"><div class="skeleton-line medium"></div><div class="skeleton-line short"></div></div><div class="skeleton-stars"></div></div>
-      <div class="skeleton-card"><div class="skeleton-avatar"></div><div style="flex:1"><div class="skeleton-line medium"></div><div class="skeleton-line short"></div></div><div class="skeleton-stars"></div></div>
-    </div>
-    <div class="state-message" id="repo-error" style="display:none">
-      <span class="icon">⚠</span>
-      <p data-i18n-html="repo-error">数据加载失败<br>请检查网络连接或稍后重试</p>
-      <span class="retry-link" onclick="location.reload()" data-i18n="retry-reload">重新加载 →</span>
-    </div>
-  </div>
-</section>
 
 <!-- ═══ CTA ═══ -->
 <section class="cta-section" data-od-id="cta">
@@ -289,7 +304,8 @@
 </div>
 </section>
 
-<!-- ═══ Footer ═══ -->
+
+
 <footer>
 <span>Built with ♥ by <a href="https://github.com/YuanyuanMa03" target="_blank" rel="noopener">YuanyuanMa03</a></span>
 <div class="footer-links">
