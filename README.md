@@ -8,9 +8,19 @@
 
 [🌐 Live Demo (GitHub Pages)](https://yuanyuanma03.github.io/GitPulse/) · [⚡ Live Demo (Vercel)](https://gitpulse-orpin.vercel.app) · [📦 Source](https://github.com/YuanyuanMa03/GitPulse)
 
-</div>
+---
+
+### ⚡ 30 秒一键部署你自己的 GitPulse
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YuanyuanMa03/GitPulse) &nbsp; [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/YuanyuanMa03/GitPulse)
+
+点击按钮 → Fork & 部署 → 你的实例上线。就这么简单。
+
+> 💡 部署后记得去仓库的 **Settings → Actions → General** 开启 workflow 权限，数据才会自动更新。
 
 ---
+
+</div>
 
 <p align="center">
 <img src="docs/hero.jpg" width="100%" alt="GitPulse Hero">
@@ -97,14 +107,6 @@ python3 fetch_trending.py
 python3 -m http.server 8080
 # 浏览器打开 http://localhost:8080
 ```
-
-## 一键部署 / One-Click Deploy
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YuanyuanMa03/GitPulse)
-
-Fork 本仓库后点击上方按钮，即可在 30 秒内部署你自己的 GitPulse 实例到 Vercel。
-
-> ⚠️ 部署后需要在你的仓库中启用 GitHub Actions（`Update Trending Data` workflow），并确认 `GITHUB_TOKEN` 权限已开启，数据才会自动更新。
 
 ## 项目结构
 
