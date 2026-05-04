@@ -23,7 +23,18 @@
 </div>
 
 <p align="center">
-<img src="screenshots/hero-en-dark.png" width="100%" alt="GitPulse Hero Dark — English">
+  <em>In the flood of information, <strong>pulse</strong> is the only signal worth tracking.</em>
+  <br>在信息的洪流中，<strong>脉搏</strong>是唯一值得追踪的信号。
+</p>
+
+<p align="center">
+<img src="screenshots/hero-en-dark.png" width="100%" alt="GitPulse Hero — English">
+<br><sub>🌐 English — Dark Mode</sub>
+</p>
+
+<p align="center">
+<img src="screenshots/hero-dark.png" width="100%" alt="GitPulse Hero — 中文">
+<br><sub>🇨🇳 中文 — Dark Mode</sub>
 </p>
 
 ## 🌐 中英双语 / Bilingual
