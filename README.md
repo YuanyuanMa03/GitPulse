@@ -2,9 +2,9 @@
 
 # GitPulse
 
-**开源脉搏，实时跳动。**
+**开源脉搏，实时跳动。** / *Track the pulse of the open source world.*
 
-*Track the pulse of the open source world — every 6 hours.*
+🌐 中文 · English &nbsp;|&nbsp; 每 6 小时自动更新
 
 [🌐 Live Demo (GitHub Pages)](https://yuanyuanma03.github.io/GitPulse/) · [⚡ Live Demo (Vercel)](https://gitpulse-orpin.vercel.app) · [📦 Source](https://github.com/YuanyuanMa03/GitPulse)
 
@@ -23,8 +23,24 @@
 </div>
 
 <p align="center">
-<img src="screenshots/hero-dark.png" width="100%" alt="GitPulse Hero Dark">
+<img src="screenshots/hero-en-dark.png" width="100%" alt="GitPulse Hero Dark — English">
 </p>
+
+## 🌐 中英双语 / Bilingual
+
+GitPulse 支持**中文 / English** 完整双语切换。零依赖纯 vanilla JS 实现：
+
+- **一键切换** — 导航栏右侧的 `中`/`En` 按钮，带淡入淡出过渡动画
+- **自动检测** — 根据浏览器语言自动选择，偏好持久化到 `localStorage`
+- **全站覆盖** — 静态文本、JS 动态生成内容（仓库卡片、筛选片、详情面板）全部同步切换
+- **设计签名** — 哲学卡片标题中英双语常驻，section eyebrows（Apple 风格装饰）保持英文
+
+```
+data-i18n 属性 → textContent
+data-i18n-html → innerHTML（保留 <br> <span>）
+data-i18n-placeholder → input placeholder
+CSS [lang] 规则 → 双元素对（计数器标签、Hero 副标题）
+```
 
 ## 哲学
 
@@ -45,7 +61,7 @@ GitPulse 不是另一个 GitHub 排行榜。它试图回答一个更本质的问
 语言分布、热门关键词、Stars 排行、ECG 脉搏信号 — 所有数据从 `data.json` 动态加载，纯 CSS/Canvas 可视化。
 
 <p align="center">
-<img src="screenshots/data-showcase.png" width="100%" alt="Data Showcase">
+<img src="screenshots/data-en.png" width="100%" alt="Data Showcase — English">
 </p>
 
 ## 仓库追踪
@@ -53,19 +69,12 @@ GitPulse 不是另一个 GitHub 排行榜。它试图回答一个更本质的问
 每日、每周、每月热门仓库。支持**搜索**、**语言筛选**、**内联详情面板**（点击展开）、**Stars 增量追踪**（delta badges）。按语言过滤，零延迟本地搜索。
 
 <p align="center">
-<img src="screenshots/repo-explorer.png" width="100%" alt="Repo Explorer with Detail Panel">
-</p>
-
-## 明暗双主题
-
-支持深色/浅色模式切换，偏好自动保存到 localStorage。Apple 风格，两套配色完整适配。
-
-<p align="center">
-<img src="screenshots/hero-light.png" width="100%" alt="GitPulse Hero Light">
+<img src="screenshots/repo-en.png" width="100%" alt="Repo Explorer — English">
 </p>
 
 ## 特性
 
+- 🌐 **中英双语切换** — 全站中文/English 一键切换，浏览器语言自动检测
 - 🖤 **明暗双主题** — 深色/浅色一键切换，偏好自动保存
 - 🔍 **实时搜索** — 仓库名和描述即时过滤，200ms 防抖
 - 🏷️ **语言筛选** — 颜色标识的可滚动筛选片，按语言精确定位
@@ -84,9 +93,10 @@ GitPulse 不是另一个 GitHub 排行榜。它试图回答一个更本质的问
 | 层 | 技术 |
 |---|---|
 | 前端 | 纯 HTML / CSS / Vanilla JS（零框架） |
+| i18n | `data-i18n` 属性 + T 字典 + CSS `[lang]` 规则 |
 | 图表 | 纯 CSS 条形图 + 标签云 + Canvas ECG |
 | 数据 | GitHub Search API → `data.json`（含 delta 计算 + README 兜底提取） |
-| 部署 | GitHub Pages + Vercel |
+| 部署 | GitHub Pages + Vercel + Netlify |
 | 自动化 | GitHub Actions（每天 4 次） |
 
 ## 🔄 Auto Update
@@ -113,19 +123,22 @@ python3 -m http.server 8080        # 启动服务
 ## 项目结构
 
 ```
-├── index.html              # 单文件 HTML，全部结构
-├── style.css               # Apple 暗色/亮色主题样式
-├── main.js                 # 交互逻辑（搜索/筛选/详情面板/主题切换）
+├── index.html              # 单文件 HTML，全部结构 + data-i18n 属性
+├── style.css               # Apple 暗色/亮色主题 + 语言切换样式
+├── main.js                 # 交互逻辑（i18n / 搜索 / 筛选 / 详情面板 / 主题切换）
 ├── data.json               # GitHub trending 数据（自动生成）
 ├── fetch_trending.py       # 数据抓取 + delta 计算 + README 兜底
 ├── update.sh               # 更新脚本
 ├── .github/workflows/
 │   └── update.yml          # 自动更新 workflow
 └── screenshots/
-    ├── hero-dark.png       # 深色模式 Hero
-    ├── hero-light.png      # 浅色模式 Hero
-    ├── data-showcase.png   # 数据可视化展示
-    └── repo-explorer.png   # 仓库追踪（含详情面板）
+    ├── hero-en-dark.png     # 英文深色模式 Hero
+    ├── data-en.png          # 英文数据可视化
+    ├── repo-en.png          # 英文仓库追踪
+    ├── hero-dark.png        # 中文深色模式 Hero（旧版参考）
+    ├── hero-light.png       # 中文浅色模式 Hero
+    ├── data-showcase.png    # 中文数据可视化
+    └── repo-explorer.png    # 中文仓库追踪
 ```
 
 ---
@@ -134,6 +147,6 @@ python3 -m http.server 8080        # 启动服务
 
 **Built with ♥ by [YuanyuanMa03](https://github.com/YuanyuanMa03)**
 
-*追踪脉搏，而非噪音。*
+*追踪脉搏，而非噪音。* / *Track the pulse, not the noise.*
 
 </div>
