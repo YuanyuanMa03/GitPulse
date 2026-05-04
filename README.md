@@ -6,7 +6,7 @@
 
 *Track the pulse of the open source world — every 6 hours.*
 
-[🌐 Live Demo](https://yuanyuanma03.github.io/GitPulse/) · [📦 Source](https://github.com/YuanyuanMa03/GitPulse)
+[🌐 Live Demo (GitHub Pages)](https://yuanyuanma03.github.io/GitPulse/) · [⚡ Live Demo (Vercel)](https://gitpulse-orpin.vercel.app) · [📦 Source](https://github.com/YuanyuanMa03/GitPulse)
 
 </div>
 
@@ -74,7 +74,7 @@ GitPulse 不是另一个 GitHub 排行榜。它试图回答一个更本质的问
 | 前端 | 纯 HTML / CSS / Vanilla JS（零框架） |
 | 图表 | 纯 CSS 条形图 + 标签云 + Canvas ECG |
 | 数据 | GitHub Search API → `data.json` |
-| 部署 | GitHub Pages（Legacy） |
+| 部署 | GitHub Pages + Vercel |
 | 自动化 | GitHub Actions（每天 4 次） |
 
 ## 🔄 Auto Update
@@ -97,6 +97,14 @@ python3 fetch_trending.py
 python3 -m http.server 8080
 # 浏览器打开 http://localhost:8080
 ```
+
+## 一键部署 / One-Click Deploy
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YuanyuanMa03/GitPulse)
+
+Fork 本仓库后点击上方按钮，即可在 30 秒内部署你自己的 GitPulse 实例到 Vercel。
+
+> ⚠️ 部署后需要在你的仓库中启用 GitHub Actions（`Update Trending Data` workflow），并确认 `GITHUB_TOKEN` 权限已开启，数据才会自动更新。
 
 ## 项目结构
 
