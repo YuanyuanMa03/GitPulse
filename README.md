@@ -38,7 +38,8 @@
 </p>
 
 <p align="center">
-<img src="screenshots/mobile.jpg" width="360" alt="GitPulse Mobile">
+<img src="screenshots/mobile-hero.jpg" width="360" alt="GitPulse Mobile Hero">
+<img src="screenshots/mobile.jpg" width="360" alt="GitPulse Mobile Repos">
 <br><sub>📱 移动端效果 / Mobile View</sub>
 </p>
 
