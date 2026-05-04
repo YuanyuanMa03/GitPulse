@@ -736,7 +736,7 @@ section {
   .repo-card { grid-template-columns: 32px 1fr auto; gap: 12px; padding: 14px 14px; }
   .repo-avatar { width: 32px; height: 32px; border-radius: 8px; }
   .repo-fullname { font-size: 14px; }
-  .repo-desc { -webkit-line-clamp: 1; }
+  .repo-desc { -webkit-line-clamp: 2; }
   .repo-stars { font-size: 15px; }
   .repo-topics { display: none; }
   .repo-tabs { margin-left: auto; margin-right: auto; }
@@ -1071,7 +1071,8 @@ footer, .nav-links a, .section-sub, .hero-sub, .hero-sub-en,
   grid-column: 1 / -1;
   font-size: 14px;
   line-height: 1.6;
-  color: var(--fg);
+  color: #FFFFFF;
+  opacity: 1;
 }
 
 .repo-detail-meta {
