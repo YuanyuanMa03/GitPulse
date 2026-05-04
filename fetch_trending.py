@@ -7,6 +7,9 @@ Outputs JSON data for the static site.
 import json
 import urllib.request
 import sys
+import time
+import base64
+import re
 from datetime import datetime, timedelta, timezone
 
 def make_request(url):
@@ -37,9 +40,22 @@ def fetch_repos(since_days, per_page=30):
         print(f"Error fetching repos: {e}", file=sys.stderr)
         return []
 
-def fetch_weekly_pushed(per_page=30):
-    """Fetch repos with recent push, sorted by stars gained."""
-    since_date = (datetime.now(timezone.utc) - timedelta(days=7)).strftime("%Y-%m-%d")
+def fetch_with_retry(fn, *args, max_retries=3):
+    """Call fn(*args) with exponential backoff on failure."""
+    for attempt in range(max_retries):
+        try:
+            result = fn(*args)
+            if result:
+                return result
+        except Exception as e:
+            print(f"  Attempt {attempt+1}/{max_retries} failed: {e}", file=sys.stderr)
+            if attempt < max_retries - 1:
+                time.sleep(2 ** attempt)
+    return []
+
+def fetch_repos_pushed(since_days, per_page=30):
+    """Fetch repos with recent push activity, sorted by stars."""
+    since_date = (datetime.now(timezone.utc) - timedelta(days=since_days)).strftime("%Y-%m-%d")
     url = (
         f"https://api.github.com/search/repositories"
         f"?q=pushed:>{since_date}&sort=stars&order=desc&per_page={per_page}"
@@ -48,7 +64,7 @@ def fetch_weekly_pushed(per_page=30):
         data = make_request(url)
         return data.get("items", [])
     except Exception as e:
-        print(f"Error fetching weekly: {e}", file=sys.stderr)
+        print(f"Error fetching pushed repos: {e}", file=sys.stderr)
         return []
 
 def repo_to_dict(r):
@@ -66,25 +82,81 @@ def repo_to_dict(r):
         "avatar": r["owner"]["avatar_url"],
     }
 
+def load_previous_stars():
+    """Build name->stars lookup from previous data.json for delta tracking."""
+    try:
+        with open("data.json", "r", encoding="utf-8") as f:
+            prev = json.load(f)
+        return {r["name"]: r.get("stars", 0)
+                for period in ["daily", "weekly", "monthly"]
+                for r in prev.get(period, [])}
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+def compute_deltas(repos, prev_stars):
+    """Annotate each repo with star delta vs previous snapshot."""
+    for r in repos:
+        prev = prev_stars.get(r["name"], r["stars"])
+        r["delta"] = max(0, r["stars"] - prev)
+    return repos
+
+def fetch_readme_fallback(owner, repo_name):
+    """Try to get a short description from the repo's README. Returns '' on failure."""
+    try:
+        url = f"https://api.github.com/repos/{owner}/{repo_name}/readme"
+        data = make_request(url)
+        content = base64.b64decode(data.get("content", "")).decode("utf-8", errors="replace")
+        for line in content.split("\n"):
+            stripped = line.strip()
+            if not stripped or stripped.startswith("#") or stripped.startswith("!["):
+                continue
+            if stripped.startswith("[") and "]" in stripped:
+                continue
+            cleaned = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', stripped)
+            cleaned = re.sub(r'[*_~`]{1,3}', '', cleaned)
+            cleaned = re.sub(r'<!--.*?-->', '', cleaned)
+            if len(cleaned) > 10:
+                return cleaned[:150] + ("…" if len(cleaned) > 150 else "")
+        return ""
+    except Exception:
+        return ""
+
 def main():
     now = datetime.now(timezone.utc)
-    
+
+    # Load previous data for delta calculation
+    prev_stars = load_previous_stars()
+
+    # Daily: repos created in the last 24h (newest projects)
     print("Fetching today's new repos...", file=sys.stderr)
-    daily = [repo_to_dict(r) for r in fetch_repos(1, 30)]
-    
-    print("Fetching weekly hot repos...", file=sys.stderr)
-    weekly = [repo_to_dict(r) for r in fetch_repos(7, 30)]
-    
-    print("Fetching monthly hot repos...", file=sys.stderr)
-    monthly = [repo_to_dict(r) for r in fetch_repos(30, 30)]
-    
-    # Deduplicate: weekly/monthly exclude items already in daily/weekly
-    daily_names = {r["name"] for r in daily}
-    weekly_names = {r["name"] for r in weekly}
-    
-    weekly = [r for r in weekly if r["name"] not in daily_names]
-    monthly = [r for r in monthly if r["name"] not in daily_names and r["name"] not in weekly_names]
-    
+    daily = [repo_to_dict(r) for r in fetch_with_retry(fetch_repos, 1, 30)]
+
+    # README fallback for daily repos with empty descriptions
+    readme_count = 0
+    for r in daily:
+        if not r["description"]:
+            parts = r["name"].split("/")
+            if len(parts) == 2:
+                fallback = fetch_readme_fallback(parts[0], parts[1])
+                if fallback:
+                    r["description"] = fallback
+                    readme_count += 1
+    if readme_count:
+        print(f"  Added README fallback for {readme_count} repos", file=sys.stderr)
+
+    # Weekly: repos created in last 7d (this week's new projects)
+    print("Fetching weekly new repos...", file=sys.stderr)
+    weekly = [repo_to_dict(r) for r in fetch_with_retry(fetch_repos, 7, 30)]
+
+    # Monthly: repos created in last 30d (this month's new projects)
+    print("Fetching monthly new repos...", file=sys.stderr)
+    monthly = [repo_to_dict(r) for r in fetch_with_retry(fetch_repos, 30, 30)]
+
+    # Compute star deltas
+    daily = compute_deltas(daily, prev_stars)
+    weekly = compute_deltas(weekly, prev_stars)
+    monthly = compute_deltas(monthly, prev_stars)
+
     output = {
         "updated": now.isoformat(),
         "updated_date": now.strftime("%Y-%m-%d %H:%M UTC"),
@@ -92,11 +164,13 @@ def main():
         "weekly": weekly[:20],
         "monthly": monthly[:20],
     }
-    
+
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
-    
-    print(f"Done: {len(daily)} daily, {len(weekly)} weekly, {len(monthly)} monthly", file=sys.stderr)
+
+    deltas_daily = sum(1 for r in daily[:20] if r.get("delta", 0) > 0)
+    deltas_weekly = sum(1 for r in weekly[:20] if r.get("delta", 0) > 0)
+    print(f"Done: {len(daily)} daily ({deltas_daily} with delta), {len(weekly)} weekly ({deltas_weekly} with delta), {len(monthly)} monthly", file=sys.stderr)
 
 if __name__ == "__main__":
     main()

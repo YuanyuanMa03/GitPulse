@@ -23,7 +23,7 @@
 </div>
 
 <p align="center">
-<img src="docs/hero.jpg" width="100%" alt="GitPulse Hero">
+<img src="screenshots/hero-dark.png" width="100%" alt="GitPulse Hero Dark">
 </p>
 
 ## 哲学
@@ -34,10 +34,6 @@
 
 GitPulse 不是另一个 GitHub 排行榜。它试图回答一个更本质的问题：**此刻，开源社区的注意力在哪里？**
 
-<p align="center">
-<img src="docs/philosophy.jpg" width="100%" alt="Philosophy">
-</p>
-
 我们相信三件事：
 
 - **数据即脉搏** — 每 6 小时捕获一次，如同心电图般记录开源世界的每一次心跳
@@ -46,36 +42,42 @@ GitPulse 不是另一个 GitHub 排行榜。它试图回答一个更本质的问
 
 ## 实时数据
 
-语言分布、热门关键词、Stars 排行 — 所有数据从 `data.json` 动态加载，每 6 小时自动刷新。
+语言分布、热门关键词、Stars 排行、ECG 脉搏信号 — 所有数据从 `data.json` 动态加载，纯 CSS/Canvas 可视化。
 
 <p align="center">
-<img src="docs/data.jpg" width="100%" alt="Data Showcase">
+<img src="screenshots/data-showcase.png" width="100%" alt="Data Showcase">
 </p>
 
 ## 仓库追踪
 
-每日、每周、每月热门仓库一览。点击任意仓库直接跳转 GitHub。
+每日、每周、每月热门仓库。支持**搜索**、**语言筛选**、**内联详情面板**（点击展开）、**Stars 增量追踪**（delta badges）。按语言过滤，零延迟本地搜索。
 
 <p align="center">
-<img src="docs/repos.jpg" width="100%" alt="Repo Explorer">
+<img src="screenshots/repo-explorer.png" width="100%" alt="Repo Explorer with Detail Panel">
 </p>
 
+## 明暗双主题
+
+支持深色/浅色模式切换，偏好自动保存到 localStorage。Apple 风格，两套配色完整适配。
+
 <p align="center">
-<img src="docs/footer.jpg" width="100%" alt="Timeline & CTA">
+<img src="screenshots/hero-light.png" width="100%" alt="GitPulse Hero Light">
 </p>
 
 ## 特性
 
-- 🖤 **Apple-grade 暗色设计** — 受 Apple 产品页启发，极致克制的视觉语言
+- 🖤 **明暗双主题** — 深色/浅色一键切换，偏好自动保存
+- 🔍 **实时搜索** — 仓库名和描述即时过滤，200ms 防抖
+- 🏷️ **语言筛选** — 颜色标识的可滚动筛选片，按语言精确定位
+- 📋 **内联详情面板** — 点击仓库卡片展开完整信息（创建日期、Last Push、Forks、Issues）
+- 📈 **Stars 增量追踪** — 绿色 delta 徽章显示自上次更新后的 stars 增长
 - 📊 **纯 HTML/CSS 图表** — 语言分布条、Stars 排行、关键词云，零依赖
+- 💓 **ECG 脉搏动画** — Canvas 绘制的心电图实时动画
 - ✨ **滚动渐现动画** — IntersectionObserver 驱动，每个元素优雅浮入
 - 🔢 **数字跳动计数器** — 关键指标从 0 动态增长
 - 📱 **全响应式** — 桌面、平板、手机完美适配
-- 🔄 **每 6 小时自动更新** — GitHub Actions 自动抓取，数据永不过时
-- 🏷️ **Topics 关键词云** — 从仓库标签中提取技术趋势
-- 📋 **Daily / Weekly / Monthly** — 三维度实时仓库列表
-- 💓 **ECG 脉搏动画** — Canvas 绘制的心电图效果
-- ⚡ **零框架零依赖** — 纯 HTML / CSS / Vanilla JS
+- 🔄 **每 6 小时自动更新** — GitHub Actions 自动抓取，永不过时
+- ⚡ **零框架零依赖** — 纯 HTML / CSS / Vanilla JS，无构建步骤
 
 ## 技术栈
 
@@ -83,7 +85,7 @@ GitPulse 不是另一个 GitHub 排行榜。它试图回答一个更本质的问
 |---|---|
 | 前端 | 纯 HTML / CSS / Vanilla JS（零框架） |
 | 图表 | 纯 CSS 条形图 + 标签云 + Canvas ECG |
-| 数据 | GitHub Search API → `data.json` |
+| 数据 | GitHub Search API → `data.json`（含 delta 计算 + README 兜底提取） |
 | 部署 | GitHub Pages + Vercel |
 | 自动化 | GitHub Actions（每天 4 次） |
 
@@ -103,21 +105,27 @@ schedule:
 ```bash
 git clone https://github.com/YuanyuanMa03/GitPulse.git
 cd GitPulse
-python3 fetch_trending.py
-python3 -m http.server 8080
+python3 fetch_trending.py          # 拉取数据
+python3 -m http.server 8080        # 启动服务
 # 浏览器打开 http://localhost:8080
 ```
 
 ## 项目结构
 
 ```
-├── index.html          # 单文件 SPA，所有样式和逻辑
-├── data.json           # GitHub trending 数据（自动生成）
-├── fetch_trending.py   # 数据抓取脚本
+├── index.html              # 单文件 HTML，全部结构
+├── style.css               # Apple 暗色/亮色主题样式
+├── main.js                 # 交互逻辑（搜索/筛选/详情面板/主题切换）
+├── data.json               # GitHub trending 数据（自动生成）
+├── fetch_trending.py       # 数据抓取 + delta 计算 + README 兜底
+├── update.sh               # 更新脚本
 ├── .github/workflows/
-│   └── update.yml      # 自动更新 workflow
-└── docs/
-    └── *.jpg            # README 截图
+│   └── update.yml          # 自动更新 workflow
+└── screenshots/
+    ├── hero-dark.png       # 深色模式 Hero
+    ├── hero-light.png      # 浅色模式 Hero
+    ├── data-showcase.png   # 数据可视化展示
+    └── repo-explorer.png   # 仓库追踪（含详情面板）
 ```
 
 ---
