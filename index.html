@@ -94,15 +94,19 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:
 .charts-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
 .chart-card{background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:24px;transition:transform .5s cubic-bezier(.16,1,.3,1),border-color .3s}
 .chart-card:hover{transform:translateY(-3px);border-color:var(--border2)}
-.chart-card-head{display:flex;align-items:center;gap:8px;margin-bottom:16px}
+.chart-card-head{display:flex;align-items:center;gap:8px;margin-bottom:20px}
 .chart-card-dot{width:8px;height:8px;border-radius:50%}
 .chart-card-label{font-size:12px;font-weight:600;color:var(--text2);text-transform:uppercase;letter-spacing:.04em}
-.chart-card canvas{width:100%;height:auto;display:block}
-.chart-legend{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:14px}
-.chart-legend-item{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--text3)}
-.chart-legend-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
 
-/* STARS LIST */
+/* Lang bar chart (pure CSS) */
+.lang-bars{display:flex;flex-direction:column;gap:10px}
+.lang-bar-row{display:flex;align-items:center;gap:10px}
+.lang-bar-label{font-size:12px;font-weight:500;color:var(--text2);width:70px;text-align:right;flex-shrink:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.lang-bar-track{flex:1;height:20px;background:rgba(255,255,255,.04);border-radius:6px;overflow:hidden;position:relative}
+.lang-bar-fill{height:100%;border-radius:6px;transition:width 1s cubic-bezier(.16,1,.3,1);min-width:4px}
+.lang-bar-count{font-family:var(--mono);font-size:11px;font-weight:600;color:var(--text3);width:28px;flex-shrink:0}
+
+/* Stars list */
 .stars-list{display:flex;flex-direction:column;gap:2px}
 .star-item{display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:12px;text-decoration:none;color:inherit;transition:background .2s}
 .star-item:hover{background:rgba(255,255,255,.04)}
@@ -112,6 +116,14 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:
 .star-item-owner{color:var(--text3);font-weight:400}
 .star-item-desc{font-size:11px;color:var(--text3);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .star-item-val{font-family:var(--mono);font-size:13px;font-weight:700;flex-shrink:0}
+
+/* Period bars (pure CSS) */
+.period-bars{display:flex;flex-direction:column;gap:16px}
+.period-bar-item{text-align:center}
+.period-bar-label{font-size:12px;font-weight:600;color:var(--text3);margin-bottom:8px}
+.period-bar-track{height:28px;background:rgba(255,255,255,.04);border-radius:8px;overflow:hidden}
+.period-bar-fill{height:100%;border-radius:8px;transition:width 1s cubic-bezier(.16,1,.3,1);display:flex;align-items:center;justify-content:flex-end;padding-right:10px;min-width:40px}
+.period-bar-val{font-family:var(--mono);font-size:11px;font-weight:700;color:rgba(0,0,0,.7)}
 
 /* REPO LIST */
 .repos{max-width:1120px;margin:0 auto;padding:80px 24px 0}
@@ -162,6 +174,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:
   .nav{padding:0 16px}
   .charts-grid{grid-template-columns:1fr}
   .charts-grid .chart-card:last-child{grid-column:auto}
+  .lang-bar-label{width:56px;font-size:11px}
   .hero{padding-top:100px}
   .hero-title{font-size:40px;letter-spacing:-.04em}
   .hero-sub{font-size:17px}
@@ -209,8 +222,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:
   <div class="charts-grid">
     <div class="chart-card" data-anim>
       <div class="chart-card-head"><span class="chart-card-dot" style="background:var(--purple)"></span><span class="chart-card-label">语言分布</span></div>
-      <canvas id="langChart" width="360" height="240"></canvas>
-      <div id="langLegend" class="chart-legend"></div>
+      <div id="langBars"></div>
     </div>
     <div class="chart-card" data-anim data-anim-delay="1">
       <div class="chart-card-head"><span class="chart-card-dot" style="background:var(--yellow)"></span><span class="chart-card-label">Stars Top 10</span></div>
@@ -218,7 +230,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:
     </div>
     <div class="chart-card" data-anim data-anim-delay="2">
       <div class="chart-card-head"><span class="chart-card-dot" style="background:var(--blue)"></span><span class="chart-card-label">周期对比</span></div>
-      <canvas id="periodChart" width="360" height="240"></canvas>
+      <div id="periodBars"></div>
     </div>
   </div>
 </div>
@@ -255,100 +267,51 @@ function animNums(){
   });
 }
 
-/* CHARTS */
-function drawDonut(canvasId,legendId,data){
-  const canvas=document.getElementById(canvasId);if(!canvas)return;
-  const ctx=canvas.getContext('2d'),dpr=window.devicePixelRatio||1;
-  const rect=canvas.getBoundingClientRect();
-  canvas.width=rect.width*dpr;canvas.height=rect.height*dpr;ctx.scale(dpr,dpr);
-  const W=rect.width,H=rect.height,cx=W/2,cy=H/2;
-  const R=Math.min(W,H)/2-16,r=R*.58;
-  const total=data.reduce((s,d)=>s+d.v,0);
+/* CHARTS (Pure HTML/CSS) */
+function renderLangBars(containerId, data){
+  const el=document.getElementById(containerId);if(!el)return;
+  const total=data.reduce((s,d)=>s+d.v,0)||1;
   const colors=['#f97316','#3178c6','#3572A5','#dea584','#00ADD8','#F05138','#A97BFF','#e34c26','#41b883','#b07219','#89e051','#bf5af2'];
-  const lg=document.getElementById(legendId);
-  if(lg)lg.innerHTML=data.slice(0,8).map((d,i)=>`<div class="chart-legend-item"><span class="chart-legend-dot" style="background:${colors[i%colors.length]}"></span>${d.k} (${d.v})</div>`).join('');
-  const anim=1.2e3,start=performance.now();
-  !function frame(now){
-    const p=Math.min((now-start)/anim,1),ease=1-Math.pow(1-p,3);
-    ctx.clearRect(0,0,W,H);let a=-Math.PI/2;
-    data.forEach((d,i)=>{
-      const slice=d.v/total*Math.PI*2*ease;
-      ctx.beginPath();ctx.moveTo(cx+Math.cos(a)*r,cy+Math.sin(a)*r);
-      ctx.arc(cx,cy,R,a,a+slice);ctx.arc(cx,cy,r,a+slice,a,true);ctx.closePath();
-      ctx.fillStyle=colors[i%colors.length];ctx.fill();a+=slice;
-    });
-    ctx.beginPath();ctx.arc(cx,cy,r-1,0,Math.PI*2);ctx.fillStyle='#1c1c1e';ctx.fill();
-    ctx.textAlign='center';ctx.textBaseline='middle';
-    ctx.fillStyle='rgba(245,245,247,.5)';ctx.font='500 11px Inter';ctx.fillText('项目数',cx,cy-10);
-    ctx.fillStyle='#f5f5f7';ctx.font='800 22px Inter';ctx.fillText(total,cx,cy+12);
-    if(p<1)requestAnimationFrame(frame);
-  }(start);
+  el.innerHTML=`<div class="lang-bars">${data.slice(0,8).map((d,i)=>
+    `<div class="lang-bar-row"><span class="lang-bar-label">${d.k}</span><div class="lang-bar-track"><div class="lang-bar-fill" style="width:${d.v/total*100}%;background:${colors[i%colors.length]}"></div></div><span class="lang-bar-count">${d.v}</span></div>`
+  ).join('')}</div>`;
 }
 
 function drawStarsList(containerId, repos){
   const el=document.getElementById(containerId);if(!el)return;
   const top=[...repos].sort((a,b)=>b.stars-a.stars).slice(0,10);
   if(!top.length){el.innerHTML='';return;}
+  const colors=['#ffd60a','#f97316','#ff9500','#ff6723','#30d158','#32d74b','#0a84ff','#64d2ff','#bf5af2','#da8fff'];
   el.innerHTML=`<div class="stars-list">${top.map((r,i)=>{
     const nameParts=r.name.split('/');
     const owner=nameParts[0]||'';
     const repo=nameParts.slice(1).join('/')||r.name;
-    const colors=['#ffd60a','#f97316','#ff9500','#ff6723','#30d158','#32d74b','#0a84ff','#64d2ff','#bf5af2','#da8fff'];
     return`<a class="star-item" href="${r.url}" target="_blank">
       <div class="star-item-rank" style="color:${colors[i%colors.length]}">${i+1}</div>
-      <div class="star-item-info">
-        <div class="star-item-name">${repo}<span class="star-item-owner">/${owner}</span></div>
-        <div class="star-item-desc">${r.description||'暂无描述'}</div>
-      </div>
+      <div class="star-item-info"><div class="star-item-name">${repo}<span class="star-item-owner">/${owner}</span></div><div class="star-item-desc">${r.description||'暂无描述'}</div></div>
       <div class="star-item-val" style="color:${colors[i%colors.length]}">${F(r.stars)}★</div>
     </a>`;
   }).join('')}</div>`;
 }
 
-function drawPeriod(canvasId,daily,weekly,monthly){
-  const canvas=document.getElementById(canvasId);if(!canvas)return;
-  const ctx=canvas.getContext('2d'),dpr=window.devicePixelRatio||1;
-  const rect=canvas.getBoundingClientRect();
-  canvas.width=rect.width*dpr;canvas.height=rect.height*dpr;ctx.scale(dpr,dpr);
-  const W=rect.width,H=rect.height,pad={t:16,r:16,b:32,l:52};
-  const cW=W-pad.l-pad.r,cH=H-pad.t-pad.b;
+function renderPeriodBars(containerId, daily, weekly, monthly){
+  const el=document.getElementById(containerId);if(!el)return;
   const data=[{label:'今日',v:daily,c:'#ff453a'},{label:'本周',v:weekly,c:'#f97316'},{label:'本月',v:monthly,c:'#0a84ff'}];
-  const maxV=Math.max(...data.map(d=>d.v))*1.2||1;
-  const anim=1.2e3,start=performance.now();
-  !function frame(now){
-    const p=Math.min((now-start)/anim,1),ease=1-Math.pow(1-p,3);
-    ctx.clearRect(0,0,W,H);
-    for(let i=0;i<=4;i++){
-      const y=pad.t+cH-cH/4*i;
-      ctx.strokeStyle='rgba(255,255,255,.04)';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(pad.l,y);ctx.lineTo(W-pad.r,y);ctx.stroke();
-      ctx.fillStyle='rgba(245,245,247,.3)';ctx.font='500 9px SF Mono,monospace';ctx.textAlign='right';ctx.textBaseline='middle';
-      ctx.fillText(F(Math.round(maxV/4*i)),pad.l-8,y);
-    }
-    const barW=cW/data.length*.5,gap=(cW-data.length*barW)/(data.length+1);
-    data.forEach((d,i)=>{
-      const x=pad.l+gap+(barW+gap)*i;
-      const h=d.v/maxV*cH*ease,y=pad.t+cH-h;
-      const grad=ctx.createLinearGradient(0,y,0,pad.t+cH);
-      grad.addColorStop(0,d.c);grad.addColorStop(1,d.c+'33');
-      ctx.fillStyle=grad;ctx.beginPath();ctx.roundRect(x,y,barW,h,6);ctx.fill();
-      ctx.fillStyle=d.c;ctx.font='700 12px SF Mono,monospace';ctx.textAlign='center';
-      ctx.fillText(F(d.v),x+barW/2,y-8);
-      ctx.fillStyle='rgba(245,245,247,.5)';ctx.font='500 11px Inter';
-      ctx.fillText(d.label,x+barW/2,pad.t+cH+16);
-    });
-    if(p<1)requestAnimationFrame(frame);
-  }(start);
+  const maxV=Math.max(...data.map(d=>d.v))*1.1||1;
+  el.innerHTML=`<div class="period-bars">${data.map(d=>
+    `<div class="period-bar-item"><div class="period-bar-label">${d.label}</div><div class="period-bar-track"><div class="period-bar-fill" style="width:${d.v/maxV*100}%;background:${d.c}"><span class="period-bar-val">${F(d.v)}</span></div></div></div>`
+  ).join('')}</div>`;
 }
 
 function renderCharts(repos,all){
   const langs={};
   all.forEach(r=>{if(r.language&&r.language!=='—')langs[r.language]=(langs[r.language]||0)+1});
-  drawDonut('langChart','langLegend',Object.entries(langs).sort((a,b)=>b[1]-a[1]).map(([k,v])=>({k,v})));
+  renderLangBars('langBars',Object.entries(langs).sort((a,b)=>b[1]-a[1]).map(([k,v])=>({k,v})));
   drawStarsList('starsList',repos);
   const dS=DATA.daily?DATA.daily.reduce((s,r)=>s+r.stars,0):0;
   const wS=DATA.weekly?DATA.weekly.reduce((s,r)=>s+r.stars,0):0;
   const mS=DATA.monthly?DATA.monthly.reduce((s,r)=>s+r.stars,0):0;
-  drawPeriod('periodChart',dS,wS,mS);
+  renderPeriodBars('periodBars',dS,wS,mS);
 }
 
 /* RENDER */
