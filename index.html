@@ -226,6 +226,10 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:
 <div class="charts-section" id="chartsSection">
   <p class="charts-title" data-anim>数据洞察</p>
   <div class="charts-grid">
+    <div class="chart-card" data-anim data-anim-delay="2">
+      <div class="chart-card-head"><span class="chart-card-dot" style="background:var(--green)"></span><span class="chart-card-label">热门关键词</span></div>
+      <div id="topicsCloud"></div>
+    </div>
     <div class="chart-card" data-anim>
       <div class="chart-card-head"><span class="chart-card-dot" style="background:var(--purple)"></span><span class="chart-card-label">语言分布</span></div>
       <div id="langBars"></div>
@@ -233,10 +237,6 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:
     <div class="chart-card" data-anim data-anim-delay="1">
       <div class="chart-card-head"><span class="chart-card-dot" style="background:var(--yellow)"></span><span class="chart-card-label">Stars Top 10</span></div>
       <div id="starsList"></div>
-    </div>
-    <div class="chart-card" data-anim data-anim-delay="2">
-      <div class="chart-card-head"><span class="chart-card-dot" style="background:var(--green)"></span><span class="chart-card-label">热门关键词</span></div>
-      <div id="topicsCloud"></div>
     </div>
   </div>
 </div>
