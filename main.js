@@ -1,3 +1,174 @@
+// ─── i18n ───
+const T={zh:{
+'meta-title':'GitPulse — 开源脉搏，实时跳动',
+'meta-desc':'追踪全球最热门的 GitHub 项目，每 6 小时自动更新。Apple 级暗色设计，零依赖纯静态页面。感受开源世界的心跳。',
+'nav-philosophy':'哲学',
+'nav-features':'特性',
+'nav-data':'数据',
+'nav-repos':'仓库',
+'nav-timeline':'更新',
+'hero-headline':'在信息的洪流中，<br><span class="gradient">脉搏</span>是唯一值得<br>追踪的信号。',
+'hero-cta-live':'查看实时数据 →',
+'hero-cta-source':'GitHub 源码 ↗',
+'hero-scroll':'向下滚动',
+'phil-title':'我们相信的三件事',
+'phil-sub':'Three convictions that shape every pixel of GitPulse.',
+'phil-desc-1':'每 6 小时捕获一次，如同心电图般记录开源世界的每一次心跳。不是静态的排行榜，而是活着的信号。',
+'phil-desc-2':'从 topics 关键词云中，你能看到技术思潮的涌动。不是事后回顾，而是此刻正在发生的事。',
+'phil-desc-3':'Apple 级的设计语言，因为好的数据值得好的容器。每一个像素都服务于信息，而不是装饰。',
+'feat-title':'每一个特性，都有理由存在',
+'feat-sub':'Zero dependencies. Pure HTML / CSS / Vanilla JS.',
+'feat-1-title':'Apple-grade 暗色设计',
+'feat-1-desc':'受 Apple 产品页启发，极致克制的视觉语言。深度通过色彩层级表达，而非阴影。',
+'feat-2-title':'纯 HTML/CSS 图表',
+'feat-2-desc':'语言分布条、Stars 排行、关键词云 — 零依赖，全端自适应，加载即呈现。',
+'feat-3-title':'滚动渐现动画',
+'feat-3-desc':'IntersectionObserver 驱动，每个元素在进入视口时优雅浮入。流畅，不突兀。',
+'feat-4-title':'数字跳动计数器',
+'feat-4-desc':'关键指标从 0 动态增长，数据有生命力。让数字说话，而不是静态文本。',
+'feat-5-title':'全响应式',
+'feat-5-desc':'桌面、平板、手机，完美适配。在任何设备上都能获得一致的体验。',
+'feat-6-title':'每 6 小时自动更新',
+'feat-6-desc':'GitHub Actions 自动抓取，数据永不过时。cron: 0 0,6,12,18 * * *',
+'feat-7-title':'Topics 关键词云',
+'feat-7-desc':'从仓库标签中提取技术趋势，一目了然。热点词用颜色和大小区分权重。',
+'feat-8-title':'零框架，零依赖',
+'feat-8-desc':'纯 HTML / CSS / Vanilla JS，无框架、无库、无构建步骤。直接部署 GitHub Pages。',
+'data-title':'此刻，开源社区在看什么',
+'data-sub':'实时数据可视化 — 语言、趋势、热度，一屏尽收。',
+'data-card-1':'语言分布',
+'data-card-2':'热门关键词',
+'data-card-3':'Stars 排行',
+'data-card-4':'脉搏信号',
+'timeline-title':'每 6 小时，一次心跳',
+'timeline-sub':'数据通过 GitHub Actions 自动更新，每天 4 次，永不过时。',
+'repo-title':'实时仓库追踪',
+'repo-sub':'每日、每周、每月热门仓库一览。数据每 6 小时自动刷新。',
+'repo-search':'搜索仓库名或描述…',
+'repo-tab-daily':'今日 Daily',
+'repo-tab-weekly':'本周 Weekly',
+'repo-tab-monthly':'本月 Monthly',
+'repo-error':'数据加载失败<br>请检查网络连接或稍后重试',
+'retry-reload':'重新加载 →',
+'cta-heading':'追踪脉搏，而非噪音。',
+'cta-sub':'Track the pulse, not the noise.',
+'no-desc':'暂无描述',
+'no-desc-available':'暂无描述信息',
+'stars':'stars',
+'created':'创建时间',
+'last-push':'最后推送',
+'forks':'Forks',
+'open-issues':'Open Issues',
+'view-gh':'前往 GitHub 查看 →',
+'filter-all':'全部',
+'no-results':'没有匹配的仓库'
+},en:{
+'meta-title':'GitPulse — Open Source Pulse, Beating in Real Time',
+'meta-desc':'Track the hottest GitHub projects worldwide. Auto-updated every 6 hours. Apple-grade dark design, zero-dependency static pages. Feel the heartbeat of open source.',
+'nav-philosophy':'Philosophy',
+'nav-features':'Features',
+'nav-data':'Data',
+'nav-repos':'Repos',
+'nav-timeline':'Updates',
+'hero-headline':'In the flood of information,<br><span class="gradient">pulse</span> is the only<br>signal worth tracking.',
+'hero-cta-live':'View Live Data →',
+'hero-cta-source':'GitHub Source ↗',
+'hero-scroll':'Scroll Down',
+'phil-title':'Three Things We Believe',
+'phil-sub':'Three convictions that shape every pixel of GitPulse.',
+'phil-desc-1':'Captured every 6 hours, like an EKG recording each heartbeat of the open source world. Not a static leaderboard, but a living signal.',
+'phil-desc-2':'From the topics keyword cloud, you can see the currents of technological thought. Not hindsight, but what is happening right now.',
+'phil-desc-3':'Apple-grade design language, because good data deserves a good container. Every pixel serves information, not decoration.',
+'feat-title':'Every Feature Has a Reason to Exist',
+'feat-sub':'Zero dependencies. Pure HTML / CSS / Vanilla JS.',
+'feat-1-title':'Apple-grade Dark Design',
+'feat-1-desc':'Inspired by Apple product pages. Restrained visual language where depth is expressed through color hierarchy, not shadows.',
+'feat-2-title':'Pure HTML/CSS Charts',
+'feat-2-desc':'Language bars, stars ranking, keyword cloud — zero dependencies, fully responsive, renders on load.',
+'feat-3-title':'Scroll Reveal Animation',
+'feat-3-desc':'IntersectionObserver-driven. Each element floats in gracefully as it enters the viewport. Smooth, not jarring.',
+'feat-4-title':'Animated Counters',
+'feat-4-desc':'Key metrics animate from zero to target. Data has vitality. Numbers that speak rather than sit static.',
+'feat-5-title':'Fully Responsive',
+'feat-5-desc':'Desktop, tablet, mobile — perfectly adapted. Consistent experience on any device.',
+'feat-6-title':'Auto-updated Every 6 Hours',
+'feat-6-desc':'GitHub Actions cron at 0,6,12,18 UTC. Data never goes stale.',
+'feat-7-title':'Topics Keyword Cloud',
+'feat-7-desc':'Extract tech trends from repo topics at a glance. Weighted by color and size for instant signal.',
+'feat-8-title':'Zero Framework, Zero Dependencies',
+'feat-8-desc':'Pure HTML / CSS / Vanilla JS. No frameworks, no libraries, no build step. Deploy directly to GitHub Pages.',
+'data-title':'What Open Source Is Watching Right Now',
+'data-sub':'Real-time data visualization — languages, trends, popularity, all in one view.',
+'data-card-1':'Language Distribution',
+'data-card-2':'Hot Topics',
+'data-card-3':'Stars Ranking',
+'data-card-4':'Pulse Signal',
+'timeline-title':'A Heartbeat Every 6 Hours',
+'timeline-sub':'Data auto-updated via GitHub Actions, 4 times a day, never stale.',
+'repo-title':'Live Repo Tracker',
+'repo-sub':'Daily, weekly, and monthly trending repos. Refreshed every 6 hours.',
+'repo-search':'Search repo name or description…',
+'repo-tab-daily':'Daily',
+'repo-tab-weekly':'Weekly',
+'repo-tab-monthly':'Monthly',
+'repo-error':'Data load failed<br>Please check your connection and try again',
+'retry-reload':'Reload →',
+'cta-heading':'Track the Pulse, Not the Noise.',
+'cta-sub':'Track the pulse, not the noise.',
+'no-desc':'No description',
+'no-desc-available':'No description available',
+'stars':'stars',
+'created':'Created',
+'last-push':'Last Push',
+'forks':'Forks',
+'open-issues':'Open Issues',
+'view-gh':'View on GitHub →',
+'filter-all':'All',
+'no-results':'No repos match your filters'
+}};
+
+let currentLang='zh';
+function t(key){return(T[currentLang]&&T[currentLang][key])||(T.en&&T.en[key])||key;}
+
+function applyLanguage(lang){
+  currentLang=lang;
+  document.documentElement.lang=lang==='zh'?'zh-CN':'en';
+  localStorage.setItem('gitpulse-lang',lang);
+  document.querySelectorAll('[data-i18n]').forEach(el=>{
+    const k=el.dataset.i18n;
+    if(T[lang]&&T[lang][k])el.textContent=T[lang][k];
+  });
+  document.querySelectorAll('[data-i18n-html]').forEach(el=>{
+    const k=el.dataset.i18nHtml;
+    if(T[lang]&&T[lang][k])el.innerHTML=T[lang][k];
+  });
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(el=>{
+    const k=el.dataset.i18nPlaceholder;
+    if(T[lang]&&T[lang][k])el.placeholder=T[lang][k];
+  });
+  const toggle=document.getElementById('lang-toggle');
+  if(toggle)toggle.textContent=lang==='zh'?'En':'中';
+  if(window.__DATA__&&typeof renderRepoList==='function')renderRepoList(window.__currentPeriod__||'daily');
+}
+
+(function(){
+  const saved=localStorage.getItem('gitpulse-lang');
+  applyLanguage(saved||(navigator.language.startsWith('zh')?'zh':'en'));
+  const toggle=document.getElementById('lang-toggle');
+  if(toggle){
+    toggle.addEventListener('click',()=>{
+      const next=currentLang==='zh'?'en':'zh';
+      document.body.style.transition='opacity 0.15s';
+      document.body.style.opacity='0.6';
+      setTimeout(()=>{
+        applyLanguage(next);
+        document.body.style.opacity='1';
+        setTimeout(()=>{document.body.style.transition='';document.body.style.opacity='';},200);
+      },150);
+    });
+  }
+})();
+
 // ─── Scroll Reveal ───
 const revealObserver = new IntersectionObserver((entries) => {
   entries.forEach(e => {
@@ -175,7 +346,7 @@ const LC={Python:'#3572A5',TypeScript:'#3178c6',JavaScript:'#f1e05a',Rust:'#dea5
   try{
     const r=await fetch('data.json');
     if(!r.ok)throw new Error('HTTP '+r.status);
-    const DATA=await r.json();
+    const DATA=await r.json();window.__DATA__=DATA;
     const all=[...(DATA.daily||[]),...(DATA.weekly||[]),...(DATA.monthly||[])];
 
     // Hide loading skeleton
@@ -248,7 +419,7 @@ const LC={Python:'#3572A5',TypeScript:'#3178c6',JavaScript:'#f1e05a',Rust:'#dea5
       const sortedLangs=Object.entries(langCounts).sort((a,b)=>b[1]-a[1]);
       const container=document.getElementById('lang-filters');
       if(!container)return;
-      let html='<button class="lang-chip'+(currentLangFilter===''?' active':'')+'" data-lang="">All<span class="lang-chip-count">'+list.length+'</span></button>';
+      let html='<button class="lang-chip'+(currentLangFilter===''?' active':'')+'" data-lang="">'+t('filter-all')+'<span class="lang-chip-count">'+list.length+'</span></button>';
       sortedLangs.forEach(([lang,count])=>{
         const color=LC[lang]||'#8E8E93';
         const active=currentLangFilter===lang?' active':'';
@@ -274,8 +445,8 @@ const LC={Python:'#3572A5',TypeScript:'#3178c6',JavaScript:'#f1e05a',Rust:'#dea5
       });
     }
 
-    function renderRepoList(period){
-      currentPeriod=period;
+    function renderRepoList(period){window.renderRepoList=renderRepoList;
+      currentPeriod=period;window.__currentPeriod__=period;
       const list=DATA[period]||[];
       const filtered=filterList(list);
       const el=document.getElementById('repo-list');
@@ -284,7 +455,7 @@ const LC={Python:'#3572A5',TypeScript:'#3178c6',JavaScript:'#f1e05a',Rust:'#dea5
       buildLangChips(list);
 
       if(!filtered.length){
-        el.innerHTML='<div class="no-results">No repos match your filters</div>';
+        el.innerHTML='<div class="no-results">'+t('no-results')+'</div>';
         return;
       }
 
@@ -294,7 +465,7 @@ const LC={Python:'#3572A5',TypeScript:'#3178c6',JavaScript:'#f1e05a',Rust:'#dea5
         const repo=parts.slice(1).join('/');
         const lc=r.language&&r.language!=='—'?LC[r.language]||'#8E8E93':'transparent';
         const langTxt=r.language&&r.language!=='—'?r.language:'';
-        const desc=r.description?'<div class="repo-desc">'+r.description+'</div>':'<div class="repo-desc empty">No description</div>';
+        const desc=r.description?'<div class="repo-desc">'+r.description+'</div>':'<div class="repo-desc empty">' + t('no-desc') + '</div>';
         const topics=(r.topics||[]).slice(0,4).map(t=>'<span class="repo-topic">'+t+'</span>').join('');
         const topicsHtml=topics?'<div class="repo-topics">'+topics+'</div>':'';
         const deltaHtml=r.delta>0?'<span class="delta-badge">↑ +'+fmtStars(r.delta)+'</span>':'';
@@ -313,21 +484,21 @@ const LC={Python:'#3572A5',TypeScript:'#3178c6',JavaScript:'#f1e05a',Rust:'#dea5
           +'<div class="repo-meta">'
           +deltaHtml
           +'<span class="repo-stars">★ '+fmtStars(r.stars)+'</span>'
-          +'<span class="repo-stars-label">stars</span>'
+          +'<span class="repo-stars-label">'+t('stars')+'</span>'
           +'</div>'
           +'<div class="repo-detail" id="detail-'+period+'-'+idx+'">'
           +'<div class="repo-detail-inner">'
           +'<div>'
-          +'<div class="repo-detail-full-desc">'+(r.description||'No description available')+'</div>'
+          +'<div class="repo-detail-full-desc">'+(r.description||t('no-desc-available'))+'</div>'
           +(allTopics?'<div class="repo-detail-topics">'+allTopics+'</div>':'')
           +'</div>'
           +'<div>'
-          +'<div class="repo-detail-meta"><span class="repo-detail-meta-label">Created</span><span class="repo-detail-meta-value">'+(r.created||'—')+'</span></div>'
-          +'<div class="repo-detail-meta"><span class="repo-detail-meta-label">Last Push</span><span class="repo-detail-meta-value">'+(r.pushed||'—')+'</span></div>'
-          +'<div class="repo-detail-meta"><span class="repo-detail-meta-label">Forks</span><span class="repo-detail-meta-value">'+(r.forks||0)+'</span></div>'
-          +'<div class="repo-detail-meta"><span class="repo-detail-meta-label">Open Issues</span><span class="repo-detail-meta-value">'+(r.open_issues||0)+'</span></div>'
+          +'<div class="repo-detail-meta"><span class="repo-detail-meta-label">'+t('created')+'</span><span class="repo-detail-meta-value">'+(r.created||'—')+'</span></div>'
+          +'<div class="repo-detail-meta"><span class="repo-detail-meta-label">'+t('last-push')+'</span><span class="repo-detail-meta-value">'+(r.pushed||'—')+'</span></div>'
+          +'<div class="repo-detail-meta"><span class="repo-detail-meta-label">'+t('forks')+'</span><span class="repo-detail-meta-value">'+(r.forks||0)+'</span></div>'
+          +'<div class="repo-detail-meta"><span class="repo-detail-meta-label">'+t('open-issues')+'</span><span class="repo-detail-meta-value">'+(r.open_issues||0)+'</span></div>'
           +'</div>'
-          +'<a class="repo-detail-link" href="'+r.url+'" target="_blank" rel="noopener">View on GitHub →</a>'
+          +'<a class="repo-detail-link" href="'+r.url+'" target="_blank" rel="noopener">'+t('view-gh')+'</a>'
           +'</div>'
           +'</div>'
           +'</div>';

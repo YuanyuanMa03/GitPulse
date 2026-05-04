@@ -940,6 +940,32 @@ footer, .nav-links a, .section-sub, .hero-sub, .hero-sub-en,
 .theme-toggle:hover { background: var(--border); transform: scale(1.08); }
 .theme-toggle:active { transform: scale(0.94); }
 
+/* ─── Language Toggle ─── */
+.lang-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  background: var(--surface2);
+  border: none;
+  cursor: pointer;
+  color: var(--fg);
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-left: 8px;
+  transition: background 0.25s, transform 0.25s;
+}
+.lang-toggle:hover { background: var(--border); transform: scale(1.08); }
+.lang-toggle:active { transform: scale(0.94); }
+
+/* ─── Locale visibility ─── */
+[lang="zh-CN"] .lang-en,
+[lang="zh"]    .lang-en { display: none; }
+[lang="en"]    .lang-zh { display: none; }
+
 /* ─── Search Bar ─── */
 .search-wrap {
   position: relative;
@@ -1132,4 +1158,5 @@ footer, .nav-links a, .section-sub, .hero-sub, .hero-sub-en,
   .repo-detail.open { max-height: 420px; }
   .search-wrap { max-width: 100%; }
   .theme-toggle { margin-left: 8px; width: 32px; height: 32px; font-size: 16px; }
+  .lang-toggle { margin-left: 4px; width: 32px; height: 32px; font-size: 12px; }
 }
