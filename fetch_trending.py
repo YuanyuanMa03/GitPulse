@@ -9,6 +9,20 @@ import urllib.request
 import sys
 from datetime import datetime, timedelta, timezone
 
+def make_request(url):
+    """Make authenticated request if token available."""
+    import os
+    headers = {
+        "Accept": "application/vnd.github.v3+json",
+        "User-Agent": "github-trending-daily"
+    }
+    token = os.environ.get("GITHUB_TOKEN")
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    req = urllib.request.Request(url, headers=headers)
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        return json.loads(resp.read().decode())
+
 def fetch_repos(since_days, per_page=30):
     """Fetch repos created or pushed recently, sorted by stars."""
     since_date = (datetime.now(timezone.utc) - timedelta(days=since_days)).strftime("%Y-%m-%d")
@@ -16,13 +30,8 @@ def fetch_repos(since_days, per_page=30):
         f"https://api.github.com/search/repositories"
         f"?q=created:>{since_date}&sort=stars&order=desc&per_page={per_page}"
     )
-    req = urllib.request.Request(url, headers={
-        "Accept": "application/vnd.github.v3+json",
-        "User-Agent": "github-trending-daily"
-    })
     try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            data = json.loads(resp.read().decode())
+        data = make_request(url)
         return data.get("items", [])
     except Exception as e:
         print(f"Error fetching repos: {e}", file=sys.stderr)
@@ -35,13 +44,8 @@ def fetch_weekly_pushed(per_page=30):
         f"https://api.github.com/search/repositories"
         f"?q=pushed:>{since_date}&sort=stars&order=desc&per_page={per_page}"
     )
-    req = urllib.request.Request(url, headers={
-        "Accept": "application/vnd.github.v3+json",
-        "User-Agent": "github-trending-daily"
-    })
     try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            data = json.loads(resp.read().decode())
+        data = make_request(url)
         return data.get("items", [])
     except Exception as e:
         print(f"Error fetching weekly: {e}", file=sys.stderr)

@@ -1,0 +1,35 @@
+name: Update Trending Data
+
+on:
+  schedule:
+    # UTC 0:00, 6:00, 12:00, 18:00 (北京时间 8:00, 14:00, 20:00, 2:00)
+    - cron: '0 0,6,12,18 * * *'
+  workflow_dispatch:  # 手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch trending data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python fetch_trending.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet data.json && echo "No changes" && exit 0
+          git add data.json
+          git commit -m "data: update trending $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
