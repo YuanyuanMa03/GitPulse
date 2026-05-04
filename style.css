@@ -1054,7 +1054,7 @@ footer, .nav-links a, .section-sub, .hero-sub, .hero-sub-en,
   transition: max-height 0.45s cubic-bezier(0.16, 1, 0.3, 1);
   margin-top: 0;
 }
-.repo-detail.open { max-height: 280px; }
+.repo-detail.open { max-height: 600px; }
 
 .repo-detail-inner {
   padding: 20px;
@@ -1155,7 +1155,7 @@ footer, .nav-links a, .section-sub, .hero-sub, .hero-sub-en,
     grid-template-columns: 1fr;
     gap: 12px;
   }
-  .repo-detail.open { max-height: 420px; }
+  .repo-detail.open { max-height: 800px; }
   .search-wrap { max-width: 100%; }
   .theme-toggle { margin-left: 8px; width: 32px; height: 32px; font-size: 16px; }
   .lang-toggle { margin-left: 4px; width: 32px; height: 32px; font-size: 12px; }
