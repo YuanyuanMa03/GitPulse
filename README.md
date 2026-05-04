@@ -38,9 +38,14 @@
 </p>
 
 <p align="center">
-<img src="screenshots/mobile-hero.jpg" width="360" alt="GitPulse Mobile Hero">
+<img src="screenshots/mobile-hero.jpg" width="360" alt="GitPulse Mobile Hero CN">
+<img src="screenshots/mobile-hero-en.jpg" width="360" alt="GitPulse Mobile Hero EN">
+<br><sub>📱 移动端 Hero / Mobile — 🇨🇳 中文 &amp; 🌐 English</sub>
+</p>
+
+<p align="center">
 <img src="screenshots/mobile.jpg" width="360" alt="GitPulse Mobile Repos">
-<br><sub>📱 移动端效果 / Mobile View</sub>
+<br><sub>📱 移动端仓库列表 / Mobile Repo Explorer</sub>
 </p>
 
 ## 🌐 中英双语 / Bilingual
