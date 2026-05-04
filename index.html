@@ -125,6 +125,12 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:
 .period-bar-fill{height:100%;border-radius:8px;transition:width 1s cubic-bezier(.16,1,.3,1);display:flex;align-items:center;justify-content:flex-end;padding-right:10px;min-width:40px}
 .period-bar-val{font-family:var(--mono);font-size:11px;font-weight:700;color:rgba(0,0,0,.7)}
 
+/* Topics cloud */
+.topics-cloud{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center}
+.topic-tag{display:inline-flex;align-items:center;gap:5px;padding:6px 14px;border-radius:20px;font-weight:600;text-decoration:none;transition:transform .2s,opacity .2s;cursor:default}
+.topic-tag:hover{transform:scale(1.08);opacity:.85}
+.topic-tag-count{font-family:var(--mono);font-size:10px;opacity:.6}
+
 /* REPO LIST */
 .repos{max-width:1120px;margin:0 auto;padding:80px 24px 0}
 .repos-head{display:flex;align-items:center;gap:10px;margin-bottom:8px}
@@ -229,8 +235,8 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:
       <div id="starsList"></div>
     </div>
     <div class="chart-card" data-anim data-anim-delay="2">
-      <div class="chart-card-head"><span class="chart-card-dot" style="background:var(--blue)"></span><span class="chart-card-label">周期对比</span></div>
-      <div id="periodBars"></div>
+      <div class="chart-card-head"><span class="chart-card-dot" style="background:var(--green)"></span><span class="chart-card-label">热门关键词</span></div>
+      <div id="topicsCloud"></div>
     </div>
   </div>
 </div>
@@ -303,6 +309,21 @@ function renderPeriodBars(containerId, daily, weekly, monthly){
   ).join('')}</div>`;
 }
 
+function renderTopicsCloud(containerId, repos){
+  const el=document.getElementById(containerId);if(!el)return;
+  const topics={};
+  repos.forEach(r=>{(r.topics||[]).forEach(t=>{if(t)topics[t]=(topics[t]||0)+1})});
+  const sorted=Object.entries(topics).sort((a,b)=>b[1]-a[1]).slice(0,24);
+  if(!sorted.length){el.innerHTML='<div style="text-align:center;color:var(--text4);font-size:13px;padding:20px">暂无关键词数据</div>';return;}
+  const maxC=sorted[0][1];
+  const colors=['#f97316','#0a84ff','#bf5af2','#30d158','#ff453a','#ffd60a','#64d2ff','#ff9500','#da8fff','#32d74b'];
+  el.innerHTML=`<div class="topics-cloud">${sorted.map(([t,c],i)=>{
+    const scale=.7+(c/maxC)*.6;
+    const color=colors[i%colors.length];
+    return`<span class="topic-tag" style="font-size:${Math.round(scale*13)}px;background:${color}18;color:${color};border:1px solid ${color}22">${t}<span class="topic-tag-count">${c}</span></span>`;
+  }).join('')}</div>`;
+}
+
 function renderCharts(repos,all){
   const langs={};
   all.forEach(r=>{if(r.language&&r.language!=='—')langs[r.language]=(langs[r.language]||0)+1});
@@ -311,7 +332,7 @@ function renderCharts(repos,all){
   const dS=DATA.daily?DATA.daily.reduce((s,r)=>s+r.stars,0):0;
   const wS=DATA.weekly?DATA.weekly.reduce((s,r)=>s+r.stars,0):0;
   const mS=DATA.monthly?DATA.monthly.reduce((s,r)=>s+r.stars,0):0;
-  renderPeriodBars('periodBars',dS,wS,mS);
+  renderTopicsCloud('topicsCloud',all);
 }
 
 /* RENDER */
