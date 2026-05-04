@@ -102,6 +102,17 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:
 .chart-legend-item{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--text3)}
 .chart-legend-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
 
+/* STARS LIST */
+.stars-list{display:flex;flex-direction:column;gap:2px}
+.star-item{display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:12px;text-decoration:none;color:inherit;transition:background .2s}
+.star-item:hover{background:rgba(255,255,255,.04)}
+.star-item-rank{font-family:var(--mono);font-size:16px;font-weight:800;width:24px;text-align:center;flex-shrink:0}
+.star-item-info{flex:1;min-width:0}
+.star-item-name{font-size:13px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.star-item-owner{color:var(--text3);font-weight:400}
+.star-item-desc{font-size:11px;color:var(--text3);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.star-item-val{font-family:var(--mono);font-size:13px;font-weight:700;flex-shrink:0}
+
 /* REPO LIST */
 .repos{max-width:1120px;margin:0 auto;padding:80px 24px 0}
 .repos-head{display:flex;align-items:center;gap:10px;margin-bottom:8px}
@@ -117,6 +128,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:
 .row-av{width:24px;height:24px;border-radius:6px;background:var(--surface2);overflow:hidden}
 .row-av img{width:100%;height:100%;object-fit:cover}
 .row-name{font-size:13px;font-weight:600;transition:color .3s;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row-name-desc{display:none}
 .row-desc{font-size:12px;color:var(--text3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .row-lang{display:flex;align-items:center;gap:5px;font-size:10px;color:var(--text3)}
 .dot{width:6px;height:6px;border-radius:50%;flex-shrink:0}
@@ -142,8 +154,8 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:
   .charts-grid{grid-template-columns:1fr 1fr}
   .charts-grid .chart-card:last-child{grid-column:1/-1}
   .metrics-grid{grid-template-columns:repeat(3,1fr)}
-  .row{grid-template-columns:28px 24px 2fr 56px 56px}
-  .row .row-lang,.row .row-tag{display:none}
+  .row{grid-template-columns:28px 24px 1fr 56px 56px;padding:14px 16px}
+  .row .row-desc,.row .row-tag{display:none}
   .list-col{display:none}
 }
 @media(max-width:734px){
@@ -159,8 +171,10 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:
   .feat-rank{font-size:60px}
   .feat-name{font-size:22px}
   .metrics-grid{grid-template-columns:1fr 1fr}
-  .row{grid-template-columns:24px 2fr 48px;padding:10px 12px}
-  .row .row-av,.row-fork,.row-lang,.row-tag{display:none}
+  .row{grid-template-columns:24px 1fr 48px;padding:14px 12px}
+  .row .row-desc,.row-av,.row-fork,.row-lang,.row-tag{display:none}
+  .row-name{font-size:13px;white-space:normal;overflow:visible;line-height:1.3}
+  .row-name-desc{display:block;font-size:11px;color:var(--text3);font-weight:400;margin-top:2px}
   .nav-tabs{display:none}
 }
 </style>
@@ -200,7 +214,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:
     </div>
     <div class="chart-card" data-anim data-anim-delay="1">
       <div class="chart-card-head"><span class="chart-card-dot" style="background:var(--yellow)"></span><span class="chart-card-label">Stars Top 10</span></div>
-      <canvas id="starsChart" width="360" height="240"></canvas>
+      <div id="starsList"></div>
     </div>
     <div class="chart-card" data-anim data-anim-delay="2">
       <div class="chart-card-head"><span class="chart-card-dot" style="background:var(--blue)"></span><span class="chart-card-label">周期对比</span></div>
@@ -271,34 +285,24 @@ function drawDonut(canvasId,legendId,data){
   }(start);
 }
 
-function drawBars(canvasId,data){
-  const canvas=document.getElementById(canvasId);if(!canvas)return;
-  const ctx=canvas.getContext('2d'),dpr=window.devicePixelRatio||1;
-  const rect=canvas.getBoundingClientRect();
-  canvas.width=rect.width*dpr;canvas.height=rect.height*dpr;ctx.scale(dpr,dpr);
-  const W=rect.width,H=rect.height,pad={t:8,r:12,b:28,l:48};
-  const cW=W-pad.l-pad.r,cH=H-pad.t-pad.b;
-  const maxV=Math.max(...data.map(d=>d.v))*1.15||1;
-  const colors=['#ffd60a','#f97316','#ff9500','#ff6723','#30d158','#32d74b','#0a84ff','#64d2ff','#bf5af2','#da8fff'];
-  const anim=1.2e3,start=performance.now();
-  !function frame(now){
-    const p=Math.min((now-start)/anim,1),ease=1-Math.pow(1-p,3);
-    ctx.clearRect(0,0,W,H);
-    const barH=Math.max(1,(cH/data.length)*.65);
-    const gap=(cH-data.length*barH)/(data.length+1);
-    data.forEach((d,i)=>{
-      const y=pad.t+gap+(barH+gap)*i;
-      const w=d.v/maxV*cW*ease;
-      const grad=ctx.createLinearGradient(pad.l,0,pad.l+w,0);
-      grad.addColorStop(0,colors[i%colors.length]);grad.addColorStop(1,colors[i%colors.length]+'66');
-      ctx.fillStyle=grad;ctx.beginPath();ctx.roundRect(pad.l,y,w,barH,4);ctx.fill();
-      ctx.fillStyle='rgba(245,245,247,.5)';ctx.font='500 10px Inter';ctx.textAlign='right';ctx.textBaseline='middle';
-      ctx.fillText(d.k.length>14?d.k.slice(0,14)+'…':d.k,pad.l-8,y+barH/2);
-      ctx.fillStyle='rgba(245,245,247,.7)';ctx.font='600 10px SF Mono,JetBrains Mono,monospace';ctx.textAlign='left';
-      ctx.fillText(F(d.v),pad.l+w+6,y+barH/2);
-    });
-    if(p<1)requestAnimationFrame(frame);
-  }(start);
+function drawStarsList(containerId, repos){
+  const el=document.getElementById(containerId);if(!el)return;
+  const top=[...repos].sort((a,b)=>b.stars-a.stars).slice(0,10);
+  if(!top.length){el.innerHTML='';return;}
+  el.innerHTML=`<div class="stars-list">${top.map((r,i)=>{
+    const nameParts=r.name.split('/');
+    const owner=nameParts[0]||'';
+    const repo=nameParts.slice(1).join('/')||r.name;
+    const colors=['#ffd60a','#f97316','#ff9500','#ff6723','#30d158','#32d74b','#0a84ff','#64d2ff','#bf5af2','#da8fff'];
+    return`<a class="star-item" href="${r.url}" target="_blank">
+      <div class="star-item-rank" style="color:${colors[i%colors.length]}">${i+1}</div>
+      <div class="star-item-info">
+        <div class="star-item-name">${repo}<span class="star-item-owner">/${owner}</span></div>
+        <div class="star-item-desc">${r.description||'暂无描述'}</div>
+      </div>
+      <div class="star-item-val" style="color:${colors[i%colors.length]}">${F(r.stars)}★</div>
+    </a>`;
+  }).join('')}</div>`;
 }
 
 function drawPeriod(canvasId,daily,weekly,monthly){
@@ -340,7 +344,7 @@ function renderCharts(repos,all){
   const langs={};
   all.forEach(r=>{if(r.language&&r.language!=='—')langs[r.language]=(langs[r.language]||0)+1});
   drawDonut('langChart','langLegend',Object.entries(langs).sort((a,b)=>b[1]-a[1]).map(([k,v])=>({k,v})));
-  drawBars('starsChart',[...repos].sort((a,b)=>b.stars-a.stars).slice(0,10).map(r=>({k:r.name.split('/').pop()||r.name,v:r.stars})));
+  drawStarsList('starsList',repos);
   const dS=DATA.daily?DATA.daily.reduce((s,r)=>s+r.stars,0):0;
   const wS=DATA.weekly?DATA.weekly.reduce((s,r)=>s+r.stars,0):0;
   const mS=DATA.monthly?DATA.monthly.reduce((s,r)=>s+r.stars,0):0;
@@ -397,7 +401,7 @@ function renderRepos(title,repos,color){
     return`<a class="row" href="${r.url}" target="_blank" data-anim>
       <div class="row-n">${i+6}</div>
       <div class="row-av">${r.avatar?`<img src="${r.avatar}&s=64" loading="lazy" onerror="this.style.display='none'">`:''}</div>
-      <div class="row-name">${r.name}</div>
+      <div class="row-name">${r.name}${r.description&&r.description!=='—'?`<span class="row-name-desc">${r.description}</span>`:''}</div>
       <div class="row-desc">${r.description||'—'}</div>
       <div class="row-lang"><span class="dot ${lc}"></span>${r.language}</div>
       <div class="row-star">${F(r.stars)}</div>
