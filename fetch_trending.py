@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Fetch GitHub trending repos via GitHub Search API.
-Outputs JSON data for the static site.
+Outputs JSON data for the static site with historical archiving.
 """
 
 import json
@@ -10,7 +10,10 @@ import sys
 import time
 import base64
 import re
+import os
 from datetime import datetime, timedelta, timezone
+
+ARCHIVE_DIR = "archive"
 
 def make_request(url):
     """Make authenticated request if token available."""
@@ -168,9 +171,93 @@ def main():
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
+    archive_data(output)
+    generate_pulse_story(daily, weekly, monthly)
+
     deltas_daily = sum(1 for r in daily[:20] if r.get("delta", 0) > 0)
     deltas_weekly = sum(1 for r in weekly[:20] if r.get("delta", 0) > 0)
     print(f"Done: {len(daily)} daily ({deltas_daily} with delta), {len(weekly)} weekly ({deltas_weekly} with delta), {len(monthly)} monthly", file=sys.stderr)
+
+
+def archive_data(data):
+    """Save snapshot to archive directory for historical tracking."""
+    if not os.path.exists(ARCHIVE_DIR):
+        os.makedirs(ARCHIVE_DIR)
+    date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    archive_file = os.path.join(ARCHIVE_DIR, f"data-{date_str}.json")
+    with open(archive_file, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f"Archived to {archive_file}", file=sys.stderr)
+
+
+def load_yesterday_data():
+    """Load yesterday's archived data for trend comparison."""
+    yesterday = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%d")
+    archive_file = os.path.join(ARCHIVE_DIR, f"data-{yesterday}.json")
+    try:
+        with open(archive_file, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return None
+
+
+def compute_language_trends(daily, yesterday_data):
+    """Compute language popularity changes vs yesterday."""
+    if not yesterday_data:
+        return []
+    today_langs = {}
+    yesterday_langs = {}
+    for r in daily:
+        lang = r.get("language")
+        if lang and lang != "—":
+            today_langs[lang] = today_langs.get(lang, 0) + 1
+    for r in yesterday_data.get("daily", []):
+        lang = r.get("language")
+        if lang and lang != "—":
+            yesterday_langs[lang] = yesterday_langs.get(lang, 0) + 1
+    trends = []
+    all_langs = set(today_langs.keys()) | set(yesterday_langs.keys())
+    for lang in all_langs:
+        today_count = today_langs.get(lang, 0)
+        yesterday_count = yesterday_langs.get(lang, 0)
+        change = today_count - yesterday_count
+        if change != 0:
+            trends.append({
+                "language": lang,
+                "today": today_count,
+                "change": change,
+                "direction": "up" if change > 0 else "down"
+            })
+    trends.sort(key=lambda x: abs(x["change"]), reverse=True)
+    return trends[:5]
+
+
+def generate_pulse_story(daily, weekly, monthly):
+    """Generate pulse story data for the frontend."""
+    yesterday_data = load_yesterday_data()
+    lang_trends = compute_language_trends(daily, yesterday_data)
+    top_repo = daily[0] if daily else None
+    total_stars = sum(r.get("stars", 0) for r in daily[:10])
+    rising_repos = [r for r in daily if r.get("delta", 0) > 100][:3]
+    story = {
+        "date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+        "top_repo": {
+            "name": top_repo["name"] if top_repo else None,
+            "description": top_repo.get("description", "")[:100] if top_repo else "",
+            "stars": top_repo.get("stars", 0) if top_repo else 0,
+            "url": top_repo.get("url", "") if top_repo else ""
+        } if top_repo else None,
+        "hot_languages": lang_trends,
+        "rising_stars": total_stars,
+        "rising_repos": [
+            {"name": r["name"], "delta": r.get("delta", 0), "url": r.get("url", "")}
+            for r in rising_repos
+        ] if rising_repos else None
+    }
+    story_file = os.path.join(ARCHIVE_DIR, "pulse-story.json")
+    with open(story_file, "w", encoding="utf-8") as f:
+        json.dump(story, f, ensure_ascii=False, indent=2)
+    print(f"Generated pulse story", file=sys.stderr)
 
 if __name__ == "__main__":
     main()

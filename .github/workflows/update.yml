@@ -29,7 +29,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git diff --quiet data.json && echo "No changes" && exit 0
-          git add data.json
-          git commit -m "data: update trending $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git push
+          git add data.json archive/
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "data: update trending $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

@@ -1,0 +1,59 @@
+{
+  "date": "2026-05-12",
+  "top_repo": {
+    "name": "RadianceToadAmend/Roblox-Script-Debugger-Developer-Console",
+    "description": "Lua script debugging console for Roblox Studio developers",
+    "stars": 272,
+    "url": "https://github.com/RadianceToadAmend/Roblox-Script-Debugger-Developer-Console"
+  },
+  "hot_languages": [
+    {
+      "language": "TypeScript",
+      "today": 8,
+      "change": 3,
+      "direction": "up"
+    },
+    {
+      "language": "Python",
+      "today": 6,
+      "change": 1,
+      "direction": "up"
+    },
+    {
+      "language": "JavaScript",
+      "today": 4,
+      "change": -2,
+      "direction": "down"
+    },
+    {
+      "language": "Go",
+      "today": 3,
+      "change": 2,
+      "direction": "up"
+    },
+    {
+      "language": "Rust",
+      "today": 2,
+      "change": -1,
+      "direction": "down"
+    }
+  ],
+  "rising_stars": 2847,
+  "rising_repos": [
+    {
+      "name": "Longbridges/polymarket-kalshi-arbitrage-bot",
+      "delta": 158,
+      "url": "https://github.com/Longbridges/polymarket-kalshi-arbitrage-bot"
+    },
+    {
+      "name": "RadianceToadAmend/Roblox-Script-Debugger-Developer-Console",
+      "delta": 272,
+      "url": "https://github.com/RadianceToadAmend/Roblox-Script-Debugger-Developer-Console"
+    },
+    {
+      "name": "some-amazing-project",
+      "delta": 186,
+      "url": "https://github.com/some-amazing-project"
+    }
+  ]
+}

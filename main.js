@@ -64,7 +64,12 @@ const T={zh:{
 'no-results':'没有匹配的仓库',
 'last-update':'最后更新',
 'next-update':'下次更新',
-'updating-soon':'即将更新'
+'updating-soon':'即将更新',
+'pulse-story-title':'今日开源脉搏',
+'pulse-top-repo':'今日最热',
+'pulse-trends':'语言趋势',
+'pulse-rising':'飙升项目',
+'no-pulse-story':'暂无脉搏故事'
 },en:{
 'meta-title':'GitPulse — Open Source Pulse, Beating in Real Time',
 'meta-desc':'Track the hottest GitHub projects worldwide. Auto-updated every 6 hours. Apple-grade dark design, zero-dependency static pages. Feel the heartbeat of open source.',
@@ -130,7 +135,12 @@ const T={zh:{
 'no-results':'No repos match your filters',
 'last-update':'Last update',
 'next-update':'Next update',
-'updating-soon':'Updating soon'
+'updating-soon':'Updating soon',
+'pulse-story-title':"Today's Open Source Pulse",
+'pulse-top-repo':'Today\'s Hot',
+'pulse-trends':'Language Trends',
+'pulse-rising':'Rising Projects',
+'no-pulse-story':'No pulse story available'
 }};
 
 let currentLang='zh';
@@ -415,6 +425,62 @@ document.addEventListener('visibilitychange', () => {
 // ─── Dynamic Data from data.json ───
 const LC={Python:'#3572A5',TypeScript:'#3178c6',JavaScript:'#f1e05a',Rust:'#dea584',Go:'#00ADD8',Swift:'#F05138',Kotlin:'#A97BFF',HTML:'#e34c26',Vue:'#41b883',Java:'#b07219',Shell:'#89e051',Dart:'#00B4AB',Ruby:'#701516',CSS:'#563d7c',C:'#8e8e93','C++':'#f34b7d','C#':'#178600',Zig:'#ec915c',Scala:'#c22d40',Elixir:'#6e4a7e',Haskell:'#5e5086',Lua:'#000080',Julia:'#9558b2',R:'#198ce7',PHP:'#4F5D95',Dockerfile:'#384d54',MDX:'#fcb32c',Svelte:'#ff3e00',Astro:'#ff5a03',Solidity:'#AA6746',Nix:'#7e7eff',Clojure:'#5881d8',OCaml:'#3be133',Erlang:'#B83998',Perl:'#0298c3',Makefile:'#427819',CMake:'#DA3434',PowerShell:'#012456',Batchfile:'#C1F12E',HCL:'#583BBA',Json:'#292929',YAML:'#cb171e',Markdown:'#083fa1',Jupyter:'#DA5B0B','Jupyter Notebook':'#DA5B0B',TSX:'#3178c6',JSX:'#f1e05a',Processing:'#0096D8',Vala:'#a56de2',Crystal:'#000100',Elm:'#60B5CC',Racket:'#3c5caa',Groovy:'#4298b8',Haxe:'#df7900',Objective_C:'#438eff','Objective-C':'#438eff',Nim:'#ffc200',Reason:'#ff5847',PureScript:'#1D222D',Hack:'#878787',Inno_Setup:'#264b99',Smarty:'#f3c035',VBA:'#867db1',Roff:'#ecdebe',Emacs_Lisp:'#c065db','Emacs Lisp':'#c065db',Vim_Script:'#199f4b','Vim Script':'#199f4b',Tcl:'#e4cc98',Smalltalk:'#596706',CoffeeScript:'#244776',SCSS:'#c6538c',Less:'#1d365d',Stylus:'#ff6347',GLSL:'#808080',HLSL:'#aace60',ShaderLab:'#DEC91A',Matlab:'#e16737',TeX:'#3D6117',PLpgSQL:'#336790',PLSQL:'#dad8d8',ColdFusion:'#ed2cd6',ActionScript:'#882B0F',Assembly:'#6E4C13',Fortran:'#4d41b1',Pascal:'#B0CE4E',Ada:'#02f88c',COBOL:'#025078',ABAP:'#E8274B',FSharp:'#b845fc','F#':'#b845fc',Lean:'#222222',Idris:'#b80000',Coq:'#d0b68c',Agda:'#315665',Verilog:'#b2b7f8',SystemVerilog:'#DAE1C2',VHDL:'#adb2cb',AutoHotkey:'#6594b0',SAS:'#B34936',Stata:'#1ab3ff',WebAssembly:'#654ff0',GDScript:'#355570',CMake:'#DA3434',Raku:'#0000fb',MoonScript:'#ff7f50',Earthly:'#2af0ff',Jsonnet:'#0064bd',Puppet:'#302B6D',Cucumber:'#23d96c',RobotFramework:'#00c8b4',Dhall:'#dfafff',ANTLR:'#9DC53D',OpenSCAD:'#e8ce2f',Handlebars:'#f0772b',ReasonML:'#ff5847',Fennel:'#fff3d7',Janet:'#0886a5',Zig:'#ec915c',Mojo:'#FF4C00'};
 
+async function loadPulseStory(){
+  try{
+    const r=await fetch('archive/pulse-story.json');
+    if(!r.ok)throw new Error('No pulse story');
+    const story=await r.json();
+    renderPulseStory(story);
+  }catch(e){
+    const section=document.getElementById('pulse-story');
+    if(section)section.style.display='none';
+  }
+}
+
+function renderPulseStory(story){
+  const section=document.getElementById('pulse-story');
+  if(!section||!story)return;
+  section.style.display='block';
+
+  if(story.top_repo){
+    const topName=document.getElementById('pulse-top-name');
+    const topStars=document.getElementById('pulse-top-stars');
+    const topDesc=document.getElementById('pulse-top-desc');
+    if(topName)topName.textContent=story.top_repo.name||'';
+    if(topStars)topStars.textContent=story.top_repo.stars>=1000?(story.top_repo.stars/1000).toFixed(1)+'k':story.top_repo.stars;
+    if(topDesc)topDesc.textContent=story.top_repo.description||'';
+  }
+
+  const trendsList=document.getElementById('pulse-trends-list');
+  if(trendsList&&story.hot_languages&&story.hot_languages.length){
+    trendsList.innerHTML=story.hot_languages.map(lang=>{
+      const color=LC[lang.language]||'#8E8E93';
+      const arrow=lang.direction==='up'?'↑':'↓';
+      return '<div class="pulse-trend-item">'
+        +'<span class="pulse-trend-lang">'
+        +'<span class="pulse-trend-dot" style="background:'+color+'"></span>'
+        +lang.language
+        +'</span>'
+        +'<span class="pulse-trend-change '+lang.direction+'">'+arrow+' '+Math.abs(lang.change)+'</span>'
+        +'</div>';
+    }).join('');
+  }
+
+  const risingList=document.getElementById('pulse-rising-list');
+  if(risingList&&story.rising_repos&&story.rising_repos.length){
+    risingList.innerHTML=story.rising_repos.map(repo=>{
+      const parts=repo.name.split('/');
+      const shortName=parts[parts.length-1]||repo.name;
+      return '<a class="pulse-rising-item" href="'+repo.url+'" target="_blank" rel="noopener">'
+        +'<span class="pulse-rising-name">'+shortName+'</span>'
+        +'<span class="pulse-rising-delta">+'+repo.delta+'</span>'
+        +'</a>';
+    }).join('');
+  }else if(risingList){
+    risingList.innerHTML='<div class="no-results">'+t('no-pulse-story')+'</div>';
+  }
+}
+
 (async()=>{
   try{
     const r=await fetch('data.json');
@@ -423,6 +489,8 @@ const LC={Python:'#3572A5',TypeScript:'#3178c6',JavaScript:'#f1e05a',Rust:'#dea5
     const all=[...(DATA.daily||[]),...(DATA.weekly||[]),...(DATA.monthly||[])];
 
     initUpdateStatus(DATA.updated || DATA.updated_at);
+
+    loadPulseStory();
 
     // Hide loading skeleton
     const skel=document.getElementById('repo-skeleton');
