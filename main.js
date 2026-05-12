@@ -69,7 +69,10 @@ const T={zh:{
 'pulse-top-repo':'今日最热',
 'pulse-trends':'语言趋势',
 'pulse-rising':'飙升项目',
-'no-pulse-story':'暂无脉搏故事'
+'no-pulse-story':'暂无脉搏故事',
+'trend-flow-title':'趋势之流',
+'trend-flow-sub':'观察技术浪潮的涌动，预测下一波热潮的方向。',
+'trend-insight-default':'根据今日数据分析，<strong>TypeScript</strong> 和 <strong>Python</strong> 正引领技术潮流。'
 },en:{
 'meta-title':'GitPulse — Open Source Pulse, Beating in Real Time',
 'meta-desc':'Track the hottest GitHub projects worldwide. Auto-updated every 6 hours. Apple-grade dark design, zero-dependency static pages. Feel the heartbeat of open source.',
@@ -140,7 +143,10 @@ const T={zh:{
 'pulse-top-repo':'Today\'s Hot',
 'pulse-trends':'Language Trends',
 'pulse-rising':'Rising Projects',
-'no-pulse-story':'No pulse story available'
+'no-pulse-story':'No pulse story available',
+'trend-flow-title':'Trend Flow',
+'trend-flow-sub':'Watch the currents of technology surge. Predict the next wave.',
+'trend-insight-default':'Based on today\'s data, <strong>TypeScript</strong> and <strong>Python</strong> are leading the tech wave.'
 }};
 
 let currentLang='zh';
@@ -481,6 +487,157 @@ function renderPulseStory(story){
   }
 }
 
+const TREND_COLORS=['#3178c6','#3572A5','#f1e05a','#dea584','#00ADD8','#41b883','#F05138'];
+
+function initTrendFlow(DATA){
+  const canvas=document.getElementById('trend-flow-canvas');
+  const legend=document.getElementById('trend-flow-legend');
+  const insight=document.getElementById('trend-insight-text');
+  if(!canvas)return;
+
+  const ctx=canvas.getContext('2d');
+  const dpr=window.devicePixelRatio||1;
+  let animId;
+  let particles=[];
+  let offset=0;
+
+  function resize(){
+    const rect=canvas.getBoundingClientRect();
+    canvas.width=rect.width*dpr;
+    canvas.height=rect.height*dpr;
+    ctx.scale(dpr,dpr);
+  }
+  resize();
+  window.addEventListener('resize',resize);
+
+  const langs={};
+  DATA.daily.forEach(r=>{
+    if(r.language&&r.language!=='—')langs[r.language]=(langs[r.language]||0)+1;
+  });
+  const sorted=Object.entries(langs).sort((a,b)=>b[1]-a[1]).slice(0,7);
+  const topLangs=sorted.map(([name],i)=>({name,color:LC[name]||TREND_COLORS[i%TREND_COLORS.length]}));
+
+  if(legend){
+    legend.innerHTML=topLangs.map(l=>'<div class="trend-legend-item">'
+      +'<span class="trend-legend-dot" style="background:'+l.color+'"></span>'
+      +l.name
+      +'</div>').join('');
+  }
+
+  if(insight){
+    const topLang=topLangs[0];
+    const secondLang=topLangs[1];
+    if(topLang&&secondLang){
+      insight.innerHTML=t('trend-insight-default')
+        .replace('<strong>TypeScript</strong>','<strong>'+topLang.name+'</strong>')
+        .replace('<strong>Python</strong>','<strong>'+secondLang.name+'</strong>');
+    }else{
+      insight.innerHTML=t('trend-insight-default');
+    }
+  }
+
+  function createParticles(){
+    particles=[];
+    const rect=canvas.getBoundingClientRect();
+    const w=rect.width;
+    const h=rect.height;
+    for(let i=0;i<60;i++){
+      particles.push({
+        x:Math.random()*w,
+        y:h*0.3+Math.random()*h*0.5,
+        size:2+Math.random()*3,
+        speedX:0.3+Math.random()*0.5,
+        speedY:(Math.random()-0.5)*0.3,
+        color:topLangs[Math.floor(Math.random()*topLangs.length)].color,
+        alpha:0.3+Math.random()*0.5,
+        wave:Math.random()*Math.PI*2
+      });
+    }
+  }
+  createParticles();
+
+  function drawTrendFlow(){
+    const rect=canvas.getBoundingClientRect();
+    const w=rect.width;
+    const h=rect.height;
+    ctx.clearRect(0,0,w,h);
+
+    ctx.strokeStyle='rgba(255,255,255,0.03)';
+    ctx.lineWidth=1;
+    for(let x=0;x<w;x+=40){
+      ctx.beginPath();
+      ctx.moveTo(x,0);
+      ctx.lineTo(x,h);
+      ctx.stroke();
+    }
+    for(let y=0;y<h;y+=40){
+      ctx.beginPath();
+      ctx.moveTo(0,y);
+      ctx.lineTo(w,y);
+      ctx.stroke();
+    }
+
+    ctx.lineWidth=2;
+    for(let i=0;i<topLangs.length;i++){
+      const lang=topLangs[i];
+      ctx.strokeStyle=lang.color;
+      ctx.globalAlpha=0.6;
+      ctx.beginPath();
+      for(let x=0;x<w;x++){
+        const y=h*0.3+(i*h*0.08)
+          +Math.sin((x+offset)*0.02+i)*15
+          +Math.sin((x+offset)*0.01)*10;
+        if(x===0)ctx.moveTo(x,y);
+        else ctx.lineTo(x,y);
+      }
+      ctx.stroke();
+    }
+
+    particles.forEach(p=>{
+      p.x+=p.speedX;
+      p.y+=p.speedY+Math.sin(p.wave+offset*0.02)*0.3;
+      p.wave+=0.02;
+      if(p.x>w+10)p.x=-10;
+      if(p.y<0)p.y=h;
+      if(p.y>h)p.y=0;
+
+      ctx.globalAlpha=p.alpha;
+      ctx.fillStyle=p.color;
+      ctx.beginPath();
+      ctx.arc(p.x,p.y,p.size,0,Math.PI*2);
+      ctx.fill();
+
+      ctx.globalAlpha=p.alpha*0.3;
+      ctx.beginPath();
+      ctx.arc(p.x,p.y,p.size*3,0,Math.PI*2);
+      ctx.fill();
+    });
+
+    ctx.globalAlpha=1;
+    offset+=0.8;
+    animId=requestAnimationFrame(drawTrendFlow);
+  }
+
+  const flowSection=document.getElementById('trend-flow');
+  const flowObserver=new IntersectionObserver(entries=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){
+        drawTrendFlow();
+        flowObserver.unobserve(e.target);
+      }
+    });
+  },{threshold:0.2});
+  if(flowSection)flowObserver.observe(flowSection);
+
+  document.addEventListener('visibilitychange',()=>{
+    if(document.hidden){
+      cancelAnimationFrame(animId);
+    }else{
+      drawTrendFlow();
+    }
+  });
+}
+
 (async()=>{
   try{
     const r=await fetch('data.json');
@@ -491,6 +648,7 @@ function renderPulseStory(story){
     initUpdateStatus(DATA.updated || DATA.updated_at);
 
     loadPulseStory();
+    initTrendFlow(DATA);
 
     // Hide loading skeleton
     const skel=document.getElementById('repo-skeleton');
