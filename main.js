@@ -61,7 +61,10 @@ const T={zh:{
 'open-issues':'Open Issues',
 'view-gh':'前往 GitHub 查看 →',
 'filter-all':'全部',
-'no-results':'没有匹配的仓库'
+'no-results':'没有匹配的仓库',
+'last-update':'最后更新',
+'next-update':'下次更新',
+'updating-soon':'即将更新'
 },en:{
 'meta-title':'GitPulse — Open Source Pulse, Beating in Real Time',
 'meta-desc':'Track the hottest GitHub projects worldwide. Auto-updated every 6 hours. Apple-grade dark design, zero-dependency static pages. Feel the heartbeat of open source.',
@@ -124,11 +127,78 @@ const T={zh:{
 'open-issues':'Open Issues',
 'view-gh':'View on GitHub →',
 'filter-all':'All',
-'no-results':'No repos match your filters'
+'no-results':'No repos match your filters',
+'last-update':'Last update',
+'next-update':'Next update',
+'updating-soon':'Updating soon'
 }};
 
 let currentLang='zh';
 function t(key){return(T[currentLang]&&T[currentLang][key])||(T.en&&T.en[key])||key;}
+
+const UPDATE_INTERVAL=6*60*60*1000;
+const URGENT_THRESHOLD=30*60*1000;
+
+function initUpdateStatus(updatedAt){
+  const timeEl=document.getElementById('update-time');
+  const countdownEl=document.getElementById('update-countdown');
+  if(!timeEl||!countdownEl)return;
+
+  let lastUpdate=updatedAt?new Date(updatedAt):null;
+  if(!lastUpdate)lastUpdate=new Date();
+
+  function formatUpdateTime(date){
+    const locale=currentLang==='zh'?'zh-CN':'en-US';
+    return date.toLocaleString(locale,{
+      month:'short',
+      day:'numeric',
+      hour:'2-digit',
+      minute:'2-digit',
+      timeZoneName:'short'
+    });
+  }
+
+  function getNextUpdateTime(last){
+    const next=new Date(last);
+    const mins=next.getUTCMinutes();
+    const nextHour=Math.ceil(mins/6)*6;
+    next.setUTCMinutes(nextHour,0,0);
+    if(next<=new Date())next.setUTCHours(next.getUTCHours()+6);
+    return next;
+  }
+
+  function updateDisplay(){
+    if(!timeEl||!countdownEl)return;
+    timeEl.textContent=t('last-update')+': '+formatUpdateTime(lastUpdate);
+
+    const now=new Date();
+    const nextUpdate=getNextUpdateTime(lastUpdate);
+    const diff=nextUpdate-now;
+
+    if(diff<=0){
+      countdownEl.textContent=t('updating-soon');
+      countdownEl.className='update-countdown soon';
+    }else{
+      const hours=Math.floor(diff/3600000);
+      const mins=Math.floor((diff%3600000)/60000);
+      const secs=Math.floor((diff%60000)/1000);
+
+      if(hours>0){
+        countdownEl.textContent=t('next-update')+': '+hours+'h '+mins+'m';
+      }else if(mins>0){
+        countdownEl.textContent=t('next-update')+': '+mins+'m '+secs+'s';
+      }else{
+        countdownEl.textContent=t('next-update')+': '+secs+'s';
+      }
+
+      countdownEl.className=diff<URGENT_THRESHOLD?'update-countdown soon':'update-countdown';
+    }
+  }
+
+  updateDisplay();
+  setInterval(updateDisplay,1000);
+  window.__updateDisplay__=updateDisplay;
+}
 
 function applyLanguage(lang){
   currentLang=lang;
@@ -149,6 +219,9 @@ function applyLanguage(lang){
   const toggle=document.getElementById('lang-toggle');
   if(toggle)toggle.textContent=lang==='zh'?'En':'中';
   if(window.__DATA__&&typeof renderRepoList==='function')renderRepoList(window.__currentPeriod__||'daily');
+  if(window.__updateDisplay__){
+    window.__updateDisplay__();
+  }
 }
 
 (function(){
@@ -348,6 +421,8 @@ const LC={Python:'#3572A5',TypeScript:'#3178c6',JavaScript:'#f1e05a',Rust:'#dea5
     if(!r.ok)throw new Error('HTTP '+r.status);
     const DATA=await r.json();window.__DATA__=DATA;
     const all=[...(DATA.daily||[]),...(DATA.weekly||[]),...(DATA.monthly||[])];
+
+    initUpdateStatus(DATA.updated || DATA.updated_at);
 
     // Hide loading skeleton
     const skel=document.getElementById('repo-skeleton');

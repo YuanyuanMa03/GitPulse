@@ -65,6 +65,11 @@
   <h2 class="section-title" data-i18n="repo-title">实时仓库追踪</h2>
   <p class="section-sub" data-i18n="repo-sub">每日、每周、每月热门仓库一览。数据每 6 小时自动刷新。</p>
 </div>
+<div class="update-status reveal" id="update-status" style="transition-delay:0.05s">
+  <span class="pulse-indicator"></span>
+  <span class="update-time" id="update-time"></span>
+  <span class="update-countdown" id="update-countdown"></span>
+</div>
   <div class="search-wrap reveal" style="transition-delay:0.08s">
     <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
     <input type="text" class="search-input" id="repo-search" placeholder="搜索仓库名或描述…" data-i18n-placeholder="repo-search" autocomplete="off">
