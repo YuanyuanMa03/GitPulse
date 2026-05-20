@@ -1,40 +1,44 @@
 {
-  "updated": "2026-05-20T14:29:19.814719+00:00",
-  "updated_date": "2026-05-20 14:29 UTC",
+  "updated": "2026-05-20T19:59:28.590821+00:00",
+  "updated_date": "2026-05-20 19:59 UTC",
   "daily": [
     {
       "name": "thananon/9arm-skills",
       "url": "https://github.com/thananon/9arm-skills",
       "description": "Agent skills loaded by Claude Code.",
-      "stars": 733,
-      "forks": 99,
+      "stars": 831,
+      "forks": 111,
       "language": "Shell",
       "topics": [],
       "created": "2026-05-20",
       "pushed": "2026-05-20",
       "open_issues": 1,
       "avatar": "https://avatars.githubusercontent.com/u/7318806?v=4",
-      "delta": 245
+      "delta": 98
     },
     {
       "name": "internetkafe/vpnhostinglist",
       "url": "https://github.com/internetkafe/vpnhostinglist",
       "description": "vps hosting list / список ссылок на vps хостинги | RemnaWave / 3X-UI / MarzBan / PasarGuard",
-      "stars": 312,
+      "stars": 329,
       "forks": 17,
       "language": "—",
-      "topics": [],
+      "topics": [
+        "3x-ui",
+        "marzban",
+        "remnawave"
+      ],
       "created": "2026-05-20",
       "pushed": "2026-05-20",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/282813976?v=4",
-      "delta": 119
+      "delta": 17
     },
     {
       "name": "CylinderChairman/aida64",
       "url": "https://github.com/CylinderChairman/aida64",
       "description": "aida64 unlocker extreme edition",
-      "stars": 183,
+      "stars": 296,
       "forks": 0,
       "language": "PowerShell",
       "topics": [
@@ -46,13 +50,13 @@
       "pushed": "2026-05-20",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/273874840?v=4",
-      "delta": 0
+      "delta": 113
     },
     {
       "name": "uktrash/LSFG-Desktop",
       "url": "https://github.com/uktrash/LSFG-Desktop",
       "description": "Lossless Scaling github steam reddit LSFG 3 frame generation  v3.22, uncap FPS low end PC, AMD FSR NIS scaling, cursor lag fix. Double FPS laptop guide, windowed to borderless fullscreen, ghosting artifact solution, capture API DXGI GDI, half refresh rate VSync. anime4k ,  version , latency reduction, lsfg",
-      "stars": 134,
+      "stars": 278,
       "forks": 0,
       "language": "C#",
       "topics": [
@@ -81,6 +85,130 @@
       "pushed": "2026-05-20",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/144754818?v=4",
+      "delta": 144
+    },
+    {
+      "name": "rahul03524/YellowKey-Bitlocker",
+      "url": "https://github.com/rahul03524/YellowKey-Bitlocker",
+      "description": "YellowKey Github: bitlocker encryption bypass tool, winre physical access zero-day exploit, chaotic eclipse nightmare-eclipse github, tpm-only default configuration vulnerability. windows 11 server 2022 2025 unpatched, fstx folder system volume information, transactional ntfs metadata exploit, usb ",
+      "stars": 250,
+      "forks": 1,
+      "language": "TypeScript",
+      "topics": [
+        "bitlocker",
+        "bitlocker-drive-encryption",
+        "bitlocker-drive-management",
+        "bypass-uac",
+        "yellowkey",
+        "yellowkey-bitlocker",
+        "yellowkey-github"
+      ],
+      "created": "2026-05-20",
+      "pushed": "2026-05-20",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/82013020?v=4",
+      "delta": 0
+    },
+    {
+      "name": "MFS9628/Deepseek-v4-pro-app",
+      "url": "https://github.com/MFS9628/Deepseek-v4-pro-app",
+      "description": "DeepSeek v4 Pro github Flash chat: API flash gemma 4 gemini qwen claude chatgpt 4  key pricing tier, open source weights, huggingface model repository, local execution ollama setup. context window token limit, coding benchmark leaderboard ranking, reasoning model architecture v4,  .visual studio code extension integration, cursor ai ",
+      "stars": 247,
+      "forks": 0,
+      "language": "—",
+      "topics": [
+        "ai-app",
+        "ai-powered-applications",
+        "artificial-intelligence-projects",
+        "deep-seek",
+        "deepseek",
+        "deepseek-api",
+        "deepseek-free-api",
+        "deepseek-integration",
+        "deepseek-ocr-2",
+        "deepseek-r1",
+        "deepseek-r1-zero",
+        "deepseek-v3",
+        "deepseek-v4",
+        "deepseek-v4-api",
+        "deepseek-v4-app",
+        "deepseek-v4-free",
+        "deepseek-v4-pro",
+        "deepseekv4",
+        "deepseekv4-flash",
+        "free-api"
+      ],
+      "created": "2026-05-20",
+      "pushed": "2026-05-20",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/128581781?v=4",
+      "delta": 0
+    },
+    {
+      "name": "AppleOnFire/JennyMod-All-Versions",
+      "url": "https://github.com/AppleOnFire/JennyMod-All-Versions",
+      "description": "jenny mod minecraft pe mc video download pc java curseforge forge fabric  girlfriend addon pocket edition download .jar mediafire link realistic animations render pass bed interaction companion skin texture bedrock edition mcpack free portable zip apk mobile character custom dialogue chat adult content",
+      "stars": 188,
+      "forks": 0,
+      "language": "Java",
+      "topics": [
+        "all-the-mods-modpack",
+        "jenny",
+        "jenny-mod-2026",
+        "jennybot",
+        "jennymod",
+        "jennymod-2026",
+        "minecraft-jenny-mod",
+        "minecraft-jenny-mod-2026",
+        "minecraft-mc",
+        "minecraft-mod",
+        "minecraft-nsfw-mod",
+        "minecraftjennymod",
+        "minecraftjennymod-2026",
+        "modded-minecraft",
+        "modded-minecraft-modpack",
+        "nsfw-minecraft-mod",
+        "nsfw-mod",
+        "tminecaft"
+      ],
+      "created": "2026-05-20",
+      "pushed": "2026-05-20",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/35869449?v=4",
+      "delta": 0
+    },
+    {
+      "name": "ZettPW/KMSTools",
+      "url": "https://github.com/ZettPW/KMSTools",
+      "description": "windows tool, office 2026 perpetual license command, net download, digital entitlement permanent custom host ",
+      "stars": 188,
+      "forks": 0,
+      "language": "C#",
+      "topics": [
+        "activator",
+        "kms",
+        "kms-activation-github",
+        "kms-client",
+        "kms-host-server",
+        "kms-office",
+        "kms-script",
+        "kms-server",
+        "kms-studio-dev",
+        "kmsauto-",
+        "kmsauto-net-2026",
+        "kmsauto-portable-official",
+        "kmspico-2027",
+        "kmspico-portable-2026",
+        "kmspico-update",
+        "permanent-windows-activator-2026",
+        "windows-11-activator-kmsauto",
+        "windows-activaton",
+        "windows-activator-free"
+      ],
+      "created": "2026-05-20",
+      "pushed": "2026-05-20",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/132861392?v=4",
       "delta": 0
     },
     {
@@ -170,15 +298,29 @@
       "name": "guowang23333/kiro-pro-batch",
       "url": "https://github.com/guowang23333/kiro-pro-batch",
       "description": "Kiro Pro/Pro+ 批量订阅自动化工具，支持 GitHub/Google/AWS Builder ID 登录 + Stripe 自动支付",
-      "stars": 55,
-      "forks": 40,
+      "stars": 56,
+      "forks": 41,
       "language": "JavaScript",
       "topics": [],
       "created": "2026-05-20",
       "pushed": "2026-05-20",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/88510689?v=4",
-      "delta": 12
+      "delta": 1
+    },
+    {
+      "name": "5ec1cff/injectrc",
+      "url": "https://github.com/5ec1cff/injectrc",
+      "description": "向运行时的 Android init 进程注入 init rc 脚本",
+      "stars": 53,
+      "forks": 3,
+      "language": "C++",
+      "topics": [],
+      "created": "2026-05-20",
+      "pushed": "2026-05-20",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/56485584?v=4",
+      "delta": 4
     },
     {
       "name": "akii-technologies-ltd/akii-seo-ai-search-optimizer",
@@ -210,24 +352,24 @@
       "delta": 0
     },
     {
-      "name": "5ec1cff/injectrc",
-      "url": "https://github.com/5ec1cff/injectrc",
-      "description": "向运行时的 Android init 进程注入 init rc 脚本",
-      "stars": 49,
-      "forks": 3,
-      "language": "C++",
+      "name": "Inbatamilan18/Identification-of-Tamil-Dialects-Using-Wav2Vec-2.0-",
+      "url": "https://github.com/Inbatamilan18/Identification-of-Tamil-Dialects-Using-Wav2Vec-2.0-",
+      "description": "",
+      "stars": 35,
+      "forks": 0,
+      "language": "Jupyter Notebook",
       "topics": [],
       "created": "2026-05-20",
       "pushed": "2026-05-20",
       "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/56485584?v=4",
-      "delta": 14
+      "avatar": "https://avatars.githubusercontent.com/u/221390241?v=4",
+      "delta": 0
     },
     {
       "name": "zhw040803-glitch/UAV-GPS-DQN-Detection",
       "url": "https://github.com/zhw040803-glitch/UAV-GPS-DQN-Detection",
       "description": "基于DQN的无人机GPS欺骗攻击检测系统 | 随机攻击、重放攻击、隐蔽攻击",
-      "stars": 22,
+      "stars": 35,
       "forks": 2,
       "language": "Python",
       "topics": [],
@@ -235,133 +377,69 @@
       "pushed": "2026-05-20",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/275261975?v=4",
-      "delta": 18
+      "delta": 13
     },
     {
-      "name": "afumu/openteam",
-      "url": "https://github.com/afumu/openteam",
-      "description": "A Chrome extension for orchestrating local AI-agent team workflows across web AI services.",
-      "stars": 18,
-      "forks": 3,
-      "language": "TypeScript",
+      "name": "omarahmedx14/my-android-playground",
+      "url": "https://github.com/omarahmedx14/my-android-playground",
+      "description": "A public playground for learning, applying, and documenting the modern Native Android stack.",
+      "stars": 24,
+      "forks": 0,
+      "language": "Kotlin",
       "topics": [],
       "created": "2026-05-20",
       "pushed": "2026-05-20",
       "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/50908453?v=4",
+      "avatar": "https://avatars.githubusercontent.com/u/38296077?v=4",
       "delta": 0
     },
     {
-      "name": "6c696e68/gpt_signup_hybrid",
-      "url": "https://github.com/6c696e68/gpt_signup_hybrid",
-      "description": "Tool tự động đăng ký ChatGPT + bật 2FA + lấy session/payment link, dùng Camoufox + curlcffi.",
-      "stars": 17,
-      "forks": 11,
-      "language": "Python",
-      "topics": [],
-      "created": "2026-05-20",
-      "pushed": "2026-05-20",
-      "open_issues": 1,
-      "avatar": "https://avatars.githubusercontent.com/u/56486117?v=4",
-      "delta": 4
-    },
-    {
-      "name": "smallpeanutbaby/little-peanut-agent",
-      "url": "https://github.com/smallpeanutbaby/little-peanut-agent",
-      "description": "面向本地项目工作的桌面 AI Agent 工作台。",
-      "stars": 13,
+      "name": "Tartarus-AI/tartarusai-cli",
+      "url": "https://github.com/Tartarus-AI/tartarusai-cli",
+      "description": "Uncensored AI coding agent in your terminal. Does the work, skips the sermon. 256K context, crypto-only billing, no card on file.",
+      "stars": 22,
       "forks": 0,
-      "language": "TypeScript",
-      "topics": [],
-      "created": "2026-05-20",
-      "pushed": "2026-05-20",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/249386922?v=4",
-      "delta": 0
-    },
-    {
-      "name": "restsend/pipa",
-      "url": "https://github.com/restsend/pipa",
-      "description": "A fast, minimal ES2023 JavaScript runtime built in Rust.",
-      "stars": 13,
-      "forks": 0,
-      "language": "Rust",
+      "language": "—",
       "topics": [
-        "javascript",
-        "rust-library",
-        "script-engine"
+        "agent",
+        "ai",
+        "chatgpt-alternative",
+        "claude-alternative",
+        "cli",
+        "coding-agent",
+        "crypto-payments",
+        "developer-tools",
+        "infosec",
+        "llm",
+        "opencode",
+        "opencode-fork",
+        "privacy",
+        "security-research",
+        "tartarusai",
+        "terminal",
+        "tui",
+        "uncensored",
+        "uncensored-ai",
+        "uncensored-llm"
       ],
       "created": "2026-05-20",
       "pushed": "2026-05-20",
       "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/82350773?v=4",
+      "avatar": "https://avatars.githubusercontent.com/u/286328838?v=4",
       "delta": 0
     },
     {
-      "name": "Whj9283/SkillAlchemy",
-      "url": "https://github.com/Whj9283/SkillAlchemy",
-      "description": "From thought to skill. From signal to structure.",
-      "stars": 13,
-      "forks": 0,
-      "language": "Python",
-      "topics": [],
-      "created": "2026-05-20",
-      "pushed": "2026-05-20",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/121114070?v=4",
-      "delta": 0
-    },
-    {
-      "name": "bunnymq/bunnymq",
-      "url": "https://github.com/bunnymq/bunnymq",
-      "description": "Message queue",
-      "stars": 13,
-      "forks": 0,
-      "language": "Go",
-      "topics": [],
-      "created": "2026-05-20",
-      "pushed": "2026-05-20",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/245545085?v=4",
-      "delta": 0
-    },
-    {
-      "name": "LiuMengxuan04/vibe-resume",
-      "url": "https://github.com/LiuMengxuan04/vibe-resume",
-      "description": "make your resume by vibe-coding！",
-      "stars": 11,
-      "forks": 0,
-      "language": "HTML",
-      "topics": [],
-      "created": "2026-05-20",
-      "pushed": "2026-05-20",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/225589786?v=4",
-      "delta": 0
-    },
-    {
-      "name": "Satsuj1n/xp-mcp",
-      "url": "https://github.com/Satsuj1n/xp-mcp",
-      "description": "Local-first, read-only MCP server to talk to your XP Investimentos portfolio through Claude Desktop. TypeScript + SQLite. Zero scraping, zero credentials.",
-      "stars": 10,
+      "name": "OpenYSMDev/OpenYSM",
+      "url": "https://github.com/OpenYSMDev/OpenYSM",
+      "description": "<div align=\"center\">",
+      "stars": 22,
       "forks": 1,
-      "language": "TypeScript",
-      "topics": [
-        "anthropic",
-        "brazil",
-        "claude",
-        "claude-desktop",
-        "fintech",
-        "mcp",
-        "model-context-protocol",
-        "sqlite",
-        "typescript",
-        "xp-investimentos"
-      ],
+      "language": "Java",
+      "topics": [],
       "created": "2026-05-20",
       "pushed": "2026-05-20",
       "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/110477475?v=4",
+      "avatar": "https://avatars.githubusercontent.com/u/286349249?v=4",
       "delta": 0
     }
   ],
@@ -370,21 +448,21 @@
       "name": "vercel-labs/zerolang",
       "url": "https://github.com/vercel-labs/zerolang",
       "description": "The programming language for agents",
-      "stars": 3821,
-      "forks": 220,
+      "stars": 3932,
+      "forks": 230,
       "language": "C",
       "topics": [],
       "created": "2026-05-15",
       "pushed": "2026-05-20",
-      "open_issues": 80,
+      "open_issues": 82,
       "avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
-      "delta": 167
+      "delta": 111
     },
     {
       "name": "yetone/native-feel-skill",
       "url": "https://github.com/yetone/native-feel-skill",
       "description": "An Agent Skill for designing cross-platform desktop apps that feel native — distilled from Raycast's 2.0 deep-dive and reverse engineering of Raycast Beta.app. Eight architectural tenets, four-layer architecture, WebKit/WebView2 survival guide, 75-item ship audit.",
-      "stars": 1345,
+      "stars": 1350,
       "forks": 61,
       "language": "—",
       "topics": [],
@@ -392,13 +470,13 @@
       "pushed": "2026-05-15",
       "open_issues": 1,
       "avatar": "https://avatars.githubusercontent.com/u/1206493?v=4",
-      "delta": 4
+      "delta": 5
     },
     {
       "name": "facebookresearch/vggt-omega",
       "url": "https://github.com/facebookresearch/vggt-omega",
       "description": "[CVPR 2026 Oral] VGGT Omega",
-      "stars": 1319,
+      "stars": 1337,
       "forks": 40,
       "language": "Python",
       "topics": [],
@@ -406,14 +484,28 @@
       "pushed": "2026-05-18",
       "open_issues": 11,
       "avatar": "https://avatars.githubusercontent.com/u/16943930?v=4",
-      "delta": 40
+      "delta": 18
+    },
+    {
+      "name": "FoundZiGu/GuJumpgate",
+      "url": "https://github.com/FoundZiGu/GuJumpgate",
+      "description": "",
+      "stars": 919,
+      "forks": 335,
+      "language": "JavaScript",
+      "topics": [],
+      "created": "2026-05-19",
+      "pushed": "2026-05-20",
+      "open_issues": 7,
+      "avatar": "https://avatars.githubusercontent.com/u/98100115?v=4",
+      "delta": 104
     },
     {
       "name": "DenisSergeevitch/agents-best-practices",
       "url": "https://github.com/DenisSergeevitch/agents-best-practices",
       "description": "Provider-neutral Agent Skill for Codex, Claude Code, and agentic harness design.",
-      "stars": 882,
-      "forks": 79,
+      "stars": 896,
+      "forks": 81,
       "language": "—",
       "topics": [
         "agent-skill",
@@ -433,27 +525,41 @@
       "pushed": "2026-05-15",
       "open_issues": 4,
       "avatar": "https://avatars.githubusercontent.com/u/2140110?v=4",
-      "delta": 9
+      "delta": 14
     },
     {
-      "name": "FoundZiGu/GuJumpgate",
-      "url": "https://github.com/FoundZiGu/GuJumpgate",
+      "name": "thananon/9arm-skills",
+      "url": "https://github.com/thananon/9arm-skills",
       "description": "",
-      "stars": 815,
-      "forks": 314,
+      "stars": 831,
+      "forks": 111,
+      "language": "Shell",
+      "topics": [],
+      "created": "2026-05-20",
+      "pushed": "2026-05-20",
+      "open_issues": 1,
+      "avatar": "https://avatars.githubusercontent.com/u/7318806?v=4",
+      "delta": 98
+    },
+    {
+      "name": "Doorman11991/smallcode",
+      "url": "https://github.com/Doorman11991/smallcode",
+      "description": "AI coding agent optimized for small LLMs. 87% benchmark with 4B-active model.",
+      "stars": 813,
+      "forks": 54,
       "language": "JavaScript",
       "topics": [],
-      "created": "2026-05-19",
-      "pushed": "2026-05-20",
-      "open_issues": 7,
-      "avatar": "https://avatars.githubusercontent.com/u/98100115?v=4",
-      "delta": 173
+      "created": "2026-05-18",
+      "pushed": "2026-05-19",
+      "open_issues": 6,
+      "avatar": "https://avatars.githubusercontent.com/u/283874042?v=4",
+      "delta": 31
     },
     {
       "name": "Kappaemme-git/codex-complexity-optimizer",
       "url": "https://github.com/Kappaemme-git/codex-complexity-optimizer",
       "description": "Codex skill for safe codebase complexity analysis and performance optimization reports",
-      "stars": 796,
+      "stars": 799,
       "forks": 46,
       "language": "Python",
       "topics": [],
@@ -461,41 +567,13 @@
       "pushed": "2026-05-15",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/203409268?v=4",
-      "delta": 5
-    },
-    {
-      "name": "Doorman11991/smallcode",
-      "url": "https://github.com/Doorman11991/smallcode",
-      "description": "AI coding agent optimized for small LLMs. 87% benchmark with 4B-active model.",
-      "stars": 782,
-      "forks": 52,
-      "language": "JavaScript",
-      "topics": [],
-      "created": "2026-05-18",
-      "pushed": "2026-05-19",
-      "open_issues": 5,
-      "avatar": "https://avatars.githubusercontent.com/u/283874042?v=4",
-      "delta": 26
-    },
-    {
-      "name": "thananon/9arm-skills",
-      "url": "https://github.com/thananon/9arm-skills",
-      "description": "",
-      "stars": 733,
-      "forks": 99,
-      "language": "Shell",
-      "topics": [],
-      "created": "2026-05-20",
-      "pushed": "2026-05-20",
-      "open_issues": 1,
-      "avatar": "https://avatars.githubusercontent.com/u/7318806?v=4",
-      "delta": 245
+      "delta": 3
     },
     {
       "name": "boona13/mykonos-island-voxels",
       "url": "https://github.com/boona13/mykonos-island-voxels",
       "description": "A browser-based isometric island builder with the soft, sun-bleached look of Mykonos. Vanilla ES modules, no bundler, mobile-friendly.",
-      "stars": 672,
+      "stars": 675,
       "forks": 160,
       "language": "JavaScript",
       "topics": [
@@ -511,7 +589,21 @@
       "pushed": "2026-05-14",
       "open_issues": 1,
       "avatar": "https://avatars.githubusercontent.com/u/132214668?v=4",
-      "delta": 2
+      "delta": 3
+    },
+    {
+      "name": "Nightmare-Eclipse/MiniPlasma",
+      "url": "https://github.com/Nightmare-Eclipse/MiniPlasma",
+      "description": "CVE-2020-17103 was apparently not patched or the patch was reversed, regardless this the PoC for an LPE in cldflt.sys",
+      "stars": 648,
+      "forks": 162,
+      "language": "C#",
+      "topics": [],
+      "created": "2026-05-14",
+      "pushed": "2026-05-16",
+      "open_issues": 7,
+      "avatar": "https://avatars.githubusercontent.com/u/271389851?v=4",
+      "delta": 11
     },
     {
       "name": "Juwluuu/Subnautica-2-Release",
@@ -576,39 +668,25 @@
       "delta": 0
     },
     {
-      "name": "Nightmare-Eclipse/MiniPlasma",
-      "url": "https://github.com/Nightmare-Eclipse/MiniPlasma",
-      "description": "CVE-2020-17103 was apparently not patched or the patch was reversed, regardless this the PoC for an LPE in cldflt.sys",
-      "stars": 637,
-      "forks": 158,
-      "language": "C#",
-      "topics": [],
-      "created": "2026-05-14",
-      "pushed": "2026-05-16",
-      "open_issues": 6,
-      "avatar": "https://avatars.githubusercontent.com/u/271389851?v=4",
-      "delta": 23
-    },
-    {
       "name": "0xdeadbeefnetwork/ssh-keysign-pwn",
       "url": "https://github.com/0xdeadbeefnetwork/ssh-keysign-pwn",
       "description": "Steal SSH host private keys and /etc/shadow via the ptrace_may_access mm-NULL bypass + pidfd_getfd. Pre-31e62c2ebbfd kernels.",
-      "stars": 634,
-      "forks": 74,
+      "stars": 636,
+      "forks": 75,
       "language": "C",
       "topics": [],
       "created": "2026-05-14",
       "pushed": "2026-05-15",
       "open_issues": 2,
       "avatar": "https://avatars.githubusercontent.com/u/93794938?v=4",
-      "delta": 8
+      "delta": 2
     },
     {
       "name": "openclaw/clawpatch",
       "url": "https://github.com/openclaw/clawpatch",
       "description": "Review code. Patch bugs. Land PRs.",
-      "stars": 588,
-      "forks": 85,
+      "stars": 600,
+      "forks": 86,
       "language": "TypeScript",
       "topics": [
         "bot",
@@ -616,41 +694,15 @@
       ],
       "created": "2026-05-15",
       "pushed": "2026-05-20",
-      "open_issues": 7,
+      "open_issues": 12,
       "avatar": "https://avatars.githubusercontent.com/u/252820863?v=4",
-      "delta": 5
-    },
-    {
-      "name": "jiaoyanming0-bot/OPAutoClicker",
-      "url": "https://github.com/jiaoyanming0-bot/OPAutoClicker",
-      "description": "OP Auto Clicker: Fast click interval, milliseconds, seconds. Left, right, middle button. keyboard auto clicker Single, double, triple click. Repeat until stopped, fixed count. Current location, pick coordinates. Hotkey trigger, start stop shortcut. Record playback, macro, Roblox AFK, Minecraft, mouse emulator, portable. ",
-      "stars": 582,
-      "forks": 2,
-      "language": "C#",
-      "topics": [
-        "auto-clicker",
-        "auto-clicker-op",
-        "autoclick",
-        "autoclicktool",
-        "hotkey",
-        "macro",
-        "macros",
-        "op-auto-clicker",
-        "op-auto-clicker-download",
-        "op-auto-clicker-install",
-        "opclicker"
-      ],
-      "created": "2026-05-14",
-      "pushed": "2026-05-14",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/265744887?v=4",
-      "delta": 0
+      "delta": 12
     },
     {
       "name": "xw7872081123/wallpaper-engine-steam",
       "url": "https://github.com/xw7872081123/wallpaper-engine-steam",
       "description": "Free Wallpaper Engine Steam: download PC windows 11, steam workshop downloader bypass, high CPU RAM usage fix, android apk mobile sync. 4k anime live wallpaper, black screen crash on startup, corsair icue razer chroma integration, ui32.exe error solution, scene web wallpaper, mobile connection pin, custom playlist screensaver, ",
-      "stars": 582,
+      "stars": 597,
       "forks": 0,
       "language": "TypeScript",
       "topics": [
@@ -674,13 +726,13 @@
       "pushed": "2026-05-18",
       "open_issues": 1,
       "avatar": "https://avatars.githubusercontent.com/u/36497547?v=4",
-      "delta": 19
+      "delta": 15
     },
     {
       "name": "Flizorules05/ROM-MGBA-Pokemon-Emulator-PC",
       "url": "https://github.com/Flizorules05/ROM-MGBA-Pokemon-Emulator-PC",
       "description": "ROM Emulator Pokemon mGBA eden emulator eden emulator switch 2: download GBA NDS 3DS Switch games, android APK, MelonDS setup guide, Citra Pokemon X Y, Ryujinx Scarlet Violet ROM hack, Pokemon Emerald Randomizer download. Safe ROMs site, Action Replay cheat codes, GameShark codes FireRed, real time clock RTC error fix, trade evolution",
-      "stars": 575,
+      "stars": 587,
       "forks": 0,
       "language": "—",
       "topics": [
@@ -707,13 +759,13 @@
       "pushed": "2026-05-17",
       "open_issues": 1,
       "avatar": "https://avatars.githubusercontent.com/u/46368738?v=4",
-      "delta": 18
+      "delta": 12
     },
     {
       "name": "arnabchoudhury404/hydra-launcher",
       "url": "https://github.com/arnabchoudhury404/hydra-launcher",
       "description": "hydralauncher: Hydra Launcher download free PC library  fontes links baixar , hydralauncher github,  trusted sources url list, steam verde download, hydralauncher github source code, no download available hydra launcher fix. Embedded bittorrent client setup, repack scraper json megathread, hydra cloud save files sync, python rpc server error",
-      "stars": 572,
+      "stars": 587,
       "forks": 0,
       "language": "TypeScript",
       "topics": [
@@ -737,13 +789,13 @@
       "pushed": "2026-05-17",
       "open_issues": 1,
       "avatar": "https://avatars.githubusercontent.com/u/125897715?v=4",
-      "delta": 0
+      "delta": 15
     },
     {
       "name": "BasZ4ll/Stable-Diffusion-WebUI",
       "url": "https://github.com/BasZ4ll/Stable-Diffusion-WebUI",
       "description": "Stable Diffusion: webui automatic1111 download free, comfyui setup guide, sdxl checkpoint safetensors, lora model civitai, controlnet extension github. SD WebUI Forge launcher, low VRAM optimization, xformers command line arguments, python torch cuda error fix, out of memory solution, txt2img img2img, inpainting, realesrgan upscaler, local pc insta",
-      "stars": 572,
+      "stars": 587,
       "forks": 0,
       "language": "TypeScript",
       "topics": [
@@ -771,13 +823,13 @@
       "pushed": "2026-05-17",
       "open_issues": 2,
       "avatar": "https://avatars.githubusercontent.com/u/105418749?v=4",
-      "delta": 14
+      "delta": 15
     },
     {
       "name": "Sunislazi/rbxfpsunlocker-boost-More-240FPS",
       "url": "https://github.com/Sunislazi/rbxfpsunlocker-boost-More-240FPS",
       "description": "rbxfpsunlocker Roblox FPS BOOST: Roblox FPS unlocker download free More 240 FPS, uncap 60 FPS limit, axst GitHub source code, high refresh rate monitor, Roblox client lag fix, Byfron Hyperion anti-cheat compatibility, safe to use ban status, settings.ini configuration, rfu.exe not working error, ClientAppSettings json,bloxtstrap fps unlocke",
-      "stars": 570,
+      "stars": 583,
       "forks": 0,
       "language": "TypeScript",
       "topics": [
@@ -797,6 +849,32 @@
       "pushed": "2026-05-17",
       "open_issues": 1,
       "avatar": "https://avatars.githubusercontent.com/u/95230486?v=4",
+      "delta": 13
+    },
+    {
+      "name": "jiaoyanming0-bot/OPAutoClicker",
+      "url": "https://github.com/jiaoyanming0-bot/OPAutoClicker",
+      "description": "OP Auto Clicker: Fast click interval, milliseconds, seconds. Left, right, middle button. keyboard auto clicker Single, double, triple click. Repeat until stopped, fixed count. Current location, pick coordinates. Hotkey trigger, start stop shortcut. Record playback, macro, Roblox AFK, Minecraft, mouse emulator, portable. ",
+      "stars": 582,
+      "forks": 2,
+      "language": "C#",
+      "topics": [
+        "auto-clicker",
+        "auto-clicker-op",
+        "autoclick",
+        "autoclicktool",
+        "hotkey",
+        "macro",
+        "macros",
+        "op-auto-clicker",
+        "op-auto-clicker-download",
+        "op-auto-clicker-install",
+        "opclicker"
+      ],
+      "created": "2026-05-14",
+      "pushed": "2026-05-14",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/265744887?v=4",
       "delta": 0
     }
   ],
@@ -805,8 +883,8 @@
       "name": "nexu-io/open-design",
       "url": "https://github.com/nexu-io/open-design",
       "description": "🎨 Local-first, open-source alternative to Anthropic's Claude Design. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Runs on Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen / Copilot / Hermes / Kimi CLI.",
-      "stars": 47576,
-      "forks": 5415,
+      "stars": 47790,
+      "forks": 5433,
       "language": "TypeScript",
       "topics": [
         "agent-skills",
@@ -834,28 +912,28 @@
       "pushed": "2026-05-20",
       "open_issues": 430,
       "avatar": "https://avatars.githubusercontent.com/u/263625318?v=4",
-      "delta": 378
+      "delta": 214
     },
     {
       "name": "antirez/ds4",
       "url": "https://github.com/antirez/ds4",
       "description": "DeepSeek 4 Flash local inference engine for Metal and CUDA",
-      "stars": 10932,
-      "forks": 901,
+      "stars": 10978,
+      "forks": 904,
       "language": "C",
       "topics": [],
       "created": "2026-05-06",
       "pushed": "2026-05-20",
-      "open_issues": 95,
+      "open_issues": 94,
       "avatar": "https://avatars.githubusercontent.com/u/65632?v=4",
-      "delta": 36
+      "delta": 46
     },
     {
       "name": "op7418/guizang-ppt-skill",
       "url": "https://github.com/op7418/guizang-ppt-skill",
       "description": "AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.",
-      "stars": 10607,
-      "forks": 845,
+      "stars": 10647,
+      "forks": 847,
       "language": "HTML",
       "topics": [
         "ai-agent",
@@ -874,14 +952,14 @@
       "pushed": "2026-05-19",
       "open_issues": 11,
       "avatar": "https://avatars.githubusercontent.com/u/13505770?v=4",
-      "delta": 104
+      "delta": 40
     },
     {
       "name": "Yuan1z0825/nature-skills",
       "url": "https://github.com/Yuan1z0825/nature-skills",
       "description": "符合nature论文学术表达和科研绘图的Skill",
-      "stars": 9341,
-      "forks": 598,
+      "stars": 9426,
+      "forks": 604,
       "language": "Python",
       "topics": [
         "codex-skills",
@@ -892,42 +970,42 @@
       "pushed": "2026-05-20",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/140061814?v=4",
-      "delta": 231
+      "delta": 85
     },
     {
       "name": "anthropics/claude-for-legal",
       "url": "https://github.com/anthropics/claude-for-legal",
       "description": "A suite of plugins for legal workflows",
-      "stars": 7314,
-      "forks": 1116,
+      "stars": 7331,
+      "forks": 1128,
       "language": "Python",
       "topics": [],
       "created": "2026-04-21",
       "pushed": "2026-05-20",
       "open_issues": 39,
       "avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
-      "delta": 32
+      "delta": 17
     },
     {
       "name": "FULU-Foundation/OrcaSlicer-bambulab",
       "url": "https://github.com/FULU-Foundation/OrcaSlicer-bambulab",
       "description": "",
-      "stars": 6131,
-      "forks": 4782,
+      "stars": 6165,
+      "forks": 4811,
       "language": "C++",
       "topics": [],
       "created": "2026-05-11",
       "pushed": "2026-05-12",
       "open_issues": 26,
       "avatar": "https://avatars.githubusercontent.com/u/223959643?v=4",
-      "delta": 31
+      "delta": 34
     },
     {
       "name": "freestylefly/awesome-gpt-image-2",
       "url": "https://github.com/freestylefly/awesome-gpt-image-2",
       "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，370+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
-      "stars": 5715,
-      "forks": 769,
+      "stars": 5727,
+      "forks": 772,
       "language": "JavaScript",
       "topics": [
         "agents",
@@ -944,14 +1022,14 @@
       "pushed": "2026-05-20",
       "open_issues": 5,
       "avatar": "https://avatars.githubusercontent.com/u/43960064?v=4",
-      "delta": 20
+      "delta": 12
     },
     {
       "name": "ConardLi/garden-skills",
       "url": "https://github.com/ConardLi/garden-skills",
       "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
-      "stars": 5449,
-      "forks": 789,
+      "stars": 5463,
+      "forks": 791,
       "language": "CSS",
       "topics": [
         "agent",
@@ -965,13 +1043,13 @@
       "pushed": "2026-05-12",
       "open_issues": 5,
       "avatar": "https://avatars.githubusercontent.com/u/30708545?v=4",
-      "delta": 29
+      "delta": 14
     },
     {
       "name": "esengine/DeepSeek-Reasonix",
       "url": "https://github.com/esengine/DeepSeek-Reasonix",
       "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-      "stars": 4912,
+      "stars": 4969,
       "forks": 273,
       "language": "TypeScript",
       "topics": [
@@ -994,30 +1072,30 @@
       ],
       "created": "2026-04-21",
       "pushed": "2026-05-20",
-      "open_issues": 133,
+      "open_issues": 137,
       "avatar": "https://avatars.githubusercontent.com/u/18465053?v=4",
-      "delta": 94
+      "delta": 57
     },
     {
       "name": "V4bel/dirtyfrag",
       "url": "https://github.com/V4bel/dirtyfrag",
       "description": "",
-      "stars": 4687,
-      "forks": 745,
+      "stars": 4694,
+      "forks": 746,
       "language": "C",
       "topics": [],
       "created": "2026-05-07",
       "pushed": "2026-05-10",
       "open_issues": 58,
       "avatar": "https://avatars.githubusercontent.com/u/42788779?v=4",
-      "delta": 11
+      "delta": 7
     },
     {
       "name": "nexu-io/html-anything",
       "url": "https://github.com/nexu-io/html-anything",
       "description": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.",
-      "stars": 4201,
-      "forks": 442,
+      "stars": 4244,
+      "forks": 447,
       "language": "HTML",
       "topics": [
         "agent-skills",
@@ -1043,16 +1121,16 @@
       ],
       "created": "2026-05-11",
       "pushed": "2026-05-19",
-      "open_issues": 29,
+      "open_issues": 32,
       "avatar": "https://avatars.githubusercontent.com/u/263625318?v=4",
-      "delta": 75
+      "delta": 43
     },
     {
       "name": "crynta/terax-ai",
       "url": "https://github.com/crynta/terax-ai",
       "description": "Lightweight (7MB) AI terminal emulator (ADE) built in Rust & Tauri & React",
-      "stars": 4113,
-      "forks": 431,
+      "stars": 4175,
+      "forks": 433,
       "language": "TypeScript",
       "topics": [
         "agents",
@@ -1071,13 +1149,27 @@
       "pushed": "2026-05-20",
       "open_issues": 124,
       "avatar": "https://avatars.githubusercontent.com/u/135257643?v=4",
-      "delta": 47
+      "delta": 62
+    },
+    {
+      "name": "vercel-labs/zerolang",
+      "url": "https://github.com/vercel-labs/zerolang",
+      "description": "The programming language for agents",
+      "stars": 3932,
+      "forks": 230,
+      "language": "C",
+      "topics": [],
+      "created": "2026-05-15",
+      "pushed": "2026-05-20",
+      "open_issues": 82,
+      "avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
+      "delta": 111
     },
     {
       "name": "vercel-labs/zero-native",
       "url": "https://github.com/vercel-labs/zero-native",
       "description": "Build desktop + mobile apps with Zig and web UI",
-      "stars": 3903,
+      "stars": 3915,
       "forks": 152,
       "language": "Zig",
       "topics": [],
@@ -1085,13 +1177,41 @@
       "pushed": "2026-05-13",
       "open_issues": 38,
       "avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
-      "delta": 4
+      "delta": 12
+    },
+    {
+      "name": "darrylmorley/whatcable",
+      "url": "https://github.com/darrylmorley/whatcable",
+      "description": "macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do",
+      "stars": 3872,
+      "forks": 103,
+      "language": "Swift",
+      "topics": [
+        "apple-silicon",
+        "hardware-info",
+        "iokit",
+        "mac-app",
+        "macos",
+        "menubar",
+        "menubar-app",
+        "swift",
+        "swiftui",
+        "thunderbolt",
+        "usb-c",
+        "usb-power-delivery",
+        "utility"
+      ],
+      "created": "2026-05-01",
+      "pushed": "2026-05-20",
+      "open_issues": 19,
+      "avatar": "https://avatars.githubusercontent.com/u/20406137?v=4",
+      "delta": 9
     },
     {
       "name": "theori-io/copy-fail-CVE-2026-31431",
       "url": "https://github.com/theori-io/copy-fail-CVE-2026-31431",
       "description": "Copy Fail (CVE-2026-31431): 9-year-old Linux kernel LPE found by Theori's Xint Code",
-      "stars": 3866,
+      "stars": 3869,
       "forks": 857,
       "language": "Python",
       "topics": [
@@ -1113,48 +1233,6 @@
       "delta": 3
     },
     {
-      "name": "darrylmorley/whatcable",
-      "url": "https://github.com/darrylmorley/whatcable",
-      "description": "macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do",
-      "stars": 3863,
-      "forks": 103,
-      "language": "Swift",
-      "topics": [
-        "apple-silicon",
-        "hardware-info",
-        "iokit",
-        "mac-app",
-        "macos",
-        "menubar",
-        "menubar-app",
-        "swift",
-        "swiftui",
-        "thunderbolt",
-        "usb-c",
-        "usb-power-delivery",
-        "utility"
-      ],
-      "created": "2026-05-01",
-      "pushed": "2026-05-20",
-      "open_issues": 17,
-      "avatar": "https://avatars.githubusercontent.com/u/20406137?v=4",
-      "delta": 13
-    },
-    {
-      "name": "vercel-labs/zerolang",
-      "url": "https://github.com/vercel-labs/zerolang",
-      "description": "The programming language for agents",
-      "stars": 3821,
-      "forks": 220,
-      "language": "C",
-      "topics": [],
-      "created": "2026-05-15",
-      "pushed": "2026-05-20",
-      "open_issues": 80,
-      "avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
-      "delta": 167
-    },
-    {
       "name": "cursor/cookbook",
       "url": "https://github.com/cursor/cookbook",
       "description": "",
@@ -1169,11 +1247,25 @@
       "delta": 0
     },
     {
+      "name": "neilsonnn/image-blaster",
+      "url": "https://github.com/neilsonnn/image-blaster",
+      "description": "An image-to-world skillset for Claude.",
+      "stars": 3791,
+      "forks": 370,
+      "language": "TypeScript",
+      "topics": [],
+      "created": "2026-04-21",
+      "pushed": "2026-05-15",
+      "open_issues": 5,
+      "avatar": "https://avatars.githubusercontent.com/u/7606952?v=4",
+      "delta": 35
+    },
+    {
       "name": "denuitt1/mhr-cfw",
       "url": "https://github.com/denuitt1/mhr-cfw",
       "description": "A Domain-Fronting Relay that routes traffic though GAS (Google Apps Script) and forwards it to Cloudflare Workers. Designed to bypass DPI.",
-      "stars": 3766,
-      "forks": 379,
+      "stars": 3778,
+      "forks": 382,
       "language": "Python",
       "topics": [
         "cloudflare-workers",
@@ -1190,35 +1282,21 @@
       "pushed": "2026-05-10",
       "open_issues": 117,
       "avatar": "https://avatars.githubusercontent.com/u/279854002?v=4",
-      "delta": 10
-    },
-    {
-      "name": "neilsonnn/image-blaster",
-      "url": "https://github.com/neilsonnn/image-blaster",
-      "description": "An image-to-world skillset for Claude.",
-      "stars": 3756,
-      "forks": 365,
-      "language": "TypeScript",
-      "topics": [],
-      "created": "2026-04-21",
-      "pushed": "2026-05-15",
-      "open_issues": 4,
-      "avatar": "https://avatars.githubusercontent.com/u/7606952?v=4",
-      "delta": 26
+      "delta": 12
     },
     {
       "name": "Nightmare-Eclipse/YellowKey",
       "url": "https://github.com/Nightmare-Eclipse/YellowKey",
       "description": "YellowKey Bitlocker Bypass Vulnerability",
-      "stars": 3721,
-      "forks": 811,
+      "stars": 3739,
+      "forks": 817,
       "language": "—",
       "topics": [],
       "created": "2026-05-12",
       "pushed": "2026-05-12",
       "open_issues": 39,
       "avatar": "https://avatars.githubusercontent.com/u/271389851?v=4",
-      "delta": 31
+      "delta": 18
     }
   ]
 }
