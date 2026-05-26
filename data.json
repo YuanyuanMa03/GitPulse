@@ -1,7 +1,35 @@
 {
-  "updated": "2026-05-26T01:56:21.592679+00:00",
-  "updated_date": "2026-05-26 01:56 UTC",
+  "updated": "2026-05-26T09:31:00.995432+00:00",
+  "updated_date": "2026-05-26 09:31 UTC",
   "daily": [
+    {
+      "name": "SeemSeam/plan-tree",
+      "url": "https://github.com/SeemSeam/plan-tree",
+      "description": "Codex skill for maintaining structured planning document trees",
+      "stars": 30,
+      "forks": 4,
+      "language": "—",
+      "topics": [],
+      "created": "2026-05-26",
+      "pushed": "2026-05-26",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/29205273?v=4",
+      "delta": 0
+    },
+    {
+      "name": "deermiya/visio-skill",
+      "url": "https://github.com/deermiya/visio-skill",
+      "description": "这是一个 AI Agent 技能（Skill），通过调用本地 Visio COM 接口自动化生成或修改 Microsoft Visio .vsdx 图表文件。",
+      "stars": 14,
+      "forks": 1,
+      "language": "PowerShell",
+      "topics": [],
+      "created": "2026-05-26",
+      "pushed": "2026-05-26",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/49542403?v=4",
+      "delta": 0
+    },
     {
       "name": "vaamonde/ai-network-senac-tit",
       "url": "https://github.com/vaamonde/ai-network-senac-tit",
@@ -32,6 +60,52 @@
       "pushed": "2026-05-26",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/282046493?v=4",
+      "delta": 0
+    },
+    {
+      "name": "Shuo-Zheng/MML-FSAR",
+      "url": "https://github.com/Shuo-Zheng/MML-FSAR",
+      "description": "PyTorch implementation of Multi-stage Metric Learning with CLIP-based Adaptation for Few-shot Action Recognition.",
+      "stars": 11,
+      "forks": 0,
+      "language": "Python",
+      "topics": [],
+      "created": "2026-05-26",
+      "pushed": "2026-05-26",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/128965586?v=4",
+      "delta": 0
+    },
+    {
+      "name": "opencrewmanspigot/Unnamed-ESP",
+      "url": "https://github.com/opencrewmanspigot/Unnamed-ESP",
+      "description": "Player ESP for Roblox, fully undetectable, uses Synapse's built in drawing API",
+      "stars": 11,
+      "forks": 0,
+      "language": "—",
+      "topics": [
+        "download",
+        "software",
+        "windows"
+      ],
+      "created": "2026-05-26",
+      "pushed": "2026-05-26",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/282048853?v=4",
+      "delta": 0
+    },
+    {
+      "name": "baskduf/harness-starter-kit",
+      "url": "https://github.com/baskduf/harness-starter-kit",
+      "description": "Repo-native harness engineering starter kit for coding agents.",
+      "stars": 11,
+      "forks": 0,
+      "language": "Python",
+      "topics": [],
+      "created": "2026-05-26",
+      "pushed": "2026-05-26",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/20144414?v=4",
       "delta": 0
     },
     {
@@ -91,6 +165,63 @@
       "delta": 0
     },
     {
+      "name": "Roadplubastion/Enscape-cracked",
+      "url": "https://github.com/Roadplubastion/Enscape-cracked",
+      "description": "Enscape -- Real-time architectural visualization plugin for Revit, SketchUp, Rhino, ArchiCAD, and Vectorworks with ray tracing, VR walkthroughs, and asset library. Pro version with full features. Trial available. Compatible with Windows 10/11 (64-bit). Updated 2026.",
+      "stars": 9,
+      "forks": 0,
+      "language": "—",
+      "topics": [
+        "architectural-visualization",
+        "enscape",
+        "enscape-2026",
+        "enscape-4",
+        "pro-software-2026",
+        "real-time-rendering",
+        "trial-software",
+        "vr-walkthrough",
+        "windows-software-2026"
+      ],
+      "created": "2026-05-26",
+      "pushed": "2026-05-26",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/282048757?v=4",
+      "delta": 0
+    },
+    {
+      "name": "paraschopra/make-pages-interactive",
+      "url": "https://github.com/paraschopra/make-pages-interactive",
+      "description": "A Claude Code skill that turns any folder of static HTML pages into a live commenting surface. Highlight text, click an element, leave a note — the co…",
+      "stars": 9,
+      "forks": 4,
+      "language": "JavaScript",
+      "topics": [],
+      "created": "2026-05-26",
+      "pushed": "2026-05-26",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/762025?v=4",
+      "delta": 0
+    },
+    {
+      "name": "DesirePugilistGate/Linken-Sphere-2-Crack-2026",
+      "url": "https://github.com/DesirePugilistGate/Linken-Sphere-2-Crack-2026",
+      "description": "⭐️ Linken-Sphere-2 Proxy Tool | IP Rotator VPN | Multi-Account Manager | Web Scraping Automation | HTTP/HTTPS Tunneling | Bypass Geolocation Restrictions | Secure Anonymous Browsing | Enhanced Privacy Protection | Latest Build v2.5 2026 | Windows 10/11 PC | Full Version Pre-Activated ⭐️",
+      "stars": 9,
+      "forks": 0,
+      "language": "—",
+      "topics": [
+        "linken-sphere-2-crack",
+        "linken-sphere-2-full",
+        "linken-sphere-2-premium",
+        "linken-sphere-2-pro"
+      ],
+      "created": "2026-05-26",
+      "pushed": "2026-05-26",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/282048874?v=4",
+      "delta": 0
+    },
+    {
       "name": "rayrouteline20/eset-password-recovery",
       "url": "https://github.com/rayrouteline20/eset-password-recovery",
       "description": "Can read the lock password hash of the ESET AV form the registry and cracks it via bruteforce.",
@@ -133,6 +264,20 @@
       "pushed": "2026-05-26",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/282046993?v=4",
+      "delta": 0
+    },
+    {
+      "name": "Mdz-Bigdata/GraphRAGAgent",
+      "url": "https://github.com/Mdz-Bigdata/GraphRAGAgent",
+      "description": "基于知识图谱的检索增强生成（GraphRAG）智能问答系统，融合 MinerU 文档精准解析、LangExtract 实体抽取与 Agentic-RAG 问答，提供从文档上传到知识图谱构建再到智能问答的全链路能力。",
+      "stars": 9,
+      "forks": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "created": "2026-05-26",
+      "pushed": "2026-05-26",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/52431655?v=4",
       "delta": 0
     },
     {
@@ -212,225 +357,26 @@
       "delta": 0
     },
     {
-      "name": "Lacquervamystery/EaseUS-Todo-Backup-Home-Working",
-      "url": "https://github.com/Lacquervamystery/EaseUS-Todo-Backup-Home-Working",
-      "description": "easeus todo backup home 10 serial key, easeus todo backup home torrent, easeus todo backup 10 home, easeus tod backup home unable to complete, easeus todo backup home vs workstation, clone easeus todo backup home, easeus todo backup commercial trial or home, easeus todo backup home lifetime, review easeus todo backup home, easeus todo ba",
+      "name": "aurafhe/aura-sdk",
+      "url": "https://github.com/aurafhe/aura-sdk",
+      "description": "Install in 30 seconds. Start FHE computation from TypeScript, Go, Python, or CLI with the Aura SDK.",
       "stars": 9,
-      "forks": 0,
-      "language": "—",
+      "forks": 3,
+      "language": "TypeScript",
       "topics": [
-        "clone-easeus-todo-backup-home",
-        "doenload-easeus-todo-backup-home",
-        "easeus-tod-backup-home-unable-to-complete",
-        "easeus-todo-backup-10-home",
-        "easeus-todo-backup-commercial-trial-or-home",
-        "easeus-todo-backup-free-vs-home",
-        "easeus-todo-backup-home-10-key",
-        "easeus-todo-backup-home-10-not-working-now",
-        "easeus-todo-backup-home-10-serial-key",
-        "easeus-todo-backup-home-2022",
-        "easeus-todo-backup-home-key",
-        "easeus-todo-backup-home-lifetime",
-        "easeus-todo-backup-home-serial",
-        "easeus-todo-backup-home-torrent",
-        "easeus-todo-backup-home-vs-workstation",
-        "review-easeus-todo-backup-home"
+        "cli",
+        "cryptography",
+        "fhe",
+        "fully-homomorphic-encryption",
+        "go",
+        "python",
+        "sdk",
+        "typescript"
       ],
       "created": "2026-05-26",
       "pushed": "2026-05-26",
       "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/282048039?v=4",
-      "delta": 0
-    },
-    {
-      "name": "Mythicsutier/R-Studio-Data-Recovery-Crack-2026",
-      "url": "https://github.com/Mythicsutier/R-Studio-Data-Recovery-Crack-2026",
-      "description": "⭐️ R-Studio Data Recovery | File Recovery Software v9.4 | Setup Installer | Activation Key | License Key Pre-Activated | Full Version Serial | Latest Build Pro Updated | Restore Lost Data | Hard Drive Recovery | Disk Image Backup | Windows 10/11 PC | Direct Download Genuine x64 ⭐️",
-      "stars": 8,
-      "forks": 0,
-      "language": "—",
-      "topics": [
-        "introduction-to-r",
-        "r-programming-projects",
-        "r-studior-studios-dark-mode",
-        "rstudio",
-        "rstudio-addins",
-        "rstudio-rsession",
-        "rstudio-servers"
-      ],
-      "created": "2026-05-26",
-      "pushed": "2026-05-26",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/282046753?v=4",
-      "delta": 0
-    },
-    {
-      "name": "RouteSlugPeace/nova-backup-professional-2026",
-      "url": "https://github.com/RouteSlugPeace/nova-backup-professional-2026",
-      "description": "⭐️ Nova Backup Professional | Patched Repack Unlimited | Full Version 2026 | NovaBackup Imaging | Secure Restore ⭐️",
-      "stars": 8,
-      "forks": 0,
-      "language": "—",
-      "topics": [
-        "download",
-        "software",
-        "windows"
-      ],
-      "created": "2026-05-26",
-      "pushed": "2026-05-26",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/282046890?v=4",
-      "delta": 0
-    },
-    {
-      "name": "YarnCreator43/AOMEI-Partition-Assistant-Crack-2026",
-      "url": "https://github.com/YarnCreator43/AOMEI-Partition-Assistant-Crack-2026",
-      "description": "⭐️ AOMEI Partition Assistant 2026 | Disk Management Software | Partition Tool Setup Installer v9.0 | Keygen License Key | Activation Patch Pre-Activated | Full Version Pro Latest Build Download | Resize Clone Format Merge Split | Create Delete Backup Restore | Windows 10/11 PC Desktop ⭐️",
-      "stars": 8,
-      "forks": 0,
-      "language": "—",
-      "topics": [
-        "aomei-free-partition-assistant",
-        "aomei-partition-assistant",
-        "aomei-partition-assistant-boot",
-        "aomei-partition-assistant-cnet",
-        "aomei-partition-assistant-free",
-        "aomei-partition-assistant-full",
-        "aomei-partition-assistant-giveaway",
-        "aomei-partition-assistant-pirated",
-        "aomei-partition-assistant-pro",
-        "aomei-partition-assistant-review",
-        "commercial-license",
-        "partition-tools",
-        "server-edition"
-      ],
-      "created": "2026-05-26",
-      "pushed": "2026-05-26",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/282047453?v=4",
-      "delta": 0
-    },
-    {
-      "name": "Uploadpaforce/Alcohol-120-Activator-2026",
-      "url": "https://github.com/Uploadpaforce/Alcohol-120-Activator-2026",
-      "description": "⭐️ Alcohol 120 Activator 2026 | Setup Installer v3.0 | License Key Pre-Activated | Patch Loader Keygen | Full Version Serial | Latest Build Pro Updated | Get Desktop Working Windows 10/11 PC | Genuine Original x64 | Download Activator Tool for Alcohol 120% | Activate Software with Ease | Direct Installer Access ⭐️",
-      "stars": 8,
-      "forks": 0,
-      "language": "—",
-      "topics": [
-        "alcohol-120-download",
-        "alcohol-120-download-2026",
-        "alcohol120",
-        "alcohol120-2026",
-        "alcohol120-crack"
-      ],
-      "created": "2026-05-26",
-      "pushed": "2026-05-26",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/282045826?v=4",
-      "delta": 0
-    },
-    {
-      "name": "Legendarycluvilla21/Paragon-Hard-Disk-Manager-Free",
-      "url": "https://github.com/Legendarycluvilla21/Paragon-Hard-Disk-Manager-Free",
-      "description": "This repository offers a comprehensive collection of official resources, detailed guides, and reference materials for Paragon Hard Disk Manager on Windows PCs. It supports users in efficient disk management, backup, recovery, and system optimization tasks with clear, authorized documentation.",
-      "stars": 8,
-      "forks": 0,
-      "language": "—",
-      "topics": [
-        "disk-management-tool-windows",
-        "disk-partition-utility-windows",
-        "paragon-hard-disk-manager-cloning",
-        "paragon-hard-disk-manager-data-protection",
-        "paragon-hard-disk-manager-setup",
-        "paragon-hard-disk-manager-storage-tasks",
-        "paragon-hard-disk-manager-usage",
-        "paragon-hard-disk-manager-windows",
-        "paragon-hdd-manager-windows",
-        "partition-backup-windows",
-        "partition-cloning-windows",
-        "storage-management-software-windows",
-        "system-backup-utility-windows",
-        "windows-disk-cloning-tutorial",
-        "windows-hard-disk-manager",
-        "windows-partition-management-guide"
-      ],
-      "created": "2026-05-26",
-      "pushed": "2026-05-26",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/282046434?v=4",
-      "delta": 0
-    },
-    {
-      "name": "powerelephantrhythm/axcrypt-premium-2026",
-      "url": "https://github.com/powerelephantrhythm/axcrypt-premium-2026",
-      "description": "⭐️ Patched Repack Unlimited Full Version AxCryptPremium Ax CryptPremium AxCrypt 2026 | Unlimited Lifetime Premium AxCrypt Repack Encrypted | Full Secure AxCrypt Pro Download Protected | Unlimited Installer Encrypted AxCrypt Premium Key ⭐️",
-      "stars": 8,
-      "forks": 0,
-      "language": "—",
-      "topics": [
-        "download",
-        "software",
-        "windows"
-      ],
-      "created": "2026-05-26",
-      "pushed": "2026-05-26",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/282046295?v=4",
-      "delta": 0
-    },
-    {
-      "name": "MailPackerNeedle/Backup4all-Pro-Crack",
-      "url": "https://github.com/MailPackerNeedle/Backup4all-Pro-Crack",
-      "description": "Software repository — parsed from GitHub.",
-      "stars": 8,
-      "forks": 0,
-      "language": "—",
-      "topics": [
-        "download",
-        "software",
-        "windows"
-      ],
-      "created": "2026-05-26",
-      "pushed": "2026-05-26",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/282047359?v=4",
-      "delta": 0
-    },
-    {
-      "name": "zenseekerbulwark/MiniTool-ShadowMaker-Crack",
-      "url": "https://github.com/zenseekerbulwark/MiniTool-ShadowMaker-Crack",
-      "description": "Software repository — parsed from GitHub.",
-      "stars": 8,
-      "forks": 0,
-      "language": "—",
-      "topics": [
-        "download",
-        "software",
-        "windows"
-      ],
-      "created": "2026-05-26",
-      "pushed": "2026-05-26",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/282047160?v=4",
-      "delta": 0
-    },
-    {
-      "name": "Leveekeestate/Acronis-True-Image-Crack",
-      "url": "https://github.com/Leveekeestate/Acronis-True-Image-Crack",
-      "description": "Acronis True Image 28.2.2 Crack + Activation Key [Latest 2025]",
-      "stars": 8,
-      "forks": 0,
-      "language": "—",
-      "topics": [
-        "download",
-        "software",
-        "windows"
-      ],
-      "created": "2026-05-26",
-      "pushed": "2026-05-26",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/282047243?v=4",
+      "avatar": "https://avatars.githubusercontent.com/u/272085118?v=4",
       "delta": 0
     }
   ],
@@ -439,8 +385,8 @@
       "name": "perplexityai/bumblebee",
       "url": "https://github.com/perplexityai/bumblebee",
       "description": "Read-only developer endpoint scanner for on-disk package, extension, and developer-tool metadata, built to check exposure to known software supply-chain compromises.",
-      "stars": 2586,
-      "forks": 206,
+      "stars": 2703,
+      "forks": 213,
       "language": "Go",
       "topics": [
         "golang",
@@ -449,29 +395,43 @@
       ],
       "created": "2026-05-20",
       "pushed": "2026-05-24",
-      "open_issues": 16,
+      "open_issues": 17,
       "avatar": "https://avatars.githubusercontent.com/u/185426709?v=4",
-      "delta": 62
+      "delta": 117
     },
     {
       "name": "thananon/9arm-skills",
       "url": "https://github.com/thananon/9arm-skills",
       "description": "",
-      "stars": 2173,
-      "forks": 300,
+      "stars": 2291,
+      "forks": 317,
       "language": "Shell",
       "topics": [],
       "created": "2026-05-20",
       "pushed": "2026-05-20",
-      "open_issues": 2,
+      "open_issues": 3,
       "avatar": "https://avatars.githubusercontent.com/u/7318806?v=4",
-      "delta": 44
+      "delta": 118
+    },
+    {
+      "name": "joeseesun/wechat-radar",
+      "url": "https://github.com/joeseesun/wechat-radar",
+      "description": "微信聊天情报看板：聚合群聊信号、话题、链接和趋势",
+      "stars": 1103,
+      "forks": 4629,
+      "language": "TypeScript",
+      "topics": [],
+      "created": "2026-05-24",
+      "pushed": "2026-05-26",
+      "open_issues": 1,
+      "avatar": "https://avatars.githubusercontent.com/u/3236682?v=4",
+      "delta": 0
     },
     {
       "name": "open-gsd/get-shit-done-redux",
       "url": "https://github.com/open-gsd/get-shit-done-redux",
       "description": "Getting Shit Done, the Aftermath",
-      "stars": 859,
+      "stars": 941,
       "forks": 58,
       "language": "JavaScript",
       "topics": [
@@ -482,29 +442,29 @@
       ],
       "created": "2026-05-22",
       "pushed": "2026-05-26",
-      "open_issues": 96,
+      "open_issues": 121,
       "avatar": "https://avatars.githubusercontent.com/u/286935422?v=4",
-      "delta": 54
+      "delta": 82
     },
     {
       "name": "Tong89/smartNode",
       "url": "https://github.com/Tong89/smartNode",
       "description": "",
-      "stars": 708,
-      "forks": 60,
+      "stars": 856,
+      "forks": 77,
       "language": "Python",
       "topics": [],
       "created": "2026-05-21",
       "pushed": "2026-05-22",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/96812539?v=4",
-      "delta": 70
+      "delta": 148
     },
     {
       "name": "kageroumado/phosphene",
       "url": "https://github.com/kageroumado/phosphene",
       "description": "A video wallpaper engine for macOS Tahoe",
-      "stars": 673,
+      "stars": 680,
       "forks": 17,
       "language": "Swift",
       "topics": [
@@ -520,10 +480,38 @@
       "delta": 7
     },
     {
+      "name": "MoonshotAI/kimi-code",
+      "url": "https://github.com/MoonshotAI/kimi-code",
+      "description": "The Starting Point for Next-Gen Agents",
+      "stars": 639,
+      "forks": 40,
+      "language": "TypeScript",
+      "topics": [],
+      "created": "2026-05-22",
+      "pushed": "2026-05-26",
+      "open_issues": 23,
+      "avatar": "https://avatars.githubusercontent.com/u/129152888?v=4",
+      "delta": 128
+    },
+    {
+      "name": "run-liyi/wechatpay",
+      "url": "https://github.com/run-liyi/wechatpay",
+      "description": "微信账单分析工具 - 基于Electron的可视化账单分析应用",
+      "stars": 634,
+      "forks": 56,
+      "language": "JavaScript",
+      "topics": [],
+      "created": "2026-05-21",
+      "pushed": "2026-05-21",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/106264291?v=4",
+      "delta": 96
+    },
+    {
       "name": "0xSero/codex-shim",
       "url": "https://github.com/0xSero/codex-shim",
       "description": "Local Responses-API shim that exposes Factory BYOK models (and optional ChatGPT GPT-5.5 passthrough) to Codex Desktop.",
-      "stars": 593,
+      "stars": 614,
       "forks": 51,
       "language": "Python",
       "topics": [],
@@ -531,56 +519,28 @@
       "pushed": "2026-05-25",
       "open_issues": 2,
       "avatar": "https://avatars.githubusercontent.com/u/69639595?v=4",
-      "delta": 18
-    },
-    {
-      "name": "run-liyi/wechatpay",
-      "url": "https://github.com/run-liyi/wechatpay",
-      "description": "微信账单分析工具 - 基于Electron的可视化账单分析应用",
-      "stars": 538,
-      "forks": 45,
-      "language": "JavaScript",
-      "topics": [],
-      "created": "2026-05-21",
-      "pushed": "2026-05-21",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/106264291?v=4",
-      "delta": 41
-    },
-    {
-      "name": "MoonshotAI/kimi-code",
-      "url": "https://github.com/MoonshotAI/kimi-code",
-      "description": "The Starting Point for Next-Gen Agents",
-      "stars": 511,
-      "forks": 31,
-      "language": "TypeScript",
-      "topics": [],
-      "created": "2026-05-22",
-      "pushed": "2026-05-25",
-      "open_issues": 15,
-      "avatar": "https://avatars.githubusercontent.com/u/129152888?v=4",
-      "delta": 61
+      "delta": 21
     },
     {
       "name": "zhaoyue4810/pianke",
       "url": "https://github.com/zhaoyue4810/pianke",
       "description": "",
-      "stars": 400,
-      "forks": 90,
+      "stars": 415,
+      "forks": 95,
       "language": "Python",
       "topics": [],
       "created": "2026-05-22",
       "pushed": "2026-05-25",
-      "open_issues": 9,
+      "open_issues": 10,
       "avatar": "https://avatars.githubusercontent.com/u/33751004?v=4",
-      "delta": 8
+      "delta": 15
     },
     {
       "name": "Unclecheng-li/poc-lab",
       "url": "https://github.com/Unclecheng-li/poc-lab",
       "description": "Recent CVE PoC & reproduction scripts. Focused on high-severity vulnerabilities across Linux kernel, Windows, macOS and more.",
-      "stars": 364,
-      "forks": 66,
+      "stars": 372,
+      "forks": 70,
       "language": "C",
       "topics": [
         "c",
@@ -595,44 +555,28 @@
       "pushed": "2026-05-26",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/55303635?v=4",
-      "delta": 4
+      "delta": 8
     },
     {
       "name": "KNG7-P/Se7en-Pro",
       "url": "https://github.com/KNG7-P/Se7en-Pro",
       "description": "",
-      "stars": 352,
+      "stars": 366,
       "forks": 24,
       "language": "C#",
       "topics": [],
       "created": "2026-05-20",
       "pushed": "2026-05-25",
-      "open_issues": 6,
+      "open_issues": 7,
       "avatar": "https://avatars.githubusercontent.com/u/278600482?v=4",
-      "delta": 12
-    },
-    {
-      "name": "bonus-2026/casino-bonus",
-      "url": "https://github.com/bonus-2026/casino-bonus",
-      "description": "Casino Bonus guide featuring a $250 USD no deposit welcome reward for new users with promo code DROP. Explore crypto casino bonuses, cashback systems, welcome offers, and gaming platform features",
-      "stars": 347,
-      "forks": 2,
-      "language": "—",
-      "topics": [
-        "casino-bonus-2026"
-      ],
-      "created": "2026-05-23",
-      "pushed": "2026-05-23",
-      "open_issues": 1,
-      "avatar": "https://avatars.githubusercontent.com/u/287230973?v=4",
-      "delta": 0
+      "delta": 14
     },
     {
       "name": "ShinyaTomitsuka/arbitrage-trading-bot",
       "url": "https://github.com/ShinyaTomitsuka/arbitrage-trading-bot",
       "description": "polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot bot",
-      "stars": 299,
-      "forks": 2754,
+      "stars": 320,
+      "forks": 3238,
       "language": "TypeScript",
       "topics": [
         "arbitrage-bot",
@@ -646,49 +590,65 @@
       "pushed": "2026-05-22",
       "open_issues": 1,
       "avatar": "https://avatars.githubusercontent.com/u/51909060?v=4",
-      "delta": 4
+      "delta": 21
+    },
+    {
+      "name": "bonus-2026/casino-bonus",
+      "url": "https://github.com/bonus-2026/casino-bonus",
+      "description": "Casino Bonus guide featuring a $250 USD no deposit welcome reward for new users with promo code DROP. Explore crypto casino bonuses, cashback systems, welcome offers, and gaming platform features",
+      "stars": 300,
+      "forks": 2,
+      "language": "—",
+      "topics": [
+        "casino-bonus-2026"
+      ],
+      "created": "2026-05-23",
+      "pushed": "2026-05-23",
+      "open_issues": 1,
+      "avatar": "https://avatars.githubusercontent.com/u/287230973?v=4",
+      "delta": 0
     },
     {
       "name": "jianshuo/ccglass",
       "url": "https://github.com/jianshuo/ccglass",
       "description": "See what your coding agent (Claude Code, Codex, Kimi) sends to the model — local proxy + web dashboard",
-      "stars": 288,
+      "stars": 300,
       "forks": 19,
       "language": "JavaScript",
       "topics": [],
       "created": "2026-05-22",
       "pushed": "2026-05-25",
-      "open_issues": 1,
+      "open_issues": 2,
       "avatar": "https://avatars.githubusercontent.com/u/2012831?v=4",
-      "delta": 8
+      "delta": 12
     },
     {
-      "name": "mila89/polymarket-trading-bot",
-      "url": "https://github.com/mila89/polymarket-trading-bot",
-      "description": "Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot bot",
-      "stars": 282,
-      "forks": 3625,
+      "name": "md0070/polymarket-trading-bot",
+      "url": "https://github.com/md0070/polymarket-trading-bot",
+      "description": "polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot",
+      "stars": 295,
+      "forks": 4045,
       "language": "TypeScript",
       "topics": [
         "arbitrage-bot",
         "arbitrage-trading-bot",
-        "bot",
+        "polymarket-arbitrage-bot",
         "polymarket-arbitrage-trading-bot",
-        "polymarket-btc-arbitrage-bot",
+        "polymarket-bot",
         "polymarket-trading-bot",
         "trading-bot"
       ],
       "created": "2026-05-22",
       "pushed": "2026-05-22",
       "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/5033294?v=4",
-      "delta": 0
+      "avatar": "https://avatars.githubusercontent.com/u/49436704?v=4",
+      "delta": 22
     },
     {
       "name": "VILA-Lab/FigMirror",
       "url": "https://github.com/VILA-Lab/FigMirror",
       "description": "An Automated AI Agent Tool for Plotting Your Data in Any Paper's Figure Style.",
-      "stars": 281,
+      "stars": 294,
       "forks": 16,
       "language": "Python",
       "topics": [
@@ -710,80 +670,57 @@
       "pushed": "2026-05-25",
       "open_issues": 2,
       "avatar": "https://avatars.githubusercontent.com/u/101944607?v=4",
-      "delta": 6
+      "delta": 13
     },
     {
-      "name": "md0070/polymarket-trading-bot",
-      "url": "https://github.com/md0070/polymarket-trading-bot",
-      "description": "polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot",
-      "stars": 273,
-      "forks": 3813,
+      "name": "mila89/polymarket-trading-bot",
+      "url": "https://github.com/mila89/polymarket-trading-bot",
+      "description": "Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot bot",
+      "stars": 287,
+      "forks": 4098,
       "language": "TypeScript",
       "topics": [
         "arbitrage-bot",
         "arbitrage-trading-bot",
-        "polymarket-arbitrage-bot",
+        "bot",
         "polymarket-arbitrage-trading-bot",
-        "polymarket-bot",
+        "polymarket-btc-arbitrage-bot",
         "polymarket-trading-bot",
         "trading-bot"
       ],
       "created": "2026-05-22",
       "pushed": "2026-05-22",
-      "open_issues": 1,
-      "avatar": "https://avatars.githubusercontent.com/u/49436704?v=4",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/5033294?v=4",
+      "delta": 5
+    },
+    {
+      "name": "XingYu-Zhong/DeepSeek-GUI",
+      "url": "https://github.com/XingYu-Zhong/DeepSeek-GUI",
+      "description": "AI agent workspace for DeepSeek models, with Code and Claw modes built into your application.",
+      "stars": 285,
+      "forks": 16,
+      "language": "TypeScript",
+      "topics": [],
+      "created": "2026-05-21",
+      "pushed": "2026-05-26",
+      "open_issues": 2,
+      "avatar": "https://avatars.githubusercontent.com/u/42194301?v=4",
       "delta": 0
     },
     {
       "name": "yui540/comimi",
       "url": "https://github.com/yui540/comimi",
       "description": "Open-source comic reader library for JS/TS",
-      "stars": 272,
-      "forks": 6,
+      "stars": 278,
+      "forks": 7,
       "language": "TypeScript",
       "topics": [],
       "created": "2026-05-23",
       "pushed": "2026-05-25",
       "open_issues": 2,
       "avatar": "https://avatars.githubusercontent.com/u/12015279?v=4",
-      "delta": 0
-    },
-    {
-      "name": "judithsulfan/trading-bot",
-      "url": "https://github.com/judithsulfan/trading-bot",
-      "description": "polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot bot",
-      "stars": 270,
-      "forks": 2731,
-      "language": "TypeScript",
-      "topics": [
-        "arbitrage-bot",
-        "arbitrage-trading-bot",
-        "betting-strategy",
-        "bot",
-        "polymarket-arbitrage-trading-bot",
-        "polymarket-bot",
-        "polymarket-trading-bot",
-        "trading-bot"
-      ],
-      "created": "2026-05-21",
-      "pushed": "2026-05-22",
-      "open_issues": 1,
-      "avatar": "https://avatars.githubusercontent.com/u/73030680?v=4",
-      "delta": 0
-    },
-    {
-      "name": "unprovable/ShadowCat",
-      "url": "https://github.com/unprovable/ShadowCat",
-      "description": "Single file optical file transfer using a browser",
-      "stars": 268,
-      "forks": 19,
-      "language": "HTML",
-      "topics": [],
-      "created": "2026-05-22",
-      "pushed": "2026-05-22",
-      "open_issues": 5,
-      "avatar": "https://avatars.githubusercontent.com/u/13507514?v=4",
-      "delta": 0
+      "delta": 6
     }
   ],
   "monthly": [
@@ -791,8 +728,8 @@
       "name": "nexu-io/open-design",
       "url": "https://github.com/nexu-io/open-design",
       "description": "🎨 Local-first, open-source  Claude Design alternative. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Runs on Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen / Copilot / Hermes / Kimi CLI.",
-      "stars": 52141,
-      "forks": 5946,
+      "stars": 52495,
+      "forks": 5971,
       "language": "TypeScript",
       "topics": [
         "agent-skills",
@@ -818,21 +755,21 @@
       ],
       "created": "2026-04-28",
       "pushed": "2026-05-26",
-      "open_issues": 370,
+      "open_issues": 337,
       "avatar": "https://avatars.githubusercontent.com/u/263625318?v=4",
-      "delta": 175
+      "delta": 354
     },
     {
       "name": "antirez/ds4",
       "url": "https://github.com/antirez/ds4",
       "description": "DeepSeek 4 Flash local inference engine for Metal and CUDA",
-      "stars": 11861,
-      "forks": 1008,
+      "stars": 11902,
+      "forks": 1015,
       "language": "C",
       "topics": [],
       "created": "2026-05-06",
-      "pushed": "2026-05-25",
-      "open_issues": 112,
+      "pushed": "2026-05-26",
+      "open_issues": 113,
       "avatar": "https://avatars.githubusercontent.com/u/65632?v=4",
       "delta": 41
     },
@@ -840,36 +777,36 @@
       "name": "FULU-Foundation/OrcaSlicer-bambulab",
       "url": "https://github.com/FULU-Foundation/OrcaSlicer-bambulab",
       "description": "",
-      "stars": 6522,
-      "forks": 5045,
+      "stars": 6532,
+      "forks": 5049,
       "language": "C++",
       "topics": [],
       "created": "2026-05-11",
       "pushed": "2026-05-12",
       "open_issues": 26,
       "avatar": "https://avatars.githubusercontent.com/u/223959643?v=4",
-      "delta": 15
+      "delta": 10
     },
     {
       "name": "BigPizzaV3/CodexPlusPlus",
       "url": "https://github.com/BigPizzaV3/CodexPlusPlus",
       "description": "An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable 一个CodexApp的增强工具，努力让Codex变得更好用更舒服",
-      "stars": 5749,
-      "forks": 377,
+      "stars": 6022,
+      "forks": 398,
       "language": "Rust",
       "topics": [],
       "created": "2026-05-06",
       "pushed": "2026-05-26",
-      "open_issues": 118,
+      "open_issues": 132,
       "avatar": "https://avatars.githubusercontent.com/u/237402563?v=4",
-      "delta": 85
+      "delta": 273
     },
     {
       "name": "nexu-io/html-anything",
       "url": "https://github.com/nexu-io/html-anything",
       "description": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.",
-      "stars": 4958,
-      "forks": 502,
+      "stars": 5024,
+      "forks": 503,
       "language": "HTML",
       "topics": [
         "agent-skills",
@@ -895,44 +832,44 @@
       ],
       "created": "2026-05-11",
       "pushed": "2026-05-22",
-      "open_issues": 35,
+      "open_issues": 38,
       "avatar": "https://avatars.githubusercontent.com/u/263625318?v=4",
-      "delta": 14
+      "delta": 66
     },
     {
       "name": "V4bel/dirtyfrag",
       "url": "https://github.com/V4bel/dirtyfrag",
       "description": "",
-      "stars": 4763,
-      "forks": 758,
+      "stars": 4766,
+      "forks": 760,
       "language": "C",
       "topics": [],
       "created": "2026-05-07",
       "pushed": "2026-05-10",
       "open_issues": 60,
       "avatar": "https://avatars.githubusercontent.com/u/42788779?v=4",
-      "delta": 0
+      "delta": 3
     },
     {
       "name": "vercel-labs/zerolang",
       "url": "https://github.com/vercel-labs/zerolang",
       "description": "The programming language for agents",
-      "stars": 4516,
+      "stars": 4532,
       "forks": 288,
       "language": "C",
       "topics": [],
       "created": "2026-05-15",
       "pushed": "2026-05-26",
-      "open_issues": 111,
+      "open_issues": 110,
       "avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
-      "delta": 15
+      "delta": 16
     },
     {
       "name": "denuitt1/mhr-cfw",
       "url": "https://github.com/denuitt1/mhr-cfw",
       "description": "A Domain-Fronting Relay that routes traffic though GAS (Google Apps Script) and forwards it to Cloudflare Workers. Designed to bypass DPI.",
-      "stars": 4181,
-      "forks": 416,
+      "stars": 4220,
+      "forks": 424,
       "language": "Python",
       "topics": [
         "cloudflare-workers",
@@ -949,14 +886,14 @@
       "pushed": "2026-05-10",
       "open_issues": 126,
       "avatar": "https://avatars.githubusercontent.com/u/279854002?v=4",
-      "delta": 58
+      "delta": 39
     },
     {
       "name": "darrylmorley/whatcable",
       "url": "https://github.com/darrylmorley/whatcable",
       "description": "macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do",
-      "stars": 4041,
-      "forks": 107,
+      "stars": 4055,
+      "forks": 108,
       "language": "Swift",
       "topics": [
         "apple-silicon",
@@ -975,15 +912,15 @@
       ],
       "created": "2026-05-01",
       "pushed": "2026-05-26",
-      "open_issues": 8,
+      "open_issues": 9,
       "avatar": "https://avatars.githubusercontent.com/u/20406137?v=4",
-      "delta": 7
+      "delta": 14
     },
     {
       "name": "vercel-labs/zero-native",
       "url": "https://github.com/vercel-labs/zero-native",
       "description": "Build desktop + mobile apps with Zig and web UI",
-      "stars": 3993,
+      "stars": 4000,
       "forks": 157,
       "language": "Zig",
       "topics": [],
@@ -991,14 +928,14 @@
       "pushed": "2026-05-13",
       "open_issues": 38,
       "avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
-      "delta": 4
+      "delta": 7
     },
     {
       "name": "theori-io/copy-fail-CVE-2026-31431",
       "url": "https://github.com/theori-io/copy-fail-CVE-2026-31431",
       "description": "Copy Fail (CVE-2026-31431): 9-year-old Linux kernel LPE found by Theori's Xint Code",
       "stars": 3901,
-      "forks": 864,
+      "forks": 866,
       "language": "Python",
       "topics": [
         "ai-security",
@@ -1016,69 +953,69 @@
       "pushed": "2026-04-29",
       "open_issues": 120,
       "avatar": "https://avatars.githubusercontent.com/u/18063559?v=4",
-      "delta": 2
+      "delta": 0
     },
     {
       "name": "cursor/cookbook",
       "url": "https://github.com/cursor/cookbook",
       "description": "",
-      "stars": 3860,
-      "forks": 447,
+      "stars": 3865,
+      "forks": 448,
       "language": "TypeScript",
       "topics": [],
       "created": "2026-04-27",
       "pushed": "2026-05-19",
       "open_issues": 29,
       "avatar": "https://avatars.githubusercontent.com/u/126759922?v=4",
-      "delta": 3
+      "delta": 5
     },
     {
       "name": "willchen96/mike",
       "url": "https://github.com/willchen96/mike",
       "description": "OSS AI Legal Platform",
-      "stars": 3505,
-      "forks": 1078,
+      "stars": 3511,
+      "forks": 1081,
       "language": "TypeScript",
       "topics": [],
       "created": "2026-04-29",
       "pushed": "2026-05-17",
       "open_issues": 73,
       "avatar": "https://avatars.githubusercontent.com/u/85235185?v=4",
-      "delta": 5
+      "delta": 6
     },
     {
       "name": "Fokkyp/SoftwareCopyright-Skill",
       "url": "https://github.com/Fokkyp/SoftwareCopyright-Skill",
       "description": "中国软件著作权申请材料 生成器 Skills，本 Skills 通过阅读本地项目，自动生成全套 .docx 软著申请材料，全开源，无须再付费购买任何软著申请服务",
-      "stars": 3419,
-      "forks": 516,
+      "stars": 3444,
+      "forks": 518,
       "language": "Python",
       "topics": [],
       "created": "2026-04-29",
       "pushed": "2026-05-26",
-      "open_issues": 5,
+      "open_issues": 1,
       "avatar": "https://avatars.githubusercontent.com/u/5858642?v=4",
-      "delta": 7
+      "delta": 25
     },
     {
       "name": "simplifaisoul/osiris",
       "url": "https://github.com/simplifaisoul/osiris",
       "description": "Open Source Global Intelligence Platform - Real-Time OSINT Dashboard - A Palantir Alternative",
-      "stars": 3115,
-      "forks": 613,
+      "stars": 3158,
+      "forks": 620,
       "language": "TypeScript",
       "topics": [],
       "created": "2026-05-12",
       "pushed": "2026-05-25",
       "open_issues": 18,
       "avatar": "https://avatars.githubusercontent.com/u/241641249?v=4",
-      "delta": 32
+      "delta": 43
     },
     {
       "name": "vercel-labs/deepsec",
       "url": "https://github.com/vercel-labs/deepsec",
       "description": "Deepsec is a security harness for finding vulnerabilities in your codebase powered by coding agents",
-      "stars": 2924,
+      "stars": 2930,
       "forks": 199,
       "language": "TypeScript",
       "topics": [],
@@ -1086,27 +1023,59 @@
       "pushed": "2026-05-23",
       "open_issues": 29,
       "avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
-      "delta": 0
+      "delta": 6
     },
     {
       "name": "XBuilderLAB/cheat-on-content",
       "url": "https://github.com/XBuilderLAB/cheat-on-content",
       "description": "You're reading this. The skill predicted it. A workflow that turns every post into a calibrated experiment—score, blind-predict, retro, evolve. The future doesn't reward effort, it rewards those who see the pattern first. 1M followers in a month — not luck, system.",
-      "stars": 2792,
-      "forks": 486,
+      "stars": 2815,
+      "forks": 491,
       "language": "Shell",
       "topics": [],
       "created": "2026-05-05",
       "pushed": "2026-05-22",
       "open_issues": 9,
       "avatar": "https://avatars.githubusercontent.com/u/280592915?v=4",
-      "delta": 5
+      "delta": 23
+    },
+    {
+      "name": "perplexityai/bumblebee",
+      "url": "https://github.com/perplexityai/bumblebee",
+      "description": "Read-only developer endpoint scanner for on-disk package, extension, and developer-tool metadata, built to check exposure to known software supply-chain compromises.",
+      "stars": 2703,
+      "forks": 213,
+      "language": "Go",
+      "topics": [
+        "golang",
+        "package-inventory",
+        "supply-chain-security"
+      ],
+      "created": "2026-05-20",
+      "pushed": "2026-05-24",
+      "open_issues": 17,
+      "avatar": "https://avatars.githubusercontent.com/u/185426709?v=4",
+      "delta": 117
+    },
+    {
+      "name": "FoundZiGu/GuJumpgate",
+      "url": "https://github.com/FoundZiGu/GuJumpgate",
+      "description": "",
+      "stars": 2639,
+      "forks": 712,
+      "language": "JavaScript",
+      "topics": [],
+      "created": "2026-05-19",
+      "pushed": "2026-05-25",
+      "open_issues": 17,
+      "avatar": "https://avatars.githubusercontent.com/u/98100115?v=4",
+      "delta": 92
     },
     {
       "name": "strukto-ai/mirage",
       "url": "https://github.com/strukto-ai/mirage",
       "description": "A Unified Virtual Filesystem For AI Agents",
-      "stars": 2618,
+      "stars": 2631,
       "forks": 179,
       "language": "TypeScript",
       "topics": [
@@ -1128,39 +1097,7 @@
       "pushed": "2026-05-26",
       "open_issues": 23,
       "avatar": "https://avatars.githubusercontent.com/u/248286111?v=4",
-      "delta": 6
-    },
-    {
-      "name": "perplexityai/bumblebee",
-      "url": "https://github.com/perplexityai/bumblebee",
-      "description": "Read-only developer endpoint scanner for on-disk package, extension, and developer-tool metadata, built to check exposure to known software supply-chain compromises.",
-      "stars": 2586,
-      "forks": 206,
-      "language": "Go",
-      "topics": [
-        "golang",
-        "package-inventory",
-        "supply-chain-security"
-      ],
-      "created": "2026-05-20",
-      "pushed": "2026-05-24",
-      "open_issues": 16,
-      "avatar": "https://avatars.githubusercontent.com/u/185426709?v=4",
-      "delta": 62
-    },
-    {
-      "name": "FoundZiGu/GuJumpgate",
-      "url": "https://github.com/FoundZiGu/GuJumpgate",
-      "description": "",
-      "stars": 2547,
-      "forks": 700,
-      "language": "JavaScript",
-      "topics": [],
-      "created": "2026-05-19",
-      "pushed": "2026-05-25",
-      "open_issues": 19,
-      "avatar": "https://avatars.githubusercontent.com/u/98100115?v=4",
-      "delta": 25
+      "delta": 13
     }
   ]
 }
