@@ -1,55 +1,64 @@
 {
-  "updated": "2026-06-04T09:39:33.489984+00:00",
-  "updated_date": "2026-06-04 09:39 UTC",
+  "updated": "2026-06-04T14:28:48.064384+00:00",
+  "updated_date": "2026-06-04 14:28 UTC",
   "daily": [
     {
       "name": "Jasionf/smart-home-button",
       "url": "https://github.com/Jasionf/smart-home-button",
       "description": "<div align=\"center\">",
-      "stars": 42,
-      "forks": 1,
+      "stars": 84,
+      "forks": 3,
       "language": "C++",
       "topics": [],
       "created": "2026-06-04",
       "pushed": "2026-06-04",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/96040709?v=4",
-      "delta": 0
+      "delta": 42
     },
     {
       "name": "boona13/sprite-lab",
       "url": "https://github.com/boona13/sprite-lab",
       "description": "Remove backgrounds and slice spritesheets — entirely in your browser. Nothing is uploaded to a server, no AI models, no downloads.",
-      "stars": 36,
-      "forks": 4,
+      "stars": 54,
+      "forks": 6,
       "language": "TypeScript",
       "topics": [],
       "created": "2026-06-04",
       "pushed": "2026-06-04",
-      "open_issues": 0,
+      "open_issues": 1,
       "avatar": "https://avatars.githubusercontent.com/u/132214668?v=4",
-      "delta": 31
+      "delta": 18
     },
     {
-      "name": "Gojaehyeon/took",
-      "url": "https://github.com/Gojaehyeon/took",
-      "description": "단축어로 받은 할 일을 잠금화면 Live Activity·위젯에 큼직하게 띄우고 바로 체크하는 iOS 투두 앱",
-      "stars": 32,
-      "forks": 14,
-      "language": "Swift",
-      "topics": [],
+      "name": "Wraithaeintensify/NightCore-VPN-Free",
+      "url": "https://github.com/Wraithaeintensify/NightCore-VPN-Free",
+      "description": "Бесплатный анонимный VPN для Windows без регистрации и логирования. Быстрые серверы в 15+ странах, поддержка WireGuard и OpenVPN, встроенный kill-switch.",
+      "stars": 51,
+      "forks": 0,
+      "language": "—",
+      "topics": [
+        "free-vpn",
+        "free-vpn-installer",
+        "russia-vpn",
+        "unlock-protocol",
+        "vpn-client",
+        "vpn-free-russia",
+        "vpn-server",
+        "vpn-service"
+      ],
       "created": "2026-06-04",
       "pushed": "2026-06-04",
-      "open_issues": 2,
-      "avatar": "https://avatars.githubusercontent.com/u/149154032?v=4",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/283934288?v=4",
       "delta": 0
     },
     {
       "name": "helloianneo/ian-xiaohei-scenes",
       "url": "https://github.com/helloianneo/ian-xiaohei-scenes",
       "description": "Xiaohei 2.0 Codex Skill for Chinese real-object article illustrations and long-scroll story images",
-      "stars": 22,
-      "forks": 1,
+      "stars": 38,
+      "forks": 3,
       "language": "—",
       "topics": [
         "ai-agent",
@@ -67,6 +76,48 @@
       "pushed": "2026-06-04",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/89686060?v=4",
+      "delta": 16
+    },
+    {
+      "name": "jeff141/meatshell",
+      "url": "https://github.com/jeff141/meatshell",
+      "description": "一个轻量级、低内存占用的 SSH / 终端客户端（A lightweight, low-memory SSH / terminal client）",
+      "stars": 33,
+      "forks": 7,
+      "language": "Rust",
+      "topics": [],
+      "created": "2026-06-04",
+      "pushed": "2026-06-04",
+      "open_issues": 3,
+      "avatar": "https://avatars.githubusercontent.com/u/44336086?v=4",
+      "delta": 0
+    },
+    {
+      "name": "lxxgg92/xianxin-design-workflow",
+      "url": "https://github.com/lxxgg92/xianxin-design-workflow",
+      "description": "A complete AI-powered workflow for UI/UX designers, from design systems to final delivery.",
+      "stars": 19,
+      "forks": 2,
+      "language": "JavaScript",
+      "topics": [],
+      "created": "2026-06-04",
+      "pushed": "2026-06-04",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/267211570?v=4",
+      "delta": 1
+    },
+    {
+      "name": "aivbsm/Flash-USDT",
+      "url": "https://github.com/aivbsm/Flash-USDT",
+      "description": "We create a flash USDT contract under the main contract.",
+      "stars": 19,
+      "forks": 0,
+      "language": "Solidity",
+      "topics": [],
+      "created": "2026-06-04",
+      "pushed": "2026-06-04",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/106470707?v=4",
       "delta": 0
     },
     {
@@ -84,17 +135,41 @@
       "delta": 0
     },
     {
-      "name": "lxxgg92/xianxin-design-workflow",
-      "url": "https://github.com/lxxgg92/xianxin-design-workflow",
-      "description": "A complete AI-powered workflow for UI/UX designers, from design systems to final delivery.",
+      "name": "anndreloopez012/campuslands-dev-sql",
+      "url": "https://github.com/anndreloopez012/campuslands-dev-sql",
+      "description": "Ejercicios SQL para practicar diseno, creacion, insercion y consulta de bases de datos relacionales.",
       "stars": 18,
-      "forks": 1,
-      "language": "JavaScript",
+      "forks": 18,
+      "language": "Shell",
       "topics": [],
       "created": "2026-06-04",
       "pushed": "2026-06-04",
       "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/267211570?v=4",
+      "avatar": "https://avatars.githubusercontent.com/u/33384889?v=4",
+      "delta": 0
+    },
+    {
+      "name": "Jane-xiaoer/xiaoer-videolab",
+      "url": "https://github.com/Jane-xiaoer/xiaoer-videolab",
+      "description": "One click on the toolbar grabs the current page's video into ~/Downloads — local yt-dlp daemon, 1800+ sites. 小耳抓视频：一键把当前页视频抓到本地。",
+      "stars": 18,
+      "forks": 2,
+      "language": "Python",
+      "topics": [
+        "bilibili",
+        "chrome-extension",
+        "launchd",
+        "macos",
+        "manifest-v3",
+        "privacy-friendly",
+        "video-downloader",
+        "youtube-dl",
+        "yt-dlp"
+      ],
+      "created": "2026-06-04",
+      "pushed": "2026-06-04",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/175961422?v=4",
       "delta": 0
     },
     {
@@ -139,7 +214,7 @@
       "pushed": "2026-06-04",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/288809978?v=4",
-      "delta": 13
+      "delta": 0
     },
     {
       "name": "Maneirsense61/Adobe-InDesign-2024-crack",
@@ -183,7 +258,7 @@
       "pushed": "2026-06-04",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/288811303?v=4",
-      "delta": 12
+      "delta": 0
     },
     {
       "name": "grayservicesee/qustudio-crack",
@@ -249,35 +324,6 @@
       "pushed": "2026-06-04",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/288923379?v=4",
-      "delta": 12
-    },
-    {
-      "name": "Fiixbxg/Generate-Flash-USDT-BTC-ETH-Sender-",
-      "url": "https://github.com/Fiixbxg/Generate-Flash-USDT-BTC-ETH-Sender-",
-      "description": "Generate Your Multi-Coin Transfer and Get Free Demo.  ",
-      "stars": 15,
-      "forks": 0,
-      "language": "—",
-      "topics": [
-        "bitcoin-flash-transactions",
-        "btc-flash-payments",
-        "btc-flash-software-mainnet",
-        "crpto",
-        "fake-btc-transaction",
-        "flash-btc-sender",
-        "flash-eth-software",
-        "flash-free-demo",
-        "flash-usdt-binance-2026",
-        "flash-usdt-flashers",
-        "flashcrypto",
-        "flashusftsendarbot",
-        "usdt-flash-coin",
-        "usdt-trc20-software"
-      ],
-      "created": "2026-06-04",
-      "pushed": "2026-06-04",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/290644377?v=4",
       "delta": 0
     },
     {
@@ -300,7 +346,21 @@
       "pushed": "2026-06-04",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/288921689?v=4",
-      "delta": 9
+      "delta": 0
+    },
+    {
+      "name": "wy51ai/edulab",
+      "url": "https://github.com/wy51ai/edulab",
+      "description": "A collection of education skills that turn academic problems into interactive lesson web pages.",
+      "stars": 15,
+      "forks": 2,
+      "language": "HTML",
+      "topics": [],
+      "created": "2026-06-04",
+      "pushed": "2026-06-04",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/253894366?v=4",
+      "delta": 0
     },
     {
       "name": "OlivePathAngular/Adobe-Photoshop-2024-crack",
@@ -323,94 +383,6 @@
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/288921780?v=4",
       "delta": 0
-    },
-    {
-      "name": "silverqualityexcite/Wondershare-Dr-Fone-crack",
-      "url": "https://github.com/silverqualityexcite/Wondershare-Dr-Fone-crack",
-      "description": "Wondershare Dr Fone - Complete mobile device management and data recovery solution. Comprehensive guide with setup instructions, feature highlights.",
-      "stars": 14,
-      "forks": 0,
-      "language": "—",
-      "topics": [
-        "data-recovery",
-        "dr-fone",
-        "maintenance",
-        "optimization",
-        "repair",
-        "system-utility",
-        "tools"
-      ],
-      "created": "2026-06-04",
-      "pushed": "2026-06-04",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/288809532?v=4",
-      "delta": 0
-    },
-    {
-      "name": "Nightbinpath/exitlag-crack",
-      "url": "https://github.com/Nightbinpath/exitlag-crack",
-      "description": "Exitlag - Gaming VPN to reduce latency, ping, and packet loss for optimal performance. Comprehensive guide with setup instructions, feature highlights.",
-      "stars": 14,
-      "forks": 0,
-      "language": "—",
-      "topics": [
-        "browser",
-        "connection",
-        "internet",
-        "itlag",
-        "networking",
-        "proxy",
-        "vpn"
-      ],
-      "created": "2026-06-04",
-      "pushed": "2026-06-04",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/288810267?v=4",
-      "delta": 10
-    },
-    {
-      "name": "origintherapistclamp/Guitar-Pro-8-crack",
-      "url": "https://github.com/origintherapistclamp/Guitar-Pro-8-crack",
-      "description": "Guitar Pro 8 - Comprehensive tablature editor and musical score software for guitarists. Comprehensive guide with setup instructions, feature highlights.",
-      "stars": 14,
-      "forks": 0,
-      "language": "—",
-      "topics": [
-        "audio-editing",
-        "daw",
-        "guitar-pro",
-        "mastering",
-        "mixing",
-        "music-production",
-        "sound-design"
-      ],
-      "created": "2026-06-04",
-      "pushed": "2026-06-04",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/288923733?v=4",
-      "delta": 0
-    },
-    {
-      "name": "Fountainplonurse/Parsec-crack",
-      "url": "https://github.com/Fountainplonurse/Parsec-crack",
-      "description": "Parsec - High-performance remote desktop software optimized for low-latency gaming. Comprehensive guide with setup instructions, feature highlights.",
-      "stars": 14,
-      "forks": 0,
-      "language": "—",
-      "topics": [
-        "data-recovery",
-        "maintenance",
-        "optimization",
-        "parsec",
-        "repair",
-        "system-utility",
-        "tools"
-      ],
-      "created": "2026-06-04",
-      "pushed": "2026-06-04",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/288924285?v=4",
-      "delta": 10
     }
   ],
   "weekly": [
@@ -418,78 +390,78 @@
       "name": "pewdiepie-archdaemon/odysseus",
       "url": "https://github.com/pewdiepie-archdaemon/odysseus",
       "description": "Self-hosted AI workspace. ",
-      "stars": 46958,
-      "forks": 5393,
+      "stars": 48387,
+      "forks": 5583,
       "language": "JavaScript",
       "topics": [],
       "created": "2026-05-31",
       "pushed": "2026-06-04",
-      "open_issues": 855,
+      "open_issues": 859,
       "avatar": "https://avatars.githubusercontent.com/u/229018391?v=4",
-      "delta": 2785
-    },
-    {
-      "name": "Gloridust/WechatOnCloud",
-      "url": "https://github.com/Gloridust/WechatOnCloud",
-      "description": "云微WOC，云微信，自由连接",
-      "stars": 2015,
-      "forks": 547,
-      "language": "TypeScript",
-      "topics": [],
-      "created": "2026-05-29",
-      "pushed": "2026-06-02",
-      "open_issues": 9,
-      "avatar": "https://avatars.githubusercontent.com/u/88082356?v=4",
-      "delta": 67
+      "delta": 1429
     },
     {
       "name": "zgwl/chinese-buy-us-stock-guide",
       "url": "https://github.com/zgwl/chinese-buy-us-stock-guide",
       "description": "美股指南",
-      "stars": 2007,
-      "forks": 327,
+      "stars": 2309,
+      "forks": 370,
       "language": "—",
       "topics": [],
       "created": "2026-05-30",
       "pushed": "2026-06-04",
-      "open_issues": 6,
+      "open_issues": 8,
       "avatar": "https://avatars.githubusercontent.com/u/6014068?v=4",
-      "delta": 848
+      "delta": 302
+    },
+    {
+      "name": "Gloridust/WechatOnCloud",
+      "url": "https://github.com/Gloridust/WechatOnCloud",
+      "description": "云微WOC，云微信，自由连接",
+      "stars": 2034,
+      "forks": 550,
+      "language": "TypeScript",
+      "topics": [],
+      "created": "2026-05-29",
+      "pushed": "2026-06-04",
+      "open_issues": 10,
+      "avatar": "https://avatars.githubusercontent.com/u/88082356?v=4",
+      "delta": 19
     },
     {
       "name": "b-nnett/goose",
       "url": "https://github.com/b-nnett/goose",
       "description": "Goose Swift proof-of-concept README",
-      "stars": 1536,
-      "forks": 432,
+      "stars": 1646,
+      "forks": 448,
       "language": "Rust",
       "topics": [],
       "created": "2026-06-02",
       "pushed": "2026-06-02",
-      "open_issues": 15,
+      "open_issues": 16,
       "avatar": "https://avatars.githubusercontent.com/u/62760393?v=4",
-      "delta": 62
+      "delta": 110
     },
     {
       "name": "asz798838958/aBaiAutoplus",
       "url": "https://github.com/asz798838958/aBaiAutoplus",
       "description": "多平台 AI 账号自动注册与管理 · 协议化付款一键开通 ChatGPT Plus",
-      "stars": 1443,
-      "forks": 672,
+      "stars": 1460,
+      "forks": 678,
       "language": "Python",
       "topics": [],
       "created": "2026-05-31",
       "pushed": "2026-06-04",
       "open_issues": 3,
       "avatar": "https://avatars.githubusercontent.com/u/30143908?v=4",
-      "delta": 41
+      "delta": 17
     },
     {
       "name": "cpaczek/skylight",
       "url": "https://github.com/cpaczek/skylight",
       "description": "Project the aircraft passing overhead onto your ceiling in real time, from an RTL-SDR — with a live sky layer (sun, moon, stars, ISS) and where each plane is headed.",
-      "stars": 976,
-      "forks": 59,
+      "stars": 1055,
+      "forks": 67,
       "language": "TypeScript",
       "topics": [
         "ads-b",
@@ -506,41 +478,27 @@
       "pushed": "2026-06-03",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/25715982?v=4",
-      "delta": 162
+      "delta": 79
     },
     {
       "name": "ClaudioDrews/memory-os",
       "url": "https://github.com/ClaudioDrews/memory-os",
       "description": "A 7-layer memory operating system for Hermes Agent — persistent memory with Qdrant, structured facts, fabric recall, auto-curated wiki, and surgical context injection. Runs locally, any LLM provider.",
-      "stars": 782,
-      "forks": 74,
+      "stars": 800,
+      "forks": 75,
       "language": "Python",
       "topics": [],
       "created": "2026-05-31",
       "pushed": "2026-06-03",
       "open_issues": 1,
       "avatar": "https://avatars.githubusercontent.com/u/242654945?v=4",
-      "delta": 22
-    },
-    {
-      "name": "SenhorH/tab-labeler",
-      "url": "https://github.com/SenhorH/tab-labeler",
-      "description": "Rename browser tabs locally and bring order to chaotic sessions.",
-      "stars": 547,
-      "forks": 36,
-      "language": "TypeScript",
-      "topics": [],
-      "created": "2026-06-02",
-      "pushed": "2026-06-02",
-      "open_issues": 1,
-      "avatar": "https://avatars.githubusercontent.com/u/140437827?v=4",
-      "delta": 0
+      "delta": 18
     },
     {
       "name": "qiuqiubuchongle-cloud/chokepoint-atlas",
       "url": "https://github.com/qiuqiubuchongle-cloud/chokepoint-atlas",
       "description": "",
-      "stars": 542,
+      "stars": 548,
       "forks": 118,
       "language": "Python",
       "topics": [],
@@ -548,13 +506,13 @@
       "pushed": "2026-06-03",
       "open_issues": 1,
       "avatar": "https://avatars.githubusercontent.com/u/227941353?v=4",
-      "delta": 13
+      "delta": 6
     },
     {
       "name": "liyue-aigc/female-portrait-director",
       "url": "https://github.com/liyue-aigc/female-portrait-director",
       "description": "A modular Codex Skill for directing and expanding detailed AI female portrait prompts.",
-      "stars": 507,
+      "stars": 508,
       "forks": 74,
       "language": "—",
       "topics": [
@@ -568,28 +526,14 @@
       "pushed": "2026-06-01",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/34064819?v=4",
-      "delta": 2
-    },
-    {
-      "name": "anomalyco/rift",
-      "url": "https://github.com/anomalyco/rift",
-      "description": "",
-      "stars": 501,
-      "forks": 7,
-      "language": "Rust",
-      "topics": [],
-      "created": "2026-05-31",
-      "pushed": "2026-06-03",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/66570915?v=4",
-      "delta": 7
+      "delta": 1
     },
     {
       "name": "jdevalk/specification.website",
       "url": "https://github.com/jdevalk/specification.website",
       "description": "Website specification — HTML, accessibility, security, SEO, agent-readiness. Platform-agnostic, sourced, MIT.",
-      "stars": 493,
-      "forks": 32,
+      "stars": 504,
+      "forks": 33,
       "language": "TypeScript",
       "topics": [
         "accessibility",
@@ -608,14 +552,42 @@
       "pushed": "2026-06-04",
       "open_issues": 3,
       "avatar": "https://avatars.githubusercontent.com/u/487629?v=4",
-      "delta": 12
+      "delta": 11
+    },
+    {
+      "name": "anomalyco/rift",
+      "url": "https://github.com/anomalyco/rift",
+      "description": "",
+      "stars": 502,
+      "forks": 7,
+      "language": "Rust",
+      "topics": [],
+      "created": "2026-05-31",
+      "pushed": "2026-06-03",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/66570915?v=4",
+      "delta": 1
+    },
+    {
+      "name": "SenhorH/tab-labeler",
+      "url": "https://github.com/SenhorH/tab-labeler",
+      "description": "Rename browser tabs locally and bring order to chaotic sessions.",
+      "stars": 461,
+      "forks": 31,
+      "language": "TypeScript",
+      "topics": [],
+      "created": "2026-06-02",
+      "pushed": "2026-06-02",
+      "open_issues": 1,
+      "avatar": "https://avatars.githubusercontent.com/u/140437827?v=4",
+      "delta": 0
     },
     {
       "name": "DannyMac180/skills",
       "url": "https://github.com/DannyMac180/skills",
       "description": "AI agent skills created by me: Dan McAteer",
-      "stars": 404,
-      "forks": 30,
+      "stars": 408,
+      "forks": 31,
       "language": "Python",
       "topics": [],
       "created": "2026-05-29",
@@ -628,8 +600,8 @@
       "name": "tiantianGPU/reg-factory",
       "url": "https://github.com/tiantianGPU/reg-factory",
       "description": "",
-      "stars": 388,
-      "forks": 192,
+      "stars": 392,
+      "forks": 194,
       "language": "Python",
       "topics": [],
       "created": "2026-06-01",
@@ -642,7 +614,7 @@
       "name": "c0deJedi/nbd-vram",
       "url": "https://github.com/c0deJedi/nbd-vram",
       "description": "Use your NVIDIA GPU's VRAM as swap space on Linux. Built for laptops with soldered memory and no upgrade path. If you have an RTX card sitting there with 8GB of VRAM and you're getting swapped to SSD, this puts that VRAM to work",
-      "stars": 368,
+      "stars": 381,
       "forks": 10,
       "language": "Shell",
       "topics": [
@@ -660,13 +632,13 @@
       "pushed": "2026-06-03",
       "open_issues": 2,
       "avatar": "https://avatars.githubusercontent.com/u/8192624?v=4",
-      "delta": 14
+      "delta": 13
     },
     {
       "name": "MatixYo/ESP32-Plane-Radar",
       "url": "https://github.com/MatixYo/ESP32-Plane-Radar",
       "description": "Open-source ESP32 firmware for a 1.28″ round display that shows live ADS-B aircraft around your location as a sonar-style plane radar.",
-      "stars": 358,
+      "stars": 366,
       "forks": 28,
       "language": "C++",
       "topics": [],
@@ -674,14 +646,14 @@
       "pushed": "2026-06-01",
       "open_issues": 11,
       "avatar": "https://avatars.githubusercontent.com/u/6618041?v=4",
-      "delta": 12
+      "delta": 8
     },
     {
       "name": "bytedance/Bernini",
       "url": "https://github.com/bytedance/Bernini",
       "description": "Bernini is a unified framework for video generation and editing that combines an MLLM-based semantic planner with a DiT-based renderer.",
-      "stars": 347,
-      "forks": 27,
+      "stars": 365,
+      "forks": 28,
       "language": "Python",
       "topics": [
         "image-editing",
@@ -693,70 +665,57 @@
       "pushed": "2026-06-02",
       "open_issues": 5,
       "avatar": "https://avatars.githubusercontent.com/u/4158466?v=4",
-      "delta": 51
-    },
-    {
-      "name": "VAST-AI-Research/TripoSplat",
-      "url": "https://github.com/VAST-AI-Research/TripoSplat",
-      "description": "TripoSplat converts a single 2D image into high-quality and variable number of 3D Gaussians, developed by TripoAI.",
-      "stars": 344,
-      "forks": 29,
-      "language": "Python",
-      "topics": [],
-      "created": "2026-06-01",
-      "pushed": "2026-06-02",
-      "open_issues": 2,
-      "avatar": "https://avatars.githubusercontent.com/u/149052137?v=4",
-      "delta": 17
+      "delta": 18
     },
     {
       "name": "jd-opensource/JoyAI-Echo",
       "url": "https://github.com/jd-opensource/JoyAI-Echo",
       "description": "JoyAI-Echo: Pushing the Frontier of Long Audio-Visual Generation",
-      "stars": 328,
-      "forks": 13,
+      "stars": 364,
+      "forks": 14,
       "language": "Python",
       "topics": [],
       "created": "2026-06-02",
       "pushed": "2026-06-03",
       "open_issues": 1,
       "avatar": "https://avatars.githubusercontent.com/u/75349771?v=4",
-      "delta": 0
+      "delta": 36
     },
     {
-      "name": "ProxyShard/ShardBrowser",
-      "url": "https://github.com/ProxyShard/ShardBrowser",
-      "description": "Free, open-source anti-detect browser launcher for web scraping and multi-accounting. By the ProxyShard team. Engine-level fingerprint spoofing in Chromium 148 (WebGL / WebGPU / Client Hints / fonts / TLS), 170+ device profiles bundled, stable QUIC + WebRTC over SOCKS5.",
-      "stars": 302,
-      "forks": 48,
-      "language": "TypeScript",
-      "topics": [
-        "ai-agents",
-        "anti-detect-browser",
-        "antidetect-browser",
-        "browser-fingerprinting",
-        "chromium",
-        "fingerprint",
-        "headless-browser",
-        "headless-chrome",
-        "multi-accounting",
-        "playwright",
-        "proxy",
-        "proxyshard",
-        "puppeteer",
-        "quic",
-        "stealth-browser",
-        "tauri",
-        "udp",
-        "web-scraping",
-        "webrtc",
-        "webscraping"
-      ],
-      "created": "2026-05-30",
+      "name": "VAST-AI-Research/TripoSplat",
+      "url": "https://github.com/VAST-AI-Research/TripoSplat",
+      "description": "TripoSplat converts a single 2D image into high-quality and variable number of 3D Gaussians, developed by TripoAI.",
+      "stars": 349,
+      "forks": 30,
+      "language": "Python",
+      "topics": [],
+      "created": "2026-06-01",
       "pushed": "2026-06-02",
+      "open_issues": 2,
+      "avatar": "https://avatars.githubusercontent.com/u/149052137?v=4",
+      "delta": 5
+    },
+    {
+      "name": "tastyeffectco/sandboxes",
+      "url": "https://github.com/tastyeffectco/sandboxes",
+      "description": "Self-hosted dev sandboxes with preview URLs. One command. No Kubernetes, perfect for coding agents and Saas factories",
+      "stars": 319,
+      "forks": 6,
+      "language": "Go",
+      "topics": [
+        "dev-environment",
+        "docker",
+        "isolation",
+        "preview",
+        "preview-environment",
+        "sandbox",
+        "self-hosted"
+      ],
+      "created": "2026-06-03",
+      "pushed": "2026-06-03",
       "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/270443819?v=4",
-      "delta": 3
+      "avatar": "https://avatars.githubusercontent.com/u/205345397?v=4",
+      "delta": 0
     }
   ],
   "monthly": [
@@ -764,49 +723,49 @@
       "name": "pewdiepie-archdaemon/odysseus",
       "url": "https://github.com/pewdiepie-archdaemon/odysseus",
       "description": "Self-hosted AI workspace. ",
-      "stars": 46958,
-      "forks": 5393,
+      "stars": 48388,
+      "forks": 5583,
       "language": "JavaScript",
       "topics": [],
       "created": "2026-05-31",
       "pushed": "2026-06-04",
-      "open_issues": 855,
+      "open_issues": 859,
       "avatar": "https://avatars.githubusercontent.com/u/229018391?v=4",
-      "delta": 2785
+      "delta": 1430
     },
     {
       "name": "BigPizzaV3/CodexPlusPlus",
       "url": "https://github.com/BigPizzaV3/CodexPlusPlus",
       "description": "An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable 一个CodexApp的增强工具，努力让Codex变得更好用更舒服",
-      "stars": 12938,
-      "forks": 808,
+      "stars": 13128,
+      "forks": 814,
       "language": "Rust",
       "topics": [],
       "created": "2026-05-06",
       "pushed": "2026-06-04",
-      "open_issues": 323,
+      "open_issues": 343,
       "avatar": "https://avatars.githubusercontent.com/u/237402563?v=4",
-      "delta": 408
+      "delta": 190
     },
     {
       "name": "antirez/ds4",
       "url": "https://github.com/antirez/ds4",
       "description": "DeepSeek 4 Flash local inference engine for Metal and CUDA",
-      "stars": 12902,
-      "forks": 1124,
+      "stars": 12917,
+      "forks": 1125,
       "language": "C",
       "topics": [],
       "created": "2026-05-06",
       "pushed": "2026-06-02",
       "open_issues": 154,
       "avatar": "https://avatars.githubusercontent.com/u/65632?v=4",
-      "delta": 27
+      "delta": 15
     },
     {
       "name": "FULU-Foundation/OrcaSlicer-bambulab",
       "url": "https://github.com/FULU-Foundation/OrcaSlicer-bambulab",
       "description": "",
-      "stars": 6777,
+      "stars": 6785,
       "forks": 5139,
       "language": "C++",
       "topics": [],
@@ -814,14 +773,14 @@
       "pushed": "2026-05-12",
       "open_issues": 30,
       "avatar": "https://avatars.githubusercontent.com/u/223959643?v=4",
-      "delta": 2
+      "delta": 8
     },
     {
       "name": "nexu-io/html-anything",
       "url": "https://github.com/nexu-io/html-anything",
       "description": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.",
-      "stars": 6008,
-      "forks": 582,
+      "stars": 6033,
+      "forks": 588,
       "language": "HTML",
       "topics": [
         "agent-skills",
@@ -849,21 +808,52 @@
       "pushed": "2026-06-02",
       "open_issues": 43,
       "avatar": "https://avatars.githubusercontent.com/u/263625318?v=4",
-      "delta": 21
+      "delta": 25
+    },
+    {
+      "name": "unicity-astrid/sdk-js",
+      "url": "https://github.com/unicity-astrid/sdk-js",
+      "description": "JavaScript / TypeScript SDK for building Astrid OS capsules. Companion to unicity-astrid/sdk-rust.",
+      "stars": 5085,
+      "forks": 10,
+      "language": "TypeScript",
+      "topics": [],
+      "created": "2026-05-18",
+      "pushed": "2026-05-27",
+      "open_issues": 2,
+      "avatar": "https://avatars.githubusercontent.com/u/261740341?v=4",
+      "delta": 950
     },
     {
       "name": "vercel-labs/zerolang",
       "url": "https://github.com/vercel-labs/zerolang",
       "description": "The programming language for agents",
-      "stars": 4849,
-      "forks": 312,
+      "stars": 4855,
+      "forks": 314,
       "language": "C",
       "topics": [],
       "created": "2026-05-15",
       "pushed": "2026-06-04",
-      "open_issues": 128,
+      "open_issues": 129,
       "avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
-      "delta": 12
+      "delta": 6
+    },
+    {
+      "name": "microsoft/SkillOpt",
+      "url": "https://github.com/microsoft/SkillOpt",
+      "description": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.",
+      "stars": 4845,
+      "forks": 480,
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "self-evolving-agents"
+      ],
+      "created": "2026-05-08",
+      "pushed": "2026-06-03",
+      "open_issues": 6,
+      "avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "delta": 45
     },
     {
       "name": "V4bel/dirtyfrag",
@@ -877,45 +867,28 @@
       "pushed": "2026-05-10",
       "open_issues": 61,
       "avatar": "https://avatars.githubusercontent.com/u/42788779?v=4",
-      "delta": 2
-    },
-    {
-      "name": "microsoft/SkillOpt",
-      "url": "https://github.com/microsoft/SkillOpt",
-      "description": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.",
-      "stars": 4800,
-      "forks": 476,
-      "language": "Python",
-      "topics": [
-        "agent-skills",
-        "self-evolving-agents"
-      ],
-      "created": "2026-05-08",
-      "pushed": "2026-06-03",
-      "open_issues": 6,
-      "avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
-      "delta": 102
+      "delta": 0
     },
     {
       "name": "simplifaisoul/osiris",
       "url": "https://github.com/simplifaisoul/osiris",
       "description": "Open Source Global Intelligence Platform - Real-Time OSINT Dashboard - A Palantir Alternative",
-      "stars": 4346,
-      "forks": 883,
+      "stars": 4362,
+      "forks": 887,
       "language": "TypeScript",
       "topics": [],
       "created": "2026-05-12",
       "pushed": "2026-06-04",
       "open_issues": 5,
       "avatar": "https://avatars.githubusercontent.com/u/241641249?v=4",
-      "delta": 14
+      "delta": 16
     },
     {
       "name": "perplexityai/bumblebee",
       "url": "https://github.com/perplexityai/bumblebee",
       "description": "Read-only developer endpoint scanner for on-disk package, extension, and developer-tool metadata, built to check exposure to known software supply-chain compromises.",
-      "stars": 4239,
-      "forks": 373,
+      "stars": 4248,
+      "forks": 374,
       "language": "Go",
       "topics": [
         "golang",
@@ -926,27 +899,13 @@
       "pushed": "2026-06-02",
       "open_issues": 26,
       "avatar": "https://avatars.githubusercontent.com/u/185426709?v=4",
-      "delta": 12
-    },
-    {
-      "name": "unicity-astrid/sdk-js",
-      "url": "https://github.com/unicity-astrid/sdk-js",
-      "description": "JavaScript / TypeScript SDK for building Astrid OS capsules. Companion to unicity-astrid/sdk-rust.",
-      "stars": 4135,
-      "forks": 6,
-      "language": "TypeScript",
-      "topics": [],
-      "created": "2026-05-18",
-      "pushed": "2026-05-27",
-      "open_issues": 2,
-      "avatar": "https://avatars.githubusercontent.com/u/261740341?v=4",
-      "delta": 0
+      "delta": 9
     },
     {
       "name": "vercel-labs/zero-native",
       "url": "https://github.com/vercel-labs/zero-native",
       "description": "Build desktop + mobile apps with Zig and web UI",
-      "stars": 4097,
+      "stars": 4102,
       "forks": 168,
       "language": "Zig",
       "topics": [],
@@ -954,14 +913,14 @@
       "pushed": "2026-05-13",
       "open_issues": 39,
       "avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
-      "delta": 3
+      "delta": 5
     },
     {
       "name": "AprilNEA/OpenLogi",
       "url": "https://github.com/AprilNEA/OpenLogi",
       "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
-      "stars": 3732,
-      "forks": 65,
+      "stars": 3782,
+      "forks": 66,
       "language": "Rust",
       "topics": [
         "dpi",
@@ -980,44 +939,44 @@
       ],
       "created": "2026-05-24",
       "pushed": "2026-06-04",
-      "open_issues": 56,
+      "open_issues": 61,
       "avatar": "https://avatars.githubusercontent.com/u/37977109?v=4",
-      "delta": 78
+      "delta": 50
     },
     {
       "name": "simonlin1212/a-stock-data",
       "url": "https://github.com/simonlin1212/a-stock-data",
       "description": "A股全栈数据工具包 — 7层架构 · 27端点 · 13数据源 · 零第三方依赖 | Full-stack China A-Share data toolkit for AI coding assistants",
-      "stars": 3384,
-      "forks": 703,
+      "stars": 3409,
+      "forks": 706,
       "language": "—",
       "topics": [],
       "created": "2026-05-11",
       "pushed": "2026-06-03",
       "open_issues": 9,
       "avatar": "https://avatars.githubusercontent.com/u/166034225?v=4",
-      "delta": 37
+      "delta": 25
     },
     {
       "name": "FoundZiGu/GuJumpgate",
       "url": "https://github.com/FoundZiGu/GuJumpgate",
       "description": "",
-      "stars": 3381,
-      "forks": 870,
+      "stars": 3393,
+      "forks": 871,
       "language": "JavaScript",
       "topics": [],
       "created": "2026-05-19",
       "pushed": "2026-06-04",
-      "open_issues": 17,
+      "open_issues": 18,
       "avatar": "https://avatars.githubusercontent.com/u/98100115?v=4",
-      "delta": 27
+      "delta": 12
     },
     {
       "name": "strukto-ai/mirage",
       "url": "https://github.com/strukto-ai/mirage",
       "description": "A Unified Virtual Filesystem For AI Agents",
-      "stars": 3035,
-      "forks": 215,
+      "stars": 3039,
+      "forks": 216,
       "language": "TypeScript",
       "topics": [
         "agent-sandbox",
@@ -1038,54 +997,28 @@
       "pushed": "2026-06-04",
       "open_issues": 40,
       "avatar": "https://avatars.githubusercontent.com/u/248286111?v=4",
-      "delta": 8
+      "delta": 4
     },
     {
       "name": "OpenBMB/PilotDeck",
       "url": "https://github.com/OpenBMB/PilotDeck",
       "description": "Task-oriented AI Agent productivity platform",
-      "stars": 2936,
-      "forks": 299,
+      "stars": 2946,
+      "forks": 301,
       "language": "TypeScript",
       "topics": [],
       "created": "2026-05-22",
       "pushed": "2026-06-04",
       "open_issues": 98,
       "avatar": "https://avatars.githubusercontent.com/u/89920203?v=4",
-      "delta": 22
-    },
-    {
-      "name": "opensquilla/opensquilla",
-      "url": "https://github.com/opensquilla/opensquilla",
-      "description": "OpenSquilla — Token-Efficient AI Agent with same budget, higher intelligence density",
-      "stars": 2817,
-      "forks": 196,
-      "language": "Python",
-      "topics": [
-        "agent",
-        "ai",
-        "ai-agents",
-        "deep-learning",
-        "foundation-models",
-        "llm",
-        "mcp",
-        "memory",
-        "openclaw",
-        "python",
-        "skills"
-      ],
-      "created": "2026-05-06",
-      "pushed": "2026-06-04",
-      "open_issues": 67,
-      "avatar": "https://avatars.githubusercontent.com/u/275098769?v=4",
-      "delta": 74
+      "delta": 10
     },
     {
       "name": "op7418/guizang-social-card-skill",
       "url": "https://github.com/op7418/guizang-social-card-skill",
       "description": "🪧 Claude Code / Codex skill — generate Xiaohongshu carousels & WeChat 21:9+1:1 cover pairs. Editorial × Swiss visual systems, 28 layouts, 10 themes, single-file HTML → PNG. 小红书图文 + 公众号封面对",
-      "stars": 2814,
-      "forks": 261,
+      "stars": 2846,
+      "forks": 263,
       "language": "HTML",
       "topics": [
         "agent-skill",
@@ -1108,21 +1041,47 @@
       "pushed": "2026-05-27",
       "open_issues": 3,
       "avatar": "https://avatars.githubusercontent.com/u/13505770?v=4",
-      "delta": 69
+      "delta": 32
     },
     {
-      "name": "thananon/9arm-skills",
-      "url": "https://github.com/thananon/9arm-skills",
-      "description": "",
-      "stars": 2651,
-      "forks": 372,
-      "language": "Shell",
+      "name": "opensquilla/opensquilla",
+      "url": "https://github.com/opensquilla/opensquilla",
+      "description": "OpenSquilla — Token-Efficient AI Agent with same budget, higher intelligence density",
+      "stars": 2831,
+      "forks": 197,
+      "language": "Python",
+      "topics": [
+        "agent",
+        "ai",
+        "ai-agents",
+        "deep-learning",
+        "foundation-models",
+        "llm",
+        "mcp",
+        "memory",
+        "openclaw",
+        "python",
+        "skills"
+      ],
+      "created": "2026-05-06",
+      "pushed": "2026-06-04",
+      "open_issues": 68,
+      "avatar": "https://avatars.githubusercontent.com/u/275098769?v=4",
+      "delta": 14
+    },
+    {
+      "name": "datawhalechina/Agent-Learning-Hub",
+      "url": "https://github.com/datawhalechina/Agent-Learning-Hub",
+      "description": "AI Agent 学习路线与资料库收集",
+      "stars": 2657,
+      "forks": 265,
+      "language": "HTML",
       "topics": [],
-      "created": "2026-05-20",
-      "pushed": "2026-05-26",
-      "open_issues": 4,
-      "avatar": "https://avatars.githubusercontent.com/u/7318806?v=4",
-      "delta": 5
+      "created": "2026-05-17",
+      "pushed": "2026-06-02",
+      "open_issues": 1,
+      "avatar": "https://avatars.githubusercontent.com/u/46047812?v=4",
+      "delta": 0
     }
   ]
 }
