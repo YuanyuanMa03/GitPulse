@@ -1,13 +1,13 @@
 {
-  "updated": "2026-06-07T08:42:08.765050+00:00",
-  "updated_date": "2026-06-07 08:42 UTC",
+  "updated": "2026-06-07T13:15:12.824377+00:00",
+  "updated_date": "2026-06-07 13:15 UTC",
   "daily": [
     {
       "name": "JimLiu/baoyu-design",
       "url": "https://github.com/JimLiu/baoyu-design",
       "description": "Run Claude Design locally as an Agent Skill — Cursor, Claude Code & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus 4.8.",
-      "stars": 101,
-      "forks": 7,
+      "stars": 155,
+      "forks": 10,
       "language": "JavaScript",
       "topics": [
         "agent-skills",
@@ -23,7 +23,94 @@
       "pushed": "2026-06-07",
       "open_issues": 1,
       "avatar": "https://avatars.githubusercontent.com/u/648674?v=4",
+      "delta": 54
+    },
+    {
+      "name": "ridgekhanice/undress-ai-image-video-generator",
+      "url": "https://github.com/ridgekhanice/undress-ai-image-video-generator",
+      "description": "An easy-to-use AI-powered image and video generation tool designed for Windows",
+      "stars": 26,
+      "forks": 1,
+      "language": "Python",
+      "topics": [
+        "adult-ai",
+        "adults",
+        "adults-only",
+        "ai-video",
+        "ai-video-generation",
+        "ai-video-generator",
+        "ai-video-maker",
+        "nsfw",
+        "nsfw-generation",
+        "nude-ai-generator-list",
+        "uncensored-ai",
+        "uncensored-ai-image-generator",
+        "uncensored-ai-video-generator",
+        "uncensored-ai-video-generator-2026",
+        "undress-ai-gen",
+        "unrestricted-ai"
+      ],
+      "created": "2026-06-07",
+      "pushed": "2026-06-07",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/270958870?v=4",
       "delta": 0
+    },
+    {
+      "name": "jhljx/RecSys-Industrial-Book",
+      "url": "https://github.com/jhljx/RecSys-Industrial-Book",
+      "description": "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"><img alt=\"知识共享许可协议\" style=\"border-width:0\" src=\"https://img.shields.io/badge…",
+      "stars": 23,
+      "forks": 2,
+      "language": "—",
+      "topics": [],
+      "created": "2026-06-07",
+      "pushed": "2026-06-07",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/10150586?v=4",
+      "delta": 0
+    },
+    {
+      "name": "TwoSevenOneT/EDRChoker",
+      "url": "https://github.com/TwoSevenOneT/EDRChoker",
+      "description": "A tool uses the QoS Policy (Pacer.sys) to throttle Endpoint Detection and Response (EDR) agents from connecting to the server.",
+      "stars": 18,
+      "forks": 3,
+      "language": "C#",
+      "topics": [],
+      "created": "2026-06-07",
+      "pushed": "2026-06-07",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/183250995?v=4",
+      "delta": 0
+    },
+    {
+      "name": "CMC-27/Vibe-App-Wiki",
+      "url": "https://github.com/CMC-27/Vibe-App-Wiki",
+      "description": "Welcome to the Vibe App Wiki repository. This workspace serves as a standardized, app-agnostic scaffold designed to facilitate seamless agentic develo…",
+      "stars": 17,
+      "forks": 1,
+      "language": "—",
+      "topics": [],
+      "created": "2026-06-07",
+      "pushed": "2026-06-07",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/98863637?v=4",
+      "delta": 5
+    },
+    {
+      "name": "cloud-1104/dy_video",
+      "url": "https://github.com/cloud-1104/dy_video",
+      "description": "本项目是一个本地 API 服务示例，用于学习 HTTP 请求、服务端接口封装、页面数据解析和调试日志输出等技术点。",
+      "stars": 16,
+      "forks": 8,
+      "language": "Python",
+      "topics": [],
+      "created": "2026-06-07",
+      "pushed": "2026-06-07",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/49741639?v=4",
+      "delta": 8
     },
     {
       "name": "mkhazaeidev/pypi-wheel-downloader",
@@ -40,18 +127,41 @@
       "delta": 0
     },
     {
-      "name": "CMC-27/Vibe-App-Wiki",
-      "url": "https://github.com/CMC-27/Vibe-App-Wiki",
-      "description": "Welcome to the Vibe App Wiki repository. This workspace serves as a standardized, app-agnostic scaffold designed to facilitate seamless agentic develo…",
-      "stars": 12,
-      "forks": 1,
+      "name": "beijingcao/binance-deribit-btc",
+      "url": "https://github.com/beijingcao/binance-deribit-btc",
+      "description": "Binance and Deribit BTC cross-exchange arbitrage bot with Redis state recovery, Telegram alerts, and a Flask monitoring dashboard.",
+      "stars": 9,
+      "forks": 2,
+      "language": "Python",
+      "topics": [
+        "arbitrage",
+        "binance",
+        "btc",
+        "deribit",
+        "flask",
+        "redis",
+        "telegram",
+        "trading-bot"
+      ],
+      "created": "2026-06-07",
+      "pushed": "2026-06-07",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/81492083?v=4",
+      "delta": 0
+    },
+    {
+      "name": "chixiaotao-Exm/cnm_Ultraman",
+      "url": "https://github.com/chixiaotao-Exm/cnm_Ultraman",
+      "description": "1. checkout 阶段：JP 代理",
+      "stars": 9,
+      "forks": 13,
       "language": "—",
       "topics": [],
       "created": "2026-06-07",
       "pushed": "2026-06-07",
       "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/98863637?v=4",
-      "delta": 10
+      "avatar": "https://avatars.githubusercontent.com/u/32501974?v=4",
+      "delta": 0
     },
     {
       "name": "Kovendan-R/CUSTOMER_CHURN_AGENT-master",
@@ -68,58 +178,10 @@
       "delta": 0
     },
     {
-      "name": "cloud-1104/dy_video",
-      "url": "https://github.com/cloud-1104/dy_video",
-      "description": "本项目是一个本地 API 服务示例，用于学习 HTTP 请求、服务端接口封装、页面数据解析和调试日志输出等技术点。",
-      "stars": 8,
-      "forks": 3,
-      "language": "Python",
-      "topics": [],
-      "created": "2026-06-07",
-      "pushed": "2026-06-07",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/49741639?v=4",
-      "delta": 0
-    },
-    {
-      "name": "lalishka/fixnote",
-      "url": "https://github.com/lalishka/fixnote",
-      "description": "Offline public-space issue report helper for clearer community service requests.",
-      "stars": 6,
-      "forks": 0,
-      "language": "JavaScript",
-      "topics": [
-        "accessibility",
-        "civic-tech",
-        "community-tools",
-        "offline",
-        "public-good"
-      ],
-      "created": "2026-06-07",
-      "pushed": "2026-06-07",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/148556203?v=4",
-      "delta": 0
-    },
-    {
-      "name": "TobyG74/tobz-api",
-      "url": "https://github.com/TobyG74/tobz-api",
-      "description": "<div align=\"center\">",
-      "stars": 5,
-      "forks": 0,
-      "language": "Go",
-      "topics": [],
-      "created": "2026-06-07",
-      "pushed": "2026-06-07",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/32604979?v=4",
-      "delta": 0
-    },
-    {
       "name": "ElGaba/Lorecraft-Studio",
       "url": "https://github.com/ElGaba/Lorecraft-Studio",
       "description": "Agent-friendly studio for authoring, staging, previewing, and exporting cinematic interactive narrative games.",
-      "stars": 5,
+      "stars": 8,
       "forks": 2,
       "language": "TypeScript",
       "topics": [
@@ -137,27 +199,93 @@
       "pushed": "2026-06-07",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/47011711?v=4",
+      "delta": 3
+    },
+    {
+      "name": "lalishka/fixnote",
+      "url": "https://github.com/lalishka/fixnote",
+      "description": "Offline public-space issue report helper for clearer community service requests.",
+      "stars": 8,
+      "forks": 1,
+      "language": "JavaScript",
+      "topics": [
+        "accessibility",
+        "civic-tech",
+        "community-tools",
+        "offline",
+        "public-good"
+      ],
+      "created": "2026-06-07",
+      "pushed": "2026-06-07",
+      "open_issues": 3,
+      "avatar": "https://avatars.githubusercontent.com/u/148556203?v=4",
       "delta": 2
     },
     {
-      "name": "mrinalxdev/go-multi-upload-video",
-      "url": "https://github.com/mrinalxdev/go-multi-upload-video",
-      "description": "Resumable chunk video uploader",
-      "stars": 4,
+      "name": "aniketkarne/ModelDirector",
+      "url": "https://github.com/aniketkarne/ModelDirector",
+      "description": "Open-source, stateless AI model selection engine.",
+      "stars": 8,
       "forks": 0,
-      "language": "HTML",
+      "language": "Python",
       "topics": [],
       "created": "2026-06-07",
       "pushed": "2026-06-07",
       "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/99001768?v=4",
+      "avatar": "https://avatars.githubusercontent.com/u/12999365?v=4",
+      "delta": 0
+    },
+    {
+      "name": "zhaozuheng0726/VBT",
+      "url": "https://github.com/zhaozuheng0726/VBT",
+      "description": "VBT:AQueryableCompressed4DBackendforAnimatedVolumeAssets",
+      "stars": 7,
+      "forks": 0,
+      "language": "C++",
+      "topics": [],
+      "created": "2026-06-07",
+      "pushed": "2026-06-07",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/169325913?v=4",
+      "delta": 0
+    },
+    {
+      "name": "devsparok/BotTemplate",
+      "url": "https://github.com/devsparok/BotTemplate",
+      "description": "A simple Discord bot template built entirely with discord.js v14 and designed to work fully with slash commands.",
+      "stars": 7,
+      "forks": 0,
+      "language": "JavaScript",
+      "topics": [
+        "bot",
+        "discord-bot",
+        "slash-commands"
+      ],
+      "created": "2026-06-07",
+      "pushed": "2026-06-07",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/291379592?v=4",
+      "delta": 3
+    },
+    {
+      "name": "ramilgi82/maintainer-safety-kit",
+      "url": "https://github.com/ramilgi82/maintainer-safety-kit",
+      "description": "Maintainer Safety Kit is an early-stage open-source CLI/toolkit for small OSS maintainers. It helps projects check whether they are safe and ready for…",
+      "stars": 7,
+      "forks": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "created": "2026-06-07",
+      "pushed": "2026-06-07",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/266798805?v=4",
       "delta": 0
     },
     {
       "name": "hindriix/maintainer-signal",
       "url": "https://github.com/hindriix/maintainer-signal",
       "description": "Zero-dependency CLI that generates maintainer health reports for open-source repositories",
-      "stars": 4,
+      "stars": 6,
       "forks": 0,
       "language": "Python",
       "topics": [
@@ -173,27 +301,27 @@
       "pushed": "2026-06-07",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/273163638?v=4",
-      "delta": 0
+      "delta": 2
     },
     {
-      "name": "youmadefox-spec/ai-botanic-picker-serenity-skill",
-      "url": "https://github.com/youmadefox-spec/ai-botanic-picker-serenity-skill",
-      "description": "A Codex/Claude skill for Serenity-style public equity discovery in AI infrastructure. It starts from AI system architecture, identifies physical bottl…",
-      "stars": 4,
-      "forks": 0,
+      "name": "ASLP-lab/FlashTTS",
+      "url": "https://github.com/ASLP-lab/FlashTTS",
+      "description": "Fast Streaming TTS with MTP Acceleration and X-pred Mean Flow Distillation",
+      "stars": 6,
+      "forks": 1,
       "language": "Python",
       "topics": [],
       "created": "2026-06-07",
       "pushed": "2026-06-07",
       "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/271916287?v=4",
+      "avatar": "https://avatars.githubusercontent.com/u/195776634?v=4",
       "delta": 0
     },
     {
       "name": "Wadan3/smart-cloud-optimizer",
       "url": "https://github.com/Wadan3/smart-cloud-optimizer",
       "description": "An intelligent Cloud FinOps tool that uses Machine Learning  to forecast infrastructure costs and provide resource optimization recommendations.",
-      "stars": 4,
+      "stars": 6,
       "forks": 1,
       "language": "Python",
       "topics": [
@@ -209,155 +337,20 @@
       "pushed": "2026-06-07",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/160777411?v=4",
-      "delta": 0
-    },
-    {
-      "name": "shenjiale534/English-AI-teacher",
-      "url": "https://github.com/shenjiale534/English-AI-teacher",
-      "description": "<p align=\"center\">",
-      "stars": 4,
-      "forks": 0,
-      "language": "JavaScript",
-      "topics": [],
-      "created": "2026-06-07",
-      "pushed": "2026-06-07",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/170780673?v=4",
-      "delta": 0
-    },
-    {
-      "name": "Wadan3/ai-api-firewall",
-      "url": "https://github.com/Wadan3/ai-api-firewall",
-      "description": "An intelligent, machine-learning-powered API Gateway to detect and block malicious web traffic in real-time",
-      "stars": 4,
-      "forks": 1,
-      "language": "Python",
-      "topics": [
-        "anomaly-detection",
-        "api-security",
-        "cybersecurity",
-        "detection",
-        "devsecops",
-        "fastapi",
-        "firewall",
-        "machine-learning",
-        "python"
-      ],
-      "created": "2026-06-07",
-      "pushed": "2026-06-07",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/160777411?v=4",
-      "delta": 0
-    },
-    {
-      "name": "devsparok/BotTemplate",
-      "url": "https://github.com/devsparok/BotTemplate",
-      "description": "A simple Discord bot template built entirely with discord.js v14 and designed to work fully with slash commands.",
-      "stars": 4,
-      "forks": 0,
-      "language": "JavaScript",
-      "topics": [
-        "bot",
-        "discord-bot",
-        "slash-commands"
-      ],
-      "created": "2026-06-07",
-      "pushed": "2026-06-07",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/291379592?v=4",
       "delta": 2
     },
     {
-      "name": "shenjiale534/weixin_app",
-      "url": "https://github.com/shenjiale534/weixin_app",
-      "description": "<p align=\"center\">",
-      "stars": 4,
+      "name": "RainyMarks/DeepX",
+      "url": "https://github.com/RainyMarks/DeepX",
+      "description": "An AI agent workspace",
+      "stars": 6,
       "forks": 0,
-      "language": "JavaScript",
-      "topics": [],
-      "created": "2026-06-07",
-      "pushed": "2026-06-07",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/170780673?v=4",
-      "delta": 0
-    },
-    {
-      "name": "lna-lab/gemma4-12b-vllm-sm120",
-      "url": "https://github.com/lna-lab/gemma4-12b-vllm-sm120",
-      "description": "Reproducible recipe: serve abliterated Gemma-4-12B (gemma4_unified) at 50-118 tok/s on no-NVLink Blackwell (SM120) via vLLM nightly + ModelOpt FP8/NVFP4 + MTP spec-decode.",
-      "stars": 4,
-      "forks": 0,
-      "language": "Python",
-      "topics": [
-        "abliterated",
-        "blackwell",
-        "fp8",
-        "gemma",
-        "gemma-4",
-        "modelopt",
-        "nvfp4",
-        "quantization",
-        "sm120",
-        "speculative-decoding",
-        "tensor-parallel",
-        "vllm"
-      ],
-      "created": "2026-06-07",
-      "pushed": "2026-06-07",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/226374315?v=4",
-      "delta": 0
-    },
-    {
-      "name": "peals-pline/TutorDesk",
-      "url": "https://github.com/peals-pline/TutorDesk",
-      "description": "Local-first open-source workspace for tutors to track students, lessons, homework, mistakes, and progress.",
-      "stars": 3,
-      "forks": 1,
-      "language": "TypeScript",
-      "topics": [
-        "education",
-        "local-first",
-        "nextjs",
-        "open-source",
-        "productivity",
-        "tailwindcss",
-        "tutors",
-        "typescript",
-        "ux-design"
-      ],
-      "created": "2026-06-07",
-      "pushed": "2026-06-07",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/213149358?v=4",
-      "delta": 2
-    },
-    {
-      "name": "hututuo/codex-token-dashboard",
-      "url": "https://github.com/hututuo/codex-token-dashboard",
-      "description": "Local-first macOS SwiftUI dashboard for Codex token usage",
-      "stars": 3,
-      "forks": 0,
-      "language": "Swift",
-      "topics": [],
-      "created": "2026-06-07",
-      "pushed": "2026-06-07",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/138413246?v=4",
-      "delta": 0
-    },
-    {
-      "name": "HwlloChen/NyaActivate",
-      "url": "https://github.com/HwlloChen/NyaActivate",
-      "description": "快去激活Windows喵！！！",
-      "stars": 3,
-      "forks": 1,
       "language": "Rust",
       "topics": [],
       "created": "2026-06-07",
       "pushed": "2026-06-07",
       "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/140884226?v=4",
+      "avatar": "https://avatars.githubusercontent.com/u/197760511?v=4",
       "delta": 0
     }
   ],
@@ -366,22 +359,22 @@
       "name": "b-nnett/goose",
       "url": "https://github.com/b-nnett/goose",
       "description": "Goose Swift proof-of-concept README",
-      "stars": 2180,
-      "forks": 510,
+      "stars": 2199,
+      "forks": 514,
       "language": "Rust",
       "topics": [],
       "created": "2026-06-02",
       "pushed": "2026-06-02",
       "open_issues": 26,
       "avatar": "https://avatars.githubusercontent.com/u/62760393?v=4",
-      "delta": 12
+      "delta": 19
     },
     {
       "name": "cpaczek/skylight",
       "url": "https://github.com/cpaczek/skylight",
       "description": "Project the aircraft passing overhead onto your ceiling in real time, from an RTL-SDR — with a live sky layer (sun, moon, stars, ISS) and where each plane is headed.",
-      "stars": 2136,
-      "forks": 208,
+      "stars": 2183,
+      "forks": 215,
       "language": "TypeScript",
       "topics": [
         "ads-b",
@@ -396,15 +389,15 @@
       ],
       "created": "2026-06-02",
       "pushed": "2026-06-03",
-      "open_issues": 7,
+      "open_issues": 10,
       "avatar": "https://avatars.githubusercontent.com/u/25715982?v=4",
-      "delta": 51
+      "delta": 47
     },
     {
       "name": "jd-opensource/JoyAI-Echo",
       "url": "https://github.com/jd-opensource/JoyAI-Echo",
       "description": "JoyAI-Echo: Pushing the Frontier of Long Audio-Visual Generation",
-      "stars": 763,
+      "stars": 798,
       "forks": 47,
       "language": "Python",
       "topics": [],
@@ -412,13 +405,13 @@
       "pushed": "2026-06-06",
       "open_issues": 3,
       "avatar": "https://avatars.githubusercontent.com/u/75349771?v=4",
-      "delta": 47
+      "delta": 35
     },
     {
       "name": "qiuqiubuchongle-cloud/chokepoint-atlas",
       "url": "https://github.com/qiuqiubuchongle-cloud/chokepoint-atlas",
       "description": "",
-      "stars": 593,
+      "stars": 594,
       "forks": 126,
       "language": "Python",
       "topics": [],
@@ -426,13 +419,13 @@
       "pushed": "2026-06-03",
       "open_issues": 1,
       "avatar": "https://avatars.githubusercontent.com/u/227941353?v=4",
-      "delta": 3
+      "delta": 1
     },
     {
       "name": "VAST-AI-Research/TripoSplat",
       "url": "https://github.com/VAST-AI-Research/TripoSplat",
       "description": "TripoSplat converts a single 2D image into high-quality and variable number of 3D Gaussians, developed by TripoAI.",
-      "stars": 506,
+      "stars": 510,
       "forks": 47,
       "language": "Python",
       "topics": [],
@@ -440,13 +433,13 @@
       "pushed": "2026-06-02",
       "open_issues": 2,
       "avatar": "https://avatars.githubusercontent.com/u/149052137?v=4",
-      "delta": 12
+      "delta": 4
     },
     {
       "name": "tastyeffectco/sandboxes",
       "url": "https://github.com/tastyeffectco/sandboxes",
       "description": "Self-hosted dev sandboxes with preview URLs. One command. No Kubernetes, perfect for coding agents and Saas factories",
-      "stars": 478,
+      "stars": 484,
       "forks": 10,
       "language": "Go",
       "topics": [
@@ -464,27 +457,27 @@
       "pushed": "2026-06-06",
       "open_issues": 5,
       "avatar": "https://avatars.githubusercontent.com/u/205345397?v=4",
-      "delta": 7
+      "delta": 6
     },
     {
       "name": "tiantianGPU/reg-factory",
       "url": "https://github.com/tiantianGPU/reg-factory",
       "description": "",
-      "stars": 469,
-      "forks": 228,
+      "stars": 472,
+      "forks": 230,
       "language": "Python",
       "topics": [],
       "created": "2026-06-01",
-      "pushed": "2026-06-06",
+      "pushed": "2026-06-07",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/164491093?v=4",
-      "delta": 26
+      "delta": 3
     },
     {
       "name": "Jane-xiaoer/xiaoer-videolab",
       "url": "https://github.com/Jane-xiaoer/xiaoer-videolab",
       "description": "One click on the toolbar grabs the current page's video into ~/Downloads — local yt-dlp daemon, 1800+ sites. 小耳抓视频：一键把当前页视频抓到本地。",
-      "stars": 457,
+      "stars": 459,
       "forks": 71,
       "language": "JavaScript",
       "topics": [
@@ -502,27 +495,13 @@
       "pushed": "2026-06-07",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/175961422?v=4",
-      "delta": 5
-    },
-    {
-      "name": "Fullive-AI/Anima",
-      "url": "https://github.com/Fullive-AI/Anima",
-      "description": "Make Every Hardware Intelligent — an open-source Agent OS for hardware intelligence",
-      "stars": 389,
-      "forks": 9,
-      "language": "Python",
-      "topics": [],
-      "created": "2026-06-01",
-      "pushed": "2026-06-03",
-      "open_issues": 6,
-      "avatar": "https://avatars.githubusercontent.com/u/285607428?v=4",
-      "delta": 0
+      "delta": 2
     },
     {
       "name": "S-Sigdel/vimhjkl",
       "url": "https://github.com/S-Sigdel/vimhjkl",
       "description": "learn vim from your terminal with spaced repetition",
-      "stars": 388,
+      "stars": 392,
       "forks": 6,
       "language": "Python",
       "topics": [],
@@ -530,7 +509,21 @@
       "pushed": "2026-06-07",
       "open_issues": 2,
       "avatar": "https://avatars.githubusercontent.com/u/108139412?v=4",
-      "delta": 3
+      "delta": 4
+    },
+    {
+      "name": "Fullive-AI/Anima",
+      "url": "https://github.com/Fullive-AI/Anima",
+      "description": "Make Every Hardware Intelligent — an open-source Agent OS for hardware intelligence",
+      "stars": 390,
+      "forks": 9,
+      "language": "Python",
+      "topics": [],
+      "created": "2026-06-01",
+      "pushed": "2026-06-03",
+      "open_issues": 6,
+      "avatar": "https://avatars.githubusercontent.com/u/285607428?v=4",
+      "delta": 1
     },
     {
       "name": "SenhorH/tab-labeler",
@@ -544,13 +537,13 @@
       "pushed": "2026-06-02",
       "open_issues": 1,
       "avatar": "https://avatars.githubusercontent.com/u/140437827?v=4",
-      "delta": 1
+      "delta": 0
     },
     {
       "name": "jeff141/meatshell",
       "url": "https://github.com/jeff141/meatshell",
       "description": "一个轻量级、低内存占用的 SSH / 终端客户端（A lightweight, low-memory SSH / terminal client）",
-      "stars": 343,
+      "stars": 363,
       "forks": 45,
       "language": "Rust",
       "topics": [],
@@ -564,8 +557,8 @@
       "name": "zenhosta/9drive",
       "url": "https://github.com/zenhosta/9drive",
       "description": "9Drive is a storage gateway web app for connecting multiple Google Drive accounts into one virtual storage dashboard. Users can connect Google Drive accounts, track quota, upload files, organize files with virtual folders, preview files, and let the backend route uploads to the Drive account with enough free space.",
-      "stars": 331,
-      "forks": 124,
+      "stars": 357,
+      "forks": 131,
       "language": "TypeScript",
       "topics": [
         "drive",
@@ -577,13 +570,13 @@
       "pushed": "2026-06-05",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/287358902?v=4",
-      "delta": 21
+      "delta": 26
     },
     {
       "name": "ConiferKit/sage",
       "url": "https://github.com/ConiferKit/sage",
       "description": "",
-      "stars": 306,
+      "stars": 309,
       "forks": 12,
       "language": "—",
       "topics": [],
@@ -591,35 +584,35 @@
       "pushed": "2026-06-05",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/284818068?v=4",
-      "delta": 2
+      "delta": 3
     },
     {
       "name": "nevertoday/zhongguo-traditional-colors",
       "url": "https://github.com/nevertoday/zhongguo-traditional-colors",
       "description": "中华传统色演示、色卡浏览与颜色知识科普开源项目",
-      "stars": 287,
-      "forks": 36,
+      "stars": 298,
+      "forks": 38,
       "language": "JavaScript",
       "topics": [],
       "created": "2026-06-03",
       "pushed": "2026-06-07",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/166048?v=4",
-      "delta": 23
+      "delta": 11
     },
     {
       "name": "wy51ai/edulab",
       "url": "https://github.com/wy51ai/edulab",
       "description": "",
-      "stars": 263,
-      "forks": 57,
+      "stars": 268,
+      "forks": 59,
       "language": "HTML",
       "topics": [],
       "created": "2026-06-04",
-      "pushed": "2026-06-05",
+      "pushed": "2026-06-07",
       "open_issues": 1,
       "avatar": "https://avatars.githubusercontent.com/u/253894366?v=4",
-      "delta": 6
+      "delta": 5
     },
     {
       "name": "CWS6206/ai-coding-starter-kit",
@@ -633,7 +626,7 @@
       "pushed": "2026-06-05",
       "open_issues": 2,
       "avatar": "https://avatars.githubusercontent.com/u/102139131?v=4",
-      "delta": 1
+      "delta": 0
     },
     {
       "name": "razr001/align-dev",
@@ -662,8 +655,8 @@
       "name": "ni5arga/deanonymizer",
       "url": "https://github.com/ni5arga/deanonymizer",
       "description": "Deanonymize anyone based on their public commenting or posting history & pattern.",
-      "stars": 255,
-      "forks": 84,
+      "stars": 257,
+      "forks": 85,
       "language": "TypeScript",
       "topics": [
         "cli",
@@ -684,7 +677,7 @@
       "name": "torvalds/ScrollWheel",
       "url": "https://github.com/torvalds/ScrollWheel",
       "description": "Minimalist RP2350 magnetic sensor scroll wheel toy project",
-      "stars": 236,
+      "stars": 239,
       "forks": 7,
       "language": "C",
       "topics": [],
@@ -692,7 +685,7 @@
       "pushed": "2026-06-02",
       "open_issues": 6,
       "avatar": "https://avatars.githubusercontent.com/u/1024025?v=4",
-      "delta": 0
+      "delta": 3
     }
   ],
   "monthly": [
@@ -700,36 +693,36 @@
       "name": "pewdiepie-archdaemon/odysseus",
       "url": "https://github.com/pewdiepie-archdaemon/odysseus",
       "description": "Self-hosted AI workspace. ",
-      "stars": 59836,
-      "forks": 7219,
+      "stars": 60410,
+      "forks": 7300,
       "language": "Python",
       "topics": [],
       "created": "2026-05-31",
       "pushed": "2026-06-07",
-      "open_issues": 1022,
+      "open_issues": 1015,
       "avatar": "https://avatars.githubusercontent.com/u/229018391?v=4",
-      "delta": 690
+      "delta": 574
     },
     {
       "name": "unicity-astrid/sdk-js",
       "url": "https://github.com/unicity-astrid/sdk-js",
       "description": "JavaScript / TypeScript SDK for building Astrid OS capsules. Companion to unicity-astrid/sdk-rust.",
-      "stars": 7722,
-      "forks": 20,
+      "stars": 7769,
+      "forks": 22,
       "language": "TypeScript",
       "topics": [],
       "created": "2026-05-18",
       "pushed": "2026-06-07",
       "open_issues": 4,
       "avatar": "https://avatars.githubusercontent.com/u/261740341?v=4",
-      "delta": 68
+      "delta": 47
     },
     {
       "name": "FULU-Foundation/OrcaSlicer-bambulab",
       "url": "https://github.com/FULU-Foundation/OrcaSlicer-bambulab",
       "description": "",
-      "stars": 6811,
-      "forks": 5150,
+      "stars": 6813,
+      "forks": 5152,
       "language": "C++",
       "topics": [],
       "created": "2026-05-11",
@@ -742,8 +735,8 @@
       "name": "nexu-io/html-anything",
       "url": "https://github.com/nexu-io/html-anything",
       "description": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.",
-      "stars": 6226,
-      "forks": 610,
+      "stars": 6241,
+      "forks": 613,
       "language": "HTML",
       "topics": [
         "agent-skills",
@@ -771,28 +764,14 @@
       "pushed": "2026-06-02",
       "open_issues": 47,
       "avatar": "https://avatars.githubusercontent.com/u/263625318?v=4",
-      "delta": 13
-    },
-    {
-      "name": "vercel-labs/zerolang",
-      "url": "https://github.com/vercel-labs/zerolang",
-      "description": "The programming language for agents",
-      "stars": 4909,
-      "forks": 318,
-      "language": "C",
-      "topics": [],
-      "created": "2026-05-15",
-      "pushed": "2026-06-05",
-      "open_issues": 131,
-      "avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
-      "delta": 0
+      "delta": 15
     },
     {
       "name": "anthropics/defending-code-reference-harness",
       "url": "https://github.com/anthropics/defending-code-reference-harness",
       "description": "Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
-      "stars": 4814,
-      "forks": 304,
+      "stars": 5005,
+      "forks": 320,
       "language": "Python",
       "topics": [
         "security"
@@ -801,27 +780,61 @@
       "pushed": "2026-06-02",
       "open_issues": 5,
       "avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
-      "delta": 328
+      "delta": 191
+    },
+    {
+      "name": "vercel-labs/zerolang",
+      "url": "https://github.com/vercel-labs/zerolang",
+      "description": "The programming language for agents",
+      "stars": 4911,
+      "forks": 318,
+      "language": "C",
+      "topics": [],
+      "created": "2026-05-15",
+      "pushed": "2026-06-05",
+      "open_issues": 132,
+      "avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
+      "delta": 2
     },
     {
       "name": "simplifaisoul/osiris",
       "url": "https://github.com/simplifaisoul/osiris",
       "description": "Open Source Global Intelligence Platform - Real-Time OSINT Dashboard - A Palantir Alternative",
-      "stars": 4564,
-      "forks": 944,
+      "stars": 4576,
+      "forks": 947,
       "language": "TypeScript",
       "topics": [],
       "created": "2026-05-12",
       "pushed": "2026-06-06",
       "open_issues": 8,
       "avatar": "https://avatars.githubusercontent.com/u/241641249?v=4",
-      "delta": 15
+      "delta": 12
+    },
+    {
+      "name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "stars": 4399,
+      "forks": 205,
+      "language": "Go",
+      "topics": [
+        "agent",
+        "code-review",
+        "code-review-assistant",
+        "harness",
+        "repository-level-context"
+      ],
+      "created": "2026-05-18",
+      "pushed": "2026-06-07",
+      "open_issues": 19,
+      "avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
+      "delta": 299
     },
     {
       "name": "perplexityai/bumblebee",
       "url": "https://github.com/perplexityai/bumblebee",
       "description": "Read-only developer endpoint scanner for on-disk package, extension, and developer-tool metadata, built to check exposure to known software supply-chain compromises.",
-      "stars": 4314,
+      "stars": 4317,
       "forks": 382,
       "language": "Go",
       "topics": [
@@ -839,8 +852,8 @@
       "name": "AprilNEA/OpenLogi",
       "url": "https://github.com/AprilNEA/OpenLogi",
       "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
-      "stars": 4195,
-      "forks": 78,
+      "stars": 4219,
+      "forks": 79,
       "language": "Rust",
       "topics": [
         "dpi",
@@ -859,63 +872,43 @@
       ],
       "created": "2026-05-24",
       "pushed": "2026-06-07",
-      "open_issues": 63,
+      "open_issues": 64,
       "avatar": "https://avatars.githubusercontent.com/u/37977109?v=4",
-      "delta": 39
-    },
-    {
-      "name": "alibaba/open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
-      "description": "Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "stars": 4100,
-      "forks": 185,
-      "language": "Go",
-      "topics": [
-        "agent",
-        "code-review",
-        "code-review-assistant",
-        "harness",
-        "repository-level-context"
-      ],
-      "created": "2026-05-18",
-      "pushed": "2026-06-07",
-      "open_issues": 17,
-      "avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
-      "delta": 421
+      "delta": 24
     },
     {
       "name": "simonlin1212/a-stock-data",
       "url": "https://github.com/simonlin1212/a-stock-data",
       "description": "A股全栈数据工具包 — 7层架构 · 27端点 · 13数据源 · 零第三方依赖 | Full-stack China A-Share data toolkit for AI coding assistants",
-      "stars": 3566,
-      "forks": 744,
+      "stars": 3583,
+      "forks": 746,
       "language": "—",
       "topics": [],
       "created": "2026-05-11",
       "pushed": "2026-06-03",
-      "open_issues": 10,
+      "open_issues": 11,
       "avatar": "https://avatars.githubusercontent.com/u/166034225?v=4",
-      "delta": 16
+      "delta": 17
     },
     {
       "name": "FoundZiGu/GuJumpgate",
       "url": "https://github.com/FoundZiGu/GuJumpgate",
       "description": "",
-      "stars": 3472,
-      "forks": 891,
+      "stars": 3475,
+      "forks": 892,
       "language": "JavaScript",
       "topics": [],
       "created": "2026-05-19",
       "pushed": "2026-06-04",
       "open_issues": 17,
       "avatar": "https://avatars.githubusercontent.com/u/98100115?v=4",
-      "delta": 5
+      "delta": 3
     },
     {
       "name": "zgwl/chinese-buy-us-stock-guide",
       "url": "https://github.com/zgwl/chinese-buy-us-stock-guide",
       "description": "美股指南",
-      "stars": 3389,
+      "stars": 3405,
       "forks": 535,
       "language": "—",
       "topics": [],
@@ -923,13 +916,13 @@
       "pushed": "2026-06-04",
       "open_issues": 13,
       "avatar": "https://avatars.githubusercontent.com/u/6014068?v=4",
-      "delta": 51
+      "delta": 16
     },
     {
       "name": "microsoft/coreutils",
       "url": "https://github.com/microsoft/coreutils",
       "description": "Coreutils for Windows: Installer & Packaging",
-      "stars": 3362,
+      "stars": 3401,
       "forks": 50,
       "language": "Rust",
       "topics": [
@@ -941,14 +934,14 @@
       "pushed": "2026-06-05",
       "open_issues": 55,
       "avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
-      "delta": 60
+      "delta": 39
     },
     {
       "name": "helloianneo/ian-xiaohei-illustrations",
       "url": "https://github.com/helloianneo/ian-xiaohei-illustrations",
       "description": "中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill",
-      "stars": 3189,
-      "forks": 285,
+      "stars": 3269,
+      "forks": 287,
       "language": "—",
       "topics": [
         "ai-agent",
@@ -963,14 +956,14 @@
       "pushed": "2026-06-03",
       "open_issues": 5,
       "avatar": "https://avatars.githubusercontent.com/u/89686060?v=4",
-      "delta": 138
+      "delta": 80
     },
     {
       "name": "datawhalechina/Agent-Learning-Hub",
       "url": "https://github.com/datawhalechina/Agent-Learning-Hub",
       "description": "AI Agent 学习路线与资料库收集",
-      "stars": 3076,
-      "forks": 310,
+      "stars": 3095,
+      "forks": 312,
       "language": "HTML",
       "topics": [],
       "created": "2026-05-17",
@@ -980,25 +973,11 @@
       "delta": 19
     },
     {
-      "name": "OpenBMB/PilotDeck",
-      "url": "https://github.com/OpenBMB/PilotDeck",
-      "description": "Task-oriented AI Agent productivity platform",
-      "stars": 3035,
-      "forks": 316,
-      "language": "TypeScript",
-      "topics": [],
-      "created": "2026-05-22",
-      "pushed": "2026-06-05",
-      "open_issues": 82,
-      "avatar": "https://avatars.githubusercontent.com/u/89920203?v=4",
-      "delta": 5
-    },
-    {
       "name": "op7418/guizang-social-card-skill",
       "url": "https://github.com/op7418/guizang-social-card-skill",
       "description": "🪧 Claude Code / Codex skill — generate Xiaohongshu carousels & WeChat 21:9+1:1 cover pairs. Editorial × Swiss visual systems, 28 layouts, 10 themes, single-file HTML → PNG. 小红书图文 + 公众号封面对",
-      "stars": 3032,
-      "forks": 281,
+      "stars": 3046,
+      "forks": 283,
       "language": "HTML",
       "topics": [
         "agent-skill",
@@ -1021,14 +1000,28 @@
       "pushed": "2026-05-27",
       "open_issues": 4,
       "avatar": "https://avatars.githubusercontent.com/u/13505770?v=4",
-      "delta": 15
+      "delta": 14
+    },
+    {
+      "name": "OpenBMB/PilotDeck",
+      "url": "https://github.com/OpenBMB/PilotDeck",
+      "description": "Task-oriented AI Agent productivity platform",
+      "stars": 3039,
+      "forks": 320,
+      "language": "TypeScript",
+      "topics": [],
+      "created": "2026-05-22",
+      "pushed": "2026-06-05",
+      "open_issues": 82,
+      "avatar": "https://avatars.githubusercontent.com/u/89920203?v=4",
+      "delta": 4
     },
     {
       "name": "open-gsd/gsd-core",
       "url": "https://github.com/open-gsd/gsd-core",
       "description": "Git. Ship. Done - Core",
-      "stars": 2969,
-      "forks": 182,
+      "stars": 2995,
+      "forks": 184,
       "language": "JavaScript",
       "topics": [
         "claude-code",
@@ -1038,15 +1031,15 @@
       ],
       "created": "2026-05-22",
       "pushed": "2026-06-07",
-      "open_issues": 46,
+      "open_issues": 47,
       "avatar": "https://avatars.githubusercontent.com/u/286935422?v=4",
-      "delta": 27
+      "delta": 26
     },
     {
       "name": "thananon/9arm-skills",
       "url": "https://github.com/thananon/9arm-skills",
       "description": "",
-      "stars": 2681,
+      "stars": 2683,
       "forks": 373,
       "language": "Shell",
       "topics": [],
@@ -1054,7 +1047,7 @@
       "pushed": "2026-05-26",
       "open_issues": 4,
       "avatar": "https://avatars.githubusercontent.com/u/7318806?v=4",
-      "delta": 1
+      "delta": 2
     }
   ]
 }
