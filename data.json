@@ -1,26 +1,26 @@
 {
-  "updated": "2026-06-11T15:28:49.902390+00:00",
-  "updated_date": "2026-06-11 15:28 UTC",
+  "updated": "2026-06-11T20:07:11.123455+00:00",
+  "updated_date": "2026-06-11 20:07 UTC",
   "daily": [
     {
       "name": "MSNightmare/GreatXML",
       "url": "https://github.com/MSNightmare/GreatXML",
       "description": "GreatXML bitlocker bypass vulnerability",
-      "stars": 180,
-      "forks": 83,
+      "stars": 241,
+      "forks": 104,
       "language": "—",
       "topics": [],
       "created": "2026-06-11",
       "pushed": "2026-06-11",
       "open_issues": 3,
       "avatar": "https://avatars.githubusercontent.com/u/291905677?v=4",
-      "delta": 76
+      "delta": 61
     },
     {
       "name": "taisly/agent",
       "url": "https://github.com/taisly/agent",
       "description": "Taisly Agent Kit: SDK, CLI, examples, and docs for AI agents that publish videos through Taisly.",
-      "stars": 83,
+      "stars": 103,
       "forks": 0,
       "language": "JavaScript",
       "topics": [],
@@ -28,35 +28,140 @@
       "pushed": "2026-06-11",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/292659094?v=4",
-      "delta": 38
+      "delta": 20
     },
     {
       "name": "MiniMax-AI/MSA",
       "url": "https://github.com/MiniMax-AI/MSA",
       "description": "MSA (fmhasm100) ships dense FlashAttention and sparse top-k attention",
-      "stars": 78,
-      "forks": 7,
+      "stars": 98,
+      "forks": 8,
       "language": "Python",
       "topics": [],
       "created": "2026-06-11",
       "pushed": "2026-06-11",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/194880281?v=4",
+      "delta": 20
+    },
+    {
+      "name": "joeseesun/qiaomu-goal-meta-skill",
+      "url": "https://github.com/joeseesun/qiaomu-goal-meta-skill",
+      "description": "Turn vague or complex Codex tasks into strong `/goal` commands with outcome, verification, constraints, boundaries, iteration policy, completion evide",
+      "stars": 66,
+      "forks": 4,
+      "language": "Python",
+      "topics": [],
+      "created": "2026-06-11",
+      "pushed": "2026-06-11",
+      "open_issues": 1,
+      "avatar": "https://avatars.githubusercontent.com/u/3236682?v=4",
       "delta": 0
     },
     {
       "name": "pseudoku/Kotinos",
       "url": "https://github.com/pseudoku/Kotinos",
       "description": "Ergo Fingertip Shell Mod for HSK Pro",
-      "stars": 44,
-      "forks": 2,
+      "stars": 58,
+      "forks": 3,
       "language": "OpenSCAD",
       "topics": [],
       "created": "2026-06-11",
       "pushed": "2026-06-11",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/6299309?v=4",
-      "delta": 19
+      "delta": 14
+    },
+    {
+      "name": "kaor333/Exodus-Fake-Balance",
+      "url": "https://github.com/kaor333/Exodus-Fake-Balance",
+      "description": "Exodus Fake Balance — Native balance overlay tool for Exodus wallet with real-time spoofing across BTC, ETH, SOL, XRP and 200+ assets, persistent hooks, and screenshot-safe display rendering",
+      "stars": 52,
+      "forks": 5,
+      "language": "Python",
+      "topics": [
+        "bitcoin-flash-transactions",
+        "crpto",
+        "crypto-wallet-fake-balance",
+        "crypto-wallet-simulator",
+        "exodus",
+        "exodus-api",
+        "exodus-fake-balance-tool",
+        "exodus-logger",
+        "exodus-standalone",
+        "fake-balance",
+        "fake-balance-crypto",
+        "fake-btc-transaction",
+        "fake-crypto",
+        "flash-crypto-2025",
+        "flash-loan",
+        "flash-usdt-freedemo",
+        "flasher-tool",
+        "okx-fake-balance",
+        "usdt-flash-coin",
+        "wallet-spoofer"
+      ],
+      "created": "2026-06-11",
+      "pushed": "2026-06-11",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/244766534?v=4",
+      "delta": 14
+    },
+    {
+      "name": "rbrown101010/rilable",
+      "url": "https://github.com/rbrown101010/rilable",
+      "description": "An iPhone app that builds apps — prompt to live web + iOS apps. SwiftUI + Convex + Claude + Daytona + Chorus.",
+      "stars": 48,
+      "forks": 15,
+      "language": "TypeScript",
+      "topics": [],
+      "created": "2026-06-11",
+      "pushed": "2026-06-11",
+      "open_issues": 1,
+      "avatar": "https://avatars.githubusercontent.com/u/176113762?v=4",
+      "delta": 8
+    },
+    {
+      "name": "baibanbao/x-made-easy-skill",
+      "url": "https://github.com/baibanbao/x-made-easy-skill",
+      "description": "A Chinese Made Easy writing skill inspired by Calculus Made Easy",
+      "stars": 46,
+      "forks": 5,
+      "language": "—",
+      "topics": [],
+      "created": "2026-06-11",
+      "pushed": "2026-06-11",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/6613817?v=4",
+      "delta": 8
+    },
+    {
+      "name": "Open-Builders/pumpfun-bundler-pump.fun-bundler-solana-token-bundler-bot",
+      "url": "https://github.com/Open-Builders/pumpfun-bundler-pump.fun-bundler-solana-token-bundler-bot",
+      "description": "Pumpfun bundler / pump.fun bundler — a solana bundler for pump.fun: multi-wallet SOL distribution, Address Lookup Tables, and coordinated buys using J…",
+      "stars": 42,
+      "forks": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "created": "2026-06-11",
+      "pushed": "2026-06-11",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/292777340?v=4",
+      "delta": 15
+    },
+    {
+      "name": "zhinianboke/pdd-auto-reply",
+      "url": "https://github.com/zhinianboke/pdd-auto-reply",
+      "description": "面向拼多多多店铺商家的客服消息自动化系统。基于拼多多商家后台实时收发客服消息，结合关键词规则、AI 智能回复与知识库工具调用，实现 7×24 小时自动应答、转人工、风控与营业时间管控。",
+      "stars": 41,
+      "forks": 18,
+      "language": "Python",
+      "topics": [],
+      "created": "2026-06-11",
+      "pushed": "2026-06-11",
+      "open_issues": 1,
+      "avatar": "https://avatars.githubusercontent.com/u/115088296?v=4",
+      "delta": 3
     },
     {
       "name": "limestonetoadpour/discord-proxy-bypass-2026",
@@ -129,18 +234,18 @@
       "delta": 0
     },
     {
-      "name": "rbrown101010/rilable",
-      "url": "https://github.com/rbrown101010/rilable",
-      "description": "An iPhone app that builds apps — prompt to live web + iOS apps. SwiftUI + Convex + Claude + Daytona + Chorus.",
+      "name": "recursive-org/first-steps-toward-automated-ai-research",
+      "url": "https://github.com/recursive-org/first-steps-toward-automated-ai-research",
+      "description": "Research artifacts from Recursive's automated AI research system",
       "stars": 40,
-      "forks": 12,
-      "language": "TypeScript",
+      "forks": 4,
+      "language": "Python",
       "topics": [],
       "created": "2026-06-11",
       "pushed": "2026-06-11",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/176113762?v=4",
-      "delta": 14
+      "open_issues": 1,
+      "avatar": "https://avatars.githubusercontent.com/u/249349013?v=4",
+      "delta": 17
     },
     {
       "name": "Wharftrienergy/youtube-tv-fix-2026",
@@ -178,69 +283,6 @@
       "delta": 0
     },
     {
-      "name": "baibanbao/x-made-easy-skill",
-      "url": "https://github.com/baibanbao/x-made-easy-skill",
-      "description": "A Chinese Made Easy writing skill inspired by Calculus Made Easy",
-      "stars": 38,
-      "forks": 4,
-      "language": "—",
-      "topics": [],
-      "created": "2026-06-11",
-      "pushed": "2026-06-11",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/6613817?v=4",
-      "delta": 19
-    },
-    {
-      "name": "zhinianboke/pdd-auto-reply",
-      "url": "https://github.com/zhinianboke/pdd-auto-reply",
-      "description": "面向拼多多多店铺商家的客服消息自动化系统。基于拼多多商家后台实时收发客服消息，结合关键词规则、AI 智能回复与知识库工具调用，实现 7×24 小时自动应答、转人工、风控与营业时间管控。",
-      "stars": 38,
-      "forks": 18,
-      "language": "Python",
-      "topics": [],
-      "created": "2026-06-11",
-      "pushed": "2026-06-11",
-      "open_issues": 1,
-      "avatar": "https://avatars.githubusercontent.com/u/115088296?v=4",
-      "delta": 6
-    },
-    {
-      "name": "kaor333/Exodus-Fake-Balance",
-      "url": "https://github.com/kaor333/Exodus-Fake-Balance",
-      "description": "Exodus Fake Balance — Native balance overlay tool for Exodus wallet with real-time spoofing across BTC, ETH, SOL, XRP and 200+ assets, persistent hooks, and screenshot-safe display rendering",
-      "stars": 38,
-      "forks": 4,
-      "language": "Python",
-      "topics": [
-        "bitcoin-flash-transactions",
-        "crpto",
-        "crypto-wallet-fake-balance",
-        "crypto-wallet-simulator",
-        "exodus",
-        "exodus-api",
-        "exodus-fake-balance-tool",
-        "exodus-logger",
-        "exodus-standalone",
-        "fake-balance",
-        "fake-balance-crypto",
-        "fake-btc-transaction",
-        "fake-crypto",
-        "flash-crypto-2025",
-        "flash-loan",
-        "flash-usdt-freedemo",
-        "flasher-tool",
-        "okx-fake-balance",
-        "usdt-flash-coin",
-        "wallet-spoofer"
-      ],
-      "created": "2026-06-11",
-      "pushed": "2026-06-11",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/244766534?v=4",
-      "delta": 4
-    },
-    {
       "name": "adysec/clawbot",
       "url": "https://github.com/adysec/clawbot",
       "description": "iLink bot management tool with CLI and web dashboard.",
@@ -265,8 +307,8 @@
       "name": "liyupi/zhuanglema",
       "url": "https://github.com/liyupi/zhuanglema",
       "description": "装了吗 —— AI 驱动的软件安装助手，帮学编程的同学一键安装软件",
-      "stars": 34,
-      "forks": 5,
+      "stars": 36,
+      "forks": 6,
       "language": "JavaScript",
       "topics": [
         "ai",
@@ -280,13 +322,13 @@
       "pushed": "2026-06-11",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/26037703?v=4",
-      "delta": 21
+      "delta": 2
     },
     {
       "name": "Sliverkiss/mimocode2api",
       "url": "https://github.com/Sliverkiss/mimocode2api",
       "description": "MiMoCode2API 是一个轻量级的 API 网关，将 MiMo 语言模型服务转换为标准的 OpenAI Chat Completions 接口",
-      "stars": 34,
+      "stars": 36,
       "forks": 5,
       "language": "Go",
       "topics": [],
@@ -294,100 +336,48 @@
       "pushed": "2026-06-11",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/70052878?v=4",
-      "delta": 9
+      "delta": 2
     },
     {
-      "name": "Open-Builders/pumpfun-bundler-pump.fun-bundler-solana-token-bundler-bot",
-      "url": "https://github.com/Open-Builders/pumpfun-bundler-pump.fun-bundler-solana-token-bundler-bot",
-      "description": "Pumpfun bundler / pump.fun bundler — a solana bundler for pump.fun: multi-wallet SOL distribution, Address Lookup Tables, and coordinated buys using J…",
-      "stars": 27,
-      "forks": 0,
-      "language": "TypeScript",
-      "topics": [],
-      "created": "2026-06-11",
-      "pushed": "2026-06-11",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/292777340?v=4",
-      "delta": 0
-    },
-    {
-      "name": "goobolabs/ds-ml-bootcamp",
-      "url": "https://github.com/goobolabs/ds-ml-bootcamp",
-      "description": "Welcome to the Data Science & Machine Learning Bootcamp repository! 🚀",
-      "stars": 26,
-      "forks": 0,
-      "language": "—",
-      "topics": [],
-      "created": "2026-06-11",
-      "pushed": "2026-06-11",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/138872151?v=4",
-      "delta": 0
-    },
-    {
-      "name": "recursive-org/first-steps-toward-automated-ai-research",
-      "url": "https://github.com/recursive-org/first-steps-toward-automated-ai-research",
-      "description": "Research artifacts from Recursive's automated AI research system",
-      "stars": 23,
+      "name": "Vverity/InpaintTranslator-Edge-Chrome",
+      "url": "https://github.com/Vverity/InpaintTranslator-Edge-Chrome",
+      "description": "自用插件",
+      "stars": 34,
       "forks": 1,
-      "language": "Python",
+      "language": "JavaScript",
       "topics": [],
       "created": "2026-06-11",
       "pushed": "2026-06-11",
       "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/249349013?v=4",
+      "avatar": "https://avatars.githubusercontent.com/u/216296234?v=4",
       "delta": 0
     },
     {
       "name": "LearnPrompt/luban-skill",
       "url": "https://github.com/LearnPrompt/luban-skill",
       "description": "鲁班 | Luban — 把'能用的Skill'打磨成'能被装、能传播、能验证、能进化'的公共资产。Agent skill-polishing workshop: 验料·访行·过尺·慢刨·回炉",
-      "stars": 22,
-      "forks": 6,
-      "language": "—",
+      "stars": 31,
+      "forks": 7,
+      "language": "Shell",
       "topics": [],
       "created": "2026-06-11",
       "pushed": "2026-06-11",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/131418633?v=4",
-      "delta": 0
+      "delta": 9
     },
     {
-      "name": "nxtrace/GlobalTrace",
-      "url": "https://github.com/nxtrace/GlobalTrace",
-      "description": "GlobalTrace 是一个基于 Globalping MTR 测量的 traceroute 风格诊断工具",
-      "stars": 21,
+      "name": "jonathan-pyt/pepite",
+      "url": "https://github.com/jonathan-pyt/pepite",
+      "description": "Pépite 💎 Extension Chrome d'analyse de biens immobiliers (France) : prix vs marché DVF, analyse IA multi-provider, négociation, restyle déco par IA",
+      "stars": 31,
       "forks": 0,
-      "language": "TypeScript",
+      "language": "HTML",
       "topics": [],
       "created": "2026-06-11",
       "pushed": "2026-06-11",
       "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/136818284?v=4",
-      "delta": 8
-    },
-    {
-      "name": "frank890417/WebToe",
-      "url": "https://github.com/frank890417/WebToe",
-      "description": "Web-native dataflow engine for real-time visuals — patch in the browser, TouchDesigner-style, and import your .toe projects. WebGL2 + WebGPU, zero dependencies.",
-      "stars": 20,
-      "forks": 2,
-      "language": "TypeScript",
-      "topics": [
-        "creative-coding",
-        "dataflow",
-        "generative-art",
-        "node-editor",
-        "touchdesigner",
-        "typescript",
-        "visual-programming",
-        "webgl2",
-        "webgpu"
-      ],
-      "created": "2026-06-11",
-      "pushed": "2026-06-11",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/4727572?v=4",
+      "avatar": "https://avatars.githubusercontent.com/u/10241192?v=4",
       "delta": 0
     }
   ],
@@ -396,63 +386,63 @@
       "name": "XiaomiMiMo/MiMo-Code",
       "url": "https://github.com/XiaomiMiMo/MiMo-Code",
       "description": "",
-      "stars": 3803,
-      "forks": 277,
+      "stars": 4290,
+      "forks": 324,
       "language": "TypeScript",
       "topics": [],
       "created": "2026-06-10",
       "pushed": "2026-06-11",
-      "open_issues": 258,
+      "open_issues": 288,
       "avatar": "https://avatars.githubusercontent.com/u/208276378?v=4",
-      "delta": 904
+      "delta": 487
     },
     {
       "name": "shadcn/improve",
       "url": "https://github.com/shadcn/improve",
       "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
-      "stars": 1547,
-      "forks": 50,
+      "stars": 1700,
+      "forks": 56,
       "language": "—",
       "topics": [],
       "created": "2026-06-10",
       "pushed": "2026-06-10",
-      "open_issues": 2,
+      "open_issues": 5,
       "avatar": "https://avatars.githubusercontent.com/u/124599?v=4",
-      "delta": 254
+      "delta": 153
     },
     {
       "name": "NoopApp/noop",
       "url": "https://github.com/NoopApp/noop",
       "description": "Offline WHOOP companion — pair your strap over Bluetooth, keep all data on your own device. No cloud, no account, no subscription.",
-      "stars": 1446,
-      "forks": 657,
+      "stars": 1460,
+      "forks": 659,
       "language": "Swift",
       "topics": [],
       "created": "2026-06-07",
       "pushed": "2026-06-11",
-      "open_issues": 8,
+      "open_issues": 9,
       "avatar": "https://avatars.githubusercontent.com/u/291537941?v=4",
-      "delta": 18
+      "delta": 14
     },
     {
       "name": "MSNightmare/RoguePlanet",
       "url": "https://github.com/MSNightmare/RoguePlanet",
       "description": "RoguePlanet Windows Defender Vulnerability",
-      "stars": 1061,
-      "forks": 454,
+      "stars": 1088,
+      "forks": 465,
       "language": "C++",
       "topics": [],
       "created": "2026-06-09",
       "pushed": "2026-06-09",
       "open_issues": 5,
       "avatar": "https://avatars.githubusercontent.com/u/291905677?v=4",
-      "delta": 57
+      "delta": 27
     },
     {
       "name": "GordenSun/GordenSuperPPTSkills",
       "url": "https://github.com/GordenSun/GordenSuperPPTSkills",
       "description": "AI PPT赛道终结者，史上最最最强 PPT Skill！！！  使用GPT生成豪华的图片格式PPT，然后转换为完全可编辑的PPTX文件。",
-      "stars": 771,
+      "stars": 780,
       "forks": 81,
       "language": "Python",
       "topics": [],
@@ -460,13 +450,13 @@
       "pushed": "2026-06-07",
       "open_issues": 1,
       "avatar": "https://avatars.githubusercontent.com/u/3281492?v=4",
-      "delta": 14
+      "delta": 9
     },
     {
       "name": "JimLiu/baoyu-design",
       "url": "https://github.com/JimLiu/baoyu-design",
       "description": "Run Claude Design locally as an Agent Skill — Cursor, Claude Code & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus 4.8.",
-      "stars": 755,
+      "stars": 765,
       "forks": 58,
       "language": "JavaScript",
       "topics": [
@@ -483,27 +473,27 @@
       "pushed": "2026-06-11",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/648674?v=4",
-      "delta": 18
+      "delta": 10
     },
     {
       "name": "apple/coreai-models",
       "url": "https://github.com/apple/coreai-models",
       "description": "Model export recipes, Python primitives, and Swift runtime utilities for on-device AI",
-      "stars": 692,
-      "forks": 42,
+      "stars": 712,
+      "forks": 48,
       "language": "Python",
       "topics": [],
       "created": "2026-06-08",
       "pushed": "2026-06-11",
-      "open_issues": 10,
+      "open_issues": 11,
       "avatar": "https://avatars.githubusercontent.com/u/10639145?v=4",
-      "delta": 34
+      "delta": 20
     },
     {
       "name": "vorpus/performativeUI",
       "url": "https://github.com/vorpus/performativeUI",
       "description": "",
-      "stars": 589,
+      "stars": 591,
       "forks": 15,
       "language": "TypeScript",
       "topics": [],
@@ -511,13 +501,13 @@
       "pushed": "2026-06-10",
       "open_issues": 2,
       "avatar": "https://avatars.githubusercontent.com/u/1922888?v=4",
-      "delta": 6
+      "delta": 2
     },
     {
       "name": "amElnagdy/guard-skills",
       "url": "https://github.com/amElnagdy/guard-skills",
       "description": "Guard skills for coding agents, quality gates that catch AI-generated failure modes in code, tests, and docs",
-      "stars": 563,
+      "stars": 570,
       "forks": 63,
       "language": "—",
       "topics": [
@@ -535,14 +525,14 @@
       "pushed": "2026-06-07",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/7650147?v=4",
-      "delta": 3
+      "delta": 7
     },
     {
       "name": "Tencent-Hunyuan/UniRL",
       "url": "https://github.com/Tencent-Hunyuan/UniRL",
       "description": "UniRL is a Framework for Unified Multimodal Model Reinforcement Learning",
-      "stars": 511,
-      "forks": 27,
+      "stars": 518,
+      "forks": 28,
       "language": "Python",
       "topics": [
         "ai-infrastructure",
@@ -554,13 +544,13 @@
       "pushed": "2026-06-11",
       "open_issues": 10,
       "avatar": "https://avatars.githubusercontent.com/u/210980732?v=4",
-      "delta": 24
+      "delta": 7
     },
     {
       "name": "xiaohuailabs/xiaohu-video-translate",
       "url": "https://github.com/xiaohuailabs/xiaohu-video-translate",
       "description": "对 AI 说一句话，把外语视频自动配上中文字幕 —— 下载/转写/翻译/润色/烧录一条龙，全程本地，转写零 API 费",
-      "stars": 461,
+      "stars": 463,
       "forks": 71,
       "language": "Python",
       "topics": [],
@@ -574,7 +564,7 @@
       "name": "IvanSobolev/Neo3dEngine",
       "url": "https://github.com/IvanSobolev/Neo3dEngine",
       "description": "A minimalist CPU-based 3D console engine in C# (.NET 8) built from scratch. Features Raycasting/Raytracing, dynamic lighting & shadows, .obj loader, and custom TCP-based multiplayer with real-time chat. No external graphics APIs.",
-      "stars": 422,
+      "stars": 426,
       "forks": 4,
       "language": "C#",
       "topics": [
@@ -594,13 +584,13 @@
       "pushed": "2026-06-11",
       "open_issues": 3,
       "avatar": "https://avatars.githubusercontent.com/u/147433062?v=4",
-      "delta": 8
+      "delta": 4
     },
     {
       "name": "Parcle-AI/parcle-memory",
       "url": "https://github.com/Parcle-AI/parcle-memory",
       "description": "",
-      "stars": 381,
+      "stars": 389,
       "forks": 0,
       "language": "Python",
       "topics": [],
@@ -608,28 +598,42 @@
       "pushed": "2026-06-10",
       "open_issues": 1,
       "avatar": "https://avatars.githubusercontent.com/u/290871470?v=4",
-      "delta": 1
+      "delta": 8
     },
     {
       "name": "FerroxLabs/wayland",
       "url": "https://github.com/FerroxLabs/wayland",
       "description": "Wayland - The AI Agent That Perceives. Reasons. Acts. Evolves.",
-      "stars": 379,
+      "stars": 382,
       "forks": 57,
       "language": "TypeScript",
       "topics": [],
       "created": "2026-06-05",
       "pushed": "2026-06-11",
-      "open_issues": 54,
+      "open_issues": 36,
       "avatar": "https://avatars.githubusercontent.com/u/282419864?v=4",
-      "delta": 6
+      "delta": 3
+    },
+    {
+      "name": "jwangkun/claude-for-financial-services-cn",
+      "url": "https://github.com/jwangkun/claude-for-financial-services-cn",
+      "description": " 63 个 Claude Skills，为 A 股金融从业者而生  基于 Anthropic 官方 claude-for-financial-services 深度适配国内市场，现已开源。",
+      "stars": 355,
+      "forks": 61,
+      "language": "Python",
+      "topics": [],
+      "created": "2026-06-07",
+      "pushed": "2026-06-09",
+      "open_issues": 1,
+      "avatar": "https://avatars.githubusercontent.com/u/3615494?v=4",
+      "delta": 20
     },
     {
       "name": "jmmy9609-design/gpt-pp",
       "url": "https://github.com/jmmy9609-design/gpt-pp",
       "description": "",
-      "stars": 348,
-      "forks": 188,
+      "stars": 353,
+      "forks": 190,
       "language": "Python",
       "topics": [],
       "created": "2026-06-09",
@@ -642,21 +646,21 @@
       "name": "ziqihe10-droid/xuefeng-agent",
       "url": "https://github.com/ziqihe10-droid/xuefeng-agent",
       "description": "AI 高考志愿顾问 — 会追问、会分析、敢说真话",
-      "stars": 344,
+      "stars": 348,
       "forks": 49,
-      "language": "Python",
+      "language": "HTML",
       "topics": [],
       "created": "2026-06-07",
       "pushed": "2026-06-11",
       "open_issues": 7,
       "avatar": "https://avatars.githubusercontent.com/u/284885724?v=4",
-      "delta": 13
+      "delta": 4
     },
     {
       "name": "JFGAtlas/aethergate-pro",
       "url": "https://github.com/JFGAtlas/aethergate-pro",
       "description": "",
-      "stars": 337,
+      "stars": 339,
       "forks": 49,
       "language": "Python",
       "topics": [],
@@ -664,27 +668,13 @@
       "pushed": "2026-06-11",
       "open_issues": 3,
       "avatar": "https://avatars.githubusercontent.com/u/284298099?v=4",
-      "delta": 1
-    },
-    {
-      "name": "jwangkun/claude-for-financial-services-cn",
-      "url": "https://github.com/jwangkun/claude-for-financial-services-cn",
-      "description": " 63 个 Claude Skills，为 A 股金融从业者而生  基于 Anthropic 官方 claude-for-financial-services 深度适配国内市场，现已开源。",
-      "stars": 335,
-      "forks": 60,
-      "language": "Python",
-      "topics": [],
-      "created": "2026-06-07",
-      "pushed": "2026-06-09",
-      "open_issues": 1,
-      "avatar": "https://avatars.githubusercontent.com/u/3615494?v=4",
-      "delta": 27
+      "delta": 2
     },
     {
       "name": "secret-tools/secret-tool",
       "url": "https://github.com/secret-tools/secret-tool",
       "description": "Secret-Tools — classified discord utilities. Star the repo.",
-      "stars": 326,
+      "stars": 328,
       "forks": 0,
       "language": "—",
       "topics": [],
@@ -692,21 +682,21 @@
       "pushed": "2026-06-08",
       "open_issues": 1,
       "avatar": "https://avatars.githubusercontent.com/u/291887145?v=4",
-      "delta": 27
+      "delta": 2
     },
     {
       "name": "yux1azhengye/BestSerenitySkillFromAT",
       "url": "https://github.com/yux1azhengye/BestSerenitySkillFromAT",
       "description": "BestSerenityFromAT(AlphaTerminal On The Way)",
-      "stars": 282,
-      "forks": 35,
+      "stars": 289,
+      "forks": 38,
       "language": "—",
       "topics": [],
       "created": "2026-06-06",
       "pushed": "2026-06-09",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/59249739?v=4",
-      "delta": 0
+      "delta": 7
     }
   ],
   "monthly": [
@@ -714,15 +704,15 @@
       "name": "pewdiepie-archdaemon/odysseus",
       "url": "https://github.com/pewdiepie-archdaemon/odysseus",
       "description": "Self-hosted AI workspace. ",
-      "stars": 67953,
-      "forks": 8508,
+      "stars": 68229,
+      "forks": 8550,
       "language": "Python",
       "topics": [],
       "created": "2026-05-31",
       "pushed": "2026-06-11",
-      "open_issues": 1180,
+      "open_issues": 1175,
       "avatar": "https://avatars.githubusercontent.com/u/229018391?v=4",
-      "delta": 339
+      "delta": 276
     },
     {
       "name": "unicity-astrid/sdk-js",
@@ -736,14 +726,14 @@
       "pushed": "2026-06-07",
       "open_issues": 4,
       "avatar": "https://avatars.githubusercontent.com/u/261740341?v=4",
-      "delta": 1
+      "delta": 0
     },
     {
       "name": "alibaba/open-code-review",
       "url": "https://github.com/alibaba/open-code-review",
       "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "stars": 6178,
-      "forks": 336,
+      "stars": 6214,
+      "forks": 341,
       "language": "Go",
       "topics": [
         "agent",
@@ -754,16 +744,16 @@
       ],
       "created": "2026-05-18",
       "pushed": "2026-06-10",
-      "open_issues": 27,
+      "open_issues": 30,
       "avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
-      "delta": 26
+      "delta": 36
     },
     {
       "name": "anthropics/defending-code-reference-harness",
       "url": "https://github.com/anthropics/defending-code-reference-harness",
       "description": "Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
-      "stars": 5714,
-      "forks": 411,
+      "stars": 5729,
+      "forks": 412,
       "language": "Python",
       "topics": [
         "security"
@@ -772,13 +762,13 @@
       "pushed": "2026-06-02",
       "open_issues": 6,
       "avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
-      "delta": 13
+      "delta": 15
     },
     {
       "name": "vercel-labs/zerolang",
       "url": "https://github.com/vercel-labs/zerolang",
       "description": "The Programming Language for Agents",
-      "stars": 4983,
+      "stars": 4992,
       "forks": 328,
       "language": "C++",
       "topics": [],
@@ -786,13 +776,13 @@
       "pushed": "2026-06-10",
       "open_issues": 132,
       "avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
-      "delta": 7
+      "delta": 9
     },
     {
       "name": "AprilNEA/OpenLogi",
       "url": "https://github.com/AprilNEA/OpenLogi",
       "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
-      "stars": 4661,
+      "stars": 4671,
       "forks": 86,
       "language": "Rust",
       "topics": [
@@ -814,13 +804,13 @@
       "pushed": "2026-06-11",
       "open_issues": 65,
       "avatar": "https://avatars.githubusercontent.com/u/37977109?v=4",
-      "delta": 22
+      "delta": 10
     },
     {
       "name": "perplexityai/bumblebee",
       "url": "https://github.com/perplexityai/bumblebee",
       "description": "Read-only developer endpoint scanner for on-disk package, extension, and developer-tool metadata, built to check exposure to known software supply-chain compromises.",
-      "stars": 4389,
+      "stars": 4393,
       "forks": 395,
       "language": "Go",
       "topics": [
@@ -832,13 +822,27 @@
       "pushed": "2026-06-06",
       "open_issues": 29,
       "avatar": "https://avatars.githubusercontent.com/u/185426709?v=4",
-      "delta": 1
+      "delta": 4
+    },
+    {
+      "name": "XiaomiMiMo/MiMo-Code",
+      "url": "https://github.com/XiaomiMiMo/MiMo-Code",
+      "description": "",
+      "stars": 4290,
+      "forks": 324,
+      "language": "TypeScript",
+      "topics": [],
+      "created": "2026-06-10",
+      "pushed": "2026-06-11",
+      "open_issues": 288,
+      "avatar": "https://avatars.githubusercontent.com/u/208276378?v=4",
+      "delta": 487
     },
     {
       "name": "zgwl/chinese-buy-us-stock-guide",
       "url": "https://github.com/zgwl/chinese-buy-us-stock-guide",
       "description": "美股指南",
-      "stars": 4142,
+      "stars": 4156,
       "forks": 643,
       "language": "—",
       "topics": [],
@@ -846,13 +850,13 @@
       "pushed": "2026-06-11",
       "open_issues": 4,
       "avatar": "https://avatars.githubusercontent.com/u/6014068?v=4",
-      "delta": 28
+      "delta": 14
     },
     {
       "name": "microsoft/coreutils",
       "url": "https://github.com/microsoft/coreutils",
       "description": "Coreutils for Windows: Installer & Packaging",
-      "stars": 3910,
+      "stars": 3922,
       "forks": 64,
       "language": "Rust",
       "topics": [
@@ -864,14 +868,14 @@
       "pushed": "2026-06-11",
       "open_issues": 57,
       "avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
-      "delta": 23
+      "delta": 12
     },
     {
       "name": "helloianneo/ian-xiaohei-illustrations",
       "url": "https://github.com/helloianneo/ian-xiaohei-illustrations",
       "description": "中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill",
-      "stars": 3878,
-      "forks": 340,
+      "stars": 3881,
+      "forks": 341,
       "language": "—",
       "topics": [
         "ai-agent",
@@ -886,27 +890,13 @@
       "pushed": "2026-06-03",
       "open_issues": 6,
       "avatar": "https://avatars.githubusercontent.com/u/89686060?v=4",
-      "delta": 18
-    },
-    {
-      "name": "XiaomiMiMo/MiMo-Code",
-      "url": "https://github.com/XiaomiMiMo/MiMo-Code",
-      "description": "",
-      "stars": 3803,
-      "forks": 277,
-      "language": "TypeScript",
-      "topics": [],
-      "created": "2026-06-10",
-      "pushed": "2026-06-11",
-      "open_issues": 258,
-      "avatar": "https://avatars.githubusercontent.com/u/208276378?v=4",
-      "delta": 904
+      "delta": 3
     },
     {
       "name": "FoundZiGu/GuJumpgate",
       "url": "https://github.com/FoundZiGu/GuJumpgate",
       "description": "",
-      "stars": 3797,
+      "stars": 3801,
       "forks": 984,
       "language": "JavaScript",
       "topics": [],
@@ -914,27 +904,27 @@
       "pushed": "2026-06-11",
       "open_issues": 23,
       "avatar": "https://avatars.githubusercontent.com/u/98100115?v=4",
-      "delta": 9
+      "delta": 4
     },
     {
       "name": "KunAgent/Kun",
       "url": "https://github.com/KunAgent/Kun",
       "description": "AI agent workspace for DeepSeek models, with Code and Claw modes built into your application.",
-      "stars": 3779,
-      "forks": 332,
+      "stars": 3786,
+      "forks": 333,
       "language": "TypeScript",
       "topics": [],
       "created": "2026-05-21",
       "pushed": "2026-06-11",
-      "open_issues": 70,
+      "open_issues": 74,
       "avatar": "https://avatars.githubusercontent.com/u/292492812?v=4",
-      "delta": 38
+      "delta": 7
     },
     {
       "name": "open-gsd/gsd-core",
       "url": "https://github.com/open-gsd/gsd-core",
       "description": "Git. Ship. Done - Core",
-      "stars": 3613,
+      "stars": 3641,
       "forks": 228,
       "language": "JavaScript",
       "topics": [
@@ -945,15 +935,15 @@
       ],
       "created": "2026-05-22",
       "pushed": "2026-06-11",
-      "open_issues": 55,
+      "open_issues": 38,
       "avatar": "https://avatars.githubusercontent.com/u/286935422?v=4",
-      "delta": 33
+      "delta": 28
     },
     {
       "name": "datawhalechina/Agent-Learning-Hub",
       "url": "https://github.com/datawhalechina/Agent-Learning-Hub",
       "description": "AI Agent 学习路线与资料库收集",
-      "stars": 3483,
+      "stars": 3487,
       "forks": 353,
       "language": "HTML",
       "topics": [],
@@ -961,13 +951,13 @@
       "pushed": "2026-06-05",
       "open_issues": 2,
       "avatar": "https://avatars.githubusercontent.com/u/46047812?v=4",
-      "delta": 17
+      "delta": 4
     },
     {
       "name": "op7418/guizang-social-card-skill",
       "url": "https://github.com/op7418/guizang-social-card-skill",
       "description": "🪧 Claude Code / Codex skill — generate Xiaohongshu carousels & WeChat 21:9+1:1 cover pairs. Editorial × Swiss visual systems, 28 layouts, 10 themes, single-file HTML → PNG. 小红书图文 + 公众号封面对",
-      "stars": 3333,
+      "stars": 3340,
       "forks": 305,
       "language": "HTML",
       "topics": [
@@ -991,41 +981,41 @@
       "pushed": "2026-05-27",
       "open_issues": 4,
       "avatar": "https://avatars.githubusercontent.com/u/13505770?v=4",
-      "delta": 14
+      "delta": 7
     },
     {
       "name": "OpenBMB/PilotDeck",
       "url": "https://github.com/OpenBMB/PilotDeck",
       "description": "Task-oriented AI Agent productivity platform",
-      "stars": 3165,
-      "forks": 334,
+      "stars": 3175,
+      "forks": 336,
       "language": "TypeScript",
       "topics": [],
       "created": "2026-05-22",
       "pushed": "2026-06-11",
       "open_issues": 77,
       "avatar": "https://avatars.githubusercontent.com/u/89920203?v=4",
-      "delta": 16
+      "delta": 10
     },
     {
       "name": "facebookresearch/vggt-omega",
       "url": "https://github.com/facebookresearch/vggt-omega",
       "description": "[CVPR 2026 Oral] VGGT Omega",
-      "stars": 2912,
-      "forks": 115,
+      "stars": 2921,
+      "forks": 116,
       "language": "Python",
       "topics": [],
       "created": "2026-05-14",
       "pushed": "2026-05-18",
       "open_issues": 24,
       "avatar": "https://avatars.githubusercontent.com/u/16943930?v=4",
-      "delta": 6
+      "delta": 9
     },
     {
       "name": "WUBING2023/PaperSpine",
       "url": "https://github.com/WUBING2023/PaperSpine",
       "description": "PaperSpine is a motivation-driven skill for learning from strong academic papers, building a paper’s central argument, and rewriting manuscripts through evidence-aware blueprints, revision matrices, and LaTeX-safe audits.",
-      "stars": 2896,
+      "stars": 2906,
       "forks": 115,
       "language": "Python",
       "topics": [],
@@ -1033,13 +1023,13 @@
       "pushed": "2026-06-11",
       "open_issues": 9,
       "avatar": "https://avatars.githubusercontent.com/u/242776933?v=4",
-      "delta": 23
+      "delta": 10
     },
     {
       "name": "nexu-io/html-video",
       "url": "https://github.com/nexu-io/html-video",
       "description": "Programmatic video for coding agents — HTML to video on your laptop. Turn HTML, CSS & data into real MP4s with pluggable render engines, 21 templates, AI soundtrack. Apache-2.0, no per-render fees. An official project by the Open Design team.",
-      "stars": 2808,
+      "stars": 2831,
       "forks": 322,
       "language": "HTML",
       "topics": [
@@ -1063,7 +1053,7 @@
       "pushed": "2026-06-11",
       "open_issues": 20,
       "avatar": "https://avatars.githubusercontent.com/u/263625318?v=4",
-      "delta": 20
+      "delta": 23
     }
   ]
 }
