@@ -1,12 +1,12 @@
 {
-  "updated": "2026-07-01T14:01:42.310087+00:00",
-  "updated_date": "2026-07-01 14:01 UTC",
+  "updated": "2026-07-01T19:26:32.296820+00:00",
+  "updated_date": "2026-07-01 19:26 UTC",
   "daily": [
     {
       "name": "zhujingqi/Twitter_Engagement_Tool",
       "url": "https://github.com/zhujingqi/Twitter_Engagement_Tool",
       "description": "Auto-tweet, follow/unfollow, and like/retweet scheduler. Schedule tweets, gain followers, like tweets, and reply to mentions. Grow your Twitter audience.",
-      "stars": 224,
+      "stars": 225,
       "forks": 0,
       "language": "Python",
       "topics": [],
@@ -14,13 +14,13 @@
       "pushed": "2026-07-01",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/76515195?v=4",
-      "delta": 0
+      "delta": 1
     },
     {
       "name": "StephanoEscobarLoayza/Spotify_Playlist_Booster",
       "url": "https://github.com/StephanoEscobarLoayza/Spotify_Playlist_Booster",
       "description": "Increase followers, playlist streams, and auto-like songs. Play songs on loop, get fake followers, like all songs, and create playlists automatically. Grow your Spotify presence.",
-      "stars": 224,
+      "stars": 225,
       "forks": 0,
       "language": "Python",
       "topics": [],
@@ -28,7 +28,7 @@
       "pushed": "2026-07-01",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/108950050?v=4",
-      "delta": 0
+      "delta": 1
     },
     {
       "name": "Zeeshan2899/System_Backup___Restore",
@@ -241,20 +241,6 @@
       "delta": 0
     },
     {
-      "name": "piedraprog/Network_Scanner",
-      "url": "https://github.com/piedraprog/Network_Scanner",
-      "description": "Scan your network for connected devices, open ports, and IP addresses. Discover all devices on your local network.",
-      "stars": 221,
-      "forks": 0,
-      "language": "Python",
-      "topics": [],
-      "created": "2026-07-01",
-      "pushed": "2026-07-01",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/64852146?v=4",
-      "delta": 0
-    },
-    {
       "name": "omarabdelazez11/Valorant_TriggerBot_Elite",
       "url": "https://github.com/omarabdelazez11/Valorant_TriggerBot_Elite",
       "description": "AI-powered triggerbot and radar hack for Valorant with human-like behavior. Auto-shoot when crosshair locks on, reveal enemy positions, and unlock all skins. Works with Vanguard bypass.",
@@ -281,6 +267,20 @@
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/195624448?v=4",
       "delta": 0
+    },
+    {
+      "name": "Parth-Rana-333/Spider-Man_Remastered_Unlimited_Gadgets",
+      "url": "https://github.com/Parth-Rana-333/Spider-Man_Remastered_Unlimited_Gadgets",
+      "description": "Unlimited gadgets, skill points, and all suits for Spider-Man Remastered. God mode, infinite web swing, and instant takedowns.",
+      "stars": 221,
+      "forks": 0,
+      "language": "Python",
+      "topics": [],
+      "created": "2026-07-01",
+      "pushed": "2026-07-01",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/108318917?v=4",
+      "delta": 0
     }
   ],
   "weekly": [
@@ -288,22 +288,22 @@
       "name": "deepseek-ai/DeepSpec",
       "url": "https://github.com/deepseek-ai/DeepSpec",
       "description": "DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms",
-      "stars": 5694,
-      "forks": 453,
+      "stars": 5729,
+      "forks": 461,
       "language": "Python",
       "topics": [],
       "created": "2026-06-26",
       "pushed": "2026-06-30",
-      "open_issues": 30,
+      "open_issues": 31,
       "avatar": "https://avatars.githubusercontent.com/u/148330874?v=4",
-      "delta": 80
+      "delta": 35
     },
     {
       "name": "baairon/torlink",
       "url": "https://github.com/baairon/torlink",
       "description": "A sleek, zero-setup torrent finder and downloader that lives right in your terminal.",
-      "stars": 2093,
-      "forks": 139,
+      "stars": 2231,
+      "forks": 145,
       "language": "TypeScript",
       "topics": [
         "downloader",
@@ -315,44 +315,44 @@
       ],
       "created": "2026-06-25",
       "pushed": "2026-07-01",
-      "open_issues": 12,
+      "open_issues": 13,
       "avatar": "https://avatars.githubusercontent.com/u/97924486?v=4",
-      "delta": 136
+      "delta": 138
     },
     {
       "name": "Krishnagangwal/CS-Fundamentals",
       "url": "https://github.com/Krishnagangwal/CS-Fundamentals",
       "description": "Curated CS fundamentals for placement prep: DSA,Computer Networks, DBMS & SQL, OOPs, Operating Systems, System Design & Software Engineering",
-      "stars": 1288,
-      "forks": 104,
+      "stars": 1321,
+      "forks": 106,
       "language": "—",
       "topics": [],
       "created": "2026-06-28",
       "pushed": "2026-06-28",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/175389609?v=4",
-      "delta": 22
+      "delta": 33
     },
     {
       "name": "yynxxxxx/Codex-5.5-codex-instruct-5.5",
       "url": "https://github.com/yynxxxxx/Codex-5.5-codex-instruct-5.5",
       "description": "",
-      "stars": 960,
-      "forks": 298,
+      "stars": 1002,
+      "forks": 311,
       "language": "Python",
       "topics": [],
       "created": "2026-06-28",
       "pushed": "2026-07-01",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/139136586?v=4",
-      "delta": 38
+      "delta": 42
     },
     {
       "name": "TianhangZhuzth/Fundamental-Ava",
       "url": "https://github.com/TianhangZhuzth/Fundamental-Ava",
       "description": "Build digital human beings — autonomous, collaborative, and socially intelligent agents. FNzgGxU31RWiDgLr3GvxxSa42nRntvZNSG6aBMQ1pump",
-      "stars": 688,
-      "forks": 63,
+      "stars": 714,
+      "forks": 66,
       "language": "Python",
       "topics": [
         "ai",
@@ -362,7 +362,21 @@
       "pushed": "2026-07-01",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/219875975?v=4",
-      "delta": 30
+      "delta": 26
+    },
+    {
+      "name": "Kulaxyz/self-learning-skills",
+      "url": "https://github.com/Kulaxyz/self-learning-skills",
+      "description": "A self-improving skill for AI coding agents (Claude Code, Cursor, AGENTS.md): recognize a hard-won golden path in a session and harvest it into a reusable skill/rule for next time.",
+      "stars": 692,
+      "forks": 7,
+      "language": "—",
+      "topics": [],
+      "created": "2026-06-28",
+      "pushed": "2026-07-01",
+      "open_issues": 1,
+      "avatar": "https://avatars.githubusercontent.com/u/47082676?v=4",
+      "delta": 155
     },
     {
       "name": "winsznx/theeleven",
@@ -397,24 +411,24 @@
       "delta": 0
     },
     {
-      "name": "Kulaxyz/self-learning-skills",
-      "url": "https://github.com/Kulaxyz/self-learning-skills",
-      "description": "A self-improving skill for AI coding agents (Claude Code, Cursor, AGENTS.md): recognize a hard-won golden path in a session and harvest it into a reusable skill/rule for next time.",
-      "stars": 537,
-      "forks": 2,
-      "language": "—",
+      "name": "mekos2772/ios-location-spoofer",
+      "url": "https://github.com/mekos2772/ios-location-spoofer",
+      "description": "Standalone iOS app to spoof GPS location without jailbreak. Includes Shadowrocket/Surge/Loon/QX/Stash module.",
+      "stars": 573,
+      "forks": 82,
+      "language": "JavaScript",
       "topics": [],
-      "created": "2026-06-28",
+      "created": "2026-06-30",
       "pushed": "2026-07-01",
-      "open_issues": 1,
-      "avatar": "https://avatars.githubusercontent.com/u/47082676?v=4",
-      "delta": 151
+      "open_issues": 3,
+      "avatar": "https://avatars.githubusercontent.com/u/119464194?v=4",
+      "delta": 177
     },
     {
       "name": "Pluviobyte/video-production-skills",
       "url": "https://github.com/Pluviobyte/video-production-skills",
       "description": "Reusable AI video production skills library for creation, recreation, motion design, openers, and QA.",
-      "stars": 491,
+      "stars": 492,
       "forks": 59,
       "language": "Python",
       "topics": [],
@@ -422,27 +436,46 @@
       "pushed": "2026-06-30",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/94058511?v=4",
-      "delta": 2
+      "delta": 1
     },
     {
       "name": "CopilotKit/OpenTag",
       "url": "https://github.com/CopilotKit/OpenTag",
       "description": "OpenTag",
-      "stars": 480,
-      "forks": 52,
+      "stars": 485,
+      "forks": 53,
       "language": "TypeScript",
       "topics": [],
       "created": "2026-06-26",
-      "pushed": "2026-06-30",
+      "pushed": "2026-07-01",
       "open_issues": 2,
       "avatar": "https://avatars.githubusercontent.com/u/131273140?v=4",
-      "delta": 4
+      "delta": 5
+    },
+    {
+      "name": "aquace/CVE-2026-41940-PoC",
+      "url": "https://github.com/aquace/CVE-2026-41940-PoC",
+      "description": "CVE-2026-41940 authentication bypass vulnerability proof-of-concept",
+      "stars": 477,
+      "forks": 13,
+      "language": "Python",
+      "topics": [
+        "cpanel",
+        "cve",
+        "cve-2026-41940",
+        "cve-2026-41940-poc"
+      ],
+      "created": "2026-06-28",
+      "pushed": "2026-06-28",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/32766565?v=4",
+      "delta": 0
     },
     {
       "name": "tdeverx/contained-app",
       "url": "https://github.com/tdeverx/contained-app",
       "description": "A native macOS app for Apple's Container CLI",
-      "stars": 444,
+      "stars": 448,
       "forks": 19,
       "language": "Swift",
       "topics": [
@@ -460,7 +493,7 @@
       ],
       "created": "2026-06-25",
       "pushed": "2026-07-01",
-      "open_issues": 7,
+      "open_issues": 8,
       "avatar": "https://avatars.githubusercontent.com/u/44447832?v=4",
       "delta": 4
     },
@@ -468,7 +501,7 @@
       "name": "diinki/linux-antiquity",
       "url": "https://github.com/diinki/linux-antiquity",
       "description": "A highly tasteful Linux-theme, reminiscent of art-nouveau and old drawings related to astronomy, science, and mythology.",
-      "stars": 400,
+      "stars": 420,
       "forks": 9,
       "language": "QML",
       "topics": [],
@@ -476,42 +509,28 @@
       "pushed": "2026-06-30",
       "open_issues": 1,
       "avatar": "https://avatars.githubusercontent.com/u/56029514?v=4",
-      "delta": 32
+      "delta": 20
     },
     {
       "name": "cclank/lanshu-animated-architecture-diagram",
       "url": "https://github.com/cclank/lanshu-animated-architecture-diagram",
       "description": "Premium hand-drawn animated architecture diagram Codex skill",
-      "stars": 396,
-      "forks": 47,
+      "stars": 403,
+      "forks": 49,
       "language": "Python",
       "topics": [],
       "created": "2026-06-26",
       "pushed": "2026-06-26",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/29557585?v=4",
-      "delta": 4
-    },
-    {
-      "name": "mekos2772/ios-location-spoofer",
-      "url": "https://github.com/mekos2772/ios-location-spoofer",
-      "description": "Standalone iOS app to spoof GPS location without jailbreak. Includes Shadowrocket/Surge/Loon/QX/Stash module.",
-      "stars": 396,
-      "forks": 64,
-      "language": "JavaScript",
-      "topics": [],
-      "created": "2026-06-30",
-      "pushed": "2026-07-01",
-      "open_issues": 2,
-      "avatar": "https://avatars.githubusercontent.com/u/119464194?v=4",
-      "delta": 0
+      "delta": 7
     },
     {
       "name": "lycorp-jp/sim-use",
       "url": "https://github.com/lycorp-jp/sim-use",
       "description": "Give your AI agent eyes and hands on iOS Simulator and Android emulator/devices.",
-      "stars": 384,
-      "forks": 18,
+      "stars": 393,
+      "forks": 19,
       "language": "Swift",
       "topics": [
         "accessibility",
@@ -539,41 +558,41 @@
       "pushed": "2026-06-27",
       "open_issues": 1,
       "avatar": "https://avatars.githubusercontent.com/u/16777756?v=4",
-      "delta": 5
+      "delta": 0
     },
     {
       "name": "Jia-Ethan/codex-keysmith",
       "url": "https://github.com/Jia-Ethan/codex-keysmith",
       "description": "Codex CLI instruction-file installer for local configuration",
-      "stars": 370,
-      "forks": 65,
+      "stars": 375,
+      "forks": 66,
       "language": "Python",
       "topics": [],
       "created": "2026-06-28",
       "pushed": "2026-06-29",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/271507930?v=4",
-      "delta": 11
+      "delta": 5
     },
     {
       "name": "ricccrd/dd",
       "url": "https://github.com/ricccrd/dd",
       "description": "",
-      "stars": 354,
-      "forks": 0,
+      "stars": 355,
+      "forks": 1,
       "language": "C",
       "topics": [],
       "created": "2026-06-26",
-      "pushed": "2026-06-30",
+      "pushed": "2026-07-01",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/1809268?v=4",
-      "delta": 2
+      "delta": 1
     },
     {
       "name": "Einsia/Browser-BC",
       "url": "https://github.com/Einsia/Browser-BC",
       "description": "Agent behavior clone for browser using, targeting general GUI using and distributed trajectory collecting.",
-      "stars": 353,
+      "stars": 354,
       "forks": 36,
       "language": "TypeScript",
       "topics": [],
@@ -581,13 +600,13 @@
       "pushed": "2026-06-28",
       "open_issues": 1,
       "avatar": "https://avatars.githubusercontent.com/u/246131017?v=4",
-      "delta": 3
+      "delta": 1
     },
     {
       "name": "xxniiinxx/coinflip-casino-game",
       "url": "https://github.com/xxniiinxx/coinflip-casino-game",
       "description": "A full-stack, peer-to-peer coinflip betting casino game on Solana. Players connect a wallet, create or join on-chain game rooms, and compete head-to-head for 2× the stake. The UI updates in real time over WebSockets, outcomes are resolved on-chain with Orao VRF, and the backend tracks rooms, chat, and match history in MongoDB. ",
-      "stars": 345,
+      "stars": 346,
       "forks": 202,
       "language": "TypeScript",
       "topics": [
@@ -606,21 +625,7 @@
       "pushed": "2026-06-27",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/37474080?v=4",
-      "delta": 6
-    },
-    {
-      "name": "downclash/clash",
-      "url": "https://github.com/downclash/clash",
-      "description": "",
-      "stars": 343,
-      "forks": 0,
-      "language": "JavaScript",
-      "topics": [],
-      "created": "2026-06-27",
-      "pushed": "2026-06-28",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/164441173?v=4",
-      "delta": 0
+      "delta": 1
     }
   ],
   "monthly": [
@@ -628,8 +633,8 @@
       "name": "DietrichGebert/ponytail",
       "url": "https://github.com/DietrichGebert/ponytail",
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "stars": 70014,
-      "forks": 3610,
+      "stars": 70297,
+      "forks": 3628,
       "language": "JavaScript",
       "topics": [
         "agent-skills",
@@ -645,30 +650,30 @@
       ],
       "created": "2026-06-12",
       "pushed": "2026-06-30",
-      "open_issues": 135,
+      "open_issues": 136,
       "avatar": "https://avatars.githubusercontent.com/u/137048761?v=4",
-      "delta": 312
+      "delta": 283
     },
     {
       "name": "baidu/Unlimited-OCR",
       "url": "https://github.com/baidu/Unlimited-OCR",
       "description": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
-      "stars": 12730,
-      "forks": 1003,
+      "stars": 12788,
+      "forks": 1011,
       "language": "Python",
       "topics": [],
       "created": "2026-06-18",
       "pushed": "2026-06-28",
       "open_issues": 43,
       "avatar": "https://avatars.githubusercontent.com/u/13245940?v=4",
-      "delta": 69
+      "delta": 58
     },
     {
       "name": "XiaomiMiMo/MiMo-Code",
       "url": "https://github.com/XiaomiMiMo/MiMo-Code",
       "description": "MiMo Code: Where Models and Agents Co-Evolve",
-      "stars": 11172,
-      "forks": 1089,
+      "stars": 11191,
+      "forks": 1092,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -679,9 +684,9 @@
       ],
       "created": "2026-06-10",
       "pushed": "2026-07-01",
-      "open_issues": 698,
+      "open_issues": 700,
       "avatar": "https://avatars.githubusercontent.com/u/208276378?v=4",
-      "delta": 11
+      "delta": 19
     },
     {
       "name": "unicity-astrid/book",
@@ -715,7 +720,7 @@
       "name": "shadcn/improve",
       "url": "https://github.com/shadcn/improve",
       "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
-      "stars": 6489,
+      "stars": 6503,
       "forks": 269,
       "language": "—",
       "topics": [],
@@ -723,28 +728,28 @@
       "pushed": "2026-06-15",
       "open_issues": 8,
       "avatar": "https://avatars.githubusercontent.com/u/124599?v=4",
-      "delta": 10
+      "delta": 14
     },
     {
       "name": "XxHuberrr/Mineradio",
       "url": "https://github.com/XxHuberrr/Mineradio",
       "description": "一款以电影镜头、粒子视觉和歌词舞台为核心的沉浸式音乐播放器。",
-      "stars": 6352,
-      "forks": 476,
+      "stars": 6467,
+      "forks": 481,
       "language": "HTML",
       "topics": [],
       "created": "2026-06-02",
       "pushed": "2026-06-27",
-      "open_issues": 211,
+      "open_issues": 216,
       "avatar": "https://avatars.githubusercontent.com/u/281847693?v=4",
-      "delta": 168
+      "delta": 115
     },
     {
       "name": "omnigent-ai/omnigent",
       "url": "https://github.com/omnigent-ai/omnigent",
       "description": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
-      "stars": 5886,
-      "forks": 747,
+      "stars": 5926,
+      "forks": 752,
       "language": "Python",
       "topics": [
         "agent-framework",
@@ -766,30 +771,30 @@
       ],
       "created": "2026-06-11",
       "pushed": "2026-07-01",
-      "open_issues": 386,
+      "open_issues": 399,
       "avatar": "https://avatars.githubusercontent.com/u/292215228?v=4",
-      "delta": 34
+      "delta": 40
     },
     {
       "name": "deepseek-ai/DeepSpec",
       "url": "https://github.com/deepseek-ai/DeepSpec",
       "description": "DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms",
-      "stars": 5694,
-      "forks": 453,
+      "stars": 5729,
+      "forks": 461,
       "language": "Python",
       "topics": [],
       "created": "2026-06-26",
       "pushed": "2026-06-30",
-      "open_issues": 30,
+      "open_issues": 31,
       "avatar": "https://avatars.githubusercontent.com/u/148330874?v=4",
-      "delta": 80
+      "delta": 35
     },
     {
       "name": "cobusgreyling/loop-engineering",
       "url": "https://github.com/cobusgreyling/loop-engineering",
       "description": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.",
-      "stars": 4622,
-      "forks": 588,
+      "stars": 4665,
+      "forks": 589,
       "language": "JavaScript",
       "topics": [
         "agentic-ai",
@@ -812,15 +817,15 @@
       ],
       "created": "2026-06-09",
       "pushed": "2026-07-01",
-      "open_issues": 0,
+      "open_issues": 10,
       "avatar": "https://avatars.githubusercontent.com/u/7868717?v=4",
-      "delta": 64
+      "delta": 43
     },
     {
       "name": "diffusionstudio/lottie",
       "url": "https://github.com/diffusionstudio/lottie",
       "description": "Generate production-ready Lottie animations with Claude Code or Codex",
-      "stars": 4235,
+      "stars": 4260,
       "forks": 230,
       "language": "TypeScript",
       "topics": [],
@@ -828,13 +833,13 @@
       "pushed": "2026-07-01",
       "open_issues": 2,
       "avatar": "https://avatars.githubusercontent.com/u/135729001?v=4",
-      "delta": 35
+      "delta": 25
     },
     {
       "name": "zhongerxin/Cowart",
       "url": "https://github.com/zhongerxin/Cowart",
       "description": "",
-      "stars": 3589,
+      "stars": 3601,
       "forks": 280,
       "language": "JavaScript",
       "topics": [],
@@ -842,28 +847,28 @@
       "pushed": "2026-06-24",
       "open_issues": 7,
       "avatar": "https://avatars.githubusercontent.com/u/8215057?v=4",
-      "delta": 28
+      "delta": 12
     },
     {
       "name": "bikini/exploitarium",
       "url": "https://github.com/bikini/exploitarium",
       "description": "A single archive of public exploit PoCs and vulnerability research writeups. At the time I post these, none have been reported. Feel free to report them yourself and take credit for the CVE if handed out lulz. Please do not abuse these. I do this so to allure people into the field, and I've always found this is the most efficient way.",
-      "stars": 3134,
-      "forks": 928,
+      "stars": 3210,
+      "forks": 947,
       "language": "Python",
       "topics": [],
       "created": "2026-06-23",
       "pushed": "2026-07-01",
-      "open_issues": 3,
+      "open_issues": 4,
       "avatar": "https://avatars.githubusercontent.com/u/63224111?v=4",
-      "delta": 57
+      "delta": 76
     },
     {
       "name": "vercel/eve",
       "url": "https://github.com/vercel/eve",
       "description": "The Framework for Building Agents",
-      "stars": 3019,
-      "forks": 231,
+      "stars": 3033,
+      "forks": 233,
       "language": "TypeScript",
       "topics": [
         "agent",
@@ -878,15 +883,15 @@
       ],
       "created": "2026-06-16",
       "pushed": "2026-07-01",
-      "open_issues": 139,
+      "open_issues": 140,
       "avatar": "https://avatars.githubusercontent.com/u/14985020?v=4",
-      "delta": 12
+      "delta": 14
     },
     {
       "name": "BuilderIO/skills",
       "url": "https://github.com/BuilderIO/skills",
       "description": "Skills for coding agents",
-      "stars": 2982,
+      "stars": 3010,
       "forks": 152,
       "language": "JavaScript",
       "topics": [
@@ -896,13 +901,13 @@
       "pushed": "2026-06-29",
       "open_issues": 1,
       "avatar": "https://avatars.githubusercontent.com/u/35700027?v=4",
-      "delta": 10
+      "delta": 28
     },
     {
       "name": "cpaczek/skylight",
       "url": "https://github.com/cpaczek/skylight",
       "description": "Project the aircraft passing overhead onto your ceiling in real time, from an RTL-SDR — with a live sky layer (sun, moon, stars, ISS) and where each plane is headed.",
-      "stars": 2975,
+      "stars": 2978,
       "forks": 355,
       "language": "TypeScript",
       "topics": [
@@ -920,55 +925,55 @@
       "pushed": "2026-06-26",
       "open_issues": 11,
       "avatar": "https://avatars.githubusercontent.com/u/25715982?v=4",
-      "delta": 5
+      "delta": 3
     },
     {
       "name": "Waishnav/devspace",
       "url": "https://github.com/Waishnav/devspace",
       "description": "Turn ChatGPT into Codex!",
-      "stars": 2742,
-      "forks": 290,
+      "stars": 2757,
+      "forks": 291,
       "language": "TypeScript",
       "topics": [],
       "created": "2026-06-14",
       "pushed": "2026-07-01",
       "open_issues": 15,
       "avatar": "https://avatars.githubusercontent.com/u/86405648?v=4",
-      "delta": 14
+      "delta": 15
     },
     {
       "name": "tamnd/kage",
       "url": "https://github.com/tamnd/kage",
       "description": "Shadow any website for offline viewing, with the JavaScript stripped out",
-      "stars": 2626,
-      "forks": 91,
+      "stars": 2636,
+      "forks": 92,
       "language": "Go",
       "topics": [],
       "created": "2026-06-14",
       "pushed": "2026-06-29",
       "open_issues": 10,
       "avatar": "https://avatars.githubusercontent.com/u/1218621?v=4",
-      "delta": 6
+      "delta": 10
     },
     {
       "name": "b-nnett/goose",
       "url": "https://github.com/b-nnett/goose",
       "description": "Goose Swift proof-of-concept README",
       "stars": 2620,
-      "forks": 650,
+      "forks": 651,
       "language": "Rust",
       "topics": [],
       "created": "2026-06-02",
       "pushed": "2026-06-02",
       "open_issues": 35,
       "avatar": "https://avatars.githubusercontent.com/u/62760393?v=4",
-      "delta": 2
+      "delta": 0
     },
     {
       "name": "nubjs/nub",
       "url": "https://github.com/nubjs/nub",
       "description": "The fast all-in-one Node.js toolkit",
-      "stars": 2510,
+      "stars": 2521,
       "forks": 33,
       "language": "Rust",
       "topics": [
@@ -980,9 +985,9 @@
       ],
       "created": "2026-06-03",
       "pushed": "2026-07-01",
-      "open_issues": 12,
+      "open_issues": 13,
       "avatar": "https://avatars.githubusercontent.com/u/6785695?v=4",
-      "delta": 14
+      "delta": 11
     }
   ]
 }
