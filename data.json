@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-19T12:45:39.683886+00:00",
-  "updated_date": "2026-07-19 12:45 UTC",
+  "updated": "2026-07-19T18:44:55.199309+00:00",
+  "updated_date": "2026-07-19 18:44 UTC",
   "daily": [
     {
       "name": "PostmanReminisce/Wisp-VPN",
@@ -41,21 +41,215 @@
       "name": "KinetiNode/claude-fable-5-system-prompt-clean",
       "url": "https://github.com/KinetiNode/claude-fable-5-system-prompt-clean",
       "description": "he optimized, token-efficient version of the leaked Claude Fable 5 / Mythos 5 system prompt. Re-engineered into clean Markdown for universal execution on Gemini 3.1 Pro, ChatGPT 5.6, and advanced LLM agents.",
-      "stars": 73,
-      "forks": 11,
+      "stars": 120,
+      "forks": 19,
       "language": "—",
       "topics": [],
       "created": "2026-07-19",
       "pushed": "2026-07-19",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/289931863?v=4",
-      "delta": 56
+      "delta": 47
+    },
+    {
+      "name": "lyu0805/OpenBrowser",
+      "url": "https://github.com/lyu0805/OpenBrowser",
+      "description": "本地指纹浏览器 · 多环境隔离 · 代理 / 指纹 / 同步 / RPA",
+      "stars": 37,
+      "forks": 8,
+      "language": "JavaScript",
+      "topics": [
+        "chromium",
+        "electron",
+        "fingerprint-browser",
+        "proxy",
+        "rpa"
+      ],
+      "created": "2026-07-19",
+      "pushed": "2026-07-19",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/53092331?v=4",
+      "delta": 0
+    },
+    {
+      "name": "WaterNegotiatorForm/Arena-Breakout-Stealth-Pro",
+      "url": "https://github.com/WaterNegotiatorForm/Arena-Breakout-Stealth-Pro",
+      "description": "Stealth cheat for Arena Breakout: Infinite with ESP, Aimbot, Wallhack, No Recoil & more. Extract with the best loot!",
+      "stars": 32,
+      "forks": 0,
+      "language": "Python",
+      "topics": [
+        "arena-breakout-infinite",
+        "arenabreakout",
+        "arenabreakout-helper",
+        "arenabreakout-loot-finder",
+        "arenabreakout-loot-helper",
+        "arenabreakoutinfinite",
+        "arenabreakoutinfinite-loot-viewer",
+        "tarkov-alternative"
+      ],
+      "created": "2026-07-19",
+      "pushed": "2026-07-19",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/300005955?v=4",
+      "delta": 0
+    },
+    {
+      "name": "channelwarblersay/Roblox-Camo-Tool",
+      "url": "https://github.com/channelwarblersay/Roblox-Camo-Tool",
+      "description": "Camouflage and tracking utility for Roblox paint-and-seek games with visual overlays and player detection.",
+      "stars": 32,
+      "forks": 0,
+      "language": "Python",
+      "topics": [
+        "hide-and-seek",
+        "paint-and-seek",
+        "paint-and-seek-cheat",
+        "paint-or-seek",
+        "paint-to-hide",
+        "roblox-paint-and-seek"
+      ],
+      "created": "2026-07-19",
+      "pushed": "2026-07-19",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/300006453?v=4",
+      "delta": 18
+    },
+    {
+      "name": "TitanPurserHover82/Roblox-Paint-Vision",
+      "url": "https://github.com/TitanPurserHover82/Roblox-Paint-Vision",
+      "description": "Visual enhancement utility for Roblox paint-and-seek games with player tracking and distance indicators.",
+      "stars": 31,
+      "forks": 0,
+      "language": "—",
+      "topics": [
+        "hide-and-seek",
+        "paint-and-seek",
+        "paint-and-seek-cheat",
+        "paint-or-seek",
+        "paint-to-hide",
+        "roblox-paint-and-seek"
+      ],
+      "created": "2026-07-19",
+      "pushed": "2026-07-19",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/300006176?v=4",
+      "delta": 18
+    },
+    {
+      "name": "chaservisiongirder/Arena-Breakout-ESP",
+      "url": "https://github.com/chaservisiongirder/Arena-Breakout-ESP",
+      "description": "ESP tool for Arena Breakout: Infinite with Wallhack, Player Tracking, Distance Indicators, Loot ESP & more!",
+      "stars": 31,
+      "forks": 0,
+      "language": "Python",
+      "topics": [
+        "arena-breakout-infinite",
+        "arenabreakout",
+        "arenabreakout-helper",
+        "arenabreakout-loot-finder",
+        "arenabreakout-loot-helper",
+        "arenabreakoutinfinite",
+        "arenabreakoutinfinite-loot-viewer",
+        "tarkov-alternative"
+      ],
+      "created": "2026-07-19",
+      "pushed": "2026-07-19",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/300005547?v=4",
+      "delta": 0
+    },
+    {
+      "name": "WallShrimpConsider88/Paint-Seek-Assistant",
+      "url": "https://github.com/WallShrimpConsider88/Paint-Seek-Assistant",
+      "description": "Assistant tool for Roblox paint-and-seek games with visual overlays and player tracking features.",
+      "stars": 30,
+      "forks": 0,
+      "language": "Python",
+      "topics": [
+        "hide-and-seek",
+        "paint-and-seek",
+        "paint-and-seek-cheat",
+        "paint-or-seek",
+        "paint-to-hide",
+        "roblox-paint-and-seek"
+      ],
+      "created": "2026-07-19",
+      "pushed": "2026-07-19",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/300005170?v=4",
+      "delta": 18
+    },
+    {
+      "name": "CityScholarCarve/Arena-Breakout-Aimbot",
+      "url": "https://github.com/CityScholarCarve/Arena-Breakout-Aimbot",
+      "description": "Aimbot for Arena Breakout: Infinite with Silent Aim, Triggerbot, No Recoil, No Spread, FOV Control & more!",
+      "stars": 30,
+      "forks": 0,
+      "language": "Python",
+      "topics": [
+        "arena-breakout-infinite",
+        "arenabreakout",
+        "arenabreakout-helper",
+        "arenabreakout-loot-finder",
+        "arenabreakout-loot-helper",
+        "arenabreakoutinfinite",
+        "arenabreakoutinfinite-loot-viewer",
+        "tarkov-alternative"
+      ],
+      "created": "2026-07-19",
+      "pushed": "2026-07-19",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/300006554?v=4",
+      "delta": 0
+    },
+    {
+      "name": "colorsrankgap/Roblox-Paint-Helper",
+      "url": "https://github.com/colorsrankgap/Roblox-Paint-Helper",
+      "description": "Helper utility for Roblox paint-and-seek games with visual overlays and player tracking features.",
+      "stars": 30,
+      "forks": 0,
+      "language": "Python",
+      "topics": [
+        "hide-and-seek",
+        "paint-and-seek",
+        "paint-and-seek-cheat",
+        "paint-or-seek",
+        "paint-to-hide",
+        "roblox-paint-and-seek"
+      ],
+      "created": "2026-07-19",
+      "pushed": "2026-07-19",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/300005802?v=4",
+      "delta": 18
+    },
+    {
+      "name": "WaterNegotiatorForm/Paint-Hide-Tracker",
+      "url": "https://github.com/WaterNegotiatorForm/Paint-Hide-Tracker",
+      "description": "Tracker utility for Roblox paint-and-hide games with visual overlays and player detection features.",
+      "stars": 30,
+      "forks": 0,
+      "language": "Python",
+      "topics": [
+        "hide-and-seek",
+        "paint-and-seek",
+        "paint-and-seek-cheat",
+        "paint-or-seek",
+        "paint-to-hide",
+        "roblox-paint-and-seek"
+      ],
+      "created": "2026-07-19",
+      "pushed": "2026-07-19",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/300005955?v=4",
+      "delta": 18
     },
     {
       "name": "smixs/mentor",
       "url": "https://github.com/smixs/mentor",
       "description": "mentor — a session-insights skill for AI coding agents. This skill reads your local Claude Code and OpenAI Codex history and writes an /insights-style HTML report on how you work: what you build, where you lose time, and concrete fixes. An agent skill for Claude Code, Codex, and any skills-capable agent.",
-      "stars": 28,
+      "stars": 30,
       "forks": 0,
       "language": "Python",
       "topics": [
@@ -80,271 +274,13 @@
       "pushed": "2026-07-19",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/32239508?v=4",
-      "delta": 0
-    },
-    {
-      "name": "zack-reedteng3764/arcadia-windows-executor-v28",
-      "url": "https://github.com/zack-reedteng3764/arcadia-windows-executor-v28",
-      "description": "Arcadia v2.8 is a Windows 10/11 desktop app for Roblox script execution, with Lua injection, a 500+ script hub, and a lightweight no-key workflow for 64-bit systems.",
-      "stars": 20,
-      "forks": 0,
-      "language": "HTML",
-      "topics": [],
-      "created": "2026-07-19",
-      "pushed": "2026-07-19",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/306485785?v=4",
-      "delta": 0
-    },
-    {
-      "name": "jordan-hughespjen5950/adopt-me-lua-script-executor",
-      "url": "https://github.com/jordan-hughespjen5950/adopt-me-lua-script-executor",
-      "description": "Windows landing build for a Roblox script executor focused on Lua execution, a compact script hub layout, and fast desktop access to automation, hotkeys, and personalization tools.",
-      "stars": 20,
-      "forks": 0,
-      "language": "HTML",
-      "topics": [],
-      "created": "2026-07-19",
-      "pushed": "2026-07-19",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/306485964?v=4",
-      "delta": 10
-    },
-    {
-      "name": "logan-adamshjk5260/blex-hub-lua-executor-v2026",
-      "url": "https://github.com/logan-adamshjk5260/blex-hub-lua-executor-v2026",
-      "description": "Blex Hub PC v2026 is a streamlined Windows Roblox script hub for Lua execution, with a lightweight desktop interface and structured script management for Windows 10 and 11 on 64-bit systems.",
-      "stars": 20,
-      "forks": 0,
-      "language": "HTML",
-      "topics": [],
-      "created": "2026-07-19",
-      "pushed": "2026-07-19",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/306485818?v=4",
-      "delta": 0
-    },
-    {
-      "name": "jordancfskgray1979/celery-windows-script-executor",
-      "url": "https://github.com/jordancfskgray1979/celery-windows-script-executor",
-      "description": "Celery PC v3.3 is a Windows 10/11 Roblox script executor for Lua injection, with a compact desktop UI, no-key access, and a built-in hub of 500+ scripts.",
-      "stars": 20,
-      "forks": 0,
-      "language": "HTML",
-      "topics": [],
-      "created": "2026-07-19",
-      "pushed": "2026-07-19",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/306486172?v=4",
-      "delta": 0
-    },
-    {
-      "name": "noahjmtaylor690/catilus-roblox-lua-executor",
-      "url": "https://github.com/noahjmtaylor690/catilus-roblox-lua-executor",
-      "description": "Windows-first Roblox Lua executor for PC with a compact desktop-style interface and HTML-driven presentation, built around script hub discoverability for 2026.",
-      "stars": 19,
-      "forks": 0,
-      "language": "HTML",
-      "topics": [],
-      "created": "2026-07-19",
-      "pushed": "2026-07-19",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/306486906?v=4",
-      "delta": 0
-    },
-    {
-      "name": "michaelfostermus4696/dead-by-daylight-script-2026",
-      "url": "https://github.com/michaelfostermus4696/dead-by-daylight-script-2026",
-      "description": "Browser-delivered Dead by Daylight trainer for PC play, offering automation, gameplay actions, and utility controls through a web-based interface.",
-      "stars": 19,
-      "forks": 0,
-      "language": "HTML",
-      "topics": [],
-      "created": "2026-07-19",
-      "pushed": "2026-07-19",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/306486549?v=4",
-      "delta": 0
-    },
-    {
-      "name": "mattgrayjfsr6647/cryptic-windows-executor-2026",
-      "url": "https://github.com/mattgrayjfsr6647/cryptic-windows-executor-2026",
-      "description": "Windows 10/11 Roblox Lua script executor with a compact desktop UI, built-in script hub, and keyless access for fast local script loading.",
-      "stars": 18,
-      "forks": 0,
-      "language": "HTML",
-      "topics": [],
-      "created": "2026-07-19",
-      "pushed": "2026-07-19",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/306487265?v=4",
-      "delta": 0
-    },
-    {
-      "name": "BBoi34/Obtainium-Recomp-Decomp",
-      "url": "https://github.com/BBoi34/Obtainium-Recomp-Decomp",
-      "description": "An obtainium pack for native android decompilations and recompilations of classic video games. All games are tested and are confirmed to have working controller support.",
-      "stars": 16,
-      "forks": 0,
-      "language": "—",
-      "topics": [],
-      "created": "2026-07-19",
-      "pushed": "2026-07-19",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/304552772?v=4",
-      "delta": 6
-    },
-    {
-      "name": "lifopuyeqi/TeamViewer-Connection-Blocked-Fix",
-      "url": "https://github.com/lifopuyeqi/TeamViewer-Connection-Blocked-Fix",
-      "description": "Fix TeamViewer connection blocked error – connection timeout, firewall block, commercial use detected, and more",
-      "stars": 15,
-      "forks": 0,
-      "language": "—",
-      "topics": [
-        "remote-desktop",
-        "teamviewer",
-        "teamviewer-blocked",
-        "teamviewer-commercial-use-detected",
-        "teamviewer-connection-blocked",
-        "teamviewer-connection-timeout",
-        "teamviewer-error",
-        "teamviewer-fix",
-        "teamviewer-id-changer",
-        "teamviewer-reset",
-        "teamviewer-unblocker",
-        "windows-tool"
-      ],
-      "created": "2026-07-19",
-      "pushed": "2026-07-19",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/305972736?v=4",
-      "delta": 0
-    },
-    {
-      "name": "channelwarblersay/Roblox-Camo-Tool",
-      "url": "https://github.com/channelwarblersay/Roblox-Camo-Tool",
-      "description": "Camouflage and tracking utility for Roblox paint-and-seek games with visual overlays and player detection.",
-      "stars": 14,
-      "forks": 0,
-      "language": "Python",
-      "topics": [
-        "hide-and-seek",
-        "paint-and-seek",
-        "paint-and-seek-cheat",
-        "paint-or-seek",
-        "paint-to-hide",
-        "roblox-paint-and-seek"
-      ],
-      "created": "2026-07-19",
-      "pushed": "2026-07-19",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/300006453?v=4",
-      "delta": 0
-    },
-    {
-      "name": "TitanPurserHover82/Roblox-Paint-Vision",
-      "url": "https://github.com/TitanPurserHover82/Roblox-Paint-Vision",
-      "description": "Visual enhancement utility for Roblox paint-and-seek games with player tracking and distance indicators.",
-      "stars": 13,
-      "forks": 0,
-      "language": "—",
-      "topics": [
-        "hide-and-seek",
-        "paint-and-seek",
-        "paint-and-seek-cheat",
-        "paint-or-seek",
-        "paint-to-hide",
-        "roblox-paint-and-seek"
-      ],
-      "created": "2026-07-19",
-      "pushed": "2026-07-19",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/300006176?v=4",
-      "delta": 0
-    },
-    {
-      "name": "WallShrimpConsider88/Paint-Seek-Assistant",
-      "url": "https://github.com/WallShrimpConsider88/Paint-Seek-Assistant",
-      "description": "Assistant tool for Roblox paint-and-seek games with visual overlays and player tracking features.",
-      "stars": 12,
-      "forks": 0,
-      "language": "—",
-      "topics": [
-        "hide-and-seek",
-        "paint-and-seek",
-        "paint-and-seek-cheat",
-        "paint-or-seek",
-        "paint-to-hide",
-        "roblox-paint-and-seek"
-      ],
-      "created": "2026-07-19",
-      "pushed": "2026-07-19",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/300005170?v=4",
-      "delta": 0
-    },
-    {
-      "name": "colorsrankgap/Roblox-Paint-Helper",
-      "url": "https://github.com/colorsrankgap/Roblox-Paint-Helper",
-      "description": "Helper utility for Roblox paint-and-seek games with visual overlays and player tracking features.",
-      "stars": 12,
-      "forks": 0,
-      "language": "Python",
-      "topics": [
-        "hide-and-seek",
-        "paint-and-seek",
-        "paint-and-seek-cheat",
-        "paint-or-seek",
-        "paint-to-hide",
-        "roblox-paint-and-seek"
-      ],
-      "created": "2026-07-19",
-      "pushed": "2026-07-19",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/300005802?v=4",
-      "delta": 0
-    },
-    {
-      "name": "WaterNegotiatorForm/Paint-Hide-Tracker",
-      "url": "https://github.com/WaterNegotiatorForm/Paint-Hide-Tracker",
-      "description": "Tracker utility for Roblox paint-and-hide games with visual overlays and player detection features.",
-      "stars": 12,
-      "forks": 0,
-      "language": "Python",
-      "topics": [
-        "hide-and-seek",
-        "paint-and-seek",
-        "paint-and-seek-cheat",
-        "paint-or-seek",
-        "paint-to-hide",
-        "roblox-paint-and-seek"
-      ],
-      "created": "2026-07-19",
-      "pushed": "2026-07-19",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/300005955?v=4",
-      "delta": 0
-    },
-    {
-      "name": "oi88boi/hanime-viewer1.0.0",
-      "url": "https://github.com/oi88boi/hanime-viewer1.0.0",
-      "description": "一个hanime1的第三方app",
-      "stars": 12,
-      "forks": 0,
-      "language": "—",
-      "topics": [],
-      "created": "2026-07-19",
-      "pushed": "2026-07-19",
-      "open_issues": 1,
-      "avatar": "https://avatars.githubusercontent.com/u/230580982?v=4",
       "delta": 2
     },
     {
       "name": "DitchBreakerWish/Paint-Or-Seek-Tool",
       "url": "https://github.com/DitchBreakerWish/Paint-Or-Seek-Tool",
       "description": "Utility tool for Roblox Paint or Seek games with visual overlays and player tracking features.",
-      "stars": 12,
+      "stars": 30,
       "forks": 0,
       "language": "Python",
       "topics": [
@@ -359,13 +295,13 @@
       "pushed": "2026-07-19",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/300005925?v=4",
-      "delta": 0
+      "delta": 18
     },
     {
       "name": "BearOscillator/Seek-Paint-Max",
       "url": "https://github.com/BearOscillator/Seek-Paint-Max",
       "description": "Enhancer utility for Roblox seek-and-paint games with visual overlays and player tracking features.",
-      "stars": 12,
+      "stars": 30,
       "forks": 0,
       "language": "Python",
       "topics": [
@@ -380,6 +316,142 @@
       "pushed": "2026-07-19",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/300005391?v=4",
+      "delta": 18
+    },
+    {
+      "name": "WallShrimpConsider88/Arena-Breakout-Toolkit",
+      "url": "https://github.com/WallShrimpConsider88/Arena-Breakout-Toolkit",
+      "description": "Complete toolkit for Arena Breakout: Infinite with ESP, Aimbot, Wallhack, No Recoil, Triggerbot & more!",
+      "stars": 30,
+      "forks": 0,
+      "language": "Python",
+      "topics": [
+        "arena-breakout-infinite",
+        "arenabreakout",
+        "arenabreakout-helper",
+        "arenabreakout-loot-finder",
+        "arenabreakout-loot-helper",
+        "arenabreakoutinfinite",
+        "arenabreakoutinfinite-loot-viewer",
+        "tarkov-alternative"
+      ],
+      "created": "2026-07-19",
+      "pushed": "2026-07-19",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/300005170?v=4",
+      "delta": 0
+    },
+    {
+      "name": "DitchBreakerWish/Arena-Breakout-Loot-Helper",
+      "url": "https://github.com/DitchBreakerWish/Arena-Breakout-Loot-Helper",
+      "description": "Loot helper for Arena Breakout: Infinite with ESP, Loot Finder, Player Tracking, Distance Indicators & more!",
+      "stars": 30,
+      "forks": 0,
+      "language": "Python",
+      "topics": [
+        "arena-breakout-infinite",
+        "arenabreakout",
+        "arenabreakout-helper",
+        "arenabreakout-loot-finder",
+        "arenabreakout-loot-helper",
+        "arenabreakoutinfinite",
+        "arenabreakoutinfinite-loot-viewer",
+        "tarkov-alternative"
+      ],
+      "created": "2026-07-19",
+      "pushed": "2026-07-19",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/300005925?v=4",
+      "delta": 0
+    },
+    {
+      "name": "Torusnokindle/Arena-Breakout-Assistant",
+      "url": "https://github.com/Torusnokindle/Arena-Breakout-Assistant",
+      "description": "Assistant for Arena Breakout: Infinite with ESP, Aimbot, Wallhack, No Recoil, Triggerbot & more. Extract with the best loot!",
+      "stars": 30,
+      "forks": 0,
+      "language": "Python",
+      "topics": [
+        "arena-breakout-infinite",
+        "arenabreakout",
+        "arenabreakout-helper",
+        "arenabreakout-loot-finder",
+        "arenabreakout-loot-helper",
+        "arenabreakoutinfinite",
+        "arenabreakoutinfinite-loot-viewer",
+        "tarkov-alternative"
+      ],
+      "created": "2026-07-19",
+      "pushed": "2026-07-19",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/300005431?v=4",
+      "delta": 0
+    },
+    {
+      "name": "channelwarblersay/Arena-Breakout-Ultimate",
+      "url": "https://github.com/channelwarblersay/Arena-Breakout-Ultimate",
+      "description": "Ultimate cheat for Arena Breakout: Infinite with ESP, Aimbot, Wallhack, No Recoil, Triggerbot & more. Extract with the best loot!",
+      "stars": 30,
+      "forks": 0,
+      "language": "Python",
+      "topics": [
+        "arena-breakout-infinite",
+        "arenabreakout",
+        "arenabreakout-helper",
+        "arenabreakout-loot-finder",
+        "arenabreakout-loot-helper",
+        "arenabreakoutinfinite",
+        "arenabreakoutinfinite-loot-viewer",
+        "tarkov-alternative"
+      ],
+      "created": "2026-07-19",
+      "pushed": "2026-07-19",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/300006453?v=4",
+      "delta": 0
+    },
+    {
+      "name": "Catchamongjoint/Roblox-Camo-Pro",
+      "url": "https://github.com/Catchamongjoint/Roblox-Camo-Pro",
+      "description": "Camouflage and tracking utility for Roblox paint-and-seek games with visual overlays and player detection.",
+      "stars": 29,
+      "forks": 0,
+      "language": "Python",
+      "topics": [
+        "hide-and-seek",
+        "paint-and-seek",
+        "paint-and-seek-cheat",
+        "paint-or-seek",
+        "paint-to-hide",
+        "roblox-paint-and-seek"
+      ],
+      "created": "2026-07-19",
+      "pushed": "2026-07-19",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/300006597?v=4",
+      "delta": 0
+    },
+    {
+      "name": "Jaisurya23/Arena-Breakout-Infinite-Vision",
+      "url": "https://github.com/Jaisurya23/Arena-Breakout-Infinite-Vision",
+      "description": "ESP, Aimbot, Wallhack, No Recoil, Triggerbot & more for Arena Breakout: Infinite. Dominate every extraction raid!",
+      "stars": 29,
+      "forks": 0,
+      "language": "Python",
+      "topics": [
+        "arena-breakout-infinite",
+        "arenabreakout",
+        "arenabreakout-helper",
+        "arenabreakout-loot-finder",
+        "arenabreakout-loot-helper",
+        "arenabreakoutinfinite",
+        "arenabreakoutinfinite-loot-viewer",
+        "tarkov-alternative"
+      ],
+      "created": "2026-07-19",
+      "pushed": "2026-07-19",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/170703877?v=4",
       "delta": 0
     }
   ],
@@ -388,49 +460,49 @@
       "name": "xai-org/grok-build",
       "url": "https://github.com/xai-org/grok-build",
       "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
-      "stars": 19710,
-      "forks": 3541,
+      "stars": 19905,
+      "forks": 3587,
       "language": "Rust",
       "topics": [],
       "created": "2026-07-14",
-      "pushed": "2026-07-18",
+      "pushed": "2026-07-19",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/130314967?v=4",
-      "delta": 315
+      "delta": 195
     },
     {
       "name": "Fei-Away/Codex-Dream-Skin",
       "url": "https://github.com/Fei-Away/Codex-Dream-Skin",
       "description": "Codex Dream Skin",
-      "stars": 10116,
-      "forks": 1055,
+      "stars": 10259,
+      "forks": 1070,
       "language": "JavaScript",
       "topics": [],
       "created": "2026-07-15",
       "pushed": "2026-07-19",
-      "open_issues": 96,
+      "open_issues": 99,
       "avatar": "https://avatars.githubusercontent.com/u/100042407?v=4",
-      "delta": 161
+      "delta": 143
     },
     {
       "name": "CluvexStudio/Aether",
       "url": "https://github.com/CluvexStudio/Aether",
       "description": "",
-      "stars": 1284,
-      "forks": 77,
+      "stars": 1303,
+      "forks": 78,
       "language": "Rust",
       "topics": [],
       "created": "2026-07-14",
-      "pushed": "2026-07-18",
-      "open_issues": 8,
+      "pushed": "2026-07-19",
+      "open_issues": 3,
       "avatar": "https://avatars.githubusercontent.com/u/125141320?v=4",
-      "delta": 14
+      "delta": 19
     },
     {
       "name": "pixel-point/aval",
       "url": "https://github.com/pixel-point/aval",
       "description": "A new open-source format for interactive video on the web, with a built-in state machine, frame-accurate transitions, and packed-alpha transparency.",
-      "stars": 1231,
+      "stars": 1235,
       "forks": 67,
       "language": "TypeScript",
       "topics": [],
@@ -438,41 +510,41 @@
       "pushed": "2026-07-18",
       "open_issues": 2,
       "avatar": "https://avatars.githubusercontent.com/u/29034027?v=4",
-      "delta": 8
+      "delta": 4
     },
     {
       "name": "littledivy/mimic",
       "url": "https://github.com/littledivy/mimic",
       "description": "Intercept any app, then call it from Python like a library",
-      "stars": 1196,
-      "forks": 78,
+      "stars": 1204,
+      "forks": 79,
       "language": "Python",
       "topics": [],
       "created": "2026-07-13",
       "pushed": "2026-07-15",
       "open_issues": 4,
       "avatar": "https://avatars.githubusercontent.com/u/34997667?v=4",
-      "delta": 13
+      "delta": 8
     },
     {
       "name": "tandpfun/wardrobe",
       "url": "https://github.com/tandpfun/wardrobe",
       "description": "Your clothes, extracted and organized with gpt-image.",
-      "stars": 1104,
-      "forks": 164,
+      "stars": 1137,
+      "forks": 166,
       "language": "JavaScript",
       "topics": [],
       "created": "2026-07-16",
       "pushed": "2026-07-16",
       "open_issues": 2,
       "avatar": "https://avatars.githubusercontent.com/u/28990589?v=4",
-      "delta": 22
+      "delta": 33
     },
     {
       "name": "oil-oil/beautify-github-readme",
       "url": "https://github.com/oil-oil/beautify-github-readme",
       "description": "Design clear, theme-specific GitHub README homepages with SVG titles, real proof, and maintainable Markdown",
-      "stars": 842,
+      "stars": 851,
       "forks": 47,
       "language": "Python",
       "topics": [
@@ -486,14 +558,14 @@
       "pushed": "2026-07-19",
       "open_issues": 1,
       "avatar": "https://avatars.githubusercontent.com/u/57465570?v=4",
-      "delta": 8
+      "delta": 9
     },
     {
       "name": "nethical6/conversation-steganography",
       "url": "https://github.com/nethical6/conversation-steganography",
       "description": "Use LLMs to hide messages inside normal looking conversations",
-      "stars": 770,
-      "forks": 46,
+      "stars": 804,
+      "forks": 47,
       "language": "Go",
       "topics": [
         "llm-tools",
@@ -506,10 +578,24 @@
       "delta": 34
     },
     {
+      "name": "pablostanley/yoinks",
+      "url": "https://github.com/pablostanley/yoinks",
+      "description": "yoink any video from your terminal. no shady ads.",
+      "stars": 701,
+      "forks": 70,
+      "language": "TypeScript",
+      "topics": [],
+      "created": "2026-07-16",
+      "pushed": "2026-07-17",
+      "open_issues": 6,
+      "avatar": "https://avatars.githubusercontent.com/u/7430988?v=4",
+      "delta": 70
+    },
+    {
       "name": "KubeezMedia/kubeez-scroll-world-video",
       "url": "https://github.com/KubeezMedia/kubeez-scroll-world-video",
       "description": "Scroll-scrubbed 'fly through the world' burger demo, generated with Kubeez. Live: meepcastana.github.io/kubeez-scroll-world-video",
-      "stars": 655,
+      "stars": 658,
       "forks": 4,
       "language": "JavaScript",
       "topics": [],
@@ -517,27 +603,13 @@
       "pushed": "2026-07-14",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/268049402?v=4",
-      "delta": 1
-    },
-    {
-      "name": "pablostanley/yoinks",
-      "url": "https://github.com/pablostanley/yoinks",
-      "description": "yoink any video from your terminal. no shady ads.",
-      "stars": 631,
-      "forks": 64,
-      "language": "TypeScript",
-      "topics": [],
-      "created": "2026-07-16",
-      "pushed": "2026-07-17",
-      "open_issues": 6,
-      "avatar": "https://avatars.githubusercontent.com/u/7430988?v=4",
-      "delta": 46
+      "delta": 3
     },
     {
       "name": "MatinSenPai/Aether-GUI",
       "url": "https://github.com/MatinSenPai/Aether-GUI",
       "description": "One-click desktop GUI for the Aether censorship-circumvention tunnel — Tauri v2, React 19, Rust",
-      "stars": 612,
+      "stars": 622,
       "forks": 27,
       "language": "TypeScript",
       "topics": [
@@ -560,15 +632,43 @@
       "name": "Blueturboguy07/cue",
       "url": "https://github.com/Blueturboguy07/cue",
       "description": "Open-source macOS AI copilot that floats over your screen, sees/hears your meetings, and stays hidden from screen shares. Cluely alternative, bring-your-own-key.",
-      "stars": 570,
-      "forks": 127,
+      "stars": 599,
+      "forks": 131,
       "language": "JavaScript",
       "topics": [],
       "created": "2026-07-15",
       "pushed": "2026-07-18",
       "open_issues": 7,
       "avatar": "https://avatars.githubusercontent.com/u/114044325?v=4",
-      "delta": 10
+      "delta": 29
+    },
+    {
+      "name": "v-modal/vmodal_sdk_flutter",
+      "url": "https://github.com/v-modal/vmodal_sdk_flutter",
+      "description": "V- Modal AI: Search anything anywhere SDK Flutter",
+      "stars": 551,
+      "forks": 1,
+      "language": "Dart",
+      "topics": [],
+      "created": "2026-07-16",
+      "pushed": "2026-07-19",
+      "open_issues": 4,
+      "avatar": "https://avatars.githubusercontent.com/u/286898453?v=4",
+      "delta": 137
+    },
+    {
+      "name": "lopopolo/harness-engineering",
+      "url": "https://github.com/lopopolo/harness-engineering",
+      "description": "🐎 Ryan Lopopolo’s anthology, field guide, and agent context bundle for harness engineering",
+      "stars": 514,
+      "forks": 22,
+      "language": "Python",
+      "topics": [],
+      "created": "2026-07-18",
+      "pushed": "2026-07-18",
+      "open_issues": 0,
+      "avatar": "https://avatars.githubusercontent.com/u/860434?v=4",
+      "delta": 121
     },
     {
       "name": "PengZhang64/circuit-framework",
@@ -585,53 +685,25 @@
       "delta": 0
     },
     {
-      "name": "v-modal/vmodal_sdk_flutter",
-      "url": "https://github.com/v-modal/vmodal_sdk_flutter",
-      "description": "V- Modal AI: Search anything anywhere SDK Flutter",
-      "stars": 414,
-      "forks": 1,
-      "language": "Dart",
-      "topics": [],
-      "created": "2026-07-16",
-      "pushed": "2026-07-19",
-      "open_issues": 4,
-      "avatar": "https://avatars.githubusercontent.com/u/286898453?v=4",
-      "delta": 0
-    },
-    {
       "name": "stackblitz/bolt-slides",
       "url": "https://github.com/stackblitz/bolt-slides",
       "description": "Use any agent to create stunning, interactive presentations",
-      "stars": 408,
-      "forks": 57,
+      "stars": 436,
+      "forks": 58,
       "language": "TypeScript",
       "topics": [],
       "created": "2026-07-14",
       "pushed": "2026-07-16",
       "open_issues": 3,
       "avatar": "https://avatars.githubusercontent.com/u/28635252?v=4",
-      "delta": 11
-    },
-    {
-      "name": "lopopolo/harness-engineering",
-      "url": "https://github.com/lopopolo/harness-engineering",
-      "description": "🐎 Ryan Lopopolo’s anthology, field guide, and agent context bundle for harness engineering",
-      "stars": 393,
-      "forks": 18,
-      "language": "Python",
-      "topics": [],
-      "created": "2026-07-18",
-      "pushed": "2026-07-18",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/860434?v=4",
-      "delta": 0
+      "delta": 28
     },
     {
       "name": "pyang5166/gbro-collage-broll",
       "url": "https://github.com/pyang5166/gbro-collage-broll",
       "description": "半调纸拼贴 B-roll 生成 skill：三闸门审批，Gemini Omni Flash 首尾帧组装动画 | Editorial halftone paper-collage B-roll agent skill",
-      "stars": 382,
-      "forks": 42,
+      "stars": 402,
+      "forks": 43,
       "language": "Python",
       "topics": [
         "agent-skill",
@@ -644,14 +716,39 @@
       "pushed": "2026-07-15",
       "open_issues": 2,
       "avatar": "https://avatars.githubusercontent.com/u/176493563?v=4",
-      "delta": 12
+      "delta": 20
+    },
+    {
+      "name": "hoainho/img2threejs",
+      "url": "https://github.com/hoainho/img2threejs",
+      "description": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
+      "stars": 402,
+      "forks": 30,
+      "language": "Python",
+      "topics": [
+        "3d",
+        "ai-agents",
+        "claude-code",
+        "computer-graphics",
+        "generative",
+        "image-to-3d",
+        "procedural-generation",
+        "threejs",
+        "typescript",
+        "webgl"
+      ],
+      "created": "2026-07-15",
+      "pushed": "2026-07-19",
+      "open_issues": 8,
+      "avatar": "https://avatars.githubusercontent.com/u/47898976?v=4",
+      "delta": 0
     },
     {
       "name": "vshulcz/deja-vu",
       "url": "https://github.com/vshulcz/deja-vu",
       "description": "Memory layer for coding agents: search, MCP recall, auto-context, secret redaction, stats, share and sync over the session logs Claude Code, Codex, opencode, Cursor, Gemini CLI, aider, Antigravity, Grok Build and Qwen Code already write. One zero-dep binary.",
-      "stars": 370,
-      "forks": 19,
+      "stars": 377,
+      "forks": 20,
       "language": "Go",
       "topics": [
         "agent-memory",
@@ -670,40 +767,16 @@
       ],
       "created": "2026-07-14",
       "pushed": "2026-07-19",
-      "open_issues": 12,
+      "open_issues": 13,
       "avatar": "https://avatars.githubusercontent.com/u/99616188?v=4",
-      "delta": 4
-    },
-    {
-      "name": "MIgHTy-alIeN/Trading-Bot",
-      "url": "https://github.com/MIgHTy-alIeN/Trading-Bot",
-      "description": "An arbitrage bot is a smart contract connected to an external automation script that controls its operation.",
-      "stars": 350,
-      "forks": 193,
-      "language": "Solidity",
-      "topics": [
-        "ai",
-        "aitradingbot",
-        "bot",
-        "btc",
-        "claude",
-        "eth",
-        "etherlab",
-        "mev",
-        "mevbots"
-      ],
-      "created": "2026-07-17",
-      "pushed": "2026-07-19",
-      "open_issues": 0,
-      "avatar": "https://avatars.githubusercontent.com/u/296786145?v=4",
-      "delta": 0
+      "delta": 7
     },
     {
       "name": "andyhuo520/MacCheck",
       "url": "https://github.com/andyhuo520/MacCheck",
       "description": "MacCheck 验机宝：本地 Mac 硬件检测、交互验机与 PDF/PNG 报告导出工具",
-      "stars": 329,
-      "forks": 23,
+      "stars": 356,
+      "forks": 26,
       "language": "Swift",
       "topics": [
         "hardware-diagnostics",
@@ -716,7 +789,7 @@
       "pushed": "2026-07-15",
       "open_issues": 3,
       "avatar": "https://avatars.githubusercontent.com/u/187917479?v=4",
-      "delta": 0
+      "delta": 27
     }
   ],
   "monthly": [
@@ -724,57 +797,57 @@
       "name": "xai-org/grok-build",
       "url": "https://github.com/xai-org/grok-build",
       "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
-      "stars": 19710,
-      "forks": 3541,
+      "stars": 19905,
+      "forks": 3587,
       "language": "Rust",
       "topics": [],
       "created": "2026-07-14",
-      "pushed": "2026-07-18",
+      "pushed": "2026-07-19",
       "open_issues": 0,
       "avatar": "https://avatars.githubusercontent.com/u/130314967?v=4",
-      "delta": 315
+      "delta": 195
     },
     {
       "name": "JustVugg/colibri",
       "url": "https://github.com/JustVugg/colibri",
       "description": "Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
-      "stars": 16283,
-      "forks": 1476,
+      "stars": 16416,
+      "forks": 1491,
       "language": "C",
       "topics": [],
       "created": "2026-07-01",
       "pushed": "2026-07-19",
-      "open_issues": 57,
+      "open_issues": 67,
       "avatar": "https://avatars.githubusercontent.com/u/13022503?v=4",
-      "delta": 80
+      "delta": 133
     },
     {
       "name": "langchain-ai/openwiki",
       "url": "https://github.com/langchain-ai/openwiki",
       "description": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
-      "stars": 12375,
-      "forks": 852,
+      "stars": 12415,
+      "forks": 857,
       "language": "TypeScript",
       "topics": [],
       "created": "2026-06-22",
       "pushed": "2026-07-19",
       "open_issues": 123,
       "avatar": "https://avatars.githubusercontent.com/u/126733545?v=4",
-      "delta": 24
+      "delta": 40
     },
     {
       "name": "Fei-Away/Codex-Dream-Skin",
       "url": "https://github.com/Fei-Away/Codex-Dream-Skin",
       "description": "Codex Dream Skin",
-      "stars": 10116,
-      "forks": 1055,
+      "stars": 10259,
+      "forks": 1070,
       "language": "JavaScript",
       "topics": [],
       "created": "2026-07-15",
       "pushed": "2026-07-19",
-      "open_issues": 96,
+      "open_issues": 99,
       "avatar": "https://avatars.githubusercontent.com/u/100042407?v=4",
-      "delta": 161
+      "delta": 143
     },
     {
       "name": "deepseek-ai/DeepSpec",
@@ -788,42 +861,42 @@
       "pushed": "2026-07-09",
       "open_issues": 47,
       "avatar": "https://avatars.githubusercontent.com/u/148330874?v=4",
-      "delta": 2
+      "delta": 0
     },
     {
       "name": "x4gKing/X4G",
       "url": "https://github.com/x4gKing/X4G",
       "description": "",
-      "stars": 5806,
-      "forks": 10688,
+      "stars": 5844,
+      "forks": 10759,
       "language": "Python",
       "topics": [],
       "created": "2026-07-04",
       "pushed": "2026-07-10",
       "open_issues": 17,
       "avatar": "https://avatars.githubusercontent.com/u/298382259?v=4",
-      "delta": 39
+      "delta": 38
     },
     {
       "name": "Yu9191/wloc",
       "url": "https://github.com/Yu9191/wloc",
       "description": "修改 Apple 网络定位（gs-loc）返回坐标 · 支持 Surge / Quantumult X / Loon / Stash · 快捷指令一键设置/恢复定位",
-      "stars": 5686,
-      "forks": 1107,
+      "stars": 5735,
+      "forks": 1123,
       "language": "JavaScript",
       "topics": [],
       "created": "2026-06-24",
       "pushed": "2026-06-27",
-      "open_issues": 38,
+      "open_issues": 39,
       "avatar": "https://avatars.githubusercontent.com/u/132221547?v=4",
-      "delta": 31
+      "delta": 49
     },
     {
       "name": "elder-plinius/T3MP3ST",
       "url": "https://github.com/elder-plinius/T3MP3ST",
       "description": "autonomous red teaming platform; multi-agent offensive-security meta-harness",
-      "stars": 4966,
-      "forks": 1036,
+      "stars": 4992,
+      "forks": 1038,
       "language": "TypeScript",
       "topics": [
         "agents",
@@ -836,13 +909,13 @@
       "pushed": "2026-07-17",
       "open_issues": 10,
       "avatar": "https://avatars.githubusercontent.com/u/133052465?v=4",
-      "delta": 6
+      "delta": 26
     },
     {
       "name": "bikini/exploitarium",
       "url": "https://github.com/bikini/exploitarium",
       "description": "A single archive of public exploit PoCs and vulnerability research writeups. At the time I post these, none have been reported. Feel free to report them yourself and take credit for the CVE if handed out lulz. Please do not abuse these. I do this so to allure people into the field, and I've always found this is the most efficient way.",
-      "stars": 3968,
+      "stars": 3969,
       "forks": 1139,
       "language": "Python",
       "topics": [],
@@ -850,28 +923,28 @@
       "pushed": "2026-07-15",
       "open_issues": 6,
       "avatar": "https://avatars.githubusercontent.com/u/63224111?v=4",
-      "delta": 2
+      "delta": 1
     },
     {
       "name": "oso95/scroll-world",
       "url": "https://github.com/oso95/scroll-world",
       "description": "A skill that turn any brand into a scrollable 3D world",
-      "stars": 3706,
-      "forks": 462,
+      "stars": 3778,
+      "forks": 476,
       "language": "JavaScript",
       "topics": [],
       "created": "2026-07-06",
       "pushed": "2026-07-16",
       "open_issues": 3,
       "avatar": "https://avatars.githubusercontent.com/u/86410452?v=4",
-      "delta": 43
+      "delta": 72
     },
     {
       "name": "baairon/torlink",
       "url": "https://github.com/baairon/torlink",
       "description": "A sleek, zero-setup torrent finder and downloader that lives right in your terminal.",
-      "stars": 3683,
-      "forks": 245,
+      "stars": 3692,
+      "forks": 246,
       "language": "TypeScript",
       "topics": [
         "crossplatform",
@@ -886,28 +959,28 @@
       "pushed": "2026-07-17",
       "open_issues": 8,
       "avatar": "https://avatars.githubusercontent.com/u/97924486?v=4",
-      "delta": 3
+      "delta": 9
     },
     {
       "name": "withmarbleapp/os-taxonomy",
       "url": "https://github.com/withmarbleapp/os-taxonomy",
       "description": "",
-      "stars": 3289,
-      "forks": 568,
+      "stars": 3296,
+      "forks": 569,
       "language": "JavaScript",
       "topics": [],
       "created": "2026-07-08",
       "pushed": "2026-07-08",
       "open_issues": 13,
       "avatar": "https://avatars.githubusercontent.com/u/233045934?v=4",
-      "delta": 3
+      "delta": 7
     },
     {
       "name": "oomol-lab/open-connector",
       "url": "https://github.com/oomol-lab/open-connector",
       "description": "Open-source auth gateway connecting 1000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
-      "stars": 2971,
-      "forks": 221,
+      "stars": 2991,
+      "forks": 223,
       "language": "TypeScript",
       "topics": [
         "agent-tools",
@@ -931,15 +1004,15 @@
       ],
       "created": "2026-06-29",
       "pushed": "2026-07-19",
-      "open_issues": 7,
+      "open_issues": 6,
       "avatar": "https://avatars.githubusercontent.com/u/146153906?v=4",
-      "delta": 17
+      "delta": 20
     },
     {
       "name": "bozhouDev/codex-orange-book",
       "url": "https://github.com/bozhouDev/codex-orange-book",
       "description": "Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）",
-      "stars": 2903,
+      "stars": 2906,
       "forks": 283,
       "language": "HTML",
       "topics": [],
@@ -947,13 +1020,13 @@
       "pushed": "2026-07-14",
       "open_issues": 5,
       "avatar": "https://avatars.githubusercontent.com/u/259759010?v=4",
-      "delta": 0
+      "delta": 3
     },
     {
       "name": "davidondrej/skills",
       "url": "https://github.com/davidondrej/skills",
       "description": "access to david ondrej's personal agent skills",
-      "stars": 2601,
+      "stars": 2604,
       "forks": 315,
       "language": "Shell",
       "topics": [],
@@ -961,13 +1034,13 @@
       "pushed": "2026-07-18",
       "open_issues": 2,
       "avatar": "https://avatars.githubusercontent.com/u/131768515?v=4",
-      "delta": 4
+      "delta": 3
     },
     {
       "name": "synthetic-sciences/openscience",
       "url": "https://github.com/synthetic-sciences/openscience",
       "description": "The open-source AI workbench for scientific research",
-      "stars": 2588,
+      "stars": 2598,
       "forks": 365,
       "language": "TypeScript",
       "topics": [
@@ -991,27 +1064,27 @@
       "pushed": "2026-07-17",
       "open_issues": 22,
       "avatar": "https://avatars.githubusercontent.com/u/220546587?v=4",
-      "delta": 4
+      "delta": 10
     },
     {
       "name": "mekos2772/ios-location-spoofer",
       "url": "https://github.com/mekos2772/ios-location-spoofer",
       "description": "Standalone iOS app to spoof GPS location without jailbreak. Includes Shadowrocket/Surge/Loon/QX/Stash module.",
-      "stars": 2510,
-      "forks": 373,
+      "stars": 2516,
+      "forks": 380,
       "language": "JavaScript",
       "topics": [],
       "created": "2026-06-30",
       "pushed": "2026-07-10",
       "open_issues": 14,
       "avatar": "https://avatars.githubusercontent.com/u/119464194?v=4",
-      "delta": 8
+      "delta": 6
     },
     {
       "name": "isjiamu/gzh-design-skill",
       "url": "https://github.com/isjiamu/gzh-design-skill",
       "description": "把 Markdown 一键排成可直接粘进公众号编辑器的精致 HTML —— 6 套精选主题 + 主题生成器 + 双关卡校验。An AI-agent skill that turns Markdown into paste-ready WeChat article HTML.",
-      "stars": 2331,
+      "stars": 2343,
       "forks": 269,
       "language": "HTML",
       "topics": [
@@ -1033,13 +1106,13 @@
       "pushed": "2026-07-08",
       "open_issues": 10,
       "avatar": "https://avatars.githubusercontent.com/u/30619280?v=4",
-      "delta": 8
+      "delta": 12
     },
     {
       "name": "Younesfdj/gitfut",
       "url": "https://github.com/Younesfdj/gitfut",
       "description": "Your GitHub stats, turned into a World-Cup-style player card ",
-      "stars": 2210,
+      "stars": 2216,
       "forks": 113,
       "language": "TypeScript",
       "topics": [
@@ -1052,21 +1125,21 @@
       "pushed": "2026-07-18",
       "open_issues": 32,
       "avatar": "https://avatars.githubusercontent.com/u/113609638?v=4",
-      "delta": 7
+      "delta": 6
     },
     {
       "name": "Krishnagangwal/CS-Fundamentals",
       "url": "https://github.com/Krishnagangwal/CS-Fundamentals",
       "description": "Curated CS fundamentals for placement prep: DSA,Computer Networks, DBMS & SQL, OOPs, Operating Systems, System Design & Software Engineering",
-      "stars": 2149,
-      "forks": 216,
+      "stars": 2158,
+      "forks": 217,
       "language": "—",
       "topics": [],
       "created": "2026-06-28",
       "pushed": "2026-06-28",
       "open_issues": 3,
       "avatar": "https://avatars.githubusercontent.com/u/175389609?v=4",
-      "delta": 5
+      "delta": 9
     }
   ]
 }
