@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -14,74 +13,88 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" data-i18n="meta-title" content="GitPulse — 开源脉搏，实时跳动">
 <meta name="twitter:description" data-i18n="meta-desc" content="追踪全球最热门的 GitHub 项目，每 6 小时自动更新。感受开源世界的心跳。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- ═══ Nav ═══ -->
+<!-- ═══ Masthead 报头 ═══ -->
+<header class="masthead" id="nav">
+  <div class="masthead-row">
+    <div class="masthead-left">
+      <span class="live-dot"></span>
+      <span class="masthead-vol">VOL.07 · ISSUE 189</span>
+      <span class="masthead-date" id="masthead-date">2026.07.22</span>
+    </div>
+    <a href="#" class="wordmark">Git<em>Pulse</em></a>
+    <div class="masthead-right">
+      <nav id="nav-links-wrap">
+        <a href="#repos" data-i18n="nav-repos">仓库</a>
+        <a href="#data" data-i18n="nav-data">数据</a>
+        <a href="#philosophy" data-i18n="nav-philosophy">哲学</a>
+      </nav>
+      <a href="https://github.com/YuanyuanMa03/GitPulse" target="_blank" rel="noopener" class="nav-href">GitHub ↗</a>
+      <button class="lang-toggle" id="lang-toggle" aria-label="Switch language" title="Switch language">En</button>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light/dark mode" title="Toggle light/dark mode">☀</button>
+    </div>
+  </div>
+</header>
 
-<nav id="nav">
-<a href="#" class="nav-logo">Git<span>Pulse</span></a>
-<ul class="nav-links">
-  <li><a href="#philosophy" data-i18n="nav-philosophy">哲学</a></li>
-  <li><a href="#features" data-i18n="nav-features">特性</a></li>
-  <li><a href="#data" data-i18n="nav-data">数据</a></li>
-  <li><a href="#repos" data-i18n="nav-repos">仓库</a></li>
-  <li><a href="#timeline" data-i18n="nav-timeline">更新</a></li>
-</ul>
-<a href="https://github.com/YuanyuanMa03/GitPulse" target="_blank" rel="noopener" class="nav-href">GitHub ↗</a>
-  <button class="lang-toggle" id="lang-toggle" aria-label="Switch language" title="Switch language">中</button>
-  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light/dark mode" title="Toggle light/dark mode">☀</button>
-</nav>
-
-<!-- ═══ Hero ═══ -->
+<!-- ═══ HERO ═══ -->
 <section class="hero" data-od-id="hero">
-<div class="reveal">
-  <p class="hero-eyebrow">Open Source Intelligence</p>
-</div>
-<h1 class="reveal" style="transition-delay:0.1s" data-i18n-html="hero-headline">
-  在信息的洪流中，<br><span class="gradient">脉搏</span>是唯一值得<br>追踪的信号。
-</h1>
-<p class="hero-sub reveal lang-zh" style="transition-delay:0.2s">
-  追踪全球最热门的 GitHub 项目，感受开源世界的心跳。
-</p>
-<p class="hero-sub-en reveal lang-en" style="transition-delay:0.25s">
-  Track the pulse of the open source world — every 6 hours.
-</p>
-<div class="hero-actions reveal" style="transition-delay:0.35s">
-  <a href="https://yuanyuanma03.github.io/GitPulse/" target="_blank" rel="noopener" class="btn-primary" data-i18n="hero-cta-live">查看实时数据 →</a>
-  <a href="https://github.com/YuanyuanMa03/GitPulse" target="_blank" rel="noopener" class="btn-ghost" data-i18n="hero-cta-source">GitHub 源码 ↗</a>
-</div>
-<div class="hero-scroll-hint">
-  <span>↓</span>
-  <span data-i18n="hero-scroll">向下滚动</span>
-</div>
+  <div class="hero-left">
+    <p class="section-label reveal">Open Source Intelligence</p>
+    <h1 class="reveal" style="transition-delay:0.1s" data-i18n-html="hero-headline">
+      在信息的洪流中，<br><span class="gradient">脉搏</span>是唯一<br>值得追踪的信号。
+    </h1>
+    <p class="hero-deck reveal lang-zh" style="transition-delay:0.2s">
+      追踪全球最热门的 GitHub 项目。每 6 小时捕获一次心跳，语言、趋势、热度 —— 一屏尽收此刻开源世界的注意力方向。
+    </p>
+    <p class="hero-deck reveal lang-en" style="transition-delay:0.2s">
+      Track the pulse of the open source world — every 6 hours, languages, trends, and popularity in one view.
+    </p>
+    <div class="hero-actions reveal" style="transition-delay:0.3s">
+      <a href="#repos" class="btn-primary" data-i18n="hero-cta-live">查看实时数据 →</a>
+      <a href="https://github.com/YuanyuanMa03/GitPulse" target="_blank" rel="noopener" class="btn-ghost" data-i18n="hero-cta-source">GitHub 源码 ↗</a>
+    </div>
+  </div>
+  <aside class="hero-right reveal" style="transition-delay:0.15s">
+    <div class="hero-pulse-stat">
+      <div class="hero-pulse-num"><span id="hero-pulse-bpm">68</span><span class="unit">bpm</span></div>
+      <div class="hero-pulse-label">Current Pulse / 当前脉搏</div>
+    </div>
+  </aside>
 </section>
 
-<!-- ═══ Repo Explorer ═══ -->
+<!-- ═══ Repo Explorer（前置到第二屏）═══ -->
 <section class="repo-section" id="repos" data-od-id="repos">
-<div class="reveal">
-  <p class="section-eyebrow">Live Repos</p>
-  <h2 class="section-title" data-i18n="repo-title">实时仓库追踪</h2>
-  <p class="section-sub" data-i18n="repo-sub">每日、每周、每月热门仓库一览。数据每 6 小时自动刷新。</p>
-</div>
-  <div class="search-wrap reveal" style="transition-delay:0.08s">
-    <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-    <input type="text" class="search-input" id="repo-search" placeholder="搜索仓库名或描述…" data-i18n-placeholder="repo-search" autocomplete="off">
+  <p class="section-label reveal">Live Repos</p>
+  <h2 class="section-title reveal" style="transition-delay:0.05s" data-i18n="repo-title">实时仓库追踪</h2>
+  <p class="section-sub reveal" style="transition-delay:0.1s" data-i18n="repo-sub">每日、每周、每月热门仓库一览。数据每 6 小时自动刷新。</p>
+
+  <div class="repo-tabs reveal" style="transition-delay:0.12s">
+    <button class="repo-tab active" data-period="daily" data-i18n="repo-tab-daily">今日 Daily</button>
+    <button class="repo-tab" data-period="weekly" data-i18n="repo-tab-weekly">本周 Weekly</button>
+    <button class="repo-tab" data-period="monthly" data-i18n="repo-tab-monthly">本月 Monthly</button>
   </div>
-<div class="repo-tabs reveal" style="transition-delay:0.1s">
-  <button class="repo-tab active" data-period="daily" data-i18n="repo-tab-daily">今日 Daily</button>
-  <button class="repo-tab" data-period="weekly" data-i18n="repo-tab-weekly">本周 Weekly</button>
-  <button class="repo-tab" data-period="monthly" data-i18n="repo-tab-monthly">本月 Monthly</button>
-</div>
-  <div class="lang-filters reveal" id="lang-filters" style="transition-delay:0.12s"></div>
-<div class="repo-list reveal" id="repo-list" style="transition-delay:0.15s">
+
+  <div class="repo-toolbar reveal" style="transition-delay:0.14s">
+    <div class="search-wrap">
+      <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" class="search-input" id="repo-search" placeholder="搜索仓库名或描述…" data-i18n-placeholder="repo-search" autocomplete="off">
+    </div>
+    <div class="lang-filters" id="lang-filters"></div>
+  </div>
+
+  <div class="repo-list reveal" id="repo-list" style="transition-delay:0.16s">
     <div class="skeleton" id="repo-skeleton">
-      <div class="skeleton-card"><div class="skeleton-avatar"></div><div style="flex:1"><div class="skeleton-line medium"></div><div class="skeleton-line short"></div></div><div class="skeleton-stars"></div></div>
-      <div class="skeleton-card"><div class="skeleton-avatar"></div><div style="flex:1"><div class="skeleton-line medium"></div><div class="skeleton-line short"></div></div><div class="skeleton-stars"></div></div>
-      <div class="skeleton-card"><div class="skeleton-avatar"></div><div style="flex:1"><div class="skeleton-line medium"></div><div class="skeleton-line short"></div></div><div class="skeleton-stars"></div></div>
-      <div class="skeleton-card"><div class="skeleton-avatar"></div><div style="flex:1"><div class="skeleton-line medium"></div><div class="skeleton-line short"></div></div><div class="skeleton-stars"></div></div>
-      <div class="skeleton-card"><div class="skeleton-avatar"></div><div style="flex:1"><div class="skeleton-line medium"></div><div class="skeleton-line short"></div></div><div class="skeleton-stars"></div></div>
+      <div class="skeleton-row"></div>
+      <div class="skeleton-row"></div>
+      <div class="skeleton-row"></div>
+      <div class="skeleton-row"></div>
+      <div class="skeleton-row"></div>
     </div>
     <div class="state-message" id="repo-error" style="display:none">
       <span class="icon">⚠</span>
@@ -91,233 +104,147 @@
   </div>
 </section>
 
-
-
-<!-- ═══ Philosophy ═══ -->
-<section id="philosophy" data-od-id="philosophy">
-<div class="reveal">
-  <p class="section-eyebrow">Philosophy</p>
-  <h2 class="section-title" data-i18n="phil-title">我们相信的三件事</h2>
-  <p class="section-sub" data-i18n="phil-sub">Three convictions that shape every pixel of GitPulse.</p>
-</div>
-<div class="philosophy-grid">
-  <div class="philosophy-card reveal" style="transition-delay:0.1s">
-    <span class="philosophy-icon"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></span>
-    <h3>数据即脉搏</h3>
-    <p class="en">Data is the pulse</p>
-    <p data-i18n="phil-desc-1">每 6 小时捕获一次，如同心电图般记录开源世界的每一次心跳。不是静态的排行榜，而是活着的信号。</p>
-  </div>
-  <div class="philosophy-card reveal" style="transition-delay:0.2s">
-    <span class="philosophy-icon"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg></span>
-    <h3>趋势即方向</h3>
-    <p class="en">Trends are direction</p>
-    <p data-i18n="phil-desc-2">从 topics 关键词云中，你能看到技术思潮的涌动。不是事后回顾，而是此刻正在发生的事。</p>
-  </div>
-  <div class="philosophy-card reveal" style="transition-delay:0.3s">
-    <span class="philosophy-icon"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round"><path d="M4 8V4h4M20 8V4h-4M4 16v4h4M20 16v4h-4"/></svg></span>
-    <h3>极简即尊重</h3>
-    <p class="en">Restraint is respect</p>
-    <p data-i18n="phil-desc-3">Apple 级的设计语言，因为好的数据值得好的容器。每一个像素都服务于信息，而不是装饰。</p>
-  </div>
-</div>
-</section>
-
-
-
 <!-- ═══ Counters ═══ -->
 <div class="counters-section" data-od-id="counters">
-<div class="counters-grid">
-  <div class="counter-item reveal">
-    <div class="counter-value" id="cnt-repos" data-target="0" data-suffix="">0</div>
-    <div class="counter-label lang-zh">跟踪仓库</div>
-    <div class="counter-label-en lang-en">Tracked Repos</div>
-  </div>
-  <div class="counter-item reveal" style="transition-delay:0.1s">
-    <div class="counter-value" id="cnt-langs" data-target="0" data-suffix="">0</div>
-    <div class="counter-label lang-zh">编程语言</div>
-    <div class="counter-label-en lang-en">Languages</div>
-  </div>
-  <div class="counter-item reveal" style="transition-delay:0.2s">
-    <div class="counter-value" id="cnt-updates" data-target="4" data-suffix="×">0</div>
-    <div class="counter-label lang-zh">每日更新</div>
-    <div class="counter-label-en lang-en">Updates / Day</div>
-  </div>
-  <div class="counter-item reveal" style="transition-delay:0.3s">
-    <div class="counter-value" id="cnt-topics" data-target="0" data-suffix="+">0</div>
-    <div class="counter-label lang-zh">主题标签</div>
-    <div class="counter-label-en lang-en">Topics Analyzed</div>
+  <div class="counters-grid">
+    <div class="counter-item reveal">
+      <div class="counter-value" id="cnt-repos" data-target="0" data-suffix="">0</div>
+      <div class="counter-label lang-zh">跟踪仓库</div>
+      <div class="counter-label-en lang-en">Tracked Repos</div>
+    </div>
+    <div class="counter-item reveal" style="transition-delay:0.08s">
+      <div class="counter-value" id="cnt-langs" data-target="0" data-suffix="">0</div>
+      <div class="counter-label lang-zh">编程语言</div>
+      <div class="counter-label-en lang-en">Languages</div>
+    </div>
+    <div class="counter-item reveal" style="transition-delay:0.16s">
+      <div class="counter-value" id="cnt-updates" data-target="4" data-suffix="×">0</div>
+      <div class="counter-label lang-zh">每日更新</div>
+      <div class="counter-label-en lang-en">Updates / Day</div>
+    </div>
+    <div class="counter-item reveal" style="transition-delay:0.24s">
+      <div class="counter-value" id="cnt-topics" data-target="0" data-suffix="+">0</div>
+      <div class="counter-label lang-zh">主题标签</div>
+      <div class="counter-label-en lang-en">Topics Analyzed</div>
+    </div>
   </div>
 </div>
-</div>
-
-
-
-
-
-
 
 <!-- ═══ Data Showcase ═══ -->
 <section id="data" data-od-id="data">
-<div class="reveal">
-  <p class="section-eyebrow">Data Showcase</p>
-  <h2 class="section-title" data-i18n="data-title">此刻，开源社区在看什么</h2>
-  <p class="section-sub" data-i18n="data-sub">实时数据可视化 — 语言、趋势、热度，一屏尽收。</p>
-</div>
-<div class="data-grid">
-  <!-- Language Distribution -->
-  <div class="data-card reveal" style="transition-delay:0.1s">
-    <div class="data-card-title" data-i18n="data-card-1"><span class="dot"></span>语言分布</div>
-    <div id="lang-bars"></div>
-  </div>
+  <p class="section-label reveal">Data Showcase</p>
+  <h2 class="section-title reveal" style="transition-delay:0.05s" data-i18n="data-title">此刻，开源社区在看什么</h2>
+  <p class="section-sub reveal" style="transition-delay:0.1s" data-i18n="data-sub">实时数据可视化 — 语言、趋势、热度，一屏尽收。</p>
 
-  <!-- Keyword Cloud -->
-  <div class="data-card reveal" style="transition-delay:0.2s">
-    <div class="data-card-title" data-i18n="data-card-2"><span class="dot"></span>热门关键词</div>
-    <div class="cloud-wrap" id="topics-cloud"></div>
+  <div class="data-wall reveal" style="transition-delay:0.15s">
+    <!-- Language Distribution -->
+    <div class="data-cell cell-lang">
+      <div class="data-card-title" data-i18n="data-card-1"><span class="dot"></span>语言分布</div>
+      <div id="lang-bars"></div>
+    </div>
+    <!-- Keyword Cloud -->
+    <div class="data-cell cell-cloud">
+      <div class="data-card-title" data-i18n="data-card-2"><span class="dot"></span>热门关键词</div>
+      <div class="cloud-wrap" id="topics-cloud"></div>
+    </div>
+    <!-- Stars Ranking -->
+    <div class="data-cell cell-rank">
+      <div class="data-card-title" data-i18n="data-card-3"><span class="dot"></span>Stars 增量排行</div>
+      <div class="rank-list" id="rank-list"></div>
+    </div>
+    <!-- Pulse -->
+    <div class="data-cell cell-ecg">
+      <div class="data-card-title" data-i18n="data-card-4"><span class="dot"></span>脉搏信号</div>
+      <div class="ecg-wrap">
+        <span class="ecg-label">PULSE — LIVE</span>
+        <span class="ecg-bpm">68 bpm</span>
+        <canvas id="pulse-canvas"></canvas>
+      </div>
+    </div>
   </div>
-
-  <!-- Stars Ranking -->
-  <div class="data-card reveal" style="transition-delay:0.3s">
-    <div class="data-card-title" data-i18n="data-card-3"><span class="dot"></span>Stars 排行</div>
-    <div class="rank-list" id="rank-list"></div>
-  </div>
-
-  <!-- Pulse visualization -->
-  <div class="data-card reveal" style="transition-delay:0.4s">
-    <div class="data-card-title" data-i18n="data-card-4"><span class="dot"></span>脉搏信号</div>
-    <canvas id="pulse-canvas" width="500" height="200" style="width:100%;height:auto;border-radius:12px;"></canvas>
-  </div>
-</div>
 </section>
 
+<!-- ═══ Philosophy ═══ -->
+<section id="philosophy" data-od-id="philosophy">
+  <p class="section-label reveal">Philosophy</p>
+  <h2 class="section-title reveal" style="transition-delay:0.05s" data-i18n="phil-title">我们相信的三件事</h2>
+  <p class="section-sub reveal" style="transition-delay:0.1s" data-i18n="phil-sub">Three convictions that shape every pixel of GitPulse.</p>
 
+  <div class="philosophy-grid">
+    <article class="philosophy-card reveal" style="transition-delay:0.12s">
+      <span class="philosophy-num">01</span>
+      <h3 data-i18n="phil-title-1">数据即脉搏</h3>
+      <p class="en">Data is the pulse</p>
+      <p data-i18n="phil-desc-1">每 6 小时捕获一次，如同心电图般记录开源世界的每一次心跳。不是静态的排行榜，而是活着的信号。</p>
+    </article>
+    <article class="philosophy-card reveal" style="transition-delay:0.2s">
+      <span class="philosophy-num">02</span>
+      <h3 data-i18n="phil-title-2">趋势即方向</h3>
+      <p class="en">Trends are direction</p>
+      <p data-i18n="phil-desc-2">从 topics 关键词云中，你能看到技术思潮的涌动。不是事后回顾，而是此刻正在发生的事。</p>
+    </article>
+    <article class="philosophy-card reveal" style="transition-delay:0.28s">
+      <span class="philosophy-num">03</span>
+      <h3 data-i18n="phil-title-3">极简即尊重</h3>
+      <p class="en">Restraint is respect</p>
+      <p data-i18n="phil-desc-3">Apple 级的设计语言，因为好的数据值得好的容器。每一个像素都服务于信息，而不是装饰。</p>
+    </article>
+  </div>
+</section>
 
 <!-- ═══ Timeline ═══ -->
 <section id="timeline" class="timeline-section" data-od-id="timeline">
-<div class="reveal">
-  <p class="section-eyebrow">Auto Update</p>
-  <h2 class="section-title" data-i18n="timeline-title">每 6 小时，一次心跳</h2>
-  <p class="section-sub" style="margin:0 auto" data-i18n="timeline-sub">数据通过 GitHub Actions 自动更新，每天 4 次，永不过时。</p>
-</div>
-<div class="timeline-track reveal" style="transition-delay:0.2s">
-  <div class="timeline-node">
-    <div class="timeline-dot active"></div>
-    <div class="timeline-time">00:00</div>
-    <div class="timeline-label">UTC</div>
+  <p class="section-label reveal">Auto Update</p>
+  <h2 class="section-title reveal" style="transition-delay:0.05s" data-i18n="timeline-title">每 6 小时，一次心跳</h2>
+  <p class="section-sub reveal" style="margin:0 auto;transition-delay:0.1s" data-i18n="timeline-sub">数据通过 GitHub Actions 自动更新，每天 4 次，永不过时。</p>
+  <div class="timeline-track reveal" style="transition-delay:0.2s">
+    <div class="timeline-node"><div class="timeline-dot active"></div><div class="timeline-time">00:00</div><div class="timeline-label">UTC</div></div>
+    <div class="timeline-node"><div class="timeline-dot"></div><div class="timeline-time">06:00</div><div class="timeline-label">UTC</div></div>
+    <div class="timeline-node"><div class="timeline-dot"></div><div class="timeline-time">12:00</div><div class="timeline-label">UTC</div></div>
+    <div class="timeline-node"><div class="timeline-dot"></div><div class="timeline-time">18:00</div><div class="timeline-label">UTC</div></div>
   </div>
-  <div class="timeline-node">
-    <div class="timeline-dot"></div>
-    <div class="timeline-time">06:00</div>
-    <div class="timeline-label">UTC</div>
-  </div>
-  <div class="timeline-node">
-    <div class="timeline-dot"></div>
-    <div class="timeline-time">12:00</div>
-    <div class="timeline-label">UTC</div>
-  </div>
-  <div class="timeline-node">
-    <div class="timeline-dot"></div>
-    <div class="timeline-time">18:00</div>
-    <div class="timeline-label">UTC</div>
-  </div>
-</div>
 </section>
-
-
 
 <!-- ═══ Features ═══ -->
 <section id="features" data-od-id="features">
-<div class="reveal">
-  <p class="section-eyebrow">Features</p>
-  <h2 class="section-title" data-i18n="feat-title">每一个特性，都有理由存在</h2>
-  <p class="section-sub" data-i18n="feat-sub">Zero dependencies. Pure HTML / CSS / Vanilla JS.</p>
-</div>
-<div class="features-grid">
-  <div class="feature-card reveal" style="transition-delay:0.05s">
-    <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--fg)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></div>
-    <div>
-      <h3 data-i18n="feat-1-title">Apple-grade 暗色设计</h3>
-      <p data-i18n="feat-1-desc">受 Apple 产品页启发，极致克制的视觉语言。深度通过色彩层级表达，而非阴影。</p>
-    </div>
+  <p class="section-label reveal">Features</p>
+  <h2 class="section-title reveal" style="transition-delay:0.05s" data-i18n="feat-title">每一个特性，都有理由存在</h2>
+  <p class="section-sub reveal" style="transition-delay:0.1s" data-i18n="feat-sub">Zero dependencies. Pure HTML / CSS / Vanilla JS.</p>
+  <div class="features-grid">
+    <div class="feature-card reveal" style="transition-delay:0.05s"><span class="feature-num">01</span><h3 data-i18n="feat-1-title">官方 Trending 语义</h3><p data-i18n="feat-1-desc">直接抓取 github.com/trending，按时间窗内 stars 增量排序，而非新建仓库凑数。</p></div>
+    <div class="feature-card reveal" style="transition-delay:0.1s"><span class="feature-num">02</span><h3 data-i18n="feat-2-title">中英双语切换</h3><p data-i18n="feat-2-desc">全站中文/English 一键切换，浏览器语言自动检测，偏好持久化。</p></div>
+    <div class="feature-card reveal" style="transition-delay:0.15s"><span class="feature-num">03</span><h3 data-i18n="feat-3-title">实时搜索筛选</h3><p data-i18n="feat-3-desc">仓库名和描述即时过滤，按语言精确筛选，200ms 防抖零延迟。</p></div>
+    <div class="feature-card reveal" style="transition-delay:0.2s"><span class="feature-num">04</span><h3 data-i18n="feat-4-title">内联详情面板</h3><p data-i18n="feat-4-desc">点击仓库卡片展开完整信息：创建日期、Last Push、Forks、Issues。</p></div>
+    <div class="feature-card reveal" style="transition-delay:0.25s"><span class="feature-num">05</span><h3 data-i18n="feat-5-title">增量徽章</h3><p data-i18n="feat-5-desc">显示本期 stars 增长（今日/本周/本月），直接看到什么在涨。</p></div>
+    <div class="feature-card reveal" style="transition-delay:0.3s"><span class="feature-num">06</span><h3 data-i18n="feat-6-title">每 6 小时自动更新</h3><p data-i18n="feat-6-desc">GitHub Actions 自动抓取，数据永不过时。cron: 0 0,6,12,18 * * *</p></div>
+    <div class="feature-card reveal" style="transition-delay:0.35s"><span class="feature-num">07</span><h3 data-i18n="feat-7-title">ECG 脉搏动画</h3><p data-i18n="feat-7-desc">Canvas 绘制的心电图实时动画，视口内才绘制，性能友好。</p></div>
+    <div class="feature-card reveal" style="transition-delay:0.4s"><span class="feature-num">08</span><h3 data-i18n="feat-8-title">零框架，零依赖</h3><p data-i18n="feat-8-desc">纯 HTML / CSS / Vanilla JS，无框架、无库、无构建步骤。直接部署。</p></div>
   </div>
-  <div class="feature-card reveal" style="transition-delay:0.1s">
-    <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--fg)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div>
-    <div>
-      <h3 data-i18n="feat-2-title">纯 HTML/CSS 图表</h3>
-      <p data-i18n="feat-2-desc">语言分布条、Stars 排行、关键词云 — 零依赖，全端自适应，加载即呈现。</p>
-    </div>
-  </div>
-  <div class="feature-card reveal" style="transition-delay:0.15s">
-    <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--fg)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></div>
-    <div>
-      <h3 data-i18n="feat-3-title">滚动渐现动画</h3>
-      <p data-i18n="feat-3-desc">IntersectionObserver 驱动，每个元素在进入视口时优雅浮入。流畅，不突兀。</p>
-    </div>
-  </div>
-  <div class="feature-card reveal" style="transition-delay:0.2s">
-    <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--fg)" stroke-width="1.5" stroke-linecap="round"><line x1="4" y1="9" x2="20" y2="9"/><line x1="4" y1="15" x2="20" y2="15"/><line x1="10" y1="3" x2="8" y2="21"/><line x1="16" y1="3" x2="14" y2="21"/></svg></div>
-    <div>
-      <h3 data-i18n="feat-4-title">数字跳动计数器</h3>
-      <p data-i18n="feat-4-desc">关键指标从 0 动态增长，数据有生命力。让数字说话，而不是静态文本。</p>
-    </div>
-  </div>
-  <div class="feature-card reveal" style="transition-delay:0.25s">
-    <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--fg)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
-    <div>
-      <h3 data-i18n="feat-5-title">全响应式</h3>
-      <p data-i18n="feat-5-desc">桌面、平板、手机，完美适配。在任何设备上都能获得一致的体验。</p>
-    </div>
-  </div>
-  <div class="feature-card reveal" style="transition-delay:0.3s">
-    <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--fg)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg></div>
-    <div>
-      <h3 data-i18n="feat-6-title">每 6 小时自动更新</h3>
-      <p data-i18n="feat-6-desc">GitHub Actions 自动抓取，数据永不过时。cron: 0 0,6,12,18 * * *</p>
-    </div>
-  </div>
-  <div class="feature-card reveal" style="transition-delay:0.35s">
-    <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--fg)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg></div>
-    <div>
-      <h3 data-i18n="feat-7-title">Topics 关键词云</h3>
-      <p data-i18n="feat-7-desc">从仓库标签中提取技术趋势，一目了然。热点词用颜色和大小区分权重。</p>
-    </div>
-  </div>
-  <div class="feature-card reveal" style="transition-delay:0.4s">
-    <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--fg)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
-    <div>
-      <h3 data-i18n="feat-8-title">零框架，零依赖</h3>
-      <p data-i18n="feat-8-desc">纯 HTML / CSS / Vanilla JS，无框架、无库、无构建步骤。直接部署 GitHub Pages。</p>
-    </div>
-  </div>
-</div>
 </section>
-
-
 
 <!-- ═══ CTA ═══ -->
 <section class="cta-section" data-od-id="cta">
-<div class="cta-card reveal">
-  <h2 data-i18n="cta-heading">追踪脉搏，而非噪音。</h2>
-  <p class="cta-sub" data-i18n="cta-sub">Track the pulse, not the noise.</p>
-  <div class="cta-actions">
-    <a href="https://yuanyuanma03.github.io/GitPulse/" target="_blank" rel="noopener" class="btn-primary" data-i18n="hero-cta-live">查看实时数据 →</a>
-    <a href="https://github.com/YuanyuanMa03/GitPulse" target="_blank" rel="noopener" class="btn-ghost" data-i18n="hero-cta-source">GitHub 源码 ↗</a>
+  <div class="cta-card reveal">
+    <h2 data-i18n="cta-heading">追踪脉搏，而非噪音。</h2>
+    <p class="cta-sub" data-i18n="cta-sub">Track the pulse, not the noise.</p>
+    <div class="cta-actions">
+      <a href="#repos" class="btn-primary" data-i18n="hero-cta-live">查看实时数据 →</a>
+      <a href="https://github.com/YuanyuanMa03/GitPulse" target="_blank" rel="noopener" class="btn-ghost" data-i18n="hero-cta-source">GitHub 源码 ↗</a>
+    </div>
   </div>
-</div>
 </section>
 
-
-
 <footer>
-<span>Built with ♥ by <a href="https://github.com/YuanyuanMa03" target="_blank" rel="noopener">YuanyuanMa03</a></span>
-<div class="footer-links">
-  <a href="https://yuanyuanma03.github.io/GitPulse/" target="_blank" rel="noopener">Live Demo</a>
-  <a href="https://github.com/YuanyuanMa03/GitPulse" target="_blank" rel="noopener">Source</a>
-</div>
+  <div class="footer-left">
+    <span class="wordmark small">Git<em>Pulse</em></span>
+    <span data-i18n="footer-built">Built with ♥ by <a href="https://github.com/YuanyuanMa03" target="_blank" rel="noopener">YuanyuanMa03</a></span>
+  </div>
+  <div class="footer-right">
+    <a href="https://yuanyuanma03.github.io/GitPulse/" target="_blank" rel="noopener">Live Demo</a>
+    <a href="https://github.com/YuanyuanMa03/GitPulse" target="_blank" rel="noopener">Source</a>
+  </div>
 </footer>
 
-<script src="main.js" defer>
-</script>
-
+<script src="main.js" defer></script>
 </body>
 </html>

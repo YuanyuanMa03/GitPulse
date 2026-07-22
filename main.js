@@ -12,26 +12,29 @@ const T={zh:{
 'hero-cta-source':'GitHub 源码 ↗',
 'hero-scroll':'向下滚动',
 'phil-title':'我们相信的三件事',
+'phil-title-1':'数据即脉搏',
+'phil-title-2':'趋势即方向',
+'phil-title-3':'极简即尊重',
 'phil-sub':'Three convictions that shape every pixel of GitPulse.',
 'phil-desc-1':'每 6 小时捕获一次，如同心电图般记录开源世界的每一次心跳。不是静态的排行榜，而是活着的信号。',
 'phil-desc-2':'从 topics 关键词云中，你能看到技术思潮的涌动。不是事后回顾，而是此刻正在发生的事。',
 'phil-desc-3':'Apple 级的设计语言，因为好的数据值得好的容器。每一个像素都服务于信息，而不是装饰。',
 'feat-title':'每一个特性，都有理由存在',
 'feat-sub':'Zero dependencies. Pure HTML / CSS / Vanilla JS.',
-'feat-1-title':'Apple-grade 暗色设计',
-'feat-1-desc':'受 Apple 产品页启发，极致克制的视觉语言。深度通过色彩层级表达，而非阴影。',
-'feat-2-title':'纯 HTML/CSS 图表',
-'feat-2-desc':'语言分布条、Stars 排行、关键词云 — 零依赖，全端自适应，加载即呈现。',
-'feat-3-title':'滚动渐现动画',
-'feat-3-desc':'IntersectionObserver 驱动，每个元素在进入视口时优雅浮入。流畅，不突兀。',
-'feat-4-title':'数字跳动计数器',
-'feat-4-desc':'关键指标从 0 动态增长，数据有生命力。让数字说话，而不是静态文本。',
-'feat-5-title':'全响应式',
-'feat-5-desc':'桌面、平板、手机，完美适配。在任何设备上都能获得一致的体验。',
+'feat-1-title':'官方 Trending 语义',
+'feat-1-desc':'直接抓取 github.com/trending，按时间窗内 stars 增量排序，而非新建仓库凑数。',
+'feat-2-title':'中英双语切换',
+'feat-2-desc':'全站中文/English 一键切换，浏览器语言自动检测，偏好持久化到 localStorage。',
+'feat-3-title':'实时搜索筛选',
+'feat-3-desc':'仓库名和描述即时过滤，按语言精确筛选，200ms 防抖零延迟。',
+'feat-4-title':'内联详情面板',
+'feat-4-desc':'点击仓库卡片展开完整信息：创建日期、Last Push、Forks、Issues、Topics。',
+'feat-5-title':'增量徽章',
+'feat-5-desc':'显示本期 stars 增长（今日/本周/本月），直接看到什么项目在涨。',
 'feat-6-title':'每 6 小时自动更新',
 'feat-6-desc':'GitHub Actions 自动抓取，数据永不过时。cron: 0 0,6,12,18 * * *',
-'feat-7-title':'Topics 关键词云',
-'feat-7-desc':'从仓库标签中提取技术趋势，一目了然。热点词用颜色和大小区分权重。',
+'feat-7-title':'ECG 脉搏动画',
+'feat-7-desc':'Canvas 绘制的心电图实时动画，视口内才绘制，标签页隐藏自动暂停。',
 'feat-8-title':'零框架，零依赖',
 'feat-8-desc':'纯 HTML / CSS / Vanilla JS，无框架、无库、无构建步骤。直接部署 GitHub Pages。',
 'data-title':'此刻，开源社区在看什么',
@@ -61,7 +64,11 @@ const T={zh:{
 'open-issues':'Open Issues',
 'view-gh':'前往 GitHub 查看 →',
 'filter-all':'全部',
-'no-results':'没有匹配的仓库'
+'no-results':'没有匹配的仓库',
+'gained-today':'今日',
+'gained-week':'本周',
+'gained-month':'本月',
+'footer-built':'Built with ♥ by YuanyuanMa03'
 },en:{
 'meta-title':'GitPulse — Open Source Pulse, Beating in Real Time',
 'meta-desc':'Track the hottest GitHub projects worldwide. Auto-updated every 6 hours. Apple-grade dark design, zero-dependency static pages. Feel the heartbeat of open source.',
@@ -75,26 +82,29 @@ const T={zh:{
 'hero-cta-source':'GitHub Source ↗',
 'hero-scroll':'Scroll Down',
 'phil-title':'Three Things We Believe',
+'phil-title-1':'Data is the pulse',
+'phil-title-2':'Trends are direction',
+'phil-title-3':'Restraint is respect',
 'phil-sub':'Three convictions that shape every pixel of GitPulse.',
 'phil-desc-1':'Captured every 6 hours, like an EKG recording each heartbeat of the open source world. Not a static leaderboard, but a living signal.',
 'phil-desc-2':'From the topics keyword cloud, you can see the currents of technological thought. Not hindsight, but what is happening right now.',
 'phil-desc-3':'Apple-grade design language, because good data deserves a good container. Every pixel serves information, not decoration.',
 'feat-title':'Every Feature Has a Reason to Exist',
 'feat-sub':'Zero dependencies. Pure HTML / CSS / Vanilla JS.',
-'feat-1-title':'Apple-grade Dark Design',
-'feat-1-desc':'Inspired by Apple product pages. Restrained visual language where depth is expressed through color hierarchy, not shadows.',
-'feat-2-title':'Pure HTML/CSS Charts',
-'feat-2-desc':'Language bars, stars ranking, keyword cloud — zero dependencies, fully responsive, renders on load.',
-'feat-3-title':'Scroll Reveal Animation',
-'feat-3-desc':'IntersectionObserver-driven. Each element floats in gracefully as it enters the viewport. Smooth, not jarring.',
-'feat-4-title':'Animated Counters',
-'feat-4-desc':'Key metrics animate from zero to target. Data has vitality. Numbers that speak rather than sit static.',
-'feat-5-title':'Fully Responsive',
-'feat-5-desc':'Desktop, tablet, mobile — perfectly adapted. Consistent experience on any device.',
+'feat-1-title':'Official Trending Semantics',
+'feat-1-desc':'Scrapes github.com/trending directly, ranked by stars gained within the time window, not newly-created repos.',
+'feat-2-title':'Bilingual Switching',
+'feat-2-desc':'Full Chinese/English toggle, auto-detect browser language, preference persisted to localStorage.',
+'feat-3-title':'Real-time Search & Filter',
+'feat-3-desc':'Instant filtering by repo name and description, precise language filtering, 200ms debounce.',
+'feat-4-title':'Inline Detail Panel',
+'feat-4-desc':'Click any repo card to expand full info: created date, last push, forks, issues, topics.',
+'feat-5-title':'Growth Badges',
+'feat-5-desc':'Shows stars gained this period (today/this week/this month) — see what is rising directly.',
 'feat-6-title':'Auto-updated Every 6 Hours',
 'feat-6-desc':'GitHub Actions cron at 0,6,12,18 UTC. Data never goes stale.',
-'feat-7-title':'Topics Keyword Cloud',
-'feat-7-desc':'Extract tech trends from repo topics at a glance. Weighted by color and size for instant signal.',
+'feat-7-title':'ECG Pulse Animation',
+'feat-7-desc':'Canvas-drawn ECG real-time animation, only renders when in viewport, auto-pauses on tab hide.',
 'feat-8-title':'Zero Framework, Zero Dependencies',
 'feat-8-desc':'Pure HTML / CSS / Vanilla JS. No frameworks, no libraries, no build step. Deploy directly to GitHub Pages.',
 'data-title':'What Open Source Is Watching Right Now',
@@ -124,7 +134,11 @@ const T={zh:{
 'open-issues':'Open Issues',
 'view-gh':'View on GitHub →',
 'filter-all':'All',
-'no-results':'No repos match your filters'
+'no-results':'No repos match your filters',
+'gained-today':'today',
+'gained-week':'this week',
+'gained-month':'this month',
+'footer-built':'Built with ♥ by YuanyuanMa03'
 }};
 
 let currentLang='zh';
@@ -391,16 +405,17 @@ const LC={Python:'#3572A5',TypeScript:'#3178c6',JavaScript:'#f1e05a',Rust:'#dea5
       }).join('');
     }
 
-    // Stars ranking
-    const seen=new Set();const topRepos=[...all].sort((a,b)=>b.stars-a.stars).filter(r=>seen.has(r.name)?false:seen.add(r.name)).slice(0,5);
+    // Stars ranking — by stars gained this period (true trending signal)
+    const seen=new Set();const topRepos=[...all].sort((a,b)=>(b.stars_gained||0)-(a.stars_gained||0)).filter(r=>seen.has(r.name)?false:seen.add(r.name)).slice(0,5);
     const rankEl=document.getElementById('rank-list');
     if(rankEl&&topRepos.length){
       const medals=['gold','silver','bronze'];
       rankEl.innerHTML=topRepos.map((r,i)=>{
         const cls=i<3?medals[i]:'';
         const parts=r.name.split('/');
-        const stars=r.stars>=1000?(r.stars/1000).toFixed(1)+'k':r.stars;
-        return '<a class="rank-item" href="'+r.url+'" target="_blank" rel="noopener"><span class="rank-num '+cls+'">'+(i+1)+'</span><div class="rank-info"><div class="rank-name">'+(parts[parts.length-1]||r.name)+'</div></div><span class="rank-stars">★ '+stars+'</span></a>';
+        const gain=r.stars_gained||0;
+        const gainTxt=gain>=1000?(gain/1000).toFixed(1)+'k':String(gain);
+        return '<a class="rank-item" href="'+r.url+'" target="_blank" rel="noopener"><span class="rank-num '+cls+'">'+(i+1)+'</span><div class="rank-info"><div class="rank-name">'+(parts[parts.length-1]||r.name)+'</div></div><span class="rank-stars">↑ '+gainTxt+'</span></a>';
       }).join('');
     }
 
@@ -468,7 +483,9 @@ const LC={Python:'#3572A5',TypeScript:'#3178c6',JavaScript:'#f1e05a',Rust:'#dea5
         const desc=r.description?'<div class="repo-desc">'+r.description+'</div>':'<div class="repo-desc empty">' + t('no-desc') + '</div>';
         const topics=(r.topics||[]).slice(0,4).map(t=>'<span class="repo-topic">'+t+'</span>').join('');
         const topicsHtml=topics?'<div class="repo-topics">'+topics+'</div>':'';
-        const deltaHtml=r.delta>0?'<span class="delta-badge">↑ +'+fmtStars(r.delta)+'</span>':'';
+        const gain=r.stars_gained||0;
+        const pLabel={'daily':'gained-today','weekly':'gained-week','monthly':'gained-month'}[period]||'gained-today';
+        const deltaHtml=gain>0?'<span class="delta-badge">↑ +'+fmtStars(gain)+' '+t(pLabel)+'</span>':'';
         const allTopics=(r.topics||[]).map(t=>'<span class="repo-detail-topic">'+t+'</span>').join('');
 
         return '<div class="repo-card" data-idx="'+idx+'" data-period="'+period+'" tabindex="0" role="button" aria-expanded="false">'

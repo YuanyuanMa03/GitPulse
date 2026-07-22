@@ -106,7 +106,7 @@ GitPulse 不是另一个 GitHub 排行榜。它试图回答一个更本质的问
 | 前端 | 纯 HTML / CSS / Vanilla JS（零框架） |
 | i18n | `data-i18n` 属性 + T 字典 + CSS `[lang]` 规则 |
 | 图表 | 纯 CSS 条形图 + 标签云 + Canvas ECG |
-| 数据 | GitHub Search API → `data.json`（含 delta 计算 + README 兜底提取） |
+| 数据 | 抓取 `github.com/trending` HTML（官方 trending 语义）+ REST API 补全 → `data.json`（按 stars 增量排序） |
 | 部署 | GitHub Pages + Vercel + Netlify |
 | 自动化 | GitHub Actions（每天 4 次） |
 
@@ -138,7 +138,7 @@ python3 -m http.server 8080        # 启动服务
 ├── style.css               # Apple 暗色/亮色主题 + 语言切换样式
 ├── main.js                 # 交互逻辑（i18n / 搜索 / 筛选 / 详情面板 / 主题切换）
 ├── data.json               # GitHub trending 数据（自动生成）
-├── fetch_trending.py       # 数据抓取 + delta 计算 + README 兜底
+├── fetch_trending.py       # 抓取 GitHub Trending HTML + REST API 字段补全
 ├── update.sh               # 更新脚本
 ├── .github/workflows/
 │   └── update.yml          # 自动更新 workflow
