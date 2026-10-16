@@ -360,7 +360,9 @@ const LC={Python:'#3572A5',TypeScript:'#3178c6',JavaScript:'#f1e05a',Rust:'#dea5
   try{
     const r=await fetch('data.json');
     if(!r.ok)throw new Error('HTTP '+r.status);
-    const DATA=await r.json();window.__DATA__=DATA;
+    const DATA=await r.json();
+    if(typeof DATA!=='object'||DATA===null||(!Array.isArray(DATA.daily)&&!Array.isArray(DATA.weekly)&&!Array.isArray(DATA.monthly)))throw new Error('Invalid data structure');
+    window.__DATA__=DATA;
     const all=[...(DATA.daily||[]),...(DATA.weekly||[]),...(DATA.monthly||[])];
 
     // Hide loading skeleton
